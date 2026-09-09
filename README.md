@@ -31,13 +31,14 @@ My experience spans full-stack software development, AI-powered systems, data an
 
 I enjoy turning real-world problems into working systems — from MSME operations platforms and AI incident investigation tools to data-driven applications and production-ready e-commerce systems.
 
-My technical development is backed by **4× DataCamp certifications, Google AI, ISC2 CC**, Microsoft, AWS, and DICT training, alongside **Top 3 finishes in two national hackathons**.
+My technical development is backed by **4× DataCamp certifications, Google AI, ISC2 CC**, Microsoft, AWS, and DICT training, alongside award-winning finishes in national hackathons.
 
 ---
 
 ## <img src="https://api.iconify.design/lucide:briefcase-business.svg?color=%238b949e" width="22" alt="Experience" /> Current Experience
 
 ### Eskwelabs Innovation Fellowship
+
 **Data Innovation Fellow — Cohort 11**
 
 Working across:
@@ -49,6 +50,7 @@ Working across:
 - Cross-functional data-driven projects
 
 ### BizPilot
+
 **Startup Founder & Developer**
 
 Building an all-in-one MSME operations platform designed for Filipino online sellers.
@@ -74,7 +76,7 @@ An all-in-one operations hub designed to streamline end-to-end sales and busines
 
 ### OpsPilot — AI DevOps Incident Investigator
 
-**Top 3 — DevKada × ClankerCloud Build Challenge**
+**Top 2 Winner — DevKada × ClankerCloud Mini-Challenge**
 
 An evidence-driven AI DevOps Incident Investigator designed to reduce hallucinations and prevent unsupported root-cause conclusions during production incidents.
 
@@ -127,7 +129,7 @@ The system includes:
 - Email authentication using SPF / DKIM / DMARC
 
 **Environment:**  
-`PHP` `MySQL` `PDO` `JavaScript` `Google OAuth` `Gemini AI` `PHPMailer` `Hostinger`
+`PHP` `MySQL` `PDO` `JavaScript` `Google OAuth` `Gemini` `PHPMailer` `Hostinger`
 
 ---
 
@@ -136,98 +138,98 @@ The system includes:
 ### Languages
 
 <p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="40" title="JavaScript"/>
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" width="40" title="TypeScript"/>
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="40" title="Python"/>
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" width="40" title="PHP"/>
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" width="40" title="SQL"/>
+  <img src="https://img.shields.io/badge/JavaScript-20232A?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/TypeScript-20232A?style=for-the-badge&logo=typescript&logoColor=3178C6" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/Python-20232A?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python"/>
+  <img src="https://img.shields.io/badge/PHP-20232A?style=for-the-badge&logo=php&logoColor=777BB4" alt="PHP"/>
+  <img src="https://img.shields.io/badge/SQL-20232A?style=for-the-badge&logo=postgresql&logoColor=4169E1" alt="SQL"/>
 </p>
 
-`JavaScript` `TypeScript` `Python` `PHP` `SQL`
+---
 
 ### Web Technologies & Frameworks
 
 <p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" width="40" title="React"/>
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" width="40" title="Node.js"/>
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" width="40" title="Vite"/>
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="40" title="HTML"/>
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="40" title="CSS"/>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
+  <img src="https://img.shields.io/badge/Node.js-20232A?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E" alt="Node.js"/>
+  <img src="https://img.shields.io/badge/Vite-20232A?style=for-the-badge&logo=vite&logoColor=646CFF" alt="Vite"/>
+  <img src="https://img.shields.io/badge/HTML5-20232A?style=for-the-badge&logo=html5&logoColor=E34F26" alt="HTML5"/>
+  <img src="https://img.shields.io/badge/CSS3-20232A?style=for-the-badge&logo=css&logoColor=663399" alt="CSS3"/>
+  <img src="https://img.shields.io/badge/OAuth-20232A?style=for-the-badge&logo=auth0&logoColor=EB5424" alt="OAuth"/>
 </p>
 
-`React` `Node.js` `Vite` `HTML/CSS` `OAuth`
+---
 
 ### Databases & Data
 
 <p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" width="40" title="MySQL"/>
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" width="40" title="PostgreSQL"/>
-  &nbsp;
-  <img src="https://cdn.simpleicons.org/powerbi/F2C811" width="40" title="Power BI"/>
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" width="40" title="Pandas"/>
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg" width="40" title="NumPy"/>
+  <img src="https://img.shields.io/badge/MySQL-20232A?style=for-the-badge&logo=mysql&logoColor=4479A1" alt="MySQL"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-20232A?style=for-the-badge&logo=postgresql&logoColor=4169E1" alt="PostgreSQL"/>
+  <img src="https://img.shields.io/badge/Power%20BI-20232A?style=for-the-badge&logo=powerbi&logoColor=F2C811" alt="Power BI"/>
+  <img src="https://img.shields.io/badge/DuckDB-20232A?style=for-the-badge&logo=duckdb&logoColor=FFF000" alt="DuckDB"/>
+  <img src="https://img.shields.io/badge/Apache%20Parquet-20232A?style=for-the-badge&logo=apacheparquet&logoColor=50ABF1" alt="Apache Parquet"/>
+  <img src="https://img.shields.io/badge/Excel-20232A?style=for-the-badge&logo=microsoftexcel&logoColor=217346" alt="Excel"/>
+  <img src="https://img.shields.io/badge/Pandas-20232A?style=for-the-badge&logo=pandas&logoColor=150458" alt="Pandas"/>
+  <img src="https://img.shields.io/badge/NumPy-20232A?style=for-the-badge&logo=numpy&logoColor=013243" alt="NumPy"/>
+  <img src="https://img.shields.io/badge/Recharts-20232A?style=for-the-badge" alt="Recharts"/>
 </p>
 
-`MySQL` `PostgreSQL` `Power BI` `DuckDB / Parquet` `Recharts` `Excel` `Pandas` `NumPy`
+---
 
 ### Cloud & Security
 
 <p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" width="45" title="AWS"/>
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg" width="40" title="Microsoft Azure"/>
-  &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original.svg" width="40" title="Google Cloud"/>
-  &nbsp;
-  <img src="https://cdn.simpleicons.org/vercel/8B949E" width="40" title="Vercel"/>
+  <img src="https://img.shields.io/badge/AWS-20232A?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900" alt="AWS"/>
+  <img src="https://img.shields.io/badge/Microsoft%20Azure-20232A?style=for-the-badge&logo=microsoftazure&logoColor=0078D4" alt="Azure"/>
+  <img src="https://img.shields.io/badge/Google%20Cloud-20232A?style=for-the-badge&logo=googlecloud&logoColor=4285F4" alt="Google Cloud"/>
+  <img src="https://img.shields.io/badge/Microsoft%20Fabric-20232A?style=for-the-badge" alt="Microsoft Fabric"/>
+  <img src="https://img.shields.io/badge/Vercel-20232A?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"/>
+  <img src="https://img.shields.io/badge/IAM-20232A?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900" alt="IAM"/>
 </p>
 
-`AWS` `Azure` `GCP` `Microsoft Fabric` `Vercel` `IAM`
+---
 
 ### Tools & AI
 
 <p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="40" title="Git"/>
-  &nbsp;
-  <img src="https://cdn.simpleicons.org/github/8B949E" width="40" title="GitHub"/>
-  &nbsp;
-  <img src="https://cdn.simpleicons.org/playwright/2EAD33" width="40" title="Playwright"/>
-  &nbsp;
-  <img src="https://cdn.simpleicons.org/anthropic/8B949E" width="40" title="Claude"/>
-  &nbsp;
-  <img src="https://cdn.simpleicons.org/openai/8B949E" width="40" title="ChatGPT"/>
-  &nbsp;
-  <img src="https://cdn.simpleicons.org/googlegemini/8E75B2" width="40" title="Gemini"/>
+  <img src="https://img.shields.io/badge/Git-20232A?style=for-the-badge&logo=git&logoColor=F05032" alt="Git"/>
+  <img src="https://img.shields.io/badge/GitHub-20232A?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  <img src="https://img.shields.io/badge/Playwright-20232A?style=for-the-badge&logo=playwright&logoColor=2EAD33" alt="Playwright"/>
+  <img src="https://img.shields.io/badge/Cursor-20232A?style=for-the-badge&logo=cursor&logoColor=white" alt="Cursor"/>
+  <img src="https://img.shields.io/badge/Kiro-20232A?style=for-the-badge" alt="Kiro"/>
+  <img src="https://img.shields.io/badge/Antigravity-20232A?style=for-the-badge" alt="Antigravity"/>
+  <img src="https://img.shields.io/badge/Claude-20232A?style=for-the-badge&logo=anthropic&logoColor=D97757" alt="Claude"/>
+  <img src="https://img.shields.io/badge/ChatGPT%20%2F%20Codex-20232A?style=for-the-badge&logo=openai&logoColor=white" alt="ChatGPT / Codex"/>
+  <img src="https://img.shields.io/badge/Gemini-20232A?style=for-the-badge&logo=googlegemini&logoColor=8E75B2" alt="Gemini"/>
 </p>
-
-`Git` `GitHub` `Playwright` `Cursor` `Kiro` `Antigravity` `Claude` `ChatGPT` `Gemini AI`
 
 ---
 
 ## <img src="https://api.iconify.design/lucide:trophy.svg?color=%238b949e" width="22" alt="Achievements" /> Achievements
 
-- **3rd Place** — KiroVerse Hack Sprint: Shipaton Edition
-  - AI Orchestrator
-  - Team Weather Weather Lang
-  - Partnered with AWS and RevenueCat
+### KiroVerse Hack Sprint: Shipaton Edition
 
-- **Top 2 Winner** — DevKada × ClankerCloud Mini-Challenge
-  - Developer
-  - Built OpsPilot, an AI DevOps Incident Investigator
+**3rd Place Winner**
 
-- **Founder & Developer** — BizPilot
-  - MSME Operations Platform
+- AI Orchestrator
+- Team Weather Weather Lang
+- Partnered with AWS and RevenueCat
+- Implemented loop engineering mechanisms for iterative AI-agent quality evaluation
+
+### DevKada × ClankerCloud Mini-Challenge
+
+**Top 2 Winner**
+
+- Developer
+- Built OpsPilot — AI DevOps Incident Investigator
+- Designed an evidence-driven investigation workflow to reduce unsupported AI conclusions
+
+### BizPilot
+
+**Founder & Developer**
+
+- MSME Operations Platform
+- Building AI-assisted business operations for Filipino online sellers
 
 ---
 
@@ -260,21 +262,25 @@ The system includes:
 ## <img src="https://api.iconify.design/lucide:users-round.svg?color=%238b949e" width="22" alt="Leadership" /> Leadership & Community
 
 ### Microsoft Student Community — STI Fairview
+
 **Founding President**
 
 Founded the first Microsoft Student Community at STI Fairview to help students strengthen practical technology skills, collaborate with peers, and connect with technology professionals.
 
 ### AWS Student User Group Philippines
+
 **AWS Learning Club Lead**
 
 Leading student learning initiatives focused on practical cloud skills and connecting academic learning with industry practices.
 
 ### Data Engineering Pilipinas × Echelon 2026 by Brainsparks
+
 **Delegate / Representative**
 
 Represented Data Engineering Pilipinas at Echelon 2026, connecting with students, founders, developers, investors, and technology professionals across the Philippine startup ecosystem.
 
 ### SeekGuilders — Seekers Guild
+
 **Venue Partnerships Associate**
 
 Supporting startup community initiatives, events, partnerships, workshops, and ecosystem opportunities.
@@ -283,11 +289,13 @@ Supporting startup community initiatives, events, partnerships, workshops, and e
 
 ## <img src="https://api.iconify.design/lucide:network.svg?color=%238b949e" width="22" alt="Affiliations" /> Additional Affiliations
 
-`ISC2 Philippines Chapter`  
-`Data Engineering Pilipinas × DataCamp Donates Scholar`  
-`STI Fairview Bytes`  
-`STI Alumni Scholarship`  
-`DTI Metro Manila × Google Career Certificate Scholar`
+<p>
+  <img src="https://img.shields.io/badge/ISC2%20Philippines%20Chapter-Member-20232A?style=flat-square" alt="ISC2 Philippines Chapter"/>
+  <img src="https://img.shields.io/badge/Data%20Engineering%20Pilipinas-DataCamp%20Donates%20Scholar-20232A?style=flat-square" alt="Data Engineering Pilipinas"/>
+  <img src="https://img.shields.io/badge/STI%20Fairview%20Bytes-Member-20232A?style=flat-square" alt="STI Fairview Bytes"/>
+  <img src="https://img.shields.io/badge/STI%20Alumni-Scholarship%20Scholar-20232A?style=flat-square" alt="STI Alumni Scholarship"/>
+  <img src="https://img.shields.io/badge/DTI%20Metro%20Manila-Google%20Career%20Certificate%20Scholar-20232A?style=flat-square&logo=google&logoColor=4285F4" alt="DTI Metro Manila GCC Scholar"/>
+</p>
 
 ---
 
@@ -296,15 +304,15 @@ Supporting startup community initiatives, events, partnerships, workshops, and e
 <p align="center">
 
 <a href="https://rolex-esto.vercel.app/">
-  <img src="https://img.shields.io/badge/Portfolio-rolex--esto.vercel.app-181717?style=flat-square&logo=vercel&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Portfolio-rolex--esto.vercel.app-181717?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
 </a>
 
 <a href="https://linkedin.com/in/rolex-esto-1b33b2391/">
-  <img src="https://img.shields.io/badge/LinkedIn-Rolex%20Esto-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/>
+  <img src="https://img.shields.io/badge/LinkedIn-Rolex%20Esto-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
 </a>
 
 <a href="mailto:rolexesto0001@gmail.com">
-  <img src="https://img.shields.io/badge/Email-rolexesto0001%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
 </a>
 
 </p>
