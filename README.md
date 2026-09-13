@@ -21,121 +21,125 @@
   </a>
 </p>
 
----
+<img src="https://api.iconify.design/lucide:user-round.svg?color=%238b949e" width="22" alt="About" /> About Me
 
-## <img src="https://api.iconify.design/lucide:user-round.svg?color=%238b949e" width="22" alt="About" /> About Me
-
-I'm a **4th-year Bachelor of Science in Information Technology student at STI College Fairview**, focused on building practical, production-ready solutions across **software, AI, data, and cloud technologies**.
+I'm a 4th-year Bachelor of Science in Information Technology student at STI College Fairview, a Data Innovation Fellow at Eskwelabs (Cohort 11), and a DICT-Recognized Cybersecurity Professional — Level 2 (Intermediate). I focus on building practical, production-ready solutions across software, AI, data, and cloud technologies.
 
 My experience spans full-stack software development, AI-powered systems, data analytics and engineering, cloud technologies, cybersecurity, and technical community leadership.
 
 I enjoy turning real-world problems into working systems — from MSME operations platforms and AI incident investigation tools to data-driven applications and production-ready e-commerce systems.
 
-My technical development is backed by **4× DataCamp certifications, Google AI, ISC2 CC**, Microsoft, AWS, and DICT training, alongside award-winning finishes in national hackathons.
+My technical development is backed by eight industry certifications, including 4× DataCamp certifications, Google AI, and ISC2 CC, plus Microsoft and AWS training and DICT professional recognition. I have also earned award-winning finishes in national hackathons.
 
----
+<img src="https://api.iconify.design/lucide:briefcase-business.svg?color=%238b949e" width="22" alt="Experience" /> Current Experience
 
-## <img src="https://api.iconify.design/lucide:briefcase-business.svg?color=%238b949e" width="22" alt="Experience" /> Current Experience
+Eskwelabs Innovation Fellowship
 
-### Eskwelabs Innovation Fellowship
-
-**Data Innovation Fellow — Cohort 11**
+Data Innovation Fellow — Cohort 11
 
 Working across:
 
-- Data Analytics
-- Data Modeling
-- Strategy & Management
-- Learning Experience Design
-- Cross-functional data-driven projects
+Data Analytics
 
-### BizPilot
+Data Modeling
 
-**Startup Founder & Developer**
+Strategy & Management
+
+Learning Experience Design
+
+Cross-functional data-driven projects
+
+BizPilot
+
+Startup Founder & Developer
 
 Building an all-in-one MSME operations platform designed for Filipino online sellers.
 
 BizPilot addresses fragmented customer conversations, payment verification, inventory management, and sales operations through a unified operations hub.
 
-The platform includes a **Grounded AI Sales Assistant**, conversational ordering, operations calendar synchronization, and secure data isolation.
+The platform includes a Grounded AI Sales Assistant, conversational ordering, operations calendar synchronization, and secure data isolation.
 
----
+<img src="https://api.iconify.design/lucide:folder-kanban.svg?color=%238b949e" width="22" alt="Projects" /> Featured Projects
 
-## <img src="https://api.iconify.design/lucide:folder-kanban.svg?color=%238b949e" width="22" alt="Projects" /> Featured Projects
+BizPilot — MSME Operations Platform
 
-### BizPilot — MSME Operations Platform
-
-**Founder & Developer**
+Founder & Developer
 
 An all-in-one operations hub designed to streamline end-to-end sales and business operations for Filipino online sellers.
 
-**Focus:**  
-`AI` `Business Operations` `Automation` `Conversational Commerce`
+Focus:
+AI Business Operations Automation Conversational Commerce
 
----
+OpsPilot — AI DevOps Incident Investigator
 
-### OpsPilot — AI DevOps Incident Investigator
-
-**Top 2 Winner — DevKada × ClankerCloud Mini-Challenge**
+Top 2 Winner — DevKada × ClankerCloud Mini-Challenge
 
 An evidence-driven AI DevOps Incident Investigator designed to reduce hallucinations and prevent unsupported root-cause conclusions during production incidents.
 
 Built around a continuous investigation loop:
 
-`Scan → Hypothesize → Test → Reassess → Remediate → Verify → Validate`
+Scan → Hypothesize → Test → Reassess → Remediate → Verify → Validate
 
-OpsPilot separates observation from inference, evaluates competing hypotheses, and returns `INSUFFICIENT_EVIDENCE` when a root cause cannot be safely established.
+OpsPilot separates observation from inference, evaluates competing hypotheses, and returns INSUFFICIENT_EVIDENCE when a root cause cannot be safely established.
 
-**Focus:**  
-`AI Agents` `DevOps` `Cloud Observability` `Incident Investigation`
+Focus:
+AI Agents DevOps Cloud Observability Incident Investigation
 
----
+Ulan Ba? — Philippine Rain Forecast Dashboard
 
-### Ulan Ba? — Philippine Rain Forecast Dashboard
-
-A responsive weather intelligence dashboard built using **React, TypeScript, Vite, Recharts, and the Open-Meteo API**.
+A responsive weather intelligence dashboard built using React, TypeScript, Vite, Recharts, and the Open-Meteo API.
 
 Key capabilities include:
 
-- GPS-based location detection
-- Coverage across 17 Philippine regions and 150+ cities
-- Hourly rainfall and severity forecasting
-- Multi-city weather comparison
-- Best Time to Go recommendations
-- Smart typhoon alerts
-- Responsive cross-platform interface
+GPS-based location detection
 
-Ulan Ba? became the reference architecture for the conversational weather system that later placed **3rd at the KiroVerse Shipaton**.
+Coverage across 17 Philippine regions and 150+ cities
 
-**Environment:**  
-`React` `TypeScript` `Vite` `Recharts` `Open-Meteo API`
+Hourly rainfall and severity forecasting
 
----
+Multi-city weather comparison
 
-### Classic Flagship Store — Full-Stack E-Commerce Platform
+Best Time to Go recommendations
+
+Smart typhoon alerts
+
+Responsive cross-platform interface
+
+Ulan Ba? became the reference architecture for the conversational weather system that later placed 3rd at the KiroVerse Shipaton.
+
+Environment:
+React TypeScript Vite Recharts Open-Meteo API
+
+Classic Flagship Store — Full-Stack E-Commerce Platform
 
 A production-ready e-commerce platform developed to digitize store sales and operations.
 
 The system includes:
 
-- Admin, cashier, and customer dashboards
-- Point-of-sale system
-- Shopping cart
-- Real-time inventory synchronization
-- Automated low-stock alerts
-- Google OAuth authentication
-- Gemini-powered AI assistant
-- Secure PDO prepared statements
-- Email authentication using SPF / DKIM / DMARC
+Admin, cashier, and customer dashboards
 
-**Environment:**  
-`PHP` `MySQL` `PDO` `JavaScript` `Google OAuth` `Gemini` `PHPMailer` `Hostinger`
+Point-of-sale system
 
----
+Shopping cart
 
-## <img src="https://api.iconify.design/lucide:code-xml.svg?color=%238b949e" width="22" alt="Skills" /> Technical Stack
+Real-time inventory synchronization
 
-### Languages
+Automated low-stock alerts
+
+Google OAuth authentication
+
+Gemini-powered AI assistant
+
+Secure PDO prepared statements
+
+Email authentication using SPF / DKIM / DMARC
+
+Environment:
+PHP MySQL PDO JavaScript Google OAuth Gemini PHPMailer Hostinger
+
+<img src="https://api.iconify.design/lucide:code-xml.svg?color=%238b949e" width="22" alt="Skills" /> Technical Stack
+
+Languages
 
 <p>
   <img src="https://img.shields.io/badge/JavaScript-20232A?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript"/>
@@ -145,9 +149,7 @@ The system includes:
   <img src="https://img.shields.io/badge/SQL-20232A?style=for-the-badge&logo=postgresql&logoColor=4169E1" alt="SQL"/>
 </p>
 
----
-
-### Web Technologies & Frameworks
+Web Technologies & Frameworks
 
 <p>
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
@@ -158,9 +160,7 @@ The system includes:
   <img src="https://img.shields.io/badge/OAuth-20232A?style=for-the-badge&logo=auth0&logoColor=EB5424" alt="OAuth"/>
 </p>
 
----
-
-### Databases & Data
+Databases & Data
 
 <p>
   <img src="https://img.shields.io/badge/MySQL-20232A?style=for-the-badge&logo=mysql&logoColor=4479A1" alt="MySQL"/>
@@ -174,9 +174,7 @@ The system includes:
   <img src="https://img.shields.io/badge/Recharts-20232A?style=for-the-badge" alt="Recharts"/>
 </p>
 
----
-
-### Cloud & Security
+Cloud & Security
 
 <p>
   <img src="https://img.shields.io/badge/AWS-20232A?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900" alt="AWS"/>
@@ -185,11 +183,10 @@ The system includes:
   <img src="https://img.shields.io/badge/Microsoft%20Fabric-20232A?style=for-the-badge" alt="Microsoft Fabric"/>
   <img src="https://img.shields.io/badge/Vercel-20232A?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"/>
   <img src="https://img.shields.io/badge/IAM-20232A?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900" alt="IAM"/>
+  <img src="https://img.shields.io/badge/DICT%20CyberPro-Level%202%20Intermediate-003478?style=for-the-badge" alt="DICT-Recognized Cybersecurity Professional — Level 2 Intermediate"/>
 </p>
 
----
-
-### Tools & AI
+Tools & AI
 
 <p>
   <img src="https://img.shields.io/badge/Git-20232A?style=for-the-badge&logo=git&logoColor=F05032" alt="Git"/>
@@ -203,91 +200,115 @@ The system includes:
   <img src="https://img.shields.io/badge/Gemini-20232A?style=for-the-badge&logo=googlegemini&logoColor=8E75B2" alt="Gemini"/>
 </p>
 
----
+<img src="https://api.iconify.design/lucide:trophy.svg?color=%238b949e" width="22" alt="Achievements" /> Achievements
 
-## <img src="https://api.iconify.design/lucide:trophy.svg?color=%238b949e" width="22" alt="Achievements" /> Achievements
+KiroVerse Hack Sprint: Shipaton Edition
 
-### KiroVerse Hack Sprint: Shipaton Edition
+3rd Place Winner
 
-**3rd Place Winner**
+AI Orchestrator
 
-- AI Orchestrator
-- Team Weather Weather Lang
-- Partnered with AWS and RevenueCat
-- Implemented loop engineering mechanisms for iterative AI-agent quality evaluation
+Team Weather Weather Lang
 
-### DevKada × ClankerCloud Mini-Challenge
+Partnered with AWS and RevenueCat
 
-**Top 2 Winner**
+Implemented loop engineering mechanisms for iterative AI-agent quality evaluation
 
-- Developer
-- Built OpsPilot — AI DevOps Incident Investigator
-- Designed an evidence-driven investigation workflow to reduce unsupported AI conclusions
+DevKada × ClankerCloud Mini-Challenge
 
-### BizPilot
+Top 2 Winner
 
-**Founder & Developer**
+Developer
 
-- MSME Operations Platform
-- Building AI-assisted business operations for Filipino online sellers
+Built OpsPilot — AI DevOps Incident Investigator
 
----
+Designed an evidence-driven investigation workflow to reduce unsupported AI conclusions
 
-## <img src="https://api.iconify.design/lucide:badge-check.svg?color=%238b949e" width="22" alt="Certifications" /> Certifications
+BizPilot
 
-### Cloud & Data
+Founder & Developer
 
-- DataCamp Certified Associate Data Engineer
-- DataCamp Certified in Data Literacy
-- DataCamp Certified Associate Data Analyst
-- DataCamp Certified SQL Associate
+MSME Operations Platform
 
-### AI & Security
+Building AI-assisted business operations for Filipino online sellers
 
-- Google AI Professional Certificate
-- Appkademiya Certified Cybersecurity Professional
-- ISC2 Certified in Cybersecurity (CC)
-- RED TEAM LEADERS Certified Threat Intelligence & Governance Analyst
+<img src="https://api.iconify.design/lucide:badge-check.svg?color=%238b949e" width="22" alt="Credentials" /> Credentials & Professional Recognition
 
-### Professional Training
+DICT Cybersecurity Professionals Portal
 
-- Microsoft PL-300 — Power BI Data Analyst
-- Microsoft DP-700T00-A — Fabric Data Engineer
-- Microsoft DP-900T00-A — Azure Data Fundamentals
-- AWS SimuLearn — Cloud Practitioner
-- DICT Region V — Data Privacy Protection Competency Framework, 20-Hour Intensive Training
+<p align="center">
+  <img src="./dict-cyberpro-badge(2).png" width="360" alt="Rolex Jatico Esto — DICT-Recognized Cybersecurity Professional, Level 2 Intermediate"/>
+</p>
 
----
+<p align="center">
+  <strong>DICT-Recognized Cybersecurity Professional — Level 2 (Intermediate)</strong><br/>
+  Recognized by the Department of Information and Communications Technology on 12 September 2026.<br/>
+  <sub>Scan the QR code on the badge to verify the recognition through the official Cybersecurity Professionals Portal.</sub>
+</p>
 
-## <img src="https://api.iconify.design/lucide:users-round.svg?color=%238b949e" width="22" alt="Leadership" /> Leadership & Community
+This is a DICT professional recognition and is listed separately from certifications and completed training.
 
-### Microsoft Student Community — STI Fairview
+Industry Certifications
 
-**Founding President**
+Cloud & Data
+
+DataCamp Certified Associate Data Engineer
+
+DataCamp Certified in Data Literacy
+
+DataCamp Certified Associate Data Analyst
+
+DataCamp Certified SQL Associate
+
+AI & Security
+
+Google AI Professional Certificate
+
+Appkademiya Certified Cybersecurity Professional
+
+ISC2 Certified in Cybersecurity (CC)
+
+RED TEAM LEADERS Certified Threat Intelligence & Governance Analyst
+
+Professional Training
+
+Microsoft PL-300 — Power BI Data Analyst
+
+Microsoft DP-700T00-A — Fabric Data Engineer
+
+Microsoft DP-900T00-A — Azure Data Fundamentals
+
+AWS SimuLearn — Cloud Practitioner
+
+DICT Region V — Data Privacy Protection Competency Framework, 20-Hour Intensive Training
+
+<img src="https://api.iconify.design/lucide:users-round.svg?color=%238b949e" width="22" alt="Leadership" /> Leadership & Community
+
+Microsoft Student Community — STI Fairview
+
+Founding President
 
 Founded the first Microsoft Student Community at STI Fairview to help students strengthen practical technology skills, collaborate with peers, and connect with technology professionals.
 
-### AWS Student User Group Philippines
+AWS Student User Group Philippines
 
-**AWS Learning Club Lead**
+AWS Learning Club Lead
 
 Leading student learning initiatives focused on practical cloud skills and connecting academic learning with industry practices.
 
-### Data Engineering Pilipinas × Echelon 2026 by Brainsparks
+Data Engineering Pilipinas × Echelon 2026 by Brainsparks
 
-**Delegate / Representative**
+Delegate / Representative
 
 Represented Data Engineering Pilipinas at Echelon 2026, connecting with students, founders, developers, investors, and technology professionals across the Philippine startup ecosystem.
 
-### SeekGuilders — Seekers Guild
+SeekGuilders — Seekers Guild
 
-**Venue Partnerships Associate**
+Venue Partnerships Associate
 
 Supporting startup community initiatives, events, partnerships, workshops, and ecosystem opportunities.
 
----
-
-## <img src="https://api.iconify.design/lucide:network.svg?color=%238b949e" width="22" alt="Affiliations" /> Additional Affiliations
+<img src="https://api.iconify.design/lucide:network.svg?color=%238b949e" width="22" alt="Affiliations" /> Additional Affiliations
 
 <p>
   <img src="https://img.shields.io/badge/ISC2%20Philippines%20Chapter-Member-20232A?style=flat-square" alt="ISC2 Philippines Chapter"/>
@@ -297,9 +318,7 @@ Supporting startup community initiatives, events, partnerships, workshops, and e
   <img src="https://img.shields.io/badge/DTI%20Metro%20Manila-Google%20Career%20Certificate%20Scholar-20232A?style=flat-square&logo=google&logoColor=4285F4" alt="DTI Metro Manila GCC Scholar"/>
 </p>
 
----
-
-## <img src="https://api.iconify.design/lucide:send.svg?color=%238b949e" width="22" alt="Contact" /> Connect With Me
+<img src="https://api.iconify.design/lucide:send.svg?color=%238b949e" width="22" alt="Contact" /> Connect With Me
 
 <p align="center">
 
@@ -316,8 +335,6 @@ Supporting startup community initiatives, events, partnerships, workshops, and e
 </a>
 
 </p>
-
----
 
 <p align="center">
   <strong>I build software for people who have an idea and need it to exist.</strong>
