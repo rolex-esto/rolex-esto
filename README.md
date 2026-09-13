@@ -237,7 +237,7 @@ Building AI-assisted business operations for Filipino online sellers
 DICT Cybersecurity Professionals Portal
 
 <p align="center">
-  <img src="./dict-cyberpro-badge(2).png" width="360" alt="Rolex Jatico Esto — DICT-Recognized Cybersecurity Professional, Level 2 Intermediate"/>
+  <img src="./dict-cyberpro-badge.png" width="360" alt="DICT-Recognized Cybersecurity Professional — Level 2 Intermediate"/>
 </p>
 
 <p align="center">
