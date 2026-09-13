@@ -23,13 +23,13 @@
 
 <img src="https://api.iconify.design/lucide:user-round.svg?color=%238b949e" width="22" alt="About" /> About Me
 
-I'm a 4th-year Bachelor of Science in Information Technology student at STI College Fairview, a Data Innovation Fellow at Eskwelabs (Cohort 11), and a DICT-Recognized Cybersecurity Professional — Level 2 (Intermediate). I focus on building practical, production-ready solutions across software, AI, data, and cloud technologies.
+I'm a 4th-year Bachelor of Science in Information Technology student at STI College Fairview, focused on building practical, production-ready solutions across software, AI, data, and cloud technologies.
 
 My experience spans full-stack software development, AI-powered systems, data analytics and engineering, cloud technologies, cybersecurity, and technical community leadership.
 
 I enjoy turning real-world problems into working systems — from MSME operations platforms and AI incident investigation tools to data-driven applications and production-ready e-commerce systems.
 
-My technical development is backed by eight industry certifications, including 4× DataCamp certifications, Google AI, and ISC2 CC, plus Microsoft and AWS training and DICT professional recognition. I have also earned award-winning finishes in national hackathons.
+My technical development is backed by 4× DataCamp certifications, Google AI, ISC2 CC, Microsoft, AWS, and DICT training, alongside award-winning finishes in national hackathons.
 
 <img src="https://api.iconify.design/lucide:briefcase-business.svg?color=%238b949e" width="22" alt="Experience" /> Current Experience
 
@@ -183,7 +183,6 @@ Cloud & Security
   <img src="https://img.shields.io/badge/Microsoft%20Fabric-20232A?style=for-the-badge" alt="Microsoft Fabric"/>
   <img src="https://img.shields.io/badge/Vercel-20232A?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"/>
   <img src="https://img.shields.io/badge/IAM-20232A?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900" alt="IAM"/>
-  <img src="https://img.shields.io/badge/DICT%20CyberPro-Level%202%20Intermediate-003478?style=for-the-badge" alt="DICT-Recognized Cybersecurity Professional — Level 2 Intermediate"/>
 </p>
 
 Tools & AI
@@ -232,23 +231,7 @@ MSME Operations Platform
 
 Building AI-assisted business operations for Filipino online sellers
 
-<img src="https://api.iconify.design/lucide:badge-check.svg?color=%238b949e" width="22" alt="Credentials" /> Credentials & Professional Recognition
-
-DICT Cybersecurity Professionals Portal
-
-<p align="center">
-  <img src="./dict-cyberpro-badge(2).png" width="360" alt="Rolex Jatico Esto — DICT-Recognized Cybersecurity Professional, Level 2 Intermediate"/>
-</p>
-
-<p align="center">
-  <strong>DICT-Recognized Cybersecurity Professional — Level 2 (Intermediate)</strong><br/>
-  Recognized by the Department of Information and Communications Technology on 12 September 2026.<br/>
-  <sub>Scan the QR code on the badge to verify the recognition through the official Cybersecurity Professionals Portal.</sub>
-</p>
-
-This is a DICT professional recognition and is listed separately from certifications and completed training.
-
-Industry Certifications
+<img src="https://api.iconify.design/lucide:badge-check.svg?color=%238b949e" width="22" alt="Certifications" /> Certifications
 
 Cloud & Data
 
