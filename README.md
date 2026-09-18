@@ -5,8 +5,7 @@
 </p>
 
 <p align="center">
-  4th-year BSIT student building practical, production-ready solutions across
-  software, AI, data, and cloud technologies.
+  <strong>I build software for people who have an idea and need it to exist.</strong>
 </p>
 
 <p align="center">
@@ -23,35 +22,40 @@
 
 <img src="https://api.iconify.design/lucide:user-round.svg?color=%238b949e" width="22" alt="About" /> About Me
 
-I'm a 4th-year Bachelor of Science in Information Technology student at STI College Fairview, a Data Innovation Fellow at Eskwelabs (Cohort 11), and a DICT-Recognized Cybersecurity Professional — Level 2 (Intermediate). I focus on building practical, production-ready solutions across software, AI, data, and cloud technologies.
+I’m a 4th-year BS Information Technology student at STI College Fairview, a Data Innovation Fellow at Eskwelabs (Cohort 11), a GCI World 2026 Participant in Data Science & AI under the Matsuo-Iwasawa Laboratory at the University of Tokyo, and a DICT-Recognized Cybersecurity Professional — Category 2 (Intermediate).
 
-My experience spans full-stack software development, AI-powered systems, data analytics and engineering, cloud technologies, cybersecurity, and technical community leadership.
+Through GCI World, I’m strengthening my knowledge of data-driven methods and intelligent systems while continuing to work across software, data, AI, and cloud.
 
-I enjoy turning real-world problems into working systems — from MSME operations platforms and AI incident investigation tools to data-driven applications and production-ready e-commerce systems.
+Most of what I build starts with a real problem: a seller overwhelmed by customer messages, a team investigating a production incident, or a commuter deciding whether to travel.
 
-My technical development is backed by eight industry certifications, including 4× DataCamp certifications, Google AI, and ISC2 CC, plus Microsoft and AWS training and DICT professional recognition. I have also earned award-winning finishes in national hackathons.
+What I Build
+
+Web applications and business systems — React, Next.js, TypeScript, PHP, MySQL
+
+AI-powered features — grounded assistants, conversational interfaces, agent workflows, and document analysis
+
+Data solutions — SQL, Power BI, DuckDB, Pandas, analytics, and dashboards
+
+Cloud deployments — AWS, Azure, GCP, Vercel, and managed hosting
 
 <img src="https://api.iconify.design/lucide:briefcase-business.svg?color=%238b949e" width="22" alt="Experience" /> Current Experience
+
+GCI World 2026
+
+Participant — Data Science & AI
+Matsuo-Iwasawa Laboratory, University of Tokyo
+
+Strengthening my knowledge of data science, artificial intelligence, data-driven methods, and intelligent systems through GCI World 2026.
 
 Eskwelabs Innovation Fellowship
 
 Data Innovation Fellow — Cohort 11
 
-Working across:
-
-Data Analytics
-
-Data Modeling
-
-Strategy & Management
-
-Learning Experience Design
-
-Cross-functional data-driven projects
+Working across data analytics, data modeling, strategy and management, learning experience design, and cross-functional data-driven projects.
 
 BizPilot
 
-Startup Founder & Developer
+Founder & Developer
 
 Building an all-in-one MSME operations platform designed for Filipino online sellers.
 
@@ -72,7 +76,7 @@ AI Business Operations Automation Conversational Commerce
 
 OpsPilot — AI DevOps Incident Investigator
 
-Top 2 Winner — DevKada × ClankerCloud Mini-Challenge
+Top 2 — DevKada × ClankerCloud Build Challenge
 
 An evidence-driven AI DevOps Incident Investigator designed to reduce hallucinations and prevent unsupported root-cause conclusions during production incidents.
 
@@ -84,6 +88,13 @@ OpsPilot separates observation from inference, evaluates competing hypotheses, a
 
 Focus:
 AI Agents DevOps Cloud Observability Incident Investigation
+
+Weather Lang — Conversational Weather Decision Support
+
+3rd Place — KiroVerse Hack Sprint: Shipaton Edition, in partnership with AWS and RevenueCat
+Role: AI Orchestrator
+
+Helped turn weather data into a conversational decision-support experience for commuters, using iterative AI-agent quality evaluation to refine the system’s output.
 
 Ulan Ba? — Philippine Rain Forecast Dashboard
 
@@ -153,6 +164,7 @@ Web Technologies & Frameworks
 
 <p>
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
+  <img src="https://img.shields.io/badge/Next.js-20232A?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js"/>
   <img src="https://img.shields.io/badge/Node.js-20232A?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E" alt="Node.js"/>
   <img src="https://img.shields.io/badge/Vite-20232A?style=for-the-badge&logo=vite&logoColor=646CFF" alt="Vite"/>
   <img src="https://img.shields.io/badge/HTML5-20232A?style=for-the-badge&logo=html5&logoColor=E34F26" alt="HTML5"/>
@@ -183,7 +195,7 @@ Cloud & Security
   <img src="https://img.shields.io/badge/Microsoft%20Fabric-20232A?style=for-the-badge" alt="Microsoft Fabric"/>
   <img src="https://img.shields.io/badge/Vercel-20232A?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"/>
   <img src="https://img.shields.io/badge/IAM-20232A?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900" alt="IAM"/>
-  <img src="https://img.shields.io/badge/DICT%20CyberPro-Level%202%20Intermediate-003478?style=for-the-badge" alt="DICT-Recognized Cybersecurity Professional — Level 2 Intermediate"/>
+  <img src="https://img.shields.io/badge/DICT%20CyberPro-Category%202%20Intermediate-003478?style=for-the-badge" alt="DICT-Recognized Cybersecurity Professional — Category 2 Intermediate"/>
 </p>
 
 Tools & AI
@@ -208,13 +220,13 @@ KiroVerse Hack Sprint: Shipaton Edition
 
 AI Orchestrator
 
-Team Weather Weather Lang
+Team Weather Lang
 
 Partnered with AWS and RevenueCat
 
 Implemented loop engineering mechanisms for iterative AI-agent quality evaluation
 
-DevKada × ClankerCloud Mini-Challenge
+DevKada × ClankerCloud Build Challenge
 
 Top 2 Winner
 
@@ -237,16 +249,18 @@ Building AI-assisted business operations for Filipino online sellers
 DICT Cybersecurity Professionals Portal
 
 <p align="center">
-  <img src="./dict-cyberpro-badge.png" width="360" alt="DICT-Recognized Cybersecurity Professional — Level 2 Intermediate"/>
+  <img src="./dict-cyberpro-badge.png" width="360" alt="DICT-Recognized Cybersecurity Professional — Category 2 Intermediate"/>
 </p>
 
 <p align="center">
-  <strong>DICT-Recognized Cybersecurity Professional — Level 2 (Intermediate)</strong><br/>
+  <strong>DICT-Recognized Cybersecurity Professional — Category 2 (Intermediate)</strong><br/>
   Recognized by the Department of Information and Communications Technology on 12 September 2026.<br/>
   <sub>Scan the QR code on the badge to verify the recognition through the official Cybersecurity Professionals Portal.</sub>
 </p>
 
 This is a DICT professional recognition and is listed separately from certifications and completed training.
+
+I hold eight industry certifications, including ISC2 Certified in Cybersecurity (CC), the Google AI Professional Certificate, and four DataCamp certifications covering data engineering, analytics, SQL, and data literacy. I’ve also completed training across Microsoft, AWS, and DICT.
 
 Industry Certifications
 
@@ -319,6 +333,10 @@ Supporting startup community initiatives, events, partnerships, workshops, and e
 </p>
 
 <img src="https://api.iconify.design/lucide:send.svg?color=%238b949e" width="22" alt="Contact" /> Connect With Me
+
+I’m most interested in opportunities where I can build, experiment, ship, and learn from real-world problems.
+
+rolexesto0001@gmail.com · Portfolio · GitHub
 
 <p align="center">
 
