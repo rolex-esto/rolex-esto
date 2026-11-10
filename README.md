@@ -31,7 +31,6 @@
 - 🛡️ **DICT-Recognized Cybersecurity Professional**, Category 2 (Intermediate)
 - 🧭 I start from real problems: a seller drowning in messages, a team debugging a production incident, a commuter deciding whether to travel
 
-<!-- TODO: add a "🌱 Learning:" item here -->
 > 🔭 **Working on:** BizPilot · Eskwelabs Data Innovation Fellowship · Microsoft Fabric data pipelines
 >
 > ⚡ **Fun fact:** I built a flood-routing app in 12 hours
@@ -178,7 +177,7 @@ PHP, MySQL, PDO, Google OAuth, Gemini AI, PHPMailer, Hostinger. Role-based dashb
 ## 📜 Certifications
 
 <p align="center">
-  <img src="./dict-cyberpro-badge.png" width="320" alt="DICT-Recognized Cybersecurity Professional, Category 2 (Intermediate)"/>
+  <img src="./dict-cyberpro-badge.png" width="120" alt="DICT-Recognized Cybersecurity Professional, Category 2 (Intermediate)"/>
 </p>
 
 | | Certification | Date |
