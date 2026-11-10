@@ -189,39 +189,102 @@ PHP, MySQL, PDO, Google OAuth, Gemini AI, PHPMailer, Hostinger. Role-based dashb
 
 ## <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/scroll.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/scroll.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/scroll.svg?color=%2300C389" width="20" height="20" alt="" align="absmiddle"/></picture> Certifications
 
-<p align="center">
-  <img src="./dict-cyberpro-badge.png" width="120" alt="DICT-Recognized Cybersecurity Professional, Category 2 (Intermediate)"/>
+<p>
+  <img src="https://img.shields.io/badge/Certifications-10-00C389?style=flat-square&labelColor=0D1117" alt="10 certifications"/>
+  <img src="https://img.shields.io/badge/Data-4%20DataCamp-00C389?style=flat-square&labelColor=0D1117&logo=datacamp&logoColor=white" alt="4 data certifications"/>
+  <img src="https://img.shields.io/badge/Security-4-0EA5E9?style=flat-square&labelColor=0D1117" alt="4 security certifications"/>
+  <img src="https://img.shields.io/badge/Microsoft-Certified-00C389?style=flat-square&labelColor=0D1117&logo=microsoft&logoColor=white" alt="1 Microsoft Certified"/>
+  <img src="https://img.shields.io/badge/Training-2-0EA5E9?style=flat-square&labelColor=0D1117" alt="2 training courses"/>
 </p>
 
-| | Certification | Date |
-|:-:|---|---|
-| <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/badge-check.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/badge-check.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/badge-check.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> | **Microsoft Certified: Fabric Data Engineer Associate (DP-700)** | Nov 2026 |
-| <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/shield-check.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/shield-check.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/shield-check.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> | **DICT-Recognized Cybersecurity Professional, Category 2** | Sep 2026 |
-| <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/lock-keyhole.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/lock-keyhole.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/lock-keyhole.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> | **ISC2 Certified in Cybersecurity (CC)** | Mar 2026 |
-| <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/bot.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/bot.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/bot.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> | **Google AI Professional Certificate** | Aug 2026 |
+<table width="100%">
+<tr>
+<td width="46%" align="center" valign="middle">
+<a href="https://learn.microsoft.com/en-us/users/rolexesto-7021/credentials/certification/fabric-data-engineer-associate?tab=credentials-tab"><img src="assets/certs/thumbs/dp700.png" width="340" alt="Microsoft Certified: Fabric Data Engineer Associate certificate"/></a>
+</td>
+<td valign="middle">
 
-<sub>The DICT item is a professional recognition (verify via the QR code on the badge at the Cybersecurity Professionals Portal).</sub>
+<img src="https://img.shields.io/badge/Verified-Valid%20until%20Nov%202027-00C389?style=flat-square&labelColor=0D1117&logo=microsoft&logoColor=white" alt="Verified, valid until Nov 2027"/> <img src="https://img.shields.io/badge/Microsoft-Certified-0EA5E9?style=flat-square&labelColor=0D1117&logo=microsoft&logoColor=white" alt="Microsoft Certified"/>
 
-<details>
-<summary><b><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/library.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/library.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/library.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> More certifications & training</b></summary>
+### Microsoft Certified: Fabric Data Engineer Associate
+
+**DP-700** · Earned Nov 9, 2026 · Valid until Nov 10, 2027
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/external-link.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/external-link.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/external-link.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> [**Verify on Microsoft Learn**](https://learn.microsoft.com/en-us/users/rolexesto-7021/credentials/certification/fabric-data-engineer-associate?tab=credentials-tab) · <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/maximize-2.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/maximize-2.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/maximize-2.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> [Full certificate](assets/certs/dp700.png)
+
+</td>
+</tr>
+</table>
+
+<details open>
+<summary><b><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/simple-icons/microsoft.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/simple-icons/microsoft.svg?color=%2300A06E"><img src="https://api.iconify.design/simple-icons/microsoft.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> Microsoft &amp; Cloud</b> · 1 certification · 1 training</summary>
 
 <br/>
 
-**Data**
-- DataCamp Certified Associate Data Engineer (Jul 2026)
-- DataCamp Certified in Data Literacy (Jul 2026)
-- DataCamp Certified Associate Data Analyst (May 2026)
-- DataCamp Certified SQL Associate (Apr 2026)
-
-**Security**
-- Appkademiya Certified Cybersecurity Professional (Aug 2026)
-- Red Team Leaders CTIGA, Certified Threat Intelligence & Governance Analyst (Jan 2026)
-
-**Training**
-- AWS SimuLearn: Cloud Practitioner (Jul 2026)
-- DICT Region V: Data Privacy Protection Competency Framework, 20-hour training (Jun 2026)
+<table width="100%">
+<tr><td align="center" valign="top" width="400"><a href="assets/certs/dp700.png"><img src="assets/certs/thumbs/dp700.png" width="250" alt="Microsoft Certified: Fabric Data Engineer Associate certificate"/></a><br/><b>Fabric Data Engineer Associate (DP-700)</b><br/><sub><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/simple-icons/microsoft.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/simple-icons/microsoft.svg?color=%2300A06E"><img src="https://api.iconify.design/simple-icons/microsoft.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> Microsoft · Nov 9, 2026</sub><br/><sub>Valid until Nov 10, 2027</sub></td><td align="center" valign="top" width="400"><br/><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/cloud.svg?color=%230EA5E9"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/cloud.svg?color=%230284C7"><img src="https://api.iconify.design/lucide/cloud.svg?color=%230EA5E9" width="40" height="40" alt="" align="absmiddle"/></picture><br/><br/><br/><b>AWS SimuLearn: Cloud Practitioner</b><br/><sub><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/simple-icons/amazonwebservices.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/simple-icons/amazonwebservices.svg?color=%2300A06E"><img src="https://api.iconify.design/simple-icons/amazonwebservices.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> AWS · Jul 2026</sub><br/><sub><b>Training</b> · no certificate image</sub></td></tr>
+</table>
 
 </details>
+
+<details>
+<summary><b><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/simple-icons/datacamp.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/simple-icons/datacamp.svg?color=%2300A06E"><img src="https://api.iconify.design/simple-icons/datacamp.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> Data</b> · 4 certifications</summary>
+
+<br/>
+
+<table width="100%">
+<tr><td align="center" valign="top" width="400"><a href="assets/certs/datacamp-data-engineer.png"><img src="assets/certs/thumbs/datacamp-data-engineer.png" width="250" alt="DataCamp Associate Data Engineer certificate"/></a><br/><b>Associate Data Engineer</b><br/><sub><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/simple-icons/datacamp.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/simple-icons/datacamp.svg?color=%2300A06E"><img src="https://api.iconify.design/simple-icons/datacamp.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> DataCamp · Jul 1, 2026</sub></td><td align="center" valign="top" width="400"><a href="assets/certs/datacamp-data-analyst.png"><img src="assets/certs/thumbs/datacamp-data-analyst.png" width="250" alt="DataCamp Associate Data Analyst certificate"/></a><br/><b>Associate Data Analyst</b><br/><sub><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/simple-icons/datacamp.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/simple-icons/datacamp.svg?color=%2300A06E"><img src="https://api.iconify.design/simple-icons/datacamp.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> DataCamp · May 28, 2026</sub></td></tr>
+<tr><td align="center" valign="top" width="400"><a href="assets/certs/datacamp-sql.png"><img src="assets/certs/thumbs/datacamp-sql.png" width="250" alt="DataCamp SQL Associate certificate"/></a><br/><b>SQL Associate</b><br/><sub><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/simple-icons/datacamp.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/simple-icons/datacamp.svg?color=%2300A06E"><img src="https://api.iconify.design/simple-icons/datacamp.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> DataCamp · Apr 6, 2026</sub></td><td align="center" valign="top" width="400"><a href="assets/certs/datacamp-data-literacy.png"><img src="assets/certs/thumbs/datacamp-data-literacy.png" width="250" alt="DataCamp Data Literacy Fundamentals certificate"/></a><br/><b>Data Literacy (Fundamentals)</b><br/><sub><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/simple-icons/datacamp.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/simple-icons/datacamp.svg?color=%2300A06E"><img src="https://api.iconify.design/simple-icons/datacamp.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> DataCamp · Jul 28, 2026</sub></td></tr>
+</table>
+
+</details>
+
+<details>
+<summary><b><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/shield-check.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/shield-check.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/shield-check.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> Security</b> · 4 certifications</summary>
+
+<br/>
+
+<table width="100%">
+<tr><td align="center" valign="top" width="400"><a href="assets/certs/isc2-cc.png"><img src="assets/certs/thumbs/isc2-cc.png" width="250" alt="ISC2 Certified in Cybersecurity certificate"/></a><br/><b>Certified in Cybersecurity (CC)</b><br/><sub><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/simple-icons/isc2.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/simple-icons/isc2.svg?color=%2300A06E"><img src="https://api.iconify.design/simple-icons/isc2.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> ISC2 · Mar 1, 2026</sub><br/><sub>Cycle: Mar 2026 – Feb 2029</sub></td><td align="center" valign="top" width="400"><a href="./dict-cyberpro-badge.png"><img src="assets/certs/thumbs/dict-cyberpro-badge.png" width="170" alt="DICT-Recognized Cybersecurity Professional, Category 2 (Intermediate) badge"/></a><br/><b>DICT-Recognized Cybersecurity Professional, Category 2</b><br/><sub><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/shield-check.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/shield-check.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/shield-check.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> DICT · Sep 2026</sub><br/><sub>Professional recognition</sub></td></tr>
+<tr><td align="center" valign="top" width="400"><a href="assets/certs/appkademiya-ccp.png"><img src="assets/certs/thumbs/appkademiya-ccp.png" width="250" alt="Appkademiya Certified Cybersecurity Professional certificate"/></a><br/><b>Certified Cybersecurity Professional (CCP)</b><br/><sub><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/award.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/award.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/award.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> Appkademiya · Aug 21, 2026</sub></td><td align="center" valign="top" width="400"><a href="assets/certs/ctiga.png"><img src="assets/certs/thumbs/ctiga.png" width="250" alt="Red Team Leaders CTIGA certificate"/></a><br/><b>Certified Threat Intelligence &amp; Governance Analyst (CTIGA)</b><br/><sub><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/shield-check.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/shield-check.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/shield-check.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> Red Team Leaders · Jan 27, 2026</sub></td></tr>
+</table>
+
+</details>
+
+<details>
+<summary><b><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/simple-icons/google.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/simple-icons/google.svg?color=%2300A06E"><img src="https://api.iconify.design/simple-icons/google.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> AI</b> · 1 certification</summary>
+
+<br/>
+
+<table width="100%">
+<tr><td align="center" valign="top" width="400"><br/><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/sparkles.svg?color=%230EA5E9"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/sparkles.svg?color=%230284C7"><img src="https://api.iconify.design/lucide/sparkles.svg?color=%230EA5E9" width="40" height="40" alt="" align="absmiddle"/></picture><br/><br/><br/><b>Google AI Professional Certificate</b><br/><sub><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/simple-icons/google.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/simple-icons/google.svg?color=%2300A06E"><img src="https://api.iconify.design/simple-icons/google.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> Google · Aug 2026</sub><br/><sub>No certificate image</sub></td></tr>
+</table>
+
+</details>
+
+<details>
+<summary><b><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/history.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/history.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/history.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> Certification journey</b> · Jan 2026 → Nov 2026</summary>
+
+<br/>
+
+| | Date | Milestone |
+|:-:|---|---|
+| <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/shield-check.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/shield-check.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/shield-check.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> | **Jan 27, 2026** | Red Team Leaders CTIGA |
+| <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/lock-keyhole.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/lock-keyhole.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/lock-keyhole.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> | **Mar 1, 2026** | ISC2 Certified in Cybersecurity (CC) |
+| <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/database.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/database.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/database.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> | **Apr 6, 2026** | DataCamp SQL Associate |
+| <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/chart-column.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/chart-column.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/chart-column.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> | **May 28, 2026** | DataCamp Associate Data Analyst |
+| <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/graduation-cap.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/graduation-cap.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/graduation-cap.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> | **Jun 2026** | DICT Region V Data Privacy Protection, 20-hour training (Training) |
+| <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/database.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/database.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/database.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> | **Jul 1, 2026** | DataCamp Associate Data Engineer |
+| <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/cloud.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/cloud.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/cloud.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> | **Jul 2026** | AWS SimuLearn: Cloud Practitioner (Training) |
+| <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/badge-check.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/badge-check.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/badge-check.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> | **Jul 28, 2026** | DataCamp Data Literacy (Fundamentals) |
+| <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/sparkles.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/sparkles.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/sparkles.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> | **Aug 2026** | Google AI Professional Certificate |
+| <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/shield-check.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/shield-check.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/shield-check.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> | **Aug 21, 2026** | Appkademiya Certified Cybersecurity Professional (CCP) |
+| <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/shield-check.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/shield-check.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/shield-check.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> | **Sep 2026** | DICT-Recognized Cybersecurity Professional, Category 2 |
+| <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/award.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/award.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/award.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> | **Nov 9, 2026** | Microsoft Certified: Fabric Data Engineer Associate (DP-700) |
+
+</details>
+
+<sub>Only the DP-700 has a verification link; every other thumbnail opens the full-size certificate image. DICT Category 2 is a professional recognition, not an exam certificate. AWS SimuLearn and DICT Region V are training.</sub>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:00C389,100:0EA5E9" width="100%" alt=""/>
 
