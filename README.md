@@ -22,35 +22,35 @@
 
 <img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:00C389,100:0EA5E9" width="100%" alt=""/>
 
-## 👋 About Me
+## <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/user-round.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/user-round.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/user-round.svg?color=%2300C389" width="20" height="20" alt="" align="absmiddle"/></picture> About Me
 
 **I build software for people who have an idea and need it to exist.**
 
-- 🎓 4th-year BS Information Technology student at **STI College Fairview**
-- 🧮 **Data Innovation Fellow**, Eskwelabs Cohort 11 · **GCI World 2026** participant (Data Science & AI, Matsuo-Iwasawa Lab, University of Tokyo)
-- 🛡️ **DICT-Recognized Cybersecurity Professional**, Category 2 (Intermediate)
-- 🧭 I start from real problems: a seller drowning in messages, a team debugging a production incident, a commuter deciding whether to travel
+- <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/graduation-cap.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/graduation-cap.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/graduation-cap.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> 4th-year BS Information Technology student at **STI College Fairview**
+- <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/database.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/database.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/database.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> **Data Innovation Fellow**, Eskwelabs Cohort 11 · **GCI World 2026** participant (Data Science & AI, Matsuo-Iwasawa Lab, University of Tokyo)
+- <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/shield-check.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/shield-check.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/shield-check.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> **DICT-Recognized Cybersecurity Professional**, Category 2 (Intermediate)
+- <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/compass.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/compass.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/compass.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> I start from real problems: a seller drowning in messages, a team debugging a production incident, a commuter deciding whether to travel
 
-> 🔭 **Working on:** BizPilot · Eskwelabs Data Innovation Fellowship · Microsoft Fabric data pipelines
+> <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/telescope.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/telescope.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/telescope.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> **Working on:** BizPilot · Eskwelabs Data Innovation Fellowship · Microsoft Fabric data pipelines · Freelance Web Developer @ TAPME
 >
-> ⚡ **Fun fact:** I built a flood-routing app in 12 hours
+> <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/zap.svg?color=%230EA5E9"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/zap.svg?color=%230284C7"><img src="https://api.iconify.design/lucide/zap.svg?color=%230EA5E9" width="16" height="16" alt="" align="absmiddle"/></picture> **Fun fact:** I built a flood-routing app in 12 hours
 
 <img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:00C389,100:0EA5E9" width="100%" alt=""/>
 
-## 🏆 Trophy Wall
+## <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/trophy.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/trophy.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/trophy.svg?color=%2300C389" width="20" height="20" alt="" align="absmiddle"/></picture> Trophy Wall
 
 **4× Hackathon Top Finishes**
 
 | | Result | Event | Project / Role |
 |:-:|---|---|---|
-| 🥈 | **Top 2 Winner** | DevKada × ClankerCloud Build Challenge | [OpsPilot](https://github.com/rolex-esto/opspilot) |
-| 🥉 | **3rd Place** | KiroVerse Hack Sprint: Shipaton Edition (AWS & RevenueCat) | [Weather Weather Lang](https://github.com/rolex-esto/Kirovers-Hack-Sprint-Shipaton-Edition) · AI Orchestrator |
-| 🔟 | **Top 10 Finalist** | Meralco IDOL Hackathon 2026 (Meralco Power Academy) | Team **KuryenTech** · Lead Developer |
-| 🌏 | **Top 10 Climate Change Track / Top 36 overall** | BuildOvernights Kiro × Hackathon (AWS HQ, BGC) | [BahaRoute](https://github.com/rolex-esto/KiroxQuick_Flood_CTRL) |
+| <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/medal.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/medal.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/medal.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> | **Top 2 Winner** | DevKada × ClankerCloud Build Challenge | [OpsPilot](https://github.com/rolex-esto/opspilot) |
+| <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/award.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/award.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/award.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> | **3rd Place** | KiroVerse Hack Sprint: Shipaton Edition (AWS & RevenueCat) | [Weather Weather Lang](https://github.com/rolex-esto/Kirovers-Hack-Sprint-Shipaton-Edition) · AI Orchestrator |
+| <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/target.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/target.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/target.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> | **Top 10 Finalist** | Meralco IDOL Hackathon 2026 (Meralco Power Academy) | Team **KuryenTech** · Lead Developer |
+| <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/star.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/star.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/star.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> | **Top 10 Climate Change Track / Top 36 overall** | BuildOvernights Kiro × Hackathon (AWS HQ, BGC) | [BahaRoute](https://github.com/rolex-esto/KiroxQuick_Flood_CTRL) |
 
 <img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:00C389,100:0EA5E9" width="100%" alt=""/>
 
-## 🚀 Featured Projects
+## <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/rocket.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/rocket.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/rocket.svg?color=%2300C389" width="20" height="20" alt="" align="absmiddle"/></picture> Featured Projects
 
 <table>
 <tr>
@@ -61,12 +61,12 @@
 
 Unified social inbox, grounded AI sales assistant, 1-click conversational orders, real-time ops calendar sync.
 
-<sub>🔒 Private repository</sub>
+<sub><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/lock.svg?color=%230EA5E9"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/lock.svg?color=%230284C7"><img src="https://api.iconify.design/lucide/lock.svg?color=%230EA5E9" width="16" height="16" alt="" align="absmiddle"/></picture> Private repository</sub>
 
 </td>
 <td width="50%" valign="top">
 
-### OpsPilot 🥈
+### OpsPilot <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/medal.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/medal.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/medal.svg?color=%2300C389" width="16" height="16" alt="Top 2 winner" align="absmiddle"/></picture>
 **AI DevOps incident investigator**
 
 Evidence-first loop: Scan → Hypothesize → Test → Reassess → Remediate → Verify → Validate.
@@ -78,7 +78,7 @@ Evidence-first loop: Scan → Hypothesize → Test → Reassess → Remediate �
 <tr>
 <td width="50%" valign="top">
 
-### BahaRoute 🌏
+### BahaRoute <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/star.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/star.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/star.svg?color=%2300C389" width="16" height="16" alt="Top 10 Climate Change Track" align="absmiddle"/></picture>
 **Flood-aware routing for Metro Manila**
 
 17 cities, 1,710 barangays, Project NOAH data, live rainfall, voice hazard alerts. Built in 12 hours.
@@ -88,7 +88,7 @@ Evidence-first loop: Scan → Hypothesize → Test → Reassess → Remediate �
 </td>
 <td width="50%" valign="top">
 
-### Weather Weather Lang 🥉
+### Weather Weather Lang <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/award.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/award.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/award.svg?color=%2300C389" width="16" height="16" alt="3rd place" align="absmiddle"/></picture>
 **Conversational weather companion**
 
 AI orchestrator delegating to Kiro agents, with loop-engineered quality checks.
@@ -115,14 +115,14 @@ React, TypeScript, Vite, Recharts, Open-Meteo. 17 regions, 150+ cities, "Best Ti
 
 PHP, MySQL, PDO, Google OAuth, Gemini AI, PHPMailer, Hostinger. Role-based dashboards, SQLi protection, SPF/DKIM/DMARC.
 
-<sub>🔒 Private repository</sub>
+<sub><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/lock.svg?color=%230EA5E9"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/lock.svg?color=%230284C7"><img src="https://api.iconify.design/lucide/lock.svg?color=%230EA5E9" width="16" height="16" alt="" align="absmiddle"/></picture> Private repository</sub>
 
 </td>
 </tr>
 </table>
 
 <details>
-<summary><b>📖 Project details</b></summary>
+<summary><b><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/book-open.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/book-open.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/book-open.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> Project details</b></summary>
 
 <br/>
 
@@ -142,18 +142,30 @@ PHP, MySQL, PDO, Google OAuth, Gemini AI, PHPMailer, Hostinger. Role-based dashb
 
 <img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:00C389,100:0EA5E9" width="100%" alt=""/>
 
-## 💼 Experience
+## <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/briefcase-business.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/briefcase-business.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/briefcase-business.svg?color=%2300C389" width="20" height="20" alt="" align="absmiddle"/></picture> Experience
 
 | Role | Organization | Period |
 |---|---|---|
+| **Web Developer (Freelance)** | [TAPME](https://tapmeph.com/): NFC digital business cards and smart NFC products for Philippine businesses | Oct 2026 – Present |
 | **Startup Founder & Developer** | BizPilot | Feb 2026 – Present |
 | **Data Innovation Fellow**, Cohort 11 | Eskwelabs Innovation Fellowship | Aug 2026 – Present |
 | **Participant**, Data Science & AI | GCI World 2026 · Matsuo-Iwasawa Lab, University of Tokyo | 2026 |
 | **BS Information Technology** | STI College Fairview | 2023 – 2027 |
 
+<details>
+<summary><b>What I do at TAPME</b></summary>
+
+<br/>
+
+- Build the web pages that TAPME's NFC products open on tap: digital calling card profiles, Google Review and Social Media Tap pages, digital menus and digital brochures.
+- Develop client websites for TAPME's website packages: static showcase sites (Essential) and database-backed sites with admin tools (Business Plus).
+- Set up QR-code fallbacks and mobile-first layouts so every tap or scan opens cleanly on any phone.
+
+</details>
+
 <img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:00C389,100:0EA5E9" width="100%" alt=""/>
 
-## 🛠️ Tech Stack
+## <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/wrench.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/wrench.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/wrench.svg?color=%2300C389" width="20" height="20" alt="" align="absmiddle"/></picture> Tech Stack
 
 **Languages**<br/>
 <img src="https://skillicons.dev/icons?i=js,ts,py,php&theme=dark" alt="JavaScript, TypeScript, Python, PHP"/> <img src="https://img.shields.io/badge/SQL-0D1117?style=for-the-badge&logo=postgresql&logoColor=00C389" alt="SQL"/>
@@ -174,7 +186,7 @@ PHP, MySQL, PDO, Google OAuth, Gemini AI, PHPMailer, Hostinger. Role-based dashb
 
 <img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:00C389,100:0EA5E9" width="100%" alt=""/>
 
-## 📜 Certifications
+## <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/scroll.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/scroll.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/scroll.svg?color=%2300C389" width="20" height="20" alt="" align="absmiddle"/></picture> Certifications
 
 <p align="center">
   <img src="./dict-cyberpro-badge.png" width="120" alt="DICT-Recognized Cybersecurity Professional, Category 2 (Intermediate)"/>
@@ -182,15 +194,15 @@ PHP, MySQL, PDO, Google OAuth, Gemini AI, PHPMailer, Hostinger. Role-based dashb
 
 | | Certification | Date |
 |:-:|---|---|
-| ⭐ | **Microsoft Certified: Fabric Data Engineer Associate (DP-700)** | Nov 2026 |
-| 🛡️ | **DICT-Recognized Cybersecurity Professional, Category 2** | Sep 2026 |
-| 🔐 | **ISC2 Certified in Cybersecurity (CC)** | Mar 2026 |
-| 🤖 | **Google AI Professional Certificate** | Aug 2026 |
+| <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/badge-check.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/badge-check.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/badge-check.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> | **Microsoft Certified: Fabric Data Engineer Associate (DP-700)** | Nov 2026 |
+| <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/shield-check.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/shield-check.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/shield-check.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> | **DICT-Recognized Cybersecurity Professional, Category 2** | Sep 2026 |
+| <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/lock-keyhole.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/lock-keyhole.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/lock-keyhole.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> | **ISC2 Certified in Cybersecurity (CC)** | Mar 2026 |
+| <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/bot.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/bot.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/bot.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> | **Google AI Professional Certificate** | Aug 2026 |
 
 <sub>The DICT item is a professional recognition (verify via the QR code on the badge at the Cybersecurity Professionals Portal).</sub>
 
 <details>
-<summary><b>📚 More certifications & training</b></summary>
+<summary><b><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/library.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/library.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/library.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> More certifications & training</b></summary>
 
 <br/>
 
@@ -212,17 +224,17 @@ PHP, MySQL, PDO, Google OAuth, Gemini AI, PHPMailer, Hostinger. Role-based dashb
 
 <img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:00C389,100:0EA5E9" width="100%" alt=""/>
 
-## 🤝 Leadership & Community
+## <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/users-round.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/users-round.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/users-round.svg?color=%2300C389" width="20" height="20" alt="" align="absmiddle"/></picture> Leadership & Community
 
 <details>
 <summary><b>Roles & affiliations</b></summary>
 
 <br/>
 
-- 🏛️ **Founding President**, Microsoft Student Community, STI Fairview
-- ☁️ **AWS Learning Club Lead**, AWS Student User Group Philippines
-- 🎤 **Delegate / Representative**, Data Engineering Pilipinas × Echelon 2026 (Brainsparks)
-- 🤝 **Venue Partnerships Associate**, Seekers Guild
+- <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/landmark.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/landmark.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/landmark.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> **Founding President**, Microsoft Student Community, STI Fairview
+- <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/cloud.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/cloud.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/cloud.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> **AWS Learning Club Lead**, AWS Student User Group Philippines
+- <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/mic.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/mic.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/mic.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> **Delegate / Representative**, Data Engineering Pilipinas × Echelon 2026 (Brainsparks)
+- <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/handshake.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/handshake.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/handshake.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> **Venue Partnerships Associate**, Seekers Guild
 
 **Affiliations:** ISC2 Philippines Chapter · Data Engineering Pilipinas × DataCamp Donates (Scholar) · STI Fairview Bytes · STI Alumni Scholarship · DTI Metro Manila × Google Career Certificate Scholar · Cisco NetConnect PUP – Manila (Cybersecurity Operations)
 
@@ -230,7 +242,7 @@ PHP, MySQL, PDO, Google OAuth, Gemini AI, PHPMailer, Hostinger. Role-based dashb
 
 <img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:00C389,100:0EA5E9" width="100%" alt=""/>
 
-## 📊 GitHub Stats
+## <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/chart-column.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/chart-column.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/chart-column.svg?color=%2300C389" width="20" height="20" alt="" align="absmiddle"/></picture> GitHub Stats
 
 <p align="center">
   <picture>
@@ -263,11 +275,11 @@ PHP, MySQL, PDO, Google OAuth, Gemini AI, PHPMailer, Hostinger. Role-based dashb
 
 <div align="center">
 
-## 📬 Let's Connect
+## <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/mail.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/mail.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/mail.svg?color=%2300C389" width="20" height="20" alt="" align="absmiddle"/></picture> Let's Connect
 
 I'm most interested in opportunities where I can build, experiment, ship, and learn from real-world problems.
 
-[Portfolio](https://rolex-esto.vercel.app/) · [LinkedIn](https://linkedin.com/in/rolex-esto-1b33b2391/) · [Email](mailto:rolexesto0001@gmail.com) · [GitHub](https://github.com/rolex-esto)
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/globe.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/globe.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/globe.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> [Portfolio](https://rolex-esto.vercel.app/) · <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/simple-icons/linkedin.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/simple-icons/linkedin.svg?color=%2300A06E"><img src="https://api.iconify.design/simple-icons/linkedin.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> [LinkedIn](https://linkedin.com/in/rolex-esto-1b33b2391/) · <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/lucide/mail.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/lucide/mail.svg?color=%2300A06E"><img src="https://api.iconify.design/lucide/mail.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> [Email](mailto:rolexesto0001@gmail.com) · <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/simple-icons/github.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/simple-icons/github.svg?color=%2300A06E"><img src="https://api.iconify.design/simple-icons/github.svg?color=%2300C389" width="16" height="16" alt="" align="absmiddle"/></picture> [GitHub](https://github.com/rolex-esto)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=140&color=0:00C389,100:0EA5E9&section=footer" alt="Footer wave" width="100%"/>
 
