@@ -254,7 +254,6 @@ PHP, MySQL, PDO, Google OAuth, Gemini AI, PHPMailer, Hostinger. Role-based dashb
   </picture>
 </p>
 
-<!-- SNAKE: enable after the snk workflow is approved and has run (outputs to the `output` branch)
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rolex-esto/rolex-esto/output/github-snake-dark.svg">
@@ -262,7 +261,6 @@ PHP, MySQL, PDO, Google OAuth, Gemini AI, PHPMailer, Hostinger. Role-based dashb
     <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/rolex-esto/rolex-esto/output/github-snake.svg">
   </picture>
 </p>
--->
 
 <div align="center">
 
