@@ -1,3 +1,91 @@
+<!-- ROLEX.EXE PIXEL ARCADE INTRO — original career profile preserved below -->
+<div align="center">
+
+<a href="https://github.com/rolex-esto/rolex-esto/tree/main/arcade">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=155&color=0:0B1020,50:182A36,100:0B1020&text=ROLEX.EXE&fontColor=70F5A3&fontSize=55&fontAlignY=40&desc=PRESS%20START%20%E2%96%B6%20DEVELOPER%20QUEST&descSize=19&descAlignY=70" width="100%" alt="ROLEX.EXE Pixel Arcade Developer Quest"/>
+</a>
+
+<code>PLAYER 01</code> &nbsp; <code>SOFTWARE · AI · DATA · CLOUD</code> &nbsp; <code>MODE: BUILD / LEARN / SHIP</code>
+
+### ░▒▓█ &nbsp; WELCOME TO THE DEVELOPER ARCADE &nbsp; █▓▒░
+
+**Choose a quest below.** Play the actual arcade in your browser or expand the README-native rooms to discover projects and achievements.
+
+[![PLAY THE ARCADE](https://img.shields.io/badge/%E2%96%B6_PLAY-PIXEL_QUEST-70F5A3?style=for-the-badge&labelColor=0B1020)](https://github.com/rolex-esto/rolex-esto/tree/main/arcade)
+[![PROJECT QUESTS](https://img.shields.io/badge/%E2%97%86_EXPLORE-PROJECTS-A78BFA?style=for-the-badge&labelColor=0B1020)](#-project-portal)
+[![TROPHY ROOM](https://img.shields.io/badge/%E2%98%85_UNLOCK-ACHIEVEMENTS-FFD166?style=for-the-badge&labelColor=0B1020)](#-trophy-room)
+[![PORTFOLIO](https://img.shields.io/badge/%E2%97%8E_VISIT-PORTFOLIO-70F5A3?style=for-the-badge&labelColor=0B1020)](https://rolex-esto.vercel.app/)
+
+</div>
+
+> **ARCADE NOTICE:** GitHub READMEs do not run JavaScript. The expandable quest rooms below work on GitHub itself. The playable keyboard/touch mini-game lives in [`arcade/index.html`](arcade/index.html). To play it online, publish the `/arcade` directory through GitHub Pages or another static host.
+
+### 🕹️ Project Portal
+
+<details>
+<summary><b>▸ ENTER: MERCHANT KINGDOM / BizPilot</b> — venture quest</summary>
+
+**ROLE:** Founder & Developer · **MISSION:** Help Filipino MSMEs manage conversations, orders, inventory, and everyday operations in one place.
+
+**LOOT:** Unified inbox · AI sales assistant · Conversational orders · Operations calendar
+
+**STATUS:** Active development · Private repository
+
+</details>
+
+<details>
+<summary><b>▸ ENTER: ENERGY REALM / SmartWatts</b> — sustainability quest</summary>
+
+**ROLE:** Lead Developer · **MISSION:** Help households make sense of electricity consumption through bill scanning, appliance records, and usage estimates.
+
+**LOOT:** Appliance tracking · Bill scanning · Energy insights · English/Tagalog advisor
+
+**STATUS:** Meralco IDOL Hackathon finalist
+
+</details>
+
+<details>
+<summary><b>▸ ENTER: INCIDENT DUNGEON / OpsPilot</b> — systems quest</summary>
+
+**ROLE:** Solo Developer · **MISSION:** Investigate production incidents with an evidence-first approach.
+
+**LOOT:** Incident evidence · Hypothesis tracking · Post-remediation signals
+
+**STATUS:** Hackathon top finish · [View repository](https://github.com/rolex-esto/opspilot)
+
+</details>
+
+### 🏆 Trophy Room
+
+<details>
+<summary><b>★ OPEN ACHIEVEMENT CHEST</b> — reveals real-world milestones</summary>
+
+| Achievement unlocked | Quest |
+|:--|:--|
+| **Top 2 Winner** | DevKada × ClankerCloud Build Challenge — OpsPilot |
+| **3rd Place** | KiroVerse Hack Sprint — Weather Weather Lang |
+| **Top 10 Finalist** | Meralco IDOL Hackathon — Team KuryenTech |
+| **Top 36 Team / Top 10 Climate Change Track** | BuildOvernights KiroxHackaton — BahaRoute |
+
+*These are actual portfolio claims, not game scores. See the complete achievement and certification sections below for details.*
+
+</details>
+
+### ⚔️ Skill Inventory
+
+`[ JAVASCRIPT ]` `[ TYPESCRIPT ]` `[ PYTHON ]` `[ PHP ]` `[ SQL ]`  
+`[ REACT ]` `[ NEXT.JS ]` `[ FASTAPI ]` `[ MYSQL ]` `[ POWER BI ]`  
+`[ AWS ]` `[ AZURE ]` `[ FABRIC ]` `[ GITHUB ]` `[ SECURITY ]`
+
+<details>
+<summary><b>📜 QUEST LOG: Read the full developer profile</b></summary>
+
+The complete profile — including experience, certification verification, and project descriptions — continues below.
+
+</details>
+
+---
+
 <!-- Palette: Fabric Teal  #00C389 → #0EA5E9  on #0D1117 -->
 <div align="center">
 
