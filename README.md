@@ -1,58 +1,28 @@
-<!-- Palette: Fabric Teal #00C389 → #0EA5E9 on #0D1117 (Light: #00A06E / #0284C7 on #FFFFFF) -->
+<!-- Palette: Fabric Teal  #00C389 → #0EA5E9  on #0D1117 -->
 <div align="center">
 
-<img src=".github/assets/banner.gif" alt="Banner: Rolex J. Esto — Software, AI, Data, Cloud" width="100%"/>
-
-<h1>
-  <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50" alt="Waving Hand"> Hi, I'm Rolex!
-</h1>
-
-<!-- ═══ NAME TYPING ANIMATION ════════════════════════════════════════════ -->
 <picture>
-  <source media="(prefers-color-scheme: dark)"
-    srcset="https://readme-typing-svg.demolab.com?font=Geist+Mono&weight=500&size=40&duration=3000&pause=800&color=ffffff&center=true&vCenter=true&width=600&lines=Rolex+J.+Esto;X3lor" />
-  <source media="(prefers-color-scheme: light)"
-    srcset="https://readme-typing-svg.demolab.com?font=Geist+Mono&weight=500&size=40&duration=3000&pause=800&color=171717&center=true&vCenter=true&width=600&lines=Rolex+J.+Esto;X3lor" />
-  <img src="https://readme-typing-svg.demolab.com?font=Geist+Mono&weight=500&size=40&duration=3000&pause=800&color=171717&center=true&vCenter=true&width=600&lines=Rolex+J.+Esto;X3lor"
-      alt="Rolex J. Esto / X3lor typing animation" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:00C389,100:0EA5E9&text=Rolex%20J.%20Esto&fontColor=0D1117&fontSize=58&fontAlignY=38&desc=Software%20%E2%80%A2%20AI%20%E2%80%A2%20Data%20%E2%80%A2%20Cloud&descSize=22&descAlignY=60&animation=fadeIn" alt="Banner: Rolex J. Esto — Software, AI, Data, Cloud" width="100%"/>
 </picture>
+
+<a href="https://github.com/rolex-esto">
+  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=14&duration=3000&pause=1500&color=00C389&center=true&vCenter=true&width=760&height=44&lines=Microsoft+Certified%3A+Fabric+Data+Engineer;Hackathon+Builder+%E2%80%94+4%C3%97+Top+Finishes;Founder+of+BizPilot;AI+%C2%B7+Data+%C2%B7+Cloud+%C2%B7+Security" alt="Typing animation: Microsoft Certified Fabric Data Engineer, Hackathon Builder with 4 top finishes, Founder of BizPilot, AI Data Cloud Security"/>
+</a>
 
 <br/>
 
-<!-- ═══ ROLE & FOCUS TYPING ANIMATION ════════════════════════════════════ -->
-<picture>
-  <source media="(prefers-color-scheme: dark)"
-    srcset="https://readme-typing-svg.demolab.com?font=Geist+Mono&weight=500&size=14&duration=2000&pause=1000&color=888888&center=true&vCenter=true&width=760&lines=Software+%E2%80%A2+AI+%E2%80%A2+Data+%E2%80%A2+Cloud;Microsoft+Certified%3A+Fabric+Data+Engineer;Hackathon+Builder+%E2%80%94+4%C3%97+Top+Finishes;Founder+of+BizPilot;AI+%C2%B7+Data+%C2%B7+Cloud+%C2%B7+Security" />
-  <source media="(prefers-color-scheme: light)"
-    srcset="https://readme-typing-svg.demolab.com?font=Geist+Mono&weight=500&size=14&duration=2000&pause=1000&color=808080&center=true&vCenter=true&width=760&lines=Software+%E2%80%A2+AI+%E2%80%A2+Data+%E2%80%A2+Cloud;Microsoft+Certified%3A+Fabric+Data+Engineer;Hackathon+Builder+%E2%80%94+4%C3%97+Top+Finishes;Founder+of+BizPilot;AI+%C2%B7+Data+%C2%B7+Cloud+%C2%B7+Security" />
-  <img src="https://readme-typing-svg.demolab.com?font=Geist+Mono&weight=500&size=14&duration=2000&pause=1000&color=808080&center=true&vCenter=true&width=760&lines=Software+%E2%80%A2+AI+%E2%80%A2+Data+%E2%80%A2+Cloud;Microsoft+Certified%3A+Fabric+Data+Engineer;Hackathon+Builder+%E2%80%94+4%C3%97+Top+Finishes;Founder+of+BizPilot;AI+%C2%B7+Data+%C2%B7+Cloud+%C2%B7+Security"
-      alt="Typing animation: Software • AI • Data • Cloud · Microsoft Certified: Fabric Data Engineer · Hackathon Builder — 4× Top Finishes · Founder of BizPilot · AI · Data · Cloud · Security" />
-</picture>
+<a href="https://learn.microsoft.com/en-us/users/rolexesto-7021/credentials/certification/fabric-data-engineer-associate?tab=credentials-tab"><img src="https://img.shields.io/badge/Microsoft-DP--700%20Certified-00C389?style=for-the-badge&logo=microsoft&logoColor=white&labelColor=0D1117" alt="Microsoft Certified: Fabric Data Engineer Associate (DP-700)"/></a>
+<a href="https://rolex-esto.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Visit-0EA5E9?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0D1117" alt="Portfolio"/></a>
+<a href="https://linkedin.com/in/rolex-esto-1b33b2391/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117" alt="LinkedIn"/></a>
+<a href="mailto:rolexesto0001@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-00C389?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" alt="Email"/></a>
 
-<p align="center"><strong>Software • AI • Data • Cloud</strong></p>
-
-<!-- ═══ SOCIAL ICONS ════════════════════════════════════════════════════ -->
-<p align="center">
-  <a href="https://linkedin.com/in/rolex-esto-1b33b2391/" target="_blank"><img height="25" src="https://raw.githubusercontent.com/CLorant/readme-social-icons/refs/heads/main/large/colored/linkedin.svg" alt="LinkedIn"/></a>
-  &nbsp;
-  <a href="mailto:rolexesto0001@gmail.com"><img height="25" src="https://api.iconify.design/logos/google-gmail.svg" alt="Email"/></a>
-  &nbsp;
-  <a href="https://github.com/rolex-esto" target="_blank"><img height="25" src="https://raw.githubusercontent.com/CLorant/readme-social-icons/refs/heads/main/large/colored/github.svg" alt="GitHub"/></a>
-  &nbsp;
-  <a href="https://rolex-esto.vercel.app/" target="_blank"><img height="25" src="https://api.iconify.design/bi/globe2.svg?color=%230EA5E9" alt="Portfolio"/></a>
-</p>
-
-<p align="center">
-  <a href="https://learn.microsoft.com/en-us/users/rolexesto-7021/credentials/certification/fabric-data-engineer-associate?tab=credentials-tab"><img src="https://img.shields.io/badge/Microsoft-DP--700%20Certified-00C389?style=for-the-badge&logo=microsoft&logoColor=white&labelColor=0D1117" alt="Microsoft Certified: Fabric Data Engineer Associate (DP-700)"/></a>
-  &nbsp;&nbsp;
-  <img src="https://komarev.com/ghpvc/?username=rolex-esto&label=Profile+views&color=00C389&style=flat-square&labelColor=0D1117" alt="Profile view counter"/>
-</p>
+<img src="https://komarev.com/ghpvc/?username=rolex-esto&label=Profile+views&color=00C389&style=flat-square&labelColor=0D1117" alt="Profile view counter"/>
 
 </div>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:00C389,100:0EA5E9" width="100%" alt=""/>
 
-<h2 align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/user.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/user.svg?color=%2300A06E"><img src="https://api.iconify.design/pixelarticons/user.svg?color=%2300C389" width="24" height="24" alt="" align="absmiddle"/></picture> About Me</h2>
+## <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/user.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/user.svg?color=%2300A06E"><img src="https://api.iconify.design/pixelarticons/user.svg?color=%2300C389" width="24" height="24" alt="" align="absmiddle"/></picture> About Me
 
 **I’m a 4th-year BSIT student building practical, production-ready solutions across web development, AI, data, and cloud technologies.**
 
@@ -65,62 +35,23 @@
 >
 > <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/zap.svg?color=%230EA5E9"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/zap.svg?color=%230284C7"><img src="https://api.iconify.design/pixelarticons/zap.svg?color=%230EA5E9" width="24" height="24" alt="" align="absmiddle"/></picture> **Focus:** practical solutions across web development, AI, data, and cloud
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:00C389,100:0EA5E9" width="100%" alt=""/>
 
-<h2 align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/chart.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/chart.svg?color=%2300A06E"><img src="https://api.iconify.design/pixelarticons/chart.svg?color=%2300C389" width="24" height="24" alt="" align="absmiddle"/></picture> GitHub Stats</h2>
-
-<img align="right" width="260" src=".github/assets/profile-art.png" alt="Profile artwork">
-
-<p align="center">
-  <br/><br/>
-  <img src=".github/assets/stats.svg" width="400px" alt="GitHub stats"/>
-  <br/>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=rolex-esto&hide_border=true&background=0D1117&ring=00C389&fire=0EA5E9&currStreakLabel=00C389&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E">
-    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=rolex-esto&hide_border=true&background=FFFFFF&ring=00A06E&fire=0284C7&currStreakLabel=00A06E&sideLabels=24292F&currStreakNum=24292F&sideNums=24292F&dates=57606A">
-    <img src="https://streak-stats.demolab.com/?user=rolex-esto&hide_border=true&background=0D1117&ring=00C389&fire=0EA5E9&currStreakLabel=00C389&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E" alt="GitHub contribution streak for rolex-esto" width="400px" height="170"/>
-  </picture>
-  <br/>
-  <img width="400px" src=".github/assets/metrics-stats.svg" alt="GitHub metrics stats"/>
-  <br/>
-  <img width="400px" src=".github/assets/metrics-repository.svg" alt="GitHub metrics repository"/>
-  <br/>
-  <img width="400px" src=".github/assets/metrics-activity.svg" alt="GitHub metrics activity"/>
-</p>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=rolex-esto&bg_color=0D1117&color=C9D1D9&line=00C389&point=0EA5E9&area=true&area_color=0EA5E9&hide_border=true">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=rolex-esto&bg_color=FFFFFF&color=24292F&line=00A06E&point=0284C7&area=true&area_color=0284C7&hide_border=true">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=rolex-esto&bg_color=0D1117&color=C9D1D9&line=00C389&point=0EA5E9&area=true&area_color=0EA5E9&hide_border=true" alt="GitHub activity graph" width="100%"/>
-</picture>
-
-<br clear="both" />
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rolex-esto/rolex-esto/output/github-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rolex-esto/rolex-esto/output/github-snake.svg">
-    <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/rolex-esto/rolex-esto/output/github-snake.svg">
-  </picture>
-</p>
-
----
-
-<h2 align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/flag.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/flag.svg?color=%2300A06E"><img src="https://api.iconify.design/pixelarticons/flag.svg?color=%2300C389" width="24" height="24" alt="" align="absmiddle"/></picture> Trophy Wall</h2>
+## <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/flag.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/flag.svg?color=%2300A06E"><img src="https://api.iconify.design/pixelarticons/flag.svg?color=%2300C389" width="24" height="24" alt="" align="absmiddle"/></picture> Trophy Wall
 
 **4× Hackathon Top Finishes**
 
 <table>
 <tr><th width="56"></th><th>Result</th><th>Event</th><th>Project / Role</th></tr>
 <tr><td align="center" width="56"><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/trophy.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/trophy.svg?color=%2300A06E"><img src="https://api.iconify.design/pixelarticons/trophy.svg?color=%2300C389" width="24" height="24" alt="" align="absmiddle"/></picture></td><td><b>Top 2 Winner</b></td><td>DevKada × ClankerCloud Build Challenge (August 24–29, 2026)</td><td><a href="https://github.com/rolex-esto/opspilot">OpsPilot</a> · Solo Developer</td></tr>
-<tr><td align="center" width="56"><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixel/badge-check-solid.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixel/badge-check-solid.svg?color=%2300A06E"><img src="https://api.iconify.design/pixel/badge-check-solid.svg?color=%2300A06E" width="24" height="24" alt="" align="absmiddle"/></picture></td><td><b>3rd Place</b></td><td>KiroVerse Hack Sprint (AWS &amp; RevenueCat, June – August 2026)</td><td><a href="https://github.com/rolex-esto/Kirovers-Hack-Sprint-Shipaton-Edition">Weather Weather Lang</a> · AI Orchestrator</td></tr>
+<tr><td align="center" width="56"><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixel/badge-check-solid.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixel/badge-check-solid.svg?color=%2300A06E"><img src="https://api.iconify.design/pixel/badge-check-solid.svg?color=%2300C389" width="24" height="24" alt="" align="absmiddle"/></picture></td><td><b>3rd Place</b></td><td>KiroVerse Hack Sprint (AWS &amp; RevenueCat, June – August 2026)</td><td><a href="https://github.com/rolex-esto/Kirovers-Hack-Sprint-Shipaton-Edition">Weather Weather Lang</a> · AI Orchestrator</td></tr>
 <tr><td align="center" width="56"><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/target.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/target.svg?color=%2300A06E"><img src="https://api.iconify.design/pixelarticons/target.svg?color=%2300C389" width="24" height="24" alt="" align="absmiddle"/></picture></td><td><b>Top 10 Finalist</b></td><td>Meralco IDOL Hackathon · Meralco Power Academy (November 12–13, 2026)</td><td><b>Team KuryenTech</b> · Lead Developer</td></tr>
 <tr><td align="center" width="56"><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/star.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/star.svg?color=%2300A06E"><img src="https://api.iconify.design/pixelarticons/star.svg?color=%2300C389" width="24" height="24" alt="" align="absmiddle"/></picture></td><td><b>Top 36 Team · Top 10 Climate Change Track</b></td><td>BuildOvernights KiroxHackaton (AWS Office, October 3–4, 2026)</td><td><a href="https://github.com/rolex-esto/KiroxQuick_Flood_CTRL">BahaRoute</a> · Lead Developer</td></tr>
 </table>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:00C389,100:0EA5E9" width="100%" alt=""/>
 
-<h2 align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixel/plane-departure-solid.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixel/plane-departure-solid.svg?color=%2300A06E"><img src="https://api.iconify.design/pixel/plane-departure-solid.svg?color=%2300C389" width="24" height="24" alt="" align="absmiddle"/></picture> Featured Projects</h2>
+## <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixel/plane-departure-solid.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixel/plane-departure-solid.svg?color=%2300A06E"><img src="https://api.iconify.design/pixel/plane-departure-solid.svg?color=%2300C389" width="24" height="24" alt="" align="absmiddle"/></picture> Featured Projects
 
 <table>
 <tr>
@@ -232,9 +163,9 @@ Builds NFC pages and client websites that help businesses share their details an
 
 </details>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:00C389,100:0EA5E9" width="100%" alt=""/>
 
-<h2 align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/briefcase.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/briefcase.svg?color=%2300A06E"><img src="https://api.iconify.design/pixelarticons/briefcase.svg?color=%2300C389" width="24" height="24" alt="" align="absmiddle"/></picture> Experience</h2>
+## <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/briefcase.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/briefcase.svg?color=%2300A06E"><img src="https://api.iconify.design/pixelarticons/briefcase.svg?color=%2300C389" width="24" height="24" alt="" align="absmiddle"/></picture> Experience
 
 | Role | Organization | Period |
 |---|---|---|
@@ -268,156 +199,32 @@ Builds NFC pages and client websites that help businesses share their details an
 
 </details>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:00C389,100:0EA5E9" width="100%" alt=""/>
 
-<h2 align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/tools.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/tools.svg?color=%2300A06E"><img src="https://api.iconify.design/pixelarticons/tools.svg?color=%2300C389" width="24" height="24" alt="" align="absmiddle"/></picture> Languages · Frameworks · Tools</h2>
+## <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/tools.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/tools.svg?color=%2300A06E"><img src="https://api.iconify.design/pixelarticons/tools.svg?color=%2300C389" width="24" height="24" alt="" align="absmiddle"/></picture> Tech Stack
 
-<p align="center"><sub><b>Tech Stack</b></sub></p>
+**Languages**<br/>
+<img src="https://skillicons.dev/icons?i=js,ts,py,php&theme=dark" alt="JavaScript, TypeScript, Python, PHP"/> <img src="https://img.shields.io/badge/SQL-0D1117?style=for-the-badge&logo=postgresql&logoColor=00C389" alt="SQL"/>
 
-<p align="center"><b>Languages</b></p>
-<table align="center">
-  <tr>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/js-icon.svg" width="40" height="40" alt="JavaScript" /><br/><sub>JavaScript</sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/ts-icon.svg" width="40" height="40" alt="TypeScript" /><br/><sub>TypeScript</sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/python-icon.svg" width="40" height="40" alt="Python" /><br/><sub>Python</sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=php&theme=dark" width="40" height="40" alt="PHP" /><br/><sub>PHP</sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://img.shields.io/badge/SQL-0D1117?style=for-the-badge&logo=postgresql&logoColor=00C389" height="30" alt="SQL" /><br/><sub>SQL</sub>
-    </td>
-  </tr>
-</table>
+**Web Technologies & Frameworks**<br/>
+<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,vite,html,css&theme=dark" alt="React, Next.js, Node.js, Vite, HTML, CSS"/> OAuth
 
-<p align="center"><b>Web Technologies & Frameworks</b></p>
-<table align="center">
-  <tr>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/react-icon.svg" width="40" height="40" alt="React" /><br/><sub>React</sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=nextjs&theme=dark" width="40" height="40" alt="Next.js" /><br/><sub>Next.js</sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=nodejs&theme=dark" width="40" height="40" alt="Node.js" /><br/><sub>Node.js</sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=vite&theme=dark" width="40" height="40" alt="Vite" /><br/><sub>Vite</sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=html&theme=dark" width="40" height="40" alt="HTML" /><br/><sub>HTML</sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=css&theme=dark" width="40" height="40" alt="CSS" /><br/><sub>CSS</sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://img.shields.io/badge/OAuth-0D1117?style=for-the-badge&logo=auth0&logoColor=00C389" height="30" alt="OAuth" /><br/><sub>OAuth</sub>
-    </td>
-  </tr>
-</table>
+**Databases & Data**<br/>
+<img src="https://skillicons.dev/icons?i=mysql,postgres&theme=dark" alt="MySQL, PostgreSQL"/><br/>
+<img src="https://img.shields.io/badge/Power%20BI-0D1117?style=for-the-badge&logo=powerbi&logoColor=F2C811" alt="Power BI"/> <img src="https://img.shields.io/badge/DuckDB-0D1117?style=for-the-badge&logo=duckdb&logoColor=FFF000" alt="DuckDB"/> <img src="https://img.shields.io/badge/Pandas-0D1117?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/> <img src="https://img.shields.io/badge/NumPy-0D1117?style=for-the-badge&logo=numpy&logoColor=013243" alt="NumPy"/> <img src="https://img.shields.io/badge/Parquet-0D1117?style=for-the-badge&logo=apacheparquet&logoColor=50ABF1" alt="Apache Parquet"/> <img src="https://img.shields.io/badge/Excel-0D1117?style=for-the-badge&logo=microsoftexcel&logoColor=217346" alt="Excel"/> Recharts
 
-<p align="center"><b>Databases & Data</b></p>
-<table align="center">
-  <tr>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/mysql-icon.svg" width="40" height="40" alt="MySQL" /><br/><sub>MySQL</sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=postgres&theme=dark" width="40" height="40" alt="PostgreSQL" /><br/><sub>PostgreSQL</sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://img.shields.io/badge/Power%20BI-0D1117?style=for-the-badge&logo=powerbi&logoColor=F2C811" height="30" alt="Power BI" /><br/><sub>Power BI</sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://img.shields.io/badge/DuckDB-0D1117?style=for-the-badge&logo=duckdb&logoColor=FFF000" height="30" alt="DuckDB" /><br/><sub>DuckDB</sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://img.shields.io/badge/Pandas-0D1117?style=for-the-badge&logo=pandas&logoColor=white" height="30" alt="Pandas" /><br/><sub>Pandas</sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://img.shields.io/badge/NumPy-0D1117?style=for-the-badge&logo=numpy&logoColor=013243" height="30" alt="NumPy" /><br/><sub>NumPy</sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://img.shields.io/badge/Parquet-0D1117?style=for-the-badge&logo=apacheparquet&logoColor=50ABF1" height="30" alt="Apache Parquet" /><br/><sub>Parquet</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="96">
-      <img src="https://img.shields.io/badge/Excel-0D1117?style=for-the-badge&logo=microsoftexcel&logoColor=217346" height="30" alt="Excel" /><br/><sub>Excel</sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://img.shields.io/badge/Recharts-0D1117?style=for-the-badge&logoColor=00C389" height="30" alt="Recharts" /><br/><sub>Recharts</sub>
-    </td>
-  </tr>
-</table>
+**Cloud & Security**<br/>
+<img src="https://skillicons.dev/icons?i=aws,azure,gcp,vercel&theme=dark" alt="AWS, Azure, Google Cloud, Vercel"/> <img src="https://img.shields.io/badge/Microsoft%20Fabric-0D1117?style=for-the-badge&logo=microsoft&logoColor=00C389" alt="Microsoft Fabric"/> IAM
 
-<p align="center"><b>Cloud & Security</b></p>
-<table align="center">
-  <tr>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=aws&theme=dark" width="40" height="40" alt="AWS" /><br/><sub>AWS</sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=azure&theme=dark" width="40" height="40" alt="Azure" /><br/><sub>Azure</sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=gcp&theme=dark" width="40" height="40" alt="Google Cloud" /><br/><sub>GCP</sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=vercel&theme=dark" width="40" height="40" alt="Vercel" /><br/><sub>Vercel</sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://img.shields.io/badge/Microsoft%20Fabric-0D1117?style=for-the-badge&logo=microsoft&logoColor=00C389" height="30" alt="Microsoft Fabric" /><br/><sub>Microsoft Fabric</sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://img.shields.io/badge/IAM-0D1117?style=for-the-badge&logoColor=0EA5E9" height="30" alt="IAM" /><br/><sub>IAM</sub>
-    </td>
-  </tr>
-</table>
+**Tools & AI**<br/>
+<img src="https://skillicons.dev/icons?i=git,github&theme=dark" alt="Git, GitHub"/><br/>
+<img src="https://img.shields.io/badge/Playwright-0D1117?style=for-the-badge&logo=playwright&logoColor=2EAD33" alt="Playwright"/> <img src="https://img.shields.io/badge/Cursor-0D1117?style=for-the-badge&logo=cursor&logoColor=white" alt="Cursor"/> <img src="https://img.shields.io/badge/Kiro-0D1117?style=for-the-badge&logoColor=white" alt="Kiro"/> <img src="https://img.shields.io/badge/Antigravity-0D1117?style=for-the-badge" alt="Antigravity"/> <img src="https://img.shields.io/badge/Claude%20Code-0D1117?style=for-the-badge&logo=anthropic&logoColor=D97757" alt="Claude Code"/> Codex
 
-<p align="center"><b>Tools & AI</b></p>
-<table align="center">
-  <tr>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=git&theme=dark" width="40" height="40" alt="Git" /><br/><sub>Git</sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/github-icon.svg" width="40" height="40" alt="GitHub" /><br/><sub>GitHub</sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://img.shields.io/badge/Playwright-0D1117?style=for-the-badge&logo=playwright&logoColor=2EAD33" height="30" alt="Playwright" /><br/><sub>Playwright</sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://img.shields.io/badge/Cursor-0D1117?style=for-the-badge&logo=cursor&logoColor=white" height="30" alt="Cursor" /><br/><sub>Cursor</sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://img.shields.io/badge/Kiro-0D1117?style=for-the-badge&logoColor=white" height="30" alt="Kiro" /><br/><sub>Kiro</sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://img.shields.io/badge/Antigravity-0D1117?style=for-the-badge" height="30" alt="Antigravity" /><br/><sub>Antigravity</sub>
-    </td>
-    <td align="center" width="96">
-      <img src="https://img.shields.io/badge/Claude%20Code-0D1117?style=for-the-badge&logo=anthropic&logoColor=D97757" height="30" alt="Claude Code" /><br/><sub>Claude Code</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="96">
-      <img src="https://img.shields.io/badge/Codex-0D1117?style=for-the-badge&logo=openai&logoColor=00C389" height="30" alt="Codex" /><br/><sub>Codex</sub>
-    </td>
-  </tr>
-</table>
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:00C389,100:0EA5E9" width="100%" alt=""/>
 
----
+## <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/notes.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/notes.svg?color=%2300A06E"><img src="https://api.iconify.design/pixelarticons/notes.svg?color=%2300C389" width="24" height="24" alt="" align="absmiddle"/></picture> Certifications
 
-<h2 align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/notes.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/notes.svg?color=%2300A06E"><img src="https://api.iconify.design/pixelarticons/notes.svg?color=%2300C389" width="24" height="24" alt="" align="absmiddle"/></picture> Certifications</h2>
-
-<p align="center">
+<p>
   <img src="https://img.shields.io/badge/Certifications-10-00C389?style=flat-square&labelColor=0D1117" alt="10 certifications"/>
   <img src="https://img.shields.io/badge/Data-4%20DataCamp-00C389?style=flat-square&labelColor=0D1117&logo=datacamp&logoColor=white" alt="4 data certifications"/>
   <img src="https://img.shields.io/badge/Security-4-0EA5E9?style=flat-square&labelColor=0D1117" alt="4 security certifications"/>
@@ -511,9 +318,9 @@ Builds NFC pages and client websites that help businesses share their details an
 
 <sub>Only the DP-700 has a verification link; every other thumbnail opens the full-size certificate image. DICT Category 2 is a professional recognition, not an exam certificate. AWS SimuLearn and DICT Region V are training.</sub>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:00C389,100:0EA5E9" width="100%" alt=""/>
 
-<h2 align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/users.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/users.svg?color=%2300A06E"><img src="https://api.iconify.design/pixelarticons/users.svg?color=%2300C389" width="24" height="24" alt="" align="absmiddle"/></picture> Leadership & Affiliations</h2>
+## <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/users.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/users.svg?color=%2300A06E"><img src="https://api.iconify.design/pixelarticons/users.svg?color=%2300C389" width="24" height="24" alt="" align="absmiddle"/></picture> Leadership & Affiliations
 
 <details>
 <summary><b>Roles & affiliations</b></summary>
@@ -521,7 +328,7 @@ Builds NFC pages and client websites that help businesses share their details an
 <br/>
 
 - <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/library.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/library.svg?color=%2300A06E"><img src="https://api.iconify.design/pixelarticons/library.svg?color=%2300C389" width="24" height="24" alt="" align="absmiddle"/></picture> **Founding President**, Microsoft Student Community, STI Fairview
-- <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/cloud.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/cloud.svg?color=%2300A06E"><img src="https://api.iconify.design/pixelarticons/cloud.svg?color=%2300A06E" width="24" height="24" alt="" align="absmiddle"/></picture> **AWS Learning Club Lead**, AWS Student User Group Philippines
+- <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/cloud.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/cloud.svg?color=%2300A06E"><img src="https://api.iconify.design/pixelarticons/cloud.svg?color=%2300C389" width="24" height="24" alt="" align="absmiddle"/></picture> **AWS Learning Club Lead**, AWS Student User Group Philippines
 - <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/mic.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/mic.svg?color=%2300A06E"><img src="https://api.iconify.design/pixelarticons/mic.svg?color=%2300C389" width="24" height="24" alt="" align="absmiddle"/></picture> **Delegate / Representative**, Data Engineering Pilipinas x Echelon 2026 by Brainsparks (August 25–26, 2026)
 - <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixel/handshake-solid.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixel/handshake-solid.svg?color=%2300A06E"><img src="https://api.iconify.design/pixel/handshake-solid.svg?color=%2300C389" width="24" height="24" alt="" align="absmiddle"/></picture> **Venue Partnerships Associate**, Seekers Guild (August 2026 – November 2026)
 
@@ -529,18 +336,47 @@ Builds NFC pages and client websites that help businesses share their details an
 
 </details>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:00C389,100:0EA5E9" width="100%" alt=""/>
+
+## <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/chart.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/chart.svg?color=%2300A06E"><img src="https://api.iconify.design/pixelarticons/chart.svg?color=%2300C389" width="24" height="24" alt="" align="absmiddle"/></picture> GitHub Stats
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fast.vercel.app/api?username=rolex-esto&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00C389&icon_color=0EA5E9&text_color=C9D1D9">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-fast.vercel.app/api?username=rolex-esto&show_icons=true&hide_border=true&bg_color=FFFFFF&title_color=00A06E&icon_color=0284C7&text_color=24292F">
+    <img src="https://github-readme-stats-fast.vercel.app/api?username=rolex-esto&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00C389&icon_color=0EA5E9&text_color=C9D1D9" alt="GitHub stats for rolex-esto" height="165"/>
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=rolex-esto&layout=compact&hide_border=true&bg_color=0D1117&title_color=00C389&text_color=C9D1D9">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=rolex-esto&layout=compact&hide_border=true&bg_color=FFFFFF&title_color=00A06E&text_color=24292F">
+    <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=rolex-esto&layout=compact&hide_border=true&bg_color=0D1117&title_color=00C389&text_color=C9D1D9" alt="Top languages for rolex-esto" height="165"/>
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=rolex-esto&hide_border=true&background=0D1117&ring=00C389&fire=0EA5E9&currStreakLabel=00C389&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E">
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=rolex-esto&hide_border=true&background=FFFFFF&ring=00A06E&fire=0284C7&currStreakLabel=00A06E&sideLabels=24292F&currStreakNum=24292F&sideNums=24292F&dates=57606A">
+    <img src="https://streak-stats.demolab.com/?user=rolex-esto&hide_border=true&background=0D1117&ring=00C389&fire=0EA5E9&currStreakLabel=00C389&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E" alt="GitHub contribution streak for rolex-esto"/>
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rolex-esto/rolex-esto/output/github-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rolex-esto/rolex-esto/output/github-snake.svg">
+    <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/rolex-esto/rolex-esto/output/github-snake.svg">
+  </picture>
+</p>
 
 <div align="center">
 
-<h2 align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/mail.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/mail.svg?color=%2300A06E"><img src="https://api.iconify.design/pixelarticons/mail.svg?color=%2300C389" width="24" height="24" alt="" align="absmiddle"/></picture> Let's Connect</h2>
+## <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/mail.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/mail.svg?color=%2300A06E"><img src="https://api.iconify.design/pixelarticons/mail.svg?color=%2300C389" width="24" height="24" alt="" align="absmiddle"/></picture> Let's Connect
 
 I'm most interested in opportunities where I can build, experiment, ship, and learn from real-world problems.
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/globe.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/globe.svg?color=%2300A06E"><img src="https://api.iconify.design/pixelarticons/globe.svg?color=%2300C389" width="24" height="24" alt="" align="absmiddle"/></picture> [Portfolio](https://rolex-esto.vercel.app/) · <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/linkedin.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/linkedin.svg?color=%2300A06E"><img src="https://api.iconify.design/pixelarticons/linkedin.svg?color=%2300A06E" width="24" height="24" alt="" align="absmiddle"/></picture> [LinkedIn](https://linkedin.com/in/rolex-esto-1b33b2391/) · <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/mail.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/mail.svg?color=%2300A06E"><img src="https://api.iconify.design/pixelarticons/mail.svg?color=%2300C389" width="24" height="24" alt="" align="absmiddle"/></picture> [Email](mailto:rolexesto0001@gmail.com) · <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/github.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/github.svg?color=%2300A06E"><img src="https://api.iconify.design/pixelarticons/github.svg?color=%2300C389" width="24" height="24" alt="" align="absmiddle"/></picture> [GitHub](https://github.com/rolex-esto)
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/globe.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/globe.svg?color=%2300A06E"><img src="https://api.iconify.design/pixelarticons/globe.svg?color=%2300C389" width="24" height="24" alt="" align="absmiddle"/></picture> [Portfolio](https://rolex-esto.vercel.app/) · <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/linkedin.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/linkedin.svg?color=%2300A06E"><img src="https://api.iconify.design/pixelarticons/linkedin.svg?color=%2300C389" width="24" height="24" alt="" align="absmiddle"/></picture> [LinkedIn](https://linkedin.com/in/rolex-esto-1b33b2391/) · <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/mail.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/mail.svg?color=%2300A06E"><img src="https://api.iconify.design/pixelarticons/mail.svg?color=%2300C389" width="24" height="24" alt="" align="absmiddle"/></picture> [Email](mailto:rolexesto0001@gmail.com) · <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/github.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/github.svg?color=%2300A06E"><img src="https://api.iconify.design/pixelarticons/github.svg?color=%2300C389" width="24" height="24" alt="" align="absmiddle"/></picture> [GitHub](https://github.com/rolex-esto)
 
-<hr/>
-
-<h4 align="center">made with <img src=".github/assets/heart.gif" width="25" height="25" alt="♥"/> by <a href="https://github.com/rolex-esto">Rolex</a></h4>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=140&color=0:00C389,100:0EA5E9&section=footer" alt="Footer wave" width="100%"/>
 
 </div>
