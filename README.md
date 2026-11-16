@@ -133,7 +133,7 @@ Hackathon project · no public repository or demo
 
 #### Certifications — 9 certifications · 1 professional recognition
 
-> **Microsoft Certified: Fabric Data Engineer Associate (DP-700)** · Earned Nov 2026 · Valid until Nov 10, 2027 · [**Verify on Microsoft Learn ↗**](https://learn.microsoft.com/en-us/users/rolexesto-7021/credentials/certification/fabric-data-engineer-associate?tab=credentials-tab)
+**Featured:** **Microsoft Certified: Fabric Data Engineer Associate (DP-700)** · Earned Nov 2026 · Valid until Nov 10, 2027 · [**Verify on Microsoft Learn ↗**](https://learn.microsoft.com/en-us/users/rolexesto-7021/credentials/certification/fabric-data-engineer-associate?tab=credentials-tab)
 
 - **Microsoft:** Fabric Data Engineer Associate (DP-700), Nov 2026
 - **Data:** DataCamp Certified Associate Data Engineer (Jul 2026) · Associate Data Analyst (May 2026) · SQL Associate (Apr 2026) · Data Literacy (Jul 2026)
