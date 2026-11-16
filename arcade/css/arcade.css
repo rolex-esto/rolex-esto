@@ -86,6 +86,9 @@ h3 { font: clamp(14px, 3vw, 20px)/1.4 var(--pixel); color: var(--green); margin:
 .objective { margin: 8px 0; color: var(--green); font-size: 14px; min-height: 1.6em; }
 
 .stage { position: relative; background: #050811; border: 3px solid var(--green); box-shadow: 0 0 0 3px #050811; }
+.loading { position: absolute; inset: 0; display: grid; place-items: center; font: 12px/1.6 var(--pixel); color: var(--green); background: #050811; z-index: 2; }
+.loading[hidden] { display: none; }
+html:not([data-ready]) .overlay { visibility: hidden; }
 #world { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; max-height: calc(100svh - 120px); object-fit: contain; image-rendering: pixelated; image-rendering: crisp-edges; background: #0f1a2d; touch-action: none; }
 
 .banner {
