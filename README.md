@@ -2,7 +2,7 @@
 <div align="center">
 
 <a href="https://github.com/rolex-esto/rolex-esto/tree/main/arcade">
-  <img src="https://capsule-render.vercel.app/api?type=rect&height=155&color=0:0B1020,50:182A36,100:0B1020&text=ROLEX.EXE&fontColor=70F5A3&fontSize=55&fontAlignY=40&desc=PRESS%20START%20%E2%96%B6%20DEVELOPER%20QUEST&descSize=19&descAlignY=70" width="100%" alt="ROLEX.EXE Pixel Arcade Developer Quest"/>
+  <img src="assets/pixel-arcade-banner.svg" width="100%" alt="ROLEX.EXE pixel arcade developer quest with retro game graphics"/>
 </a>
 
 <code>PLAYER 01</code> &nbsp; <code>SOFTWARE · AI · DATA · CLOUD</code> &nbsp; <code>MODE: BUILD / LEARN / SHIP</code>
