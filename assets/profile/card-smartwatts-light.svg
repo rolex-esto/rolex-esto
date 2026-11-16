@@ -1,22 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="250" viewBox="0 0 480 250" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="270" viewBox="0 0 480 270" role="img" aria-labelledby="t d">
 <title id="t">SmartWatts — Top 10 Finalist · Meralco IDOL Hackathon</title>
-<desc id="d">Helps households understand electricity use with bill scanning, appliance tracking, estimates, and an English/Tagalog AI advisor. Role: Lead Developer · Team KuryenTech. Highlights: Bill scanning, Appliance tracking, AI advisor.</desc>
+<desc id="d">Helps households understand electricity use: bill scanning, appliance tracking, and an English/Tagalog AI advisor. Role: Lead Developer · Team KuryenTech. Highlights: Bill scanning, Appliance tracking, AI advisor.</desc>
 <style>@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
-<rect x="1" y="1" width="478" height="248" rx="14" fill="#F6F8FA" stroke="#D0D7DE" stroke-width="2"/>
+<rect x="1" y="1" width="478" height="268" rx="14" fill="#F6F8FA" stroke="#D0D7DE" stroke-width="2"/>
 <rect x="22" y="22" width="56" height="48" rx="8" fill="#141D31"/>
 <path fill="#70F5A3" d="M50 30h8v4h-8zM46 34h12v4h-12zM42 38h12v4h-12zM38 42h28v4h-28zM50 46h12v4h-12zM46 50h12v4h-12zM42 54h8v4h-8zM38 58h4v4h-4z"/>
-<text x="94" y="44" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="21" font-weight="700" fill="#1F2328">SmartWatts</text>
-<rect x="94" y="54" width="298" height="22" rx="11" fill="none" stroke="#9A6700" stroke-width="1.5"/>
-<text x="243.0" y="69" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#9A6700">Top 10 Finalist · Meralco IDOL Hackathon</text>
-<text x="24" y="106" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="14" fill="#1F2328">Helps households understand electricity use with bill</text>
-<text x="24" y="126" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="14" fill="#1F2328">scanning, appliance tracking, estimates, and an</text>
-<text x="24" y="146" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="14" fill="#1F2328">English/Tagalog AI advisor.</text>
-<text x="24" y="196" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="12" fill="#57606A"><tspan font-weight="700">ROLE</tspan>  Lead Developer · Team KuryenTech</text>
-<text x="456" y="196" text-anchor="end" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="10" fill="#57606A">HIGHLIGHTS</text>
-<rect x="24" y="208" width="110" height="24" rx="6" fill="#EAEEF2"/>
-<text x="79.0" y="224" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="12" fill="#1F2328">Bill scanning</text>
-<rect x="142" y="208" width="145" height="24" rx="6" fill="#EAEEF2"/>
-<text x="214.5" y="224" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="12" fill="#1F2328">Appliance tracking</text>
-<rect x="295" y="208" width="89" height="24" rx="6" fill="#EAEEF2"/>
-<text x="339.5" y="224" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="12" fill="#1F2328">AI advisor</text>
+<text x="94" y="45" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="24" font-weight="700" fill="#1F2328">SmartWatts</text>
+<rect x="94" y="54" width="321" height="24" rx="12" fill="none" stroke="#9A6700" stroke-width="1.5"/>
+<text x="254.5" y="70" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#9A6700">Top 10 Finalist · Meralco IDOL Hackathon</text>
+<text x="24" y="112" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="17" fill="#1F2328">Helps households understand electricity use:</text>
+<text x="24" y="136" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="17" fill="#1F2328">bill scanning, appliance tracking, and an</text>
+<text x="24" y="160" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="17" fill="#1F2328">English/Tagalog AI advisor.</text>
+<text x="24" y="206" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="14" fill="#57606A"><tspan font-weight="700">ROLE</tspan>  Lead Developer · Team KuryenTech</text>
+<rect x="24" y="222" width="125" height="28" rx="7" fill="#EAEEF2"/>
+<text x="86.5" y="241" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="14" fill="#1F2328">Bill scanning</text>
+<rect x="157" y="222" width="166" height="28" rx="7" fill="#EAEEF2"/>
+<text x="240.0" y="241" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="14" fill="#1F2328">Appliance tracking</text>
+<rect x="331" y="222" width="101" height="28" rx="7" fill="#EAEEF2"/>
+<text x="381.5" y="241" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="14" fill="#1F2328">AI advisor</text>
 </svg>

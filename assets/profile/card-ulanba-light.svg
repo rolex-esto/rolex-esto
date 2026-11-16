@@ -1,23 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="250" viewBox="0 0 480 250" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="270" viewBox="0 0 480 270" role="img" aria-labelledby="t d">
 <title id="t">Ulan Ba? — Solo project</title>
-<desc id="d">Philippine rain forecast dashboard with hourly rain and severity forecasts for 17 regions and 150+ cities. Role: Creator &amp; Frontend Developer. Stack: React, TypeScript, Vite, Recharts.</desc>
+<desc id="d">Philippine rain forecast dashboard: hourly rain and severity for 17 regions and 150+ cities. Role: Creator &amp; Frontend Developer. Stack: React, TypeScript, Vite, Recharts.</desc>
 <style>@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
-<rect x="1" y="1" width="478" height="248" rx="14" fill="#F6F8FA" stroke="#D0D7DE" stroke-width="2"/>
+<rect x="1" y="1" width="478" height="268" rx="14" fill="#F6F8FA" stroke="#D0D7DE" stroke-width="2"/>
 <rect x="22" y="22" width="56" height="48" rx="8" fill="#141D31"/>
 <path fill="#70F5A3" d="M42 30h16v4h-16zM38 34h24v4h-24zM34 38h32v4h-32zM34 42h12v4h-12zM54 42h12v4h-12zM38 46h24v4h-24z"/><path fill="#0B1020" d="M46 42h8v4h-8z"/><path fill="#A78BFA" d="M42 50h16v4h-16zM38 54h24v4h-24zM34 58h32v4h-32z"/>
-<text x="94" y="44" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="21" font-weight="700" fill="#1F2328">Ulan Ba?</text>
-<rect x="94" y="54" width="103" height="22" rx="11" fill="none" stroke="#6D4ED8" stroke-width="1.5"/>
-<text x="145.5" y="69" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#6D4ED8">Solo project</text>
-<text x="24" y="106" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="14" fill="#1F2328">Philippine rain forecast dashboard with hourly rain and</text>
-<text x="24" y="126" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="14" fill="#1F2328">severity forecasts for 17 regions and 150+ cities.</text>
-<text x="24" y="196" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="12" fill="#57606A"><tspan font-weight="700">ROLE</tspan>  Creator &amp; Frontend Developer</text>
-<text x="456" y="196" text-anchor="end" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="10" fill="#57606A">STACK</text>
-<rect x="24" y="208" width="54" height="24" rx="6" fill="#EAEEF2"/>
-<text x="51.0" y="224" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="12" fill="#1F2328">React</text>
-<rect x="86" y="208" width="89" height="24" rx="6" fill="#EAEEF2"/>
-<text x="130.5" y="224" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="12" fill="#1F2328">TypeScript</text>
-<rect x="183" y="208" width="47" height="24" rx="6" fill="#EAEEF2"/>
-<text x="206.5" y="224" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="12" fill="#1F2328">Vite</text>
-<rect x="238" y="208" width="75" height="24" rx="6" fill="#EAEEF2"/>
-<text x="275.5" y="224" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="12" fill="#1F2328">Recharts</text>
+<text x="94" y="45" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="24" font-weight="700" fill="#1F2328">Ulan Ba?</text>
+<rect x="94" y="54" width="110" height="24" rx="12" fill="none" stroke="#6D4ED8" stroke-width="1.5"/>
+<text x="149.0" y="70" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#6D4ED8">Solo project</text>
+<text x="24" y="112" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="17" fill="#1F2328">Philippine rain forecast dashboard: hourly rain</text>
+<text x="24" y="136" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="17" fill="#1F2328">and severity for 17 regions and 150+ cities.</text>
+<text x="24" y="206" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="14" fill="#57606A"><tspan font-weight="700">ROLE</tspan>  Creator &amp; Frontend Developer</text>
+<rect x="24" y="222" width="60" height="28" rx="7" fill="#EAEEF2"/>
+<text x="54.0" y="241" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="14" fill="#1F2328">React</text>
+<rect x="92" y="222" width="101" height="28" rx="7" fill="#EAEEF2"/>
+<text x="142.5" y="241" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="14" fill="#1F2328">TypeScript</text>
+<rect x="201" y="222" width="52" height="28" rx="7" fill="#EAEEF2"/>
+<text x="227.0" y="241" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="14" fill="#1F2328">Vite</text>
+<rect x="261" y="222" width="84" height="28" rx="7" fill="#EAEEF2"/>
+<text x="303.0" y="241" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="14" fill="#1F2328">Recharts</text>
 </svg>

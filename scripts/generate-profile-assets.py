@@ -141,22 +141,22 @@ PILL_ICONS = {
 # ---------------------------------------------------------------- project cards
 PROJECTS = [
     ("bizpilot", "merchant", "BizPilot", "Founder · Active development",
-     "All-in-one operations hub for Filipino online sellers: one inbox for social messages, conversational ordering, stock, and an AI sales assistant.",
+     "Operations hub for Filipino online sellers: one inbox, chat ordering, stock, and an AI sales assistant.",
      "Founder & Developer", "HIGHLIGHTS", ["Unified inbox", "AI sales assistant", "Ops calendar"]),
     ("smartwatts", "energy", "SmartWatts", "Top 10 Finalist · Meralco IDOL Hackathon",
-     "Helps households understand electricity use with bill scanning, appliance tracking, estimates, and an English/Tagalog AI advisor.",
+     "Helps households understand electricity use: bill scanning, appliance tracking, and an English/Tagalog AI advisor.",
      "Lead Developer · Team KuryenTech", "HIGHLIGHTS", ["Bill scanning", "Appliance tracking", "AI advisor"]),
     ("opspilot", "incident", "OpsPilot", "Top 2 Winner · DevKada × ClankerCloud",
-     "AI DevOps incident investigator that finds the cause of outages from evidence — and says so when a cause isn't confirmed yet.",
-     "Solo Developer", "STACK", ["AI agent design", "Incident response", "Observability"]),
+     "AI incident investigator that finds the cause of outages from evidence — and says when it isn't confirmed.",
+     "Solo Developer", "STACK", ["AI agents", "Incident response", "Observability"]),
     ("baharoute", "flood", "BahaRoute", "Top 10 Climate Track · KiroxHackaton",
-     "Flood-aware routing for Metro Manila — 17 cities, 1,710 barangays — using Project NOAH flood history, rainfall forecasts, and voice alerts.",
+     "Flood-aware routing for Metro Manila using Project NOAH flood history, rain forecasts, and voice alerts.",
      "Lead Developer", "HIGHLIGHTS", ["Project NOAH data", "Rain forecasts", "Voice alerts"]),
     ("wwl", "weather", "Weather Weather Lang", "3rd Place · KiroVerse Hack Sprint",
      "Chat-style weather companion that gives friendly, conversational weather updates.",
      "AI Orchestrator · Team project", "STACK", ["React", "TypeScript", "DuckDB-WASM", "Open-Meteo"]),
     ("ulanba", "observatory", "Ulan Ba?", "Solo project",
-     "Philippine rain forecast dashboard with hourly rain and severity forecasts for 17 regions and 150+ cities.",
+     "Philippine rain forecast dashboard: hourly rain and severity for 17 regions and 150+ cities.",
      "Creator & Frontend Developer", "STACK", ["React", "TypeScript", "Vite", "Recharts"]),
 ]
 
@@ -164,26 +164,25 @@ PROJECTS = [
 def card(p, theme):
     pid, icon, title, badge, summary, role, kind, chips = p
     t = T[theme]
-    W, H = 480, 250
+    W, H = 480, 270
     o = svg_open(W, H, f"{title} — {badge}", f"{summary} Role: {role}. {kind.title()}: {', '.join(chips)}.")
     o.append(f'<rect x="1" y="1" width="{W - 2}" height="{H - 2}" rx="14" fill="{t["panel"]}" stroke="{t["border"]}" stroke-width="2"/>')
     rows, pal = ICONS[icon]
     o.append(f'<rect x="22" y="22" width="56" height="48" rx="8" fill="#141D31"/>')
     o.append(sprite(rows, pal, 26, 30, 4))
-    o.append(f'<text x="94" y="44" font-family="{SANS}" font-size="21" font-weight="700" fill="{t["text"]}">{escape(title)}</text>')
-    bw = chip_w(badge, 12)
+    o.append(f'<text x="94" y="45" font-family="{SANS}" font-size="24" font-weight="700" fill="{t["text"]}">{escape(title)}</text>')
+    bw = chip_w(badge, 13)
     accent = t["gold"] if badge[0].isdigit() or badge.startswith("Top") else t["purple"]
-    o.append(f'<rect x="94" y="54" width="{bw}" height="22" rx="11" fill="none" stroke="{accent}" stroke-width="1.5"/>')
-    o.append(f'<text x="{94 + bw / 2}" y="69" text-anchor="middle" font-family="{SANS}" font-size="12" font-weight="600" fill="{accent}">{escape(badge)}</text>')
-    for i, line in enumerate(wrap(summary, 14, W - 48)[:4]):
-        o.append(f'<text x="24" y="{106 + i * 20}" font-family="{SANS}" font-size="14" fill="{t["text"]}">{escape(line)}</text>')
-    o.append(f'<text x="24" y="196" font-family="{SANS}" font-size="12" fill="{t["muted"]}"><tspan font-weight="700">ROLE</tspan>  {escape(role)}</text>')
+    o.append(f'<rect x="94" y="54" width="{bw}" height="24" rx="12" fill="none" stroke="{accent}" stroke-width="1.5"/>')
+    o.append(f'<text x="{94 + bw / 2}" y="70" text-anchor="middle" font-family="{SANS}" font-size="13" font-weight="600" fill="{accent}">{escape(badge)}</text>')
+    for i, line in enumerate(wrap(summary, 17, W - 48)[:3]):
+        o.append(f'<text x="24" y="{112 + i * 24}" font-family="{SANS}" font-size="17" fill="{t["text"]}">{escape(line)}</text>')
+    o.append(f'<text x="24" y="206" font-family="{SANS}" font-size="14" fill="{t["muted"]}"><tspan font-weight="700">ROLE</tspan>  {escape(role)}</text>')
     x = 24
-    o.append(f'<text x="{W - 24}" y="196" text-anchor="end" font-family="{MONO}" font-size="10" fill="{t["muted"]}">{kind}</text>')
     for c in chips:
-        w = chip_w(c, 12)
-        o.append(f'<rect x="{x}" y="208" width="{w}" height="24" rx="6" fill="{t["chip"]}"/>')
-        o.append(f'<text x="{x + w / 2}" y="224" text-anchor="middle" font-family="{SANS}" font-size="12" fill="{t["text"]}">{escape(c)}</text>')
+        w = chip_w(c, 14)
+        o.append(f'<rect x="{x}" y="222" width="{w}" height="28" rx="7" fill="{t["chip"]}"/>')
+        o.append(f'<text x="{x + w / 2}" y="241" text-anchor="middle" font-family="{SANS}" font-size="14" fill="{t["text"]}">{escape(c)}</text>')
         x += w + 8
     o.append("</svg>")
     return "\n".join(o)

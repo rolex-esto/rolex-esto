@@ -1,22 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="250" viewBox="0 0 480 250" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="270" viewBox="0 0 480 270" role="img" aria-labelledby="t d">
 <title id="t">BahaRoute — Top 10 Climate Track · KiroxHackaton</title>
-<desc id="d">Flood-aware routing for Metro Manila — 17 cities, 1,710 barangays — using Project NOAH flood history, rainfall forecasts, and voice alerts. Role: Lead Developer. Highlights: Project NOAH data, Rain forecasts, Voice alerts.</desc>
+<desc id="d">Flood-aware routing for Metro Manila using Project NOAH flood history, rain forecasts, and voice alerts. Role: Lead Developer. Highlights: Project NOAH data, Rain forecasts, Voice alerts.</desc>
 <style>@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
-<rect x="1" y="1" width="478" height="248" rx="14" fill="#F6F8FA" stroke="#D0D7DE" stroke-width="2"/>
+<rect x="1" y="1" width="478" height="268" rx="14" fill="#F6F8FA" stroke="#D0D7DE" stroke-width="2"/>
 <rect x="22" y="22" width="56" height="48" rx="8" fill="#141D31"/>
 <path fill="#FFD166" d="M42 30h4v4h-4zM38 34h12v4h-12zM34 38h20v4h-20zM42 42h4v4h-4z"/><path fill="#8fd3ff" d="M26 46h8v4h-8zM42 46h8v4h-8zM58 46h8v4h-8zM30 50h44v4h-44zM26 54h4v4h-4zM38 54h8v4h-8zM54 54h8v4h-8zM70 54h4v4h-4zM30 58h44v4h-44z"/>
-<text x="94" y="44" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="21" font-weight="700" fill="#1F2328">BahaRoute</text>
-<rect x="94" y="54" width="270" height="22" rx="11" fill="none" stroke="#9A6700" stroke-width="1.5"/>
-<text x="229.0" y="69" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#9A6700">Top 10 Climate Track · KiroxHackaton</text>
-<text x="24" y="106" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="14" fill="#1F2328">Flood-aware routing for Metro Manila — 17 cities, 1,710</text>
-<text x="24" y="126" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="14" fill="#1F2328">barangays — using Project NOAH flood history, rainfall</text>
-<text x="24" y="146" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="14" fill="#1F2328">forecasts, and voice alerts.</text>
-<text x="24" y="196" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="12" fill="#57606A"><tspan font-weight="700">ROLE</tspan>  Lead Developer</text>
-<text x="456" y="196" text-anchor="end" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="10" fill="#57606A">HIGHLIGHTS</text>
-<rect x="24" y="208" width="138" height="24" rx="6" fill="#EAEEF2"/>
-<text x="93.0" y="224" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="12" fill="#1F2328">Project NOAH data</text>
-<rect x="170" y="208" width="117" height="24" rx="6" fill="#EAEEF2"/>
-<text x="228.5" y="224" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="12" fill="#1F2328">Rain forecasts</text>
-<rect x="295" y="208" width="103" height="24" rx="6" fill="#EAEEF2"/>
-<text x="346.5" y="224" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="12" fill="#1F2328">Voice alerts</text>
+<text x="94" y="45" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="24" font-weight="700" fill="#1F2328">BahaRoute</text>
+<rect x="94" y="54" width="291" height="24" rx="12" fill="none" stroke="#9A6700" stroke-width="1.5"/>
+<text x="239.5" y="70" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#9A6700">Top 10 Climate Track · KiroxHackaton</text>
+<text x="24" y="112" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="17" fill="#1F2328">Flood-aware routing for Metro Manila using</text>
+<text x="24" y="136" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="17" fill="#1F2328">Project NOAH flood history, rain forecasts, and</text>
+<text x="24" y="160" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="17" fill="#1F2328">voice alerts.</text>
+<text x="24" y="206" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="14" fill="#57606A"><tspan font-weight="700">ROLE</tspan>  Lead Developer</text>
+<rect x="24" y="222" width="158" height="28" rx="7" fill="#EAEEF2"/>
+<text x="103.0" y="241" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="14" fill="#1F2328">Project NOAH data</text>
+<rect x="190" y="222" width="133" height="28" rx="7" fill="#EAEEF2"/>
+<text x="256.5" y="241" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="14" fill="#1F2328">Rain forecasts</text>
+<rect x="331" y="222" width="117" height="28" rx="7" fill="#EAEEF2"/>
+<text x="389.5" y="241" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="14" fill="#1F2328">Voice alerts</text>
 </svg>

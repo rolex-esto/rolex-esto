@@ -20,10 +20,19 @@
 I'm a 4th-year **BSIT student at STI College Fairview** who likes shipping real software: **AI-powered apps**, **data pipelines**, and **cloud-backed web products**. I founded **BizPilot**, build client websites and NFC pages at **TAPME**, and spend my weekends at hackathons, where my teams placed in the **top finishes four times in 2026**.
 
 ```yaml
-now:        BizPilot · TAPME client sites & NFC pages · Microsoft Fabric data pipelines
-focus:      AI-powered apps · data engineering · cloud
-certified:  Microsoft Fabric Data Engineer Associate (DP-700) · ISC2 CC · DICT Cybersecurity Professional (Cat. 2) · +7 more
-fellowships: Eskwelabs Innovation Fellowship, Cohort 11 · GCI World 2026 (University of Tokyo)
+building:
+  - BizPilot (founder)
+  - TAPME client sites & NFC pages
+  - Microsoft Fabric data pipelines
+focus: [AI-powered apps, data engineering, cloud]
+certified:
+  - Microsoft Fabric Data Engineer (DP-700)
+  - ISC2 Certified in Cybersecurity
+  - DICT Cybersecurity Professional (Cat. 2)
+  - +7 more ↓
+fellowships:
+  - Eskwelabs Innovation Fellowship, Cohort 11
+  - GCI World 2026, University of Tokyo
 ```
 
 <img src="assets/profile/divider.svg" width="100%" alt=""/>
