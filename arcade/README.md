@@ -10,7 +10,7 @@
 
 ## Play it
 
-- **Online:** GitHub Pages hosting is prepared but not enabled yet. Once it is, the game will be at `https://rolex-esto.github.io/rolex-esto/arcade/`.
+- **Online:** **[rolex-esto.github.io/rolex-esto/arcade/](https://rolex-esto.github.io/rolex-esto/arcade/)** (GitHub Pages)
 - **Locally:** the game uses JavaScript modules, which browsers block on `file://`. From the repository root, run:
 
   ```bash

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="270" viewBox="0 0 480 270" role="img" aria-labelledby="t d">
+<title id="t">Weather Weather Lang — 3rd Place · KiroVerse Hack Sprint</title>
+<desc id="d">Chat-style weather companion that gives friendly, conversational weather updates. Role: AI Orchestrator · Team project. Stack: React, TypeScript, DuckDB-WASM, Open-Meteo.</desc>
+<style>@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<rect x="1" y="1" width="478" height="268" rx="14" fill="#F6F8FA" stroke="#D0D7DE" stroke-width="2"/>
+<rect x="22" y="22" width="56" height="48" rx="8" fill="#141D31"/>
+<path fill="#E8F2FF" d="M42 30h16v4h-16zM34 34h32v4h-32zM30 38h40v4h-40zM26 42h48v4h-48zM30 46h40v4h-40z"/><path fill="#8fd3ff" d="M34 50h4v4h-4zM46 50h4v4h-4zM58 50h4v4h-4zM30 54h4v4h-4zM42 54h4v4h-4zM54 54h4v4h-4z"/>
+<text x="94" y="45" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="24" font-weight="700" fill="#1F2328">Weather Weather Lang</text>
+<rect x="94" y="54" width="268" height="24" rx="12" fill="none" stroke="#9A6700" stroke-width="1.5"/>
+<text x="228.0" y="70" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#9A6700">3rd Place · KiroVerse Hack Sprint</text>
+<text x="24" y="112" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="17" fill="#1F2328">Chat-style weather companion that gives</text>
+<text x="24" y="136" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="17" fill="#1F2328">friendly, conversational weather updates.</text>
+<text x="24" y="206" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="14" fill="#57606A"><tspan font-weight="700">ROLE</tspan>  AI Orchestrator · Team project</text>
+<rect x="24" y="222" width="60" height="28" rx="7" fill="#EAEEF2"/>
+<text x="54.0" y="241" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="14" fill="#1F2328">React</text>
+<rect x="92" y="222" width="101" height="28" rx="7" fill="#EAEEF2"/>
+<text x="142.5" y="241" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="14" fill="#1F2328">TypeScript</text>
+<rect x="201" y="222" width="109" height="28" rx="7" fill="#EAEEF2"/>
+<text x="255.5" y="241" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="14" fill="#1F2328">DuckDB-WASM</text>
+<rect x="318" y="222" width="101" height="28" rx="7" fill="#EAEEF2"/>
+<text x="368.5" y="241" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="14" fill="#1F2328">Open-Meteo</text>
+</svg>

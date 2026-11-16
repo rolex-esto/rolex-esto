@@ -2,6 +2,8 @@
 
 **Branch:** `feature/rolex-exe-developer-quest` (from `main` @ `97386f4`)
 **Date:** 2026-11-17
+> **Update 2026-11-17:** GitHub Pages is now enabled (`main` / root) and the arcade passed the full test suite on the live URL. See `GITHUB_PROFILE_REDESIGN_AUDIT.md`. Section 6 below is historical.
+
 **Verdict:** **PASS_WITH_LIMITATIONS**. The README redesign and the playable game are implemented and tested locally. GitHub Pages is **not enabled**, so the hosted game URL is not live yet. Manual steps are listed below.
 
 ---
