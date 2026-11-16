@@ -67,7 +67,7 @@ One place for Filipino online sellers to manage customer messages, orders, stock
 </td>
 <td width="50%" valign="top">
 
-### SmartWatts (November 12–13, 2026) <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/trophy.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/trophy.svg?color=%2300A06E"><img src="https://api.iconify.design/pixelarticons/trophy.svg?color=%2300C389" width="24" height="24" alt="Top 10 finalist" align="absmiddle"/></picture>
+### SmartWatts <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/trophy.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/trophy.svg?color=%2300A06E"><img src="https://api.iconify.design/pixelarticons/trophy.svg?color=%2300C389" width="24" height="24" alt="Top 10 finalist" align="absmiddle"/></picture>
 **Electricity use information and tracking tool** · Meralco IDOL Hackathon · Team KuryenTech
 
 Helps households understand electricity use with bill scanning, appliance tracking, usage trends, estimates, and practical suggestions. SmartWatts Personal includes goals, challenges, rewards, and an AI advisor in English and Tagalog.
