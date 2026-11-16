@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="406" viewBox="0 0 1000 406" role="img" aria-labelledby="t d">
+<title id="t">Tech stack</title>
+<desc id="d">Languages: TypeScript, JavaScript, Python, PHP, SQL; Frontend: React, Next.js, Vite, HTML, CSS, Recharts; Backend: Node.js, FastAPI, OAuth; Data Engineering: Microsoft Fabric, Power BI, Pandas, NumPy, DuckDB, Parquet, Excel; Databases: PostgreSQL, MySQL; Cloud: AWS, Azure, Google Cloud, Vercel; AI Tools: Claude Code, Codex, Cursor, Kiro, Antigravity; DevOps &amp; Security: Git, GitHub Actions, Playwright, IAM</desc>
+<style>@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<rect x="1" y="1" width="998" height="404" rx="14" fill="#161B22" stroke="#30363D" stroke-width="2"/>
+<path fill="#70F5A3" d="M24 35h6v6h-6z"/>
+<text x="40" y="43" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#E6EDF3">Languages</text>
+<rect x="210" y="24" width="107" height="28" rx="7" fill="#0D1117" stroke="#30363D"/>
+<rect x="220" y="34" width="8" height="8" fill="#3178C6"/>
+<text x="234" y="43" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13" fill="#E6EDF3">TypeScript</text>
+<rect x="325" y="24" width="107" height="28" rx="7" fill="#0D1117" stroke="#30363D"/>
+<rect x="335" y="34" width="8" height="8" fill="#F7DF1E"/>
+<text x="349" y="43" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13" fill="#E6EDF3">JavaScript</text>
+<rect x="440" y="24" width="77" height="28" rx="7" fill="#0D1117" stroke="#30363D"/>
+<rect x="450" y="34" width="8" height="8" fill="#3776AB"/>
+<text x="464" y="43" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13" fill="#E6EDF3">Python</text>
+<rect x="525" y="24" width="54" height="28" rx="7" fill="#0D1117" stroke="#30363D"/>
+<rect x="535" y="34" width="8" height="8" fill="#777BB4"/>
+<text x="549" y="43" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13" fill="#E6EDF3">PHP</text>
+<rect x="587" y="24" width="54" height="28" rx="7" fill="#0D1117" stroke="#30363D"/>
+<rect x="597" y="34" width="8" height="8" fill="#E38C00"/>
+<text x="611" y="43" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13" fill="#E6EDF3">SQL</text>
+<path fill="#70F5A3" d="M24 81h6v6h-6z"/>
+<text x="40" y="89" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#E6EDF3">Frontend</text>
+<rect x="210" y="70" width="69" height="28" rx="7" fill="#0D1117" stroke="#30363D"/>
+<rect x="220" y="80" width="8" height="8" fill="#61DAFB"/>
+<text x="234" y="89" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13" fill="#E6EDF3">React</text>
+<rect x="287" y="70" width="84" height="28" rx="7" fill="#0D1117" stroke="#30363D"/>
+<rect x="297" y="80" width="8" height="8" fill="#9BA3AF"/>
+<text x="311" y="89" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13" fill="#E6EDF3">Next.js</text>
+<rect x="379" y="70" width="62" height="28" rx="7" fill="#0D1117" stroke="#30363D"/>
+<rect x="389" y="80" width="8" height="8" fill="#9467FF"/>
+<text x="403" y="89" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13" fill="#E6EDF3">Vite</text>
+<rect x="449" y="70" width="62" height="28" rx="7" fill="#0D1117" stroke="#30363D"/>
+<rect x="459" y="80" width="8" height="8" fill="#E34F26"/>
+<text x="473" y="89" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13" fill="#E6EDF3">HTML</text>
+<rect x="519" y="70" width="54" height="28" rx="7" fill="#0D1117" stroke="#30363D"/>
+<rect x="529" y="80" width="8" height="8" fill="#1572B6"/>
+<text x="543" y="89" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13" fill="#E6EDF3">CSS</text>
+<rect x="581" y="70" width="92" height="28" rx="7" fill="#0D1117" stroke="#30363D"/>
+<rect x="591" y="80" width="8" height="8" fill="#22B5BF"/>
+<text x="605" y="89" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13" fill="#E6EDF3">Recharts</text>
+<path fill="#70F5A3" d="M24 127h6v6h-6z"/>
+<text x="40" y="135" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#E6EDF3">Backend</text>
+<rect x="210" y="116" width="84" height="28" rx="7" fill="#0D1117" stroke="#30363D"/>
+<rect x="220" y="126" width="8" height="8" fill="#5FA04E"/>
+<text x="234" y="135" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13" fill="#E6EDF3">Node.js</text>
+<rect x="302" y="116" width="84" height="28" rx="7" fill="#0D1117" stroke="#30363D"/>
+<rect x="312" y="126" width="8" height="8" fill="#009688"/>
+<text x="326" y="135" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13" fill="#E6EDF3">FastAPI</text>
+<rect x="394" y="116" width="69" height="28" rx="7" fill="#0D1117" stroke="#30363D"/>
+<rect x="404" y="126" width="8" height="8" fill="#EB5424"/>
+<text x="418" y="135" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13" fill="#E6EDF3">OAuth</text>
+<path fill="#70F5A3" d="M24 173h6v6h-6z"/>
+<text x="40" y="181" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#E6EDF3">Data Engineering</text>
+<rect x="210" y="162" width="152" height="28" rx="7" fill="#0D1117" stroke="#30363D"/>
+<rect x="220" y="172" width="8" height="8" fill="#70F5A3"/>
+<text x="234" y="181" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13" fill="#E6EDF3">Microsoft Fabric</text>
+<rect x="370" y="162" width="92" height="28" rx="7" fill="#0D1117" stroke="#30363D"/>
+<rect x="380" y="172" width="8" height="8" fill="#F2C811"/>
+<text x="394" y="181" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13" fill="#E6EDF3">Power BI</text>
+<rect x="470" y="162" width="77" height="28" rx="7" fill="#0D1117" stroke="#30363D"/>
+<rect x="480" y="172" width="8" height="8" fill="#7B6CF6"/>
+<text x="494" y="181" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13" fill="#E6EDF3">Pandas</text>
+<rect x="555" y="162" width="69" height="28" rx="7" fill="#0D1117" stroke="#30363D"/>
+<rect x="565" y="172" width="8" height="8" fill="#4DABCF"/>
+<text x="579" y="181" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13" fill="#E6EDF3">NumPy</text>
+<rect x="632" y="162" width="77" height="28" rx="7" fill="#0D1117" stroke="#30363D"/>
+<rect x="642" y="172" width="8" height="8" fill="#FFF000"/>
+<text x="656" y="181" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13" fill="#E6EDF3">DuckDB</text>
+<rect x="717" y="162" width="84" height="28" rx="7" fill="#0D1117" stroke="#30363D"/>
+<rect x="727" y="172" width="8" height="8" fill="#50ABF1"/>
+<text x="741" y="181" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13" fill="#E6EDF3">Parquet</text>
+<rect x="809" y="162" width="69" height="28" rx="7" fill="#0D1117" stroke="#30363D"/>
+<rect x="819" y="172" width="8" height="8" fill="#217346"/>
+<text x="833" y="181" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13" fill="#E6EDF3">Excel</text>
+<path fill="#70F5A3" d="M24 219h6v6h-6z"/>
+<text x="40" y="227" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#E6EDF3">Databases</text>
+<rect x="210" y="208" width="107" height="28" rx="7" fill="#0D1117" stroke="#30363D"/>
+<rect x="220" y="218" width="8" height="8" fill="#4169E1"/>
+<text x="234" y="227" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13" fill="#E6EDF3">PostgreSQL</text>
+<rect x="325" y="208" width="69" height="28" rx="7" fill="#0D1117" stroke="#30363D"/>
+<rect x="335" y="218" width="8" height="8" fill="#4479A1"/>
+<text x="349" y="227" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13" fill="#E6EDF3">MySQL</text>
+<path fill="#70F5A3" d="M24 265h6v6h-6z"/>
+<text x="40" y="273" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#E6EDF3">Cloud</text>
+<rect x="210" y="254" width="54" height="28" rx="7" fill="#0D1117" stroke="#30363D"/>
+<rect x="220" y="264" width="8" height="8" fill="#FF9900"/>
+<text x="234" y="273" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13" fill="#E6EDF3">AWS</text>
+<rect x="272" y="254" width="69" height="28" rx="7" fill="#0D1117" stroke="#30363D"/>
+<rect x="282" y="264" width="8" height="8" fill="#0089D6"/>
+<text x="296" y="273" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13" fill="#E6EDF3">Azure</text>
+<rect x="349" y="254" width="122" height="28" rx="7" fill="#0D1117" stroke="#30363D"/>
+<rect x="359" y="264" width="8" height="8" fill="#4285F4"/>
+<text x="373" y="273" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13" fill="#E6EDF3">Google Cloud</text>
+<rect x="479" y="254" width="77" height="28" rx="7" fill="#0D1117" stroke="#30363D"/>
+<rect x="489" y="264" width="8" height="8" fill="#9BA3AF"/>
+<text x="503" y="273" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13" fill="#E6EDF3">Vercel</text>
+<path fill="#70F5A3" d="M24 311h6v6h-6z"/>
+<text x="40" y="319" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#E6EDF3">AI Tools</text>
+<rect x="210" y="300" width="114" height="28" rx="7" fill="#0D1117" stroke="#30363D"/>
+<rect x="220" y="310" width="8" height="8" fill="#D97757"/>
+<text x="234" y="319" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13" fill="#E6EDF3">Claude Code</text>
+<rect x="332" y="300" width="69" height="28" rx="7" fill="#0D1117" stroke="#30363D"/>
+<rect x="342" y="310" width="8" height="8" fill="#9BA3AF"/>
+<text x="356" y="319" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13" fill="#E6EDF3">Codex</text>
+<rect x="409" y="300" width="77" height="28" rx="7" fill="#0D1117" stroke="#30363D"/>
+<rect x="419" y="310" width="8" height="8" fill="#9BA3AF"/>
+<text x="433" y="319" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13" fill="#E6EDF3">Cursor</text>
+<rect x="494" y="300" width="62" height="28" rx="7" fill="#0D1117" stroke="#30363D"/>
+<rect x="504" y="310" width="8" height="8" fill="#A78BFA"/>
+<text x="518" y="319" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13" fill="#E6EDF3">Kiro</text>
+<rect x="564" y="300" width="114" height="28" rx="7" fill="#0D1117" stroke="#30363D"/>
+<rect x="574" y="310" width="8" height="8" fill="#4285F4"/>
+<text x="588" y="319" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13" fill="#E6EDF3">Antigravity</text>
+<path fill="#70F5A3" d="M24 357h6v6h-6z"/>
+<text x="40" y="365" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#E6EDF3">DevOps &amp; Security</text>
+<rect x="210" y="346" width="54" height="28" rx="7" fill="#0D1117" stroke="#30363D"/>
+<rect x="220" y="356" width="8" height="8" fill="#F05032"/>
+<text x="234" y="365" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13" fill="#E6EDF3">Git</text>
+<rect x="272" y="346" width="137" height="28" rx="7" fill="#0D1117" stroke="#30363D"/>
+<rect x="282" y="356" width="8" height="8" fill="#2088FF"/>
+<text x="296" y="365" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13" fill="#E6EDF3">GitHub Actions</text>
+<rect x="417" y="346" width="107" height="28" rx="7" fill="#0D1117" stroke="#30363D"/>
+<rect x="427" y="356" width="8" height="8" fill="#2EAD33"/>
+<text x="441" y="365" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13" fill="#E6EDF3">Playwright</text>
+<rect x="532" y="346" width="54" height="28" rx="7" fill="#0D1117" stroke="#30363D"/>
+<rect x="542" y="356" width="8" height="8" fill="#FF6B9E"/>
+<text x="556" y="365" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13" fill="#E6EDF3">IAM</text>
+</svg>
