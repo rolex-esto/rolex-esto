@@ -1,25 +1,203 @@
 <!doctype html>
-<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ROLEX.EXE — Pixel Quest</title>
-<style>
-:root{color-scheme:dark;font-family:monospace;background:#0b1020;color:#e8f2ff}*{box-sizing:border-box}body{margin:0;padding:20px}main{max-width:900px;margin:auto}h1{font-size:clamp(26px,6vw,52px);color:#70f5a3;text-shadow:4px 4px #214932;letter-spacing:3px}a{color:#70f5a3}.panel{border:3px solid #516684;padding:16px;background:#141d31;box-shadow:6px 6px #050811}canvas{display:block;width:100%;aspect-ratio:16/9;background:#0f1a2d;image-rendering:pixelated;border:3px solid #70f5a3}.hud,.buttons{display:flex;gap:12px;flex-wrap:wrap;justify-content:space-between;margin:12px 0}.hud{color:#ffd166}button{font:inherit;background:#253b52;border:2px solid #70f5a3;color:white;padding:12px;cursor:pointer}button:focus-visible{outline:3px solid #ffd166}#status{color:#ffd166;min-height:2em}.links{display:flex;gap:10px;flex-wrap:wrap}.links a{border:1px solid #607798;padding:8px}.muted{color:#b8c7de}
-</style><main><p style="color:#ffd166">PLAYER 01 // DEVELOPER QUEST</p><h1>ROLEX.EXE</h1><p>Collect 12 golden code tokens, dodge moving bugs, unlock project portals.</p><section class="panel"><div class="hud"><strong id="score">XP 0</strong><strong id="hp">HP ♥♥♥</strong><strong id="count">TOKENS 0/12</strong></div><canvas id="world" width="800" height="450" aria-label="Pixel arcade world. Use WASD, arrow keys, or the buttons to move."></canvas><div class="buttons"><button id="start">▶ START / RESTART</button><button data-move="left">◀</button><button data-move="up">▲</button><button data-move="down">▼</button><button data-move="right">▶</button><button id="pause">Ⅱ PAUSE</button></div><p id="status" role="status" aria-live="polite">Press START to play.</p><p class="muted">WASD / arrows to move • Space to pause • touch buttons on mobile</p></section><h2>UNLOCKED PROJECTS</h2><nav id="rewards" class="links" aria-label="Quest rewards"><span class="muted">Collect 4, 8, and 12 tokens to unlock featured projects.</span></nav><p><a href="https://github.com/rolex-esto">↖ Back to GitHub profile</a></p></main>
-<script>
-(()=>{
-const c=document.querySelector('canvas'),g=c.getContext('2d'),keys=new Set(),rewards=document.getElementById('rewards'),status=document.getElementById('status');
-const rewardsData=[['BizPilot','https://github.com/rolex-esto/rolex-esto#featured-projects'],['SmartWatts','https://github.com/rolex-esto/rolex-esto#featured-projects'],['OpsPilot','https://github.com/rolex-esto/opspilot']];
-let phase='idle',player={x:400,y:225},bugs=[],tokens=[],xp=0,hp=3,invincible=0,last=0;
-const dist=(a,b)=>Math.hypot(a.x-b.x,a.y-b.y),random=(a,b)=>a+Math.random()*(b-a);
-function token(){let p;do{p={x:random(35,765),y:random(35,415)}}while(dist(p,player)<60);return p}
-function ui(){document.getElementById('score').textContent='XP '+xp;document.getElementById('hp').textContent='HP '+'♥'.repeat(hp)+'♡'.repeat(3-hp);document.getElementById('count').textContent='TOKENS '+xp/10+'/12';rewards.replaceChildren();rewardsData.forEach(([name,link],i)=>{if(xp>=(i+1)*40){const a=document.createElement('a');a.href=link;a.textContent='★ '+name+' ↗';a.target='_blank';a.rel='noopener noreferrer';rewards.append(a)}})}
-function start(){phase='play';xp=0;hp=3;player={x:400,y:225};invincible=1;tokens=Array.from({length:12},token);bugs=Array.from({length:5},(_,i)=>({x:50+i*145,y:70+(i*73)%320,vx:(i%2?1:-1)*(70+i*17),vy:(i%3?1:-1)*(85+i*13)}));status.textContent='Collect tokens and avoid the pink bugs!';ui()}
-function pause(){if(phase==='play'){phase='pause';status.textContent='Paused'}else if(phase==='pause'){phase='play';status.textContent='Quest resumed!'}}
-function block(x,y,w,h,color){g.fillStyle=color;g.fillRect(Math.round(x),Math.round(y),w,h)}
-function sprite(p,type){const x=p.x,y=p.y;if(type==='player'){block(x-10,y-15,20,10,'#ffd166');block(x-14,y-5,28,22,'#70f5a3');block(x-7,y,5,5,'#091323');block(x+3,y,5,5,'#091323');block(x-12,y+17,9,6,'#9daaff');block(x+3,y+17,9,6,'#9daaff')}if(type==='bug'){block(x-12,y-12,24,24,'#ff6b9e');block(x-7,y-4,5,5,'#121527');block(x+3,y-4,5,5,'#121527')}if(type==='token'){block(x-11,y-11,22,22,'#986617');block(x-7,y-7,14,14,'#ffd166');block(x-2,y-5,4,10,'#986617')}}
-function draw(){block(0,0,800,450,'#0f1a2d');for(let y=20;y<450;y+=35)for(let x=20;x<800;x+=35)block(x,y,2,2,'#283852');for(const t of tokens)sprite(t,'token');for(const b of bugs)sprite(b,'bug');if(invincible<=0||Math.floor(performance.now()/110)%2===0)sprite(player,'player');if(phase!=='play'){block(180,165,440,110,'#07101d');g.textAlign='center';g.fillStyle='#70f5a3';g.font='bold 27px monospace';g.fillText(phase==='win'?'QUEST COMPLETE':phase==='lose'?'GAME OVER':phase==='pause'?'PAUSED':'PIXEL QUEST',400,214);g.fillStyle='#e8f2ff';g.font='16px monospace';g.fillText(phase==='idle'?'PRESS START':'PRESS START TO REPLAY',400,243);g.textAlign='left'}}
-function frame(now){let dt=Math.min(.04,(now-last)/1000||0);last=now;if(phase==='play'){invincible=Math.max(0,invincible-dt);let dx=Number(keys.has('right'))-Number(keys.has('left')),dy=Number(keys.has('down'))-Number(keys.has('up')),len=Math.hypot(dx,dy)||1;player.x=Math.max(28,Math.min(772,player.x+dx/len*210*dt));player.y=Math.max(28,Math.min(422,player.y+dy/len*210*dt));for(const b of bugs){b.x+=b.vx*dt;b.y+=b.vy*dt;if(b.x<25||b.x>775){b.vx*=-1;b.x=Math.max(25,Math.min(775,b.x))}if(b.y<25||b.y>425){b.vy*=-1;b.y=Math.max(25,Math.min(425,b.y))}if(!invincible&&dist(player,b)<26){hp--;invincible=1.5;status.textContent='Bug hit! Watch your HP.';if(!hp){phase='lose';status.textContent='Game over. Press START to retry.'}ui()}}for(let i=tokens.length-1;i>=0;i--)if(dist(player,tokens[i])<28){tokens.splice(i,1);xp+=10;ui();if(xp===120){phase='win';status.textContent='Congratulations! All projects unlocked.';break}}}draw();requestAnimationFrame(frame)}
-const lookup={ArrowLeft:'left',ArrowRight:'right',ArrowUp:'up',ArrowDown:'down',a:'left',d:'right',w:'up',s:'down'};
-window.addEventListener('keydown',e=>{let k=lookup[e.key];if(k){e.preventDefault();keys.add(k)}if(e.code==='Space'){e.preventDefault();pause()}});window.addEventListener('keyup',e=>{const k=lookup[e.key];if(k)keys.delete(k)});window.addEventListener('blur',()=>{keys.clear();if(phase==='play')pause()});
-document.querySelectorAll('[data-move]').forEach(b=>{const k=b.dataset.move;b.addEventListener('pointerdown',e=>{e.preventDefault();keys.add(k);b.setPointerCapture(e.pointerId)});['pointerup','pointercancel','lostpointercapture'].forEach(n=>b.addEventListener(n,()=>keys.delete(k)))});
-document.getElementById('start').onclick=start;document.getElementById('pause').onclick=pause;ui();requestAnimationFrame(frame);
-})();
-</script>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>ROLEX.EXE — Developer Quest</title>
+  <meta name="description" content="BUG HUNTER: a playable pixel-art developer quest through the projects of Rolex J. Esto — software, AI, data, and cloud.">
+  <meta name="theme-color" content="#0B1020">
+  <meta property="og:title" content="ROLEX.EXE — Developer Quest">
+  <meta property="og:description" content="A playable pixel-art arcade portfolio. Collect tokens, dodge bugs, unlock real projects.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8' shape-rendering='crispEdges'%3E%3Crect width='8' height='8' fill='%230B1020'/%3E%3Crect x='2' y='1' width='4' height='2' fill='%23FFD166'/%3E%3Crect x='1' y='3' width='6' height='3' fill='%2370F5A3'/%3E%3Crect x='2' y='4' width='1' height='1' fill='%230B1020'/%3E%3Crect x='5' y='4' width='1' height='1' fill='%230B1020'/%3E%3Crect x='2' y='6' width='1' height='2' fill='%23A78BFA'/%3E%3Crect x='5' y='6' width='1' height='2' fill='%23A78BFA'/%3E%3C/svg%3E">
+  <link rel="preload" href="fonts/PressStart2P-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/arcade.css">
+  <script type="module" src="js/main.js"></script>
+</head>
+<body>
+  <a class="skip" href="#game">Skip to game</a>
+
+  <header class="top">
+    <div class="brand">
+      <p class="eyebrow">PLAYER 01 // DEVELOPER QUEST</p>
+      <h1>ROLEX<span>.EXE</span></h1>
+      <p class="tagline">Rolex J. Esto — Software Developer / AI Builder. Play through the worlds behind real projects, or skip straight to the facts in the <a href="#quests">quest log</a>.</p>
+    </div>
+    <nav class="menu" aria-label="Arcade sections">
+      <a href="#game">▶ Play</a>
+      <a href="#quests">◆ Quest log</a>
+      <a href="#terminal">&gt;_ Terminal</a>
+      <a href="#records">★ Records</a>
+      <a href="https://github.com/rolex-esto/rolex-esto">↖ GitHub profile</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="game" class="panel" aria-labelledby="game-title">
+      <div class="panel-head">
+        <h2 id="game-title">BUG HUNTER</h2>
+        <div class="settings" role="group" aria-label="Game settings">
+          <button type="button" id="btn-sound" class="chip" aria-pressed="true">♪ Sound: on</button>
+          <button type="button" id="btn-motion" class="chip" aria-pressed="false">◐ Reduced motion: off</button>
+          <button type="button" id="btn-assist" class="chip" aria-pressed="false">✚ Assist mode: off</button>
+          <button type="button" id="btn-touch" class="chip" aria-pressed="false">✥ Touch pad: off</button>
+        </div>
+      </div>
+
+      <div class="hud" aria-label="Game status">
+        <span class="hud-item"><b>LVL</b> <span id="hud-level">–</span></span>
+        <span class="hud-item"><b>HP</b> <span id="hud-hp" aria-label="health">–</span></span>
+        <span class="hud-item"><b>TOKENS</b> <span id="hud-tokens">–</span></span>
+        <span class="hud-item"><b>XP</b> <span id="hud-score">0</span></span>
+        <span class="hud-item"><b>BEST</b> <span id="hud-best">0</span></span>
+        <span class="hud-item"><b>CREDITS</b> <span id="hud-credits">–</span></span>
+        <span class="hud-item hud-power" id="hud-power" hidden></span>
+      </div>
+      <p class="objective" id="objective">Choose a skin and press START to begin.</p>
+
+      <div class="stage menu-open" id="stage">
+        <canvas id="world" role="img" aria-label="BUG HUNTER game world. Move with WASD or arrow keys; collect tokens, avoid bugs, reach the portal. Game events are announced below the game."></canvas>
+        <div class="banner" id="banner" aria-hidden="true" hidden></div>
+
+        <div class="overlay" id="ov-title" role="dialog" aria-modal="false" aria-labelledby="ov-title-h">
+          <h3 id="ov-title-h">PRESS START</h3>
+          <p class="small">Five worlds. Each one is a real project. Collect every token, dodge the bugs, then step through the portal to unlock the project file.</p>
+          <fieldset class="skins">
+            <legend>Choose your developer</legend>
+            <div id="skin-list" class="skin-list"></div>
+          </fieldset>
+          <div class="actions">
+            <button type="button" class="btn primary" id="btn-start">▶ START NEW RUN</button>
+            <button type="button" class="btn" id="btn-continue" hidden>⟳ CONTINUE</button>
+            <button type="button" class="btn" id="btn-bonus" hidden>☂ BONUS STAGE</button>
+          </div>
+          <details class="howto">
+            <summary>How to play</summary>
+            <ul>
+              <li><kbd>WASD</kbd> / <kbd>←↑↓→</kbd> move · <kbd>P</kbd>, <kbd>Esc</kbd> or <kbd>Space</kbd> pause · <kbd>M</kbd> mute</li>
+              <li>Collect all tokens to open the portal ▣. Checkpoint flags ⚑ save your spot.</li>
+              <li>Power-ups: ♥ patch (+1 HP), ◈ firewall shield, ⚡ cache boost (speed).</li>
+              <li>Two continues per run. Assist mode: slower bugs, more HP, lighter darkness.</li>
+              <li>Touch: turn on the touch pad (it turns on automatically on touch screens).</li>
+            </ul>
+          </details>
+        </div>
+
+        <div class="overlay" id="ov-pause" role="dialog" aria-modal="false" aria-labelledby="ov-pause-h" hidden>
+          <h3 id="ov-pause-h">PAUSED</h3>
+          <div class="actions">
+            <button type="button" class="btn primary" id="btn-resume">▶ RESUME</button>
+            <button type="button" class="btn" id="btn-restart">↺ RESTART LEVEL</button>
+            <button type="button" class="btn" id="btn-quit">⌂ QUIT TO TITLE</button>
+          </div>
+        </div>
+
+        <div class="overlay" id="ov-clear" role="dialog" aria-modal="false" aria-labelledby="ov-clear-h" hidden>
+          <h3 id="ov-clear-h">LEVEL CLEAR</h3>
+          <p class="score-line" id="clear-score"></p>
+          <article class="unlock" id="clear-card"></article>
+          <div class="actions">
+            <button type="button" class="btn primary" id="btn-next">▶ NEXT WORLD</button>
+          </div>
+        </div>
+
+        <div class="overlay" id="ov-over" role="dialog" aria-modal="false" aria-labelledby="ov-over-h" hidden>
+          <h3 id="ov-over-h" class="danger">GAME OVER</h3>
+          <p class="score-line" id="over-score"></p>
+          <div class="actions">
+            <button type="button" class="btn primary" id="btn-cont">⟳ CONTINUE</button>
+            <button type="button" class="btn" id="btn-retry">↺ NEW RUN</button>
+            <button type="button" class="btn" id="btn-over-title">⌂ TITLE</button>
+          </div>
+        </div>
+
+        <div class="overlay" id="ov-victory" role="dialog" aria-modal="false" aria-labelledby="ov-victory-h" hidden>
+          <h3 id="ov-victory-h">QUEST COMPLETE</h3>
+          <p class="score-line" id="victory-score"></p>
+          <article class="unlock" id="victory-card"></article>
+          <p class="small">Secret unlocked: the <b>Rain Observatory</b> bonus stage.</p>
+          <div class="actions">
+            <button type="button" class="btn primary" id="btn-victory-bonus">☂ PLAY BONUS</button>
+            <button type="button" class="btn" id="btn-victory-title">⌂ TITLE</button>
+          </div>
+        </div>
+
+        <div class="overlay" id="ov-bonus" role="dialog" aria-modal="false" aria-labelledby="ov-bonus-h" hidden>
+          <h3 id="ov-bonus-h">TIME!</h3>
+          <p class="score-line" id="bonus-score"></p>
+          <article class="unlock" id="bonus-card"></article>
+          <div class="actions">
+            <button type="button" class="btn primary" id="btn-bonus-retry">↺ TRY AGAIN</button>
+            <button type="button" class="btn" id="btn-bonus-title">⌂ TITLE</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="touchpad" id="touchpad" aria-label="Touch controls">
+        <div class="dpad">
+          <button type="button" data-dir="up" aria-label="Move up">▲</button>
+          <button type="button" data-dir="left" aria-label="Move left">◀</button>
+          <button type="button" data-dir="right" aria-label="Move right">▶</button>
+          <button type="button" data-dir="down" aria-label="Move down">▼</button>
+        </div>
+        <button type="button" class="pad-pause" id="pad-pause" aria-label="Pause or resume">Ⅱ</button>
+      </div>
+
+      <p class="status" id="status" role="status" aria-live="polite"></p>
+      <p class="keys"><kbd>WASD</kbd>/<kbd>arrows</kbd> move · <kbd>P</kbd>/<kbd>Esc</kbd>/<kbd>Space</kbd> pause · <kbd>R</kbd> restart level (while paused) · <kbd>M</kbd> mute</p>
+      <noscript><p class="warn">BUG HUNTER needs JavaScript. All project information is still available in the quest log below.</p></noscript>
+      <p class="warn" id="file-warning" hidden>This game uses JavaScript modules, which browsers block on <code>file://</code>. Serve the folder instead, e.g. <code>python3 -m http.server</code>, or play the hosted version.</p>
+    </section>
+
+    <section id="quests" class="panel" aria-labelledby="quests-title">
+      <div class="panel-head">
+        <h2 id="quests-title">QUEST LOG</h2>
+        <p class="small">Every project is listed here — no gameplay required. Clearing a world in the game stamps its card.</p>
+      </div>
+      <div class="cards" id="quest-cards"></div>
+    </section>
+
+    <section id="terminal" class="panel" aria-labelledby="terminal-title">
+      <div class="panel-head">
+        <h2 id="terminal-title">TERMINAL</h2>
+        <p class="small">Read-only portfolio shell. Try <code>help</code>, <code>projects</code>, or <code>play</code>.</p>
+      </div>
+      <div class="term">
+        <div class="term-out" id="term-out" role="log" aria-live="polite" aria-label="Terminal output" tabindex="0"></div>
+        <form class="term-in" id="term-form" autocomplete="off">
+          <label for="term-input">player01@rolex.exe:~$</label>
+          <input id="term-input" name="cmd" type="text" maxlength="40" spellcheck="false" autocapitalize="off" aria-describedby="term-hint">
+          <button type="submit" class="chip">Enter</button>
+        </form>
+        <p class="small" id="term-hint">Commands: help · about · projects · skills · achievements · contact · play · clear</p>
+      </div>
+    </section>
+
+    <section id="records" class="panel" aria-labelledby="records-title">
+      <div class="panel-head">
+        <h2 id="records-title">RECORDS</h2>
+        <p class="small">Game progress is saved only in this browser. XP, levels and badges here are for fun — they are not professional credentials.</p>
+      </div>
+      <dl class="stats">
+        <div><dt>Best XP</dt><dd id="rec-best">0</dd></div>
+        <div><dt>Worlds cleared</dt><dd id="rec-cleared">0 / 5</dd></div>
+        <div><dt>Badges</dt><dd id="rec-badges">0</dd></div>
+      </dl>
+      <ul class="badges" id="badge-list"></ul>
+      <button type="button" class="chip" id="btn-reset">Reset game progress</button>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <p><a href="https://github.com/rolex-esto/rolex-esto">GitHub profile</a> · <a href="https://rolex-esto.vercel.app/">Portfolio</a> · <a href="https://linkedin.com/in/rolex-esto-1b33b2391/">LinkedIn</a> · <a href="https://github.com/rolex-esto/rolex-esto/tree/main/arcade">Source code</a></p>
+    <p class="small">Original pixel art, sounds and code. Font: Press Start 2P (SIL Open Font License).</p>
+  </footer>
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+  <script>
+    // Classic-script fallback: explain why nothing loads when opened from disk.
+    if (location.protocol === 'file:') {
+      document.getElementById('file-warning').hidden = false;
+    }
+  </script>
+</body>
+</html>
