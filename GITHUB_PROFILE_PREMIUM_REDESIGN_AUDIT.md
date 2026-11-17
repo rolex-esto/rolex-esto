@@ -1,7 +1,7 @@
 # GitHub Profile: Premium Redesign Audit (INK COLUMN 2.0)
 
 **Date:** 2026-11-17 · **Branch:** `feature/premium-profile-redesign` · **Base:** `main` @ `d488102` (after PR #8)
-**Verdict: PASS_WITH_LIMITATIONS.** Not yet checked on github.com itself, because nothing has been pushed (see section 5).
+**Verdict: PASS_WITH_LIMITATIONS** (owner items in section 6). Verified on github.com's own rendering of the pushed branch.
 
 The ROLEX.EXE arcade stays removed, as decided in PR #4. There are no arcade links, cards, previews or game wording, and no arcade code was restored.
 
@@ -49,12 +49,13 @@ The README on `main`, plus `rolex-esto/portfolio` `data/projects.ts`, plus GitHu
 | Check | Result |
 |:--|:--|
 | README suite, local mode (GitHub `/markdown` API in README mode + github-markdown-css), 320/375/390/430/768/1280/1440 × light/dark | **Chromium 196/196, WebKit 196/196, Firefox 196/196** |
+| **github.com** blob page of `feature/premium-profile-redesign`, same widths and themes | **Chromium 196/196, WebKit 196/196, Firefox 196/196** |
 | Unit tests `python3 -m unittest discover -s tests` | **36/36** (24 existing + 12 new) |
 | Links and images in README | 84 local paths exist; 18 remote URLs return 200 (LinkedIn included) |
 | SVG well-formedness | 65/65 `assets/readme` + 2 dashboard files parse |
 | Third-party/tracker/arcade scan | none |
 
-Not verified: **github.com itself.** No branch was pushed, as instructed. The local harness uses GitHub's own sanitizer but not github.com's page chrome, and it emulates `<themed-picture>`. Before merging, run `README_URL=https://github.com/rolex-esto/rolex-esto/blob/feature/premium-profile-redesign/README.md node tests/readme.github.cjs` for each engine.
+The profile page (github.com/rolex-esto) uses the same Markdown pipeline as the blob page; it goes live only when this is merged into `main`.
 
 ## 6. Open items for the owner
 
