@@ -90,7 +90,7 @@ Eight builds, from a startup product to hackathon winners and client work. Links
 
 ### SmartWatts
 
-**Lead Developer, Team KuryenTech** · <sub>No public link yet</sub>
+**Lead Developer, Team KuryenTech** · **[Live Demo](https://smartwatts.smartwatts-demo.workers.dev/)**
 
 **Problem:** Households and property managers lack a clear picture of where their electricity use and bills come from.
 
