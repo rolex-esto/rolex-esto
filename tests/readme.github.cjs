@@ -8,18 +8,21 @@
 //
 // Rules enforced (from GITHUB_PROFILE_UX_REFINEMENT_AUDIT.md):
 //  1. No broken images; no horizontal page overflow; no table that scrolls sideways.
-//  2. <picture> serves the asset matching the colour scheme.
+//  2. <picture> serves the asset matching the colour scheme (checked on the contribution snake).
 //  3. Real text in the README is >= 12 px at every tested width.
 //  4. Any content image that contains SVG <text> renders that text >= MIN_IMG_TEXT px,
-//     except the hero (decorative; its information is repeated as Markdown text).
-//  5. Every featured project has a visible text heading, Problem line and links.
+//     except the banner (decorative; its information is repeated as Markdown text).
+//  5. Every featured project has a visible text heading.
+//  6. No arcade/game branding or links remain (pre-arcade restore, see
+//     GITHUB_PROFILE_PRE_ARCADE_RESTORE_AUDIT.md).
 const pw = require('playwright');
 const engine = pw[process.env.BROWSER || 'chromium'];
 const URL = process.env.README_URL || 'https://github.com/rolex-esto/rolex-esto';
 const SHOTS = process.env.SHOTS || '';
 const WIDTHS = [320, 375, 390, 430, 1280];
 const MIN_IMG_TEXT = { 320: 8, 375: 9, 390: 9.5, 430: 10, 1280: 11 };
-const PROJECTS = ['BizPilot', 'SmartWatts', 'OpsPilot', 'BahaRoute', 'Weather Weather Lang', 'Ulan Ba?'];
+const PROJECTS = ['BizPilot', 'SmartWatts', 'OpsPilot', 'BahaRoute', 'Weather Weather Lang', 'Ulan Ba?', 'Classic Flagship Store', 'TAPME'];
+const GAME_TEXT = /ROLEX\.EXE|arcade|BUG HUNTER|quest|\bXP\b|level up|play (the|my) game/i;
 
 const results = [];
 let fails = 0;
@@ -44,7 +47,8 @@ const check = (name, ok, info = '') => { results.push(`${ok ? 'PASS' : 'FAIL'}  
       });
       await p.waitForTimeout(1500);
       const tag = `[${scheme} ${w}]`;
-      const r = await p.evaluate(() => {
+      const r = await p.evaluate(({ gameSrc, scheme }) => {
+        const GAME_TEXT_SRC = new RegExp(gameSrc, 'i');
         const a = document.querySelector('article.markdown-body');
         const imgs = [...a.querySelectorAll('img')];
         const hero = imgs[0];
@@ -66,20 +70,25 @@ const check = (name, ok, info = '') => { results.push(`${ok ? 'PASS' : 'FAIL'}  
           broken: i.complete && i.naturalWidth === 0, hero: i === hero,
         }));
         const headings = [...a.querySelectorAll('h3')].map(h => h.textContent.trim());
-        const text = a.innerText;
+        const text = a.textContent; // includes collapsed <details>
+        const snakePic = [...a.querySelectorAll('picture')].find(pc => /snake/i.test(pc.querySelector('img').alt));
+        const want = snakePic && snakePic.querySelector(`source[media*="${scheme}"]`);
+        const snakeOk = !!(snakePic && want && snakePic.querySelector('img').currentSrc === want.srcset.trim());
+        const gameLinks = [...a.querySelectorAll('a[href]')].map(x => x.href).filter(h => /github\.io\/rolex-esto|\/arcade/i.test(h));
         return {
-          heroSrc: (hero.currentSrc || hero.src).split('/').pop(), minText, minWhere, tablesScrolling, contentImgs, headings,
+          snakeOk, snakeSrc: snakePic ? snakePic.querySelector('img').currentSrc.slice(-60) : 'missing',
+          gameText: (text.match(GAME_TEXT_SRC) || [''])[0], gameLinks, minText, minWhere, tablesScrolling, contentImgs, headings,
           overflow: document.documentElement.scrollWidth - innerWidth,
-          problems: (text.match(/Problem:/g) || []).length,
         };
-      });
+      }, { gameSrc: GAME_TEXT.source, scheme });
       check(`${tag} no broken images`, r.contentImgs.every(i => !i.broken), r.contentImgs.filter(i => i.broken).map(i => i.src.split('/').pop()).join(', '));
       check(`${tag} no horizontal page overflow`, r.overflow <= 0, `${r.overflow}px`);
       check(`${tag} no sideways-scrolling tables`, r.tablesScrolling === 0, `${r.tablesScrolling}`);
-      check(`${tag} hero matches theme`, r.heroSrc === `hero-${scheme}.svg`, r.heroSrc);
+      check(`${tag} <picture> serves ${scheme} asset`, r.snakeOk, r.snakeSrc);
       check(`${tag} real text >= 12px`, r.minText >= 12, `${r.minText}px "${r.minWhere}"`);
       check(`${tag} all project headings visible`, PROJECTS.every(n => r.headings.some(h => h.includes(n))));
-      check(`${tag} every project states its problem`, r.problems >= PROJECTS.length, `${r.problems}`);
+      check(`${tag} no game branding in text`, !r.gameText, r.gameText);
+      check(`${tag} no arcade / Pages game links`, r.gameLinks.length === 0, r.gameLinks.join(', '));
       // Rule 4: text inside SVG content images
       let worst = { px: 99, img: '' };
       for (const img of r.contentImgs) {
