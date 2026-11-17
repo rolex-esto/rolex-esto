@@ -31,9 +31,11 @@ jobs:
             dist/github-snake.svg?color_snake=#6D4ED8&color_dots=#EBEDF0,#B7F5CF,#70F5A3,#2FBF71,#0E8A4E
             dist/github-snake-dark.svg?palette=github-dark&color_snake=#A78BFA&color_dots=#161B22,#0E4429,#1F7A4A,#3FBF7F,#70F5A3
 
-      # Real-data stats cards from the public GraphQL API with the built-in token.
-      # Exits non-zero (and writes nothing) on any API or validation failure.
-      - name: Generate stats cards
+      # Real-data stats cards and the Developer Overview panel (account totals,
+      # 12-month activity, isometric 3D contribution graph, calendar) from the
+      # GraphQL API with the built-in read-only token. Exits non-zero (and writes
+      # nothing) on any API or validation failure.
+      - name: Generate stats cards and overview panel
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: python3 scripts/generate-github-stats.py "${{ github.repository_owner }}" dist
@@ -45,9 +47,16 @@ jobs:
           set -euo pipefail
           for f in github-snake.svg github-snake-dark.svg \
                    stats-activity-dark.svg stats-activity-light.svg \
-                   stats-languages-dark.svg stats-languages-light.svg; do
+                   stats-languages-dark.svg stats-languages-light.svg \
+                   overview-activity-dark.svg overview-activity-light.svg; do
             test -s "dist/$f" || { echo "::error::missing or empty dist/$f"; exit 1; }
             python3 -c "import sys, xml.dom.minidom; xml.dom.minidom.parse(sys.argv[1])" "dist/$f"
+          done
+          # The overview must contain a full year of calendar cells and the 3D graph.
+          for f in overview-activity-dark.svg overview-activity-light.svg; do
+            cells=$(grep -o 'rx="1" fill=' "dist/$f" | wc -l)
+            test "$cells" -ge 300 || { echo "::error::$f has only $cells calendar cells"; exit 1; }
+            grep -q '<polygon' "dist/$f" || { echo "::error::$f has no isometric graph"; exit 1; }
           done
           ls -l dist
 
