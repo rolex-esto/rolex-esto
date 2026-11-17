@@ -6,6 +6,11 @@
 //   BROWSER=chromium|webkit|firefox node tests/readme.github.cjs
 // Default URL is the live profile repository page.
 //
+// Local mode (no push needed): README_FILE=../README.md node tests/readme.github.cjs
+//   renders the file with GitHub's own Markdown API (`gh api markdown` in README mode, same sanitizer as github.com),
+//   styles it with github-markdown-css and serves relative assets from the working tree. It does not
+//   reproduce github.com's page chrome, so confirm on github.com before merging.
+//
 // Rules enforced (from GITHUB_PROFILE_UX_REFINEMENT_AUDIT.md):
 //  1. No broken images; no horizontal page overflow; no table that scrolls sideways.
 //  2. <picture> serves the asset matching the colour scheme (checked on the contribution snake).
@@ -14,21 +19,39 @@
 //     except the banner (decorative; its information is repeated as Markdown text).
 //  5. Every featured project has a visible text heading.
 //  6. Developer Overview panels load: side by side at desktop width, stacked on phones.
+//  8. Every <picture> keeps its <img> (never wrap a <picture> in a link); the hero follows the theme;
+//     the navigation anchors resolve.
 //  7. No arcade/game branding or links remain (pre-arcade restore, see
 //     GITHUB_PROFILE_PRE_ARCADE_RESTORE_AUDIT.md).
 const pw = require('playwright');
 const engine = pw[process.env.BROWSER || 'chromium'];
-const URL = process.env.README_URL || 'https://github.com/rolex-esto/rolex-esto';
+const README_FILE = process.env.README_FILE || '';
+const URL = README_FILE ? 'https://readme.local/README.md' : (process.env.README_URL || 'https://github.com/rolex-esto/rolex-esto');
 const SHOTS = process.env.SHOTS || '';
-const WIDTHS = [320, 375, 390, 430, 768, 1280];
+const WIDTHS = [320, 375, 390, 430, 768, 1280, 1440];
 // Smallest rendered text inside README SVGs (px). The dashboard uses >= 16-unit text in 410-unit panels.
-const MIN_IMG_TEXT = { 320: 9.5, 375: 11.5, 390: 12, 430: 13, 768: 14, 1280: 14 };
+const MIN_IMG_TEXT = { 320: 9.5, 375: 11.5, 390: 12, 430: 13, 768: 14, 1280: 14, 1440: 14 };
 // OVERVIEW_DIR=<dir with overview-activity-* and stats-languages-* SVGs>: serve locally generated cards instead of
 // the one published on the output branch, to test an unpublished design on github.com's real rendering.
 const OVERVIEW_DIR = process.env.OVERVIEW_DIR || '';
 const OVERVIEW_RE = /raw\.githubusercontent\.com\/rolex-esto\/rolex-esto\/output\/((?:overview-activity|stats-languages)-(?:dark|light)\.svg)/;
 const fs = require('fs');
 const path = require('path');
+const LOCAL_ROOT = README_FILE ? path.dirname(path.resolve(README_FILE)) : '';
+const TYPES = { '.svg': 'image/svg+xml', '.png': 'image/png', '.jpg': 'image/jpeg', '.gif': 'image/gif' };
+let localHtml = '';
+if (README_FILE) {
+  const { execFileSync } = require('child_process');
+  const md = execFileSync('gh', ['api', 'markdown', '-f', 'mode=markdown',
+    '-F', `text=@${path.resolve(README_FILE)}`]).toString();
+  localHtml = `<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@5.8.1/github-markdown.css">
+<style>body{margin:0}.markdown-body{box-sizing:border-box;min-width:200px;max-width:912px;margin:0 auto;padding:24px}
+@media (max-width:767px){.markdown-body{padding:16px}}</style></head><body><article class="markdown-body">${
+    // github.com's <themed-picture> keeps the image link from cutting <img> off its <source>s; emulate that.
+    md.replace(/(<picture>(?:\s*<source[^>]*>)*\s*)<a [^>]*>(<img[^>]*>)<\/a>(\s*<\/picture>)/g, '$1$2$3')}</article></body></html>`;
+}
+const localFile = u => { const f = path.join(LOCAL_ROOT, decodeURIComponent(new globalThis.URL(u).pathname)); return f.startsWith(LOCAL_ROOT) && fs.existsSync(f) ? f : null; };
 const PROJECTS = ['BizPilot', 'SmartWatts', 'OpsPilot', 'BahaRoute', 'Weather Weather Lang', 'Ulan Ba?', 'Classic Flagship Store', 'TAPME'];
 const GAME_TEXT = /ROLEX\.EXE|arcade|BUG HUNTER|\bquest|\bXP\b|level up|play (the|my) game/i;
 
@@ -47,6 +70,13 @@ const check = (name, ok, info = '') => { results.push(`${ok ? 'PASS' : 'FAIL'}  
         isMobile: mobile && (process.env.BROWSER || 'chromium') !== 'firefox', hasTouch: mobile,
       });
       const p = await ctx.newPage();
+      if (README_FILE) await p.route('https://readme.local/**', route => {
+        const u = route.request().url();
+        if (new globalThis.URL(u).pathname === '/README.md') return route.fulfill({ contentType: 'text/html', body: localHtml });
+        const f = localFile(u);
+        return f ? route.fulfill({ contentType: TYPES[path.extname(f)] || 'application/octet-stream', body: fs.readFileSync(f) })
+                 : route.fulfill({ status: 404, body: '' });
+      });
       if (OVERVIEW_DIR) await p.route(OVERVIEW_RE, route => route.fulfill({
         contentType: 'image/svg+xml', body: fs.readFileSync(path.join(OVERVIEW_DIR, route.request().url().match(OVERVIEW_RE)[1])) }));
       await p.goto(URL, { waitUntil: 'load', timeout: 90000 });
@@ -81,14 +111,22 @@ const check = (name, ok, info = '') => { results.push(`${ok ? 'PASS' : 'FAIL'}  
         }));
         const headings = [...a.querySelectorAll('h3')].map(h => h.textContent.trim());
         const text = a.textContent; // includes collapsed <details>
-        const snakePic = [...a.querySelectorAll('picture')].find(pc => /snake/i.test(pc.querySelector('img').alt));
+        const pics = [...a.querySelectorAll('picture')];
+        // GitHub moves an <img> out of a <picture> that is inside a link, which breaks theme switching.
+        const picturesWithoutImg = pics.filter(pc => !pc.querySelector('img')).length;
+        const heroPic = pics[0];
+        const heroImg = heroPic && heroPic.querySelector('img');
+        const heroOk = !!(heroImg && heroImg.currentSrc.endsWith(`hero-${scheme}.svg`));
+        const anchorsMissing = ['developer-overview', 'featured-projects', 'certifications']
+          .filter(id => !document.querySelector(`[id="user-content-${id}"], a[name="user-content-${id}"]`));
+        const snakePic = pics.find(pc => pc.querySelector('img') && /snake/i.test(pc.querySelector('img').alt));
         const want = snakePic && snakePic.querySelector(`source[media*="${scheme}"]`);
         const snakeOk = !!(snakePic && want && snakePic.querySelector('img').currentSrc === want.srcset.trim());
         const dash = [...a.querySelectorAll('img')].filter(i => /overview-activity|dashboard\/portfolio/.test(i.closest('picture') ? i.closest('picture').innerHTML : i.src))
           .map(i => { const r = i.getBoundingClientRect(); return { top: r.top, bottom: r.bottom, left: r.left, w: r.width, ok: i.complete && i.naturalWidth > 0 }; });
         const gameLinks = [...a.querySelectorAll('a[href]')].map(x => x.href).filter(h => /github\.io\/rolex-esto|\/arcade/i.test(h));
         return {
-          dash, snakeOk, snakeSrc: snakePic ? snakePic.querySelector('img').currentSrc.slice(-60) : 'missing',
+          dash, snakeOk, picturesWithoutImg, heroOk, anchorsMissing, heroSrc: heroImg ? heroImg.currentSrc.split('/').pop() : 'missing', snakeSrc: snakePic ? snakePic.querySelector('img').currentSrc.slice(-60) : 'missing',
           gameText: (text.match(GAME_TEXT_SRC) || [''])[0], gameLinks, minText, minWhere, tablesScrolling, contentImgs, headings,
           overflow: document.documentElement.scrollWidth - innerWidth,
         };
@@ -97,6 +135,9 @@ const check = (name, ok, info = '') => { results.push(`${ok ? 'PASS' : 'FAIL'}  
       check(`${tag} no horizontal page overflow`, r.overflow <= 0, `${r.overflow}px`);
       check(`${tag} no sideways-scrolling tables`, r.tablesScrolling === 0, `${r.tablesScrolling}`);
       check(`${tag} <picture> serves ${scheme} asset`, r.snakeOk, r.snakeSrc);
+      check(`${tag} hero follows ${scheme} theme`, r.heroOk, r.heroSrc);
+      check(`${tag} every <picture> keeps its <img>`, r.picturesWithoutImg === 0, `${r.picturesWithoutImg}`);
+      check(`${tag} in-page anchors exist`, r.anchorsMissing.length === 0, r.anchorsMissing.join(', '));
       check(`${tag} real text >= 12px`, r.minText >= 12, `${r.minText}px "${r.minWhere}"`);
       check(`${tag} all project headings visible`, PROJECTS.every(n => r.headings.some(h => h.includes(n))));
       // Developer Overview: both panels load; side by side on desktop, stacked full width on phones.
@@ -113,7 +154,9 @@ const check = (name, ok, info = '') => { results.push(`${ok ? 'PASS' : 'FAIL'}  
         if (!svgCache.has(img.src)) {
           const local = OVERVIEW_DIR && img.src.match(OVERVIEW_RE);
           if (local) svgCache.set(img.src, fs.readFileSync(path.join(OVERVIEW_DIR, local[1]), 'utf8'));
-          else {
+          else if (README_FILE && img.src.startsWith('https://readme.local/')) {
+            const f = localFile(img.src); svgCache.set(img.src, f ? fs.readFileSync(f, 'utf8') : '');
+          } else {
             const res = await ctx.request.get(img.src).catch(() => null);
             svgCache.set(img.src, res && res.ok() ? await res.text() : '');
           }

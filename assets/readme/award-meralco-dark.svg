@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="410" height="200" viewBox="0 0 410 200" role="img" aria-labelledby="t d">
+<title id="t">Top 10 Finalist</title>
+<desc id="d">Top 10 finalist: Meralco IDOL Hackathon, Meralco Power Academy, Nov 12–13, 2026. Project SmartWatts; Lead Developer · KuryenTech.</desc>
+<style>@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<rect x="1" y="1" width="408" height="198" rx="16" fill="#0B0B0D" stroke="#26262C" stroke-width="2"/>
+<defs>
+<pattern id="g" width="12" height="12" patternUnits="userSpaceOnUse"><rect x="5" y="5" width="2" height="2" fill="#34343C"/></pattern>
+</defs>
+<rect x="14" y="14" width="98" height="172" rx="12" fill="#131316" stroke="#26262C"/>
+<rect x="15" y="15" width="96" height="170" rx="11" fill="url(#g)"/>
+<g transform="translate(31 46) scale(2.66667)"><path fill="#F4F4F5" d="M5 1h14v2H5zM3 3h2v2H3zm0 16h2v2H3zm16 0h2v2h-2zm0-16h2v2h-2zm2 2h2v14h-2zM5 21h14v2H5zM1 5h2v14H1zm8 0h6v2H9zM5 9h2v6H5zm4 8h6v2H9zm8-8h2v6h-2zm-6 0h2v2h-2zM7 7h2v2H7zm0 8h2v2H7zm8 0h2v2h-2zm0-8h2v2h-2zm-6 4h2v2H9zm2 2h2v2h-2zm2-2h2v2h-2z"/></g>
+<text x="63" y="168" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="16" font-weight="600" fill="#B1B1BA">2026</text>
+<text x="130" y="48" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="30" font-weight="800" fill="#F4F4F5" letter-spacing="-0.5">TOP 10</text>
+<text x="242.02" y="48" text-anchor="start" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="16" font-weight="700" fill="#B1B1BA">FINALIST</text>
+<text x="130" y="76" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="17" font-weight="600" fill="#F4F4F5">Meralco IDOL Hackathon</text>
+<text x="130" y="98" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="500" fill="#B1B1BA">Meralco Power Academy</text>
+<text x="130" y="124" text-anchor="start" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="16" font-weight="500" fill="#B1B1BA">Nov 12–13, 2026</text>
+<text x="130" y="154" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="17" font-weight="700" fill="#F4F4F5">SmartWatts</text>
+<text x="130" y="176" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="500" fill="#B1B1BA">Lead Developer · KuryenTech</text>
+</svg>

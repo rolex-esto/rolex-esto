@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="131" height="44" viewBox="0 0 131 44" role="img" aria-labelledby="t d">
+<title id="t">Projects</title>
+<desc id="d">Button: Projects</desc>
+<style>@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<rect x="1" y="1" width="129" height="42" rx="10" fill="#131316" stroke="#3D3D45" stroke-width="1.5"/>
+<g transform="translate(16 11) scale(0.916667)"><path fill="#F4F4F5" d="M4 4h6v2H4zm0 14h16v2H4zM20 8h2v10h-2zM2 6h2v12H2zm8 0h10v2H10z"/></g>
+<text x="48" y="28.5" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="17" font-weight="600" fill="#F4F4F5">Projects</text>
+</svg>

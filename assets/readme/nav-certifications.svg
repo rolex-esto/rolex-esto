@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="173" height="44" viewBox="0 0 173 44" role="img" aria-labelledby="t d">
+<title id="t">Certifications</title>
+<desc id="d">Button: Certifications</desc>
+<style>@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<rect x="1" y="1" width="171" height="42" rx="10" fill="#131316" stroke="#3D3D45" stroke-width="1.5"/>
+<g transform="translate(16 11) scale(0.916667)"><g fill="#F4F4F5"><path d="M6 8h2v12H6zM2 4h2v12H2zm18 4h2v8h-2zM8 6h12v2H8zM4 2h12v2H4zm14 14h2v2h-2zm-2 2h2v2h-2zm-8 2h8v2H8zm6-6h6v2h-6z"/><path d="M14 14h2v6h-2zm2-10h2v2h-2zM4 16h2v2H4z"/></g></g>
+<text x="48" y="28.5" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="17" font-weight="600" fill="#F4F4F5">Certifications</text>
+</svg>

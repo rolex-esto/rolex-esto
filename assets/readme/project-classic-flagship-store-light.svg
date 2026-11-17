@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="410" height="256" viewBox="0 0 410 256" role="img" aria-labelledby="t d">
+<title id="t">Classic Flagship Store project cover</title>
+<desc id="d">Classic Flagship Store: E-commerce, POS &amp; inventory. E-Commerce · Pos. Live site. Lead Developer, Capstone.</desc>
+<style>@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<rect x="1" y="1" width="408" height="254" rx="16" fill="#FFFFFF" stroke="#E7E7E9" stroke-width="2"/>
+<defs>
+<pattern id="g" width="16" height="16" patternUnits="userSpaceOnUse"><rect x="7" y="7" width="2" height="2" fill="#D4D4D8"/></pattern>
+</defs>
+<rect x="12" y="12" width="386" height="122" rx="10" fill="#FAFAFA" stroke="#E7E7E9"/>
+<rect x="13" y="13" width="384" height="120" rx="9" fill="url(#g)"/>
+<rect x="28" y="28" width="90" height="90" rx="14" fill="#F4F4F5" stroke="#C9C9CF"/><rect x="34" y="112" width="78" height="2" fill="#C9C9CF"/><g transform="translate(43.3 40.6) scale(2.475)"><g fill="#0A0A0A"><path d="M3 6h18v2H3zm2 14h14v2H5zM3 8h2v12H3zm16 0h2v12h-2z"/><path d="M7 4h2v6H7zm2-2h6v2H9zm6 2h2v6h-2z"/></g></g>
+<text x="382" y="46" text-anchor="end" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="16" font-weight="500" fill="#6B6B75">07 / 08</text>
+<text x="138" y="80" text-anchor="start" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="16" font-weight="600" fill="#62626C">E-COMMERCE · POS</text>
+<rect x="138" y="94" width="88" height="30" rx="8" fill="#F4F4F5" stroke="#E7E7E9"/><text x="150" y="114.6" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#0A0A0A">Live site</text>
+<text x="24" y="176" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="28" font-weight="700" fill="#0A0A0A" letter-spacing="-0.5">Classic Flagship Store</text>
+<text x="24" y="202" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="17" font-weight="500" fill="#62626C">E-commerce, POS &amp; inventory</text>
+<rect x="24" y="218" width="143" height="28" rx="8" fill="#F4F4F5" stroke="#E7E7E9"/><text x="36" y="237.6" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#0A0A0A">Lead Developer</text>
+<rect x="175" y="218" width="97" height="28" rx="8" fill="#F4F4F5" stroke="#E7E7E9"/><text x="187" y="237.6" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#0A0A0A">Capstone</text>
+</svg>

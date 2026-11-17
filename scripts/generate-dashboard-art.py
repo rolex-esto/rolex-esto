@@ -11,7 +11,8 @@ Output: assets/dashboard/portfolio-dark.svg and portfolio-light.svg
     monitor beside a cozy cottage on a lavender evening, with a cat, stars,
     pastel clouds and fireflies
   * personal-branding lines
-  * technology chips in pastel colours, one colour per category
+  * five engineering domains, each with the evidence behind it (the grouped
+    technology stack is its own README section, scripts/generate-profile-art.py)
 
 Animation is plain CSS inside the SVG (GitHub serves SVGs as <img>, so no script
 runs). Everything is motionless under prefers-reduced-motion and the still frame
@@ -21,6 +22,7 @@ is a complete picture. No text is smaller than 16 units, so labels stay about
 Both dashboard panels share PANEL_W x PANEL_H with scripts/generate-github-stats.py.
 Run from the repository root:  python3 scripts/generate-dashboard-art.py
 """
+import json
 import math
 import xml.dom.minidom
 from html import escape
@@ -91,6 +93,16 @@ TECH = [
     ("Cloud", ["AWS", "Azure", "Google Cloud", "Vercel"]),
     ("Developer Tools & AI", ["Git", "GitHub", "GitHub Actions", "Playwright", "Claude Code", "Codex", "Cursor",
                               "Kiro", "Antigravity"]),
+]
+
+# Panel B: engineering domains with the evidence behind each (all stated in README.md).
+# TECH and CATEGORY above stay the source of the grouped stack (scripts/generate-profile-art.py).
+DOMAINS = [
+    ("code", "Software Engineering", ["Next.js · React · Node.js · FastAPI", "Founder & developer of BizPilot"]),
+    ("sparkles", "Artificial Intelligence", ["AI sales assistant · AI incident agent", "Google AI Professional Certificate"]),
+    ("database", "Data Engineering", ["Microsoft Fabric · Power BI · DuckDB", "Microsoft Certified: DP-700"]),
+    ("cloud", "Cloud Computing", ["AWS · Azure · Google Cloud · Vercel", "AWS Learning Club Lead"]),
+    ("shield", "Cybersecurity", ["ISC2 Certified in Cybersecurity", "DICT-recognized professional, Cat. 2"]),
 ]
 
 CSS = """
@@ -354,11 +366,11 @@ def panel(mode):
         f'<text x="{x}" y="{y}" text-anchor="{anchor}" font-family="{FONT}" font-size="{size}" '
         f'font-weight="{weight}" fill="{fill}">{escape(v)}</text>')
     o = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-labelledby="t d">',
-         '<title id="t">Pixel-art portfolio scene and technology stack</title>',
+         '<title id="t">Pixel-art portfolio scene and engineering domains</title>',
          '<desc id="d">Original pixel art: a developer in headphones codes at a retro monitor beside a cozy cottage on a '
          + ("lavender night with stars and fireflies" if mode == "dark" else "lavender dusk with a low sun")
-         + ", with a cat by the stool. Technologies: "
-         + escape("; ".join(f"{g}: " + ", ".join(items) for g, items in TECH)) + ".</desc>",
+         + ", with a cat by the stool. Engineering domains: "
+         + escape("; ".join(f"{n}: " + ", ".join(ls) for _, n, ls in DOMAINS)) + ".</desc>",
          f"<style>{CSS}</style>",
          f'<rect x="1" y="1" width="{W - 2}" height="{H - 2}" rx="16" fill="{t["bg"]}" stroke="{t["border"]}" stroke-width="2"/>',
          f'<clipPath id="sc"><rect x="{SX}" y="{SY}" width="{GW * P}" height="{GH * P}" rx="12"/></clipPath>',
@@ -368,24 +380,22 @@ def panel(mode):
     o.append(txt(16, 364, "Software · AI · Data · Cloud", 18, t["accent"], "600"))
     o.append(txt(16, 390, "Founder of BizPilot · Microsoft DP-700", 16, t["muted"]))
     o.append(f'<rect x="16" y="406" width="{W - 32}" height="2" rx="1" fill="{t["surface2"]}"/>')
-    y = 440
-    for group, items in TECH:
-        c = CATEGORY[group][0 if mode == "dark" else 1]
-        o.append(f'<rect x="16" y="{y - 12}" width="10" height="10" rx="2" fill="{c}"/>')
-        o.append(txt(32, y, group.upper(), 16, c, "700"))
-        y += 10
-        x = 16
-        for name in items:
-            w = round(text_width(name, MIN_TEXT)) + 28
-            if x + w > W - 16:
-                x, y = 16, y + 36
-            fill, stroke, label = chip_colors(c, t, mode)
-            o.append(f'<rect x="{x}" y="{y}" width="{w}" height="28" rx="7" fill="{fill}" stroke="{stroke}"/>')
-            o.append(txt(x + w / 2, y + 19.5, name, MIN_TEXT, label, "600", "middle"))
-            x += w + 7
-        y += 28 + 29
-    if y - 29 > H - 14:
-        raise SystemExit(f"tech chips overflow the panel (bottom={y - 29}, limit={H - 14})")
+    o.append(txt(16, 442, "ENGINEERING DOMAINS", 16, t["muted"], "700"))
+    icons = json.loads((Path(__file__).resolve().parent / "pixelarticons.json").read_text())["icons"]
+    for i, (ico, name, lines) in enumerate(DOMAINS):
+        y = 462 + i * 108
+        if i:
+            o.append(f'<rect x="16" y="{y - 14}" width="{W - 32}" height="1" fill="{t["border"]}"/>')
+        o.append(f'<rect x="16" y="{y}" width="56" height="56" rx="12" fill="{t["surface"]}" stroke="{t["border"]}"/>')
+        o.append(f'<g transform="translate(26 {y + 10}) scale({36 / 24:g})">'
+                 + icons[ico].replace('fill="currentColor"', f'fill="{t["text"]}"') + "</g>")
+        o.append(txt(86, y + 20, name, 19, t["text"], "700"))
+        for j, line in enumerate(lines):
+            if text_width(line, MIN_TEXT) * 0.93 > W - 86 - 14:
+                raise SystemExit(f"domain line too wide: {line}")
+            o.append(txt(86, y + 46 + j * 23, line, MIN_TEXT, t["muted"]))
+    if 462 + 4 * 108 + 92 > H - 14:
+        raise SystemExit("domain rows overflow the panel")
     o.append("</svg>")
     return "\n".join(o)
 

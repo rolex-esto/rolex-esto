@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="410" height="406" viewBox="0 0 410 406" role="img" aria-labelledby="t d">
+<title id="t">Technology stack</title>
+<desc id="d">Languages: JavaScript, TypeScript, Python, PHP, SQL; Frontend &amp; Backend: React, Next.js, Node.js, Vite, FastAPI, HTML, CSS, OAuth; Cloud &amp; Security: AWS, Azure, Google Cloud, Vercel, IAM.</desc>
+<style>@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<rect x="1" y="1" width="408" height="404" rx="16" fill="#FFFFFF" stroke="#E7E7E9" stroke-width="2"/>
+<g transform="translate(20 20) scale(0.916667)"><path fill="#0A0A0A" d="M11 18H9v-4h2zm-4-1H5v-2h2zm12-2v2h-2v-2zM5 15H3v-2h2zm16 0h-2v-2h2zm-8-1h-2v-4h2zM3 13H1v-2h2zm20 0h-2v-2h2zM5 11H3V9h2zm16 0h-2V9h2zm-6-1h-2V6h2zM7 9H5V7h2zm12 0h-2V7h2z"/></g>
+<text x="50" y="37" text-anchor="start" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="16" font-weight="700" fill="#0A0A0A">LANGUAGES</text>
+<rect x="20" y="52" width="107" height="30" rx="8" fill="#E6E6E6" stroke="#787878"/>
+<text x="73.5" y="72.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#0A0A0A">JavaScript</text>
+<rect x="135" y="52" width="109" height="30" rx="8" fill="#E6E6E6" stroke="#787878"/>
+<text x="189.5" y="72.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#0A0A0A">TypeScript</text>
+<rect x="252" y="52" width="80" height="30" rx="8" fill="#E6E6E6" stroke="#787878"/>
+<text x="292" y="72.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#0A0A0A">Python</text>
+<rect x="20" y="90" width="59" height="30" rx="8" fill="#E6E6E6" stroke="#787878"/>
+<text x="49.5" y="110.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#0A0A0A">PHP</text>
+<rect x="87" y="90" width="59" height="30" rx="8" fill="#E6E6E6" stroke="#787878"/>
+<text x="116.5" y="110.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#0A0A0A">SQL</text>
+<g transform="translate(20 154) scale(0.916667)"><path fill="#26262C" d="M4 2h16v2H4zm0 18h16v2H4zM2 4h2v16H2zm18 0h2v16h-2zM6 16h2v2H6zm2-2h2v2H8zm-2-2h2v2H6z"/></g>
+<text x="50" y="171" text-anchor="start" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="16" font-weight="700" fill="#26262C">FRONTEND &amp; BACKEND</text>
+<rect x="20" y="186" width="70" height="30" rx="8" fill="#E9E9EA" stroke="#88888B"/>
+<text x="55" y="206.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#1E1E22">React</text>
+<rect x="98" y="186" width="78" height="30" rx="8" fill="#E9E9EA" stroke="#88888B"/>
+<text x="137" y="206.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#1E1E22">Next.js</text>
+<rect x="184" y="186" width="84" height="30" rx="8" fill="#E9E9EA" stroke="#88888B"/>
+<text x="226" y="206.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#1E1E22">Node.js</text>
+<rect x="276" y="186" width="55" height="30" rx="8" fill="#E9E9EA" stroke="#88888B"/>
+<text x="303.5" y="206.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#1E1E22">Vite</text>
+<rect x="20" y="224" width="86" height="30" rx="8" fill="#E9E9EA" stroke="#88888B"/>
+<text x="63" y="244.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#1E1E22">FastAPI</text>
+<rect x="114" y="224" width="70" height="30" rx="8" fill="#E9E9EA" stroke="#88888B"/>
+<text x="149" y="244.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#1E1E22">HTML</text>
+<rect x="192" y="224" width="59" height="30" rx="8" fill="#E9E9EA" stroke="#88888B"/>
+<text x="221.5" y="244.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#1E1E22">CSS</text>
+<rect x="259" y="224" width="75" height="30" rx="8" fill="#E9E9EA" stroke="#88888B"/>
+<text x="296.5" y="244.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#1E1E22">OAuth</text>
+<g transform="translate(20 288) scale(0.916667)"><g fill="#62626C"><path d="M22 10h-4v2h4zm2 2h-2v6h2zm-2 6H2v2h20zM2 12H0v6h2zm2-2H2v2h2zm4-2H4v2h4zm8-4h-6v2h6zm-6 2H8v2h2zm0 4H8v2h2zm8-4h-2v2h2z"/><path d="M20 8h-2v4h2zm-2 4h-2v2h2z"/></g></g>
+<text x="50" y="305" text-anchor="start" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="16" font-weight="700" fill="#62626C">CLOUD &amp; SECURITY</text>
+<rect x="20" y="320" width="63" height="30" rx="8" fill="#EFEFF0" stroke="#A9A9AE"/>
+<text x="51.5" y="340.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#494951">AWS</text>
+<rect x="91" y="320" width="70" height="30" rx="8" fill="#EFEFF0" stroke="#A9A9AE"/>
+<text x="126" y="340.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#494951">Azure</text>
+<rect x="169" y="320" width="131" height="30" rx="8" fill="#EFEFF0" stroke="#A9A9AE"/>
+<text x="234.5" y="340.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#494951">Google Cloud</text>
+<rect x="308" y="320" width="74" height="30" rx="8" fill="#EFEFF0" stroke="#A9A9AE"/>
+<text x="345" y="340.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#494951">Vercel</text>
+<rect x="20" y="358" width="55" height="30" rx="8" fill="#EFEFF0" stroke="#A9A9AE"/>
+<text x="47.5" y="378.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#494951">IAM</text>
+</svg>
