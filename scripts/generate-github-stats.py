@@ -57,8 +57,8 @@ query($login: String!, $after: String) {
 MAX_REPO_PAGES = 10
 
 THEMES = {
-    "dark": dict(bg="#0D1117", panel="#161B22", border="#30363D", title="#70F5A3", text="#E6EDF3", muted="#9DA7B3", accent="#B7A2FF", track="#21262D"),
-    "light": dict(bg="#FFFFFF", panel="#F6F8FA", border="#D0D7DE", title="#0E7A45", text="#1F2328", muted="#57606A", accent="#6D4ED8", track="#EAEEF2"),
+    "dark": dict(bg="#0B0F19", panel="#171C2B", border="#394156", title="#A8D8B9", text="#F5EBD7", muted="#A6ADBB", accent="#B8A4FF", track="#232A3B"),
+    "light": dict(bg="#FBF8F2", panel="#F3EEE4", border="#D6CCBA", title="#2E6E4A", text="#2B2638", muted="#5C5768", accent="#6B54D6", track="#E9E2D4"),
 }
 FONT = "-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif"
 
@@ -240,29 +240,33 @@ def languages_card(s, t):
         o.append(f'<text x="{W - 20}" y="{y}" text-anchor="end" font-family="{FONT}" font-size="16" fill="{t["muted"]}">{p * 100:.1f}%</text>')
     if not langs:
         o.append(f'<text x="20" y="110" font-family="{FONT}" font-size="16" fill="{t["muted"]}">No language data yet</text>')
-    o.append(f'<text x="16" y="{H - 14}" font-family="{FONT}" font-size="13" fill="{t["muted"]}">By code size · forks excluded · updated daily</text>')
+    o.append(f'<text x="16" y="{H - 14}" font-family="{FONT}" font-size="15" fill="{t["muted"]}">By code size · forks excluded · updated daily</text>')
     o.append("</svg>")
     return "\n".join(o)
 
 
 # ---------------------------------------------------------------------------
 # Developer Overview panel (left half of the README dashboard).
-# 410 units wide, shown at width="410": side by side with the static portfolio
-# panel on desktop, wrapping to one full-width column on phones.
-# Smallest text is 13 units (~9 px on a 320 px phone, ~12 px on desktop).
+# Theme: Midnight Pixel (dark) / Pastel Dusk (light), shared with
+# scripts/generate-dashboard-art.py. PANEL_W x PANEL_H matches that panel; both are
+# shown at width="410": side by side on desktop, stacked full width on phones.
+# No text is smaller than 16 units (about 10 px on a 320 px phone, 12+ px from 375 px).
 # ---------------------------------------------------------------------------
 DASH = {
-    "dark": dict(bg="#0D1117", surface="#161B22", border="#30363D", teal="#00C389", sky="#0EA5E9", purple="#A78BFA",
-                 text="#C9D1D9", strong="#F0F6FC", muted="#8B949E", shadow="#010409",
-                 levels={"NONE": "#21262D", "FIRST_QUARTILE": "#0E4429", "SECOND_QUARTILE": "#006D4A",
-                         "THIRD_QUARTILE": "#14A37F", "FOURTH_QUARTILE": "#00C389"}),
-    "light": dict(bg="#FFFFFF", surface="#F6F8FA", border="#D0D7DE", teal="#00875F", sky="#0369A1", purple="#6D28D9",
-                  text="#1F2328", strong="#1F2328", muted="#57606A", shadow="#D0D7DE",
-                  levels={"NONE": "#EBEDF0", "FIRST_QUARTILE": "#A7F0CF", "SECOND_QUARTILE": "#4FD6A6",
-                          "THIRD_QUARTILE": "#14A37F", "FOURTH_QUARTILE": "#00875F"}),
+    "dark": dict(bg="#0B0F19", surface="#171C2B", surface2="#232A3B", border="#394156", text="#F5EBD7",
+                 muted="#A6ADBB", accent="#B8A4FF", accent2="#A8C7FA", success="#A8D8B9", highlight="#FFD6A5",
+                 shadow="#05070D", edge="#E3F4E8",
+                 levels={"NONE": "#232A3B", "FIRST_QUARTILE": "#3F5C4D", "SECOND_QUARTILE": "#5F8C72",
+                         "THIRD_QUARTILE": "#84B497", "FOURTH_QUARTILE": "#A8D8B9"}),
+    "light": dict(bg="#FBF8F2", surface="#F3EEE4", surface2="#E9E2D4", border="#D6CCBA", text="#2B2638",
+                  muted="#5C5768", accent="#6B54D6", accent2="#345F9E", success="#2E6E4A", highlight="#9A4F12",
+                  shadow="#D6CCBA", edge="#FFFFFF",
+                  levels={"NONE": "#E9E2D4", "FIRST_QUARTILE": "#C9E6D3", "SECOND_QUARTILE": "#A8D8B9",
+                          "THIRD_QUARTILE": "#72B08A", "FOURTH_QUARTILE": "#4A9068"}),
 }
 LEVELS = ["NONE", "FIRST_QUARTILE", "SECOND_QUARTILE", "THIRD_QUARTILE", "FOURTH_QUARTILE"]
-OVERVIEW_W, OVERVIEW_H = 410, 772
+PANEL_W, PANEL_H = 410, 1012
+MIN_TEXT = 16
 
 
 def shade(hex_color, f):
@@ -280,6 +284,15 @@ def fmt_date(iso):
     return f"{d.strftime('%b')} {d.day}, {d.year}"
 
 
+def account_age(created, today):
+    """Whole years and months between two ISO dates, e.g. '2 years' or '1 year, 3 months'."""
+    a, b = dt.date.fromisoformat(created), dt.date.fromisoformat(today)
+    months = (b.year - a.year) * 12 + b.month - a.month - (b.day < a.day)
+    y, m = divmod(max(months, 0), 12)
+    parts = ([f"{y} year{'s' * (y != 1)}"] if y else []) + ([f"{m} month{'s' * (m != 1)}"] if m else [])
+    return ", ".join(parts) or "under a month"
+
+
 def week_grid(days):
     """Group days into Sunday-first weeks: list of (week_index, weekday, day)."""
     out, w = [], 0
@@ -290,28 +303,27 @@ def week_grid(days):
     return out
 
 
-def isometric(days, t, ox, oy, a=6.2, b=3.1, max_h=60.0):
+def isometric(days, t, ox, oy, a=6.2, b=3.1, max_h=64.0):
     """Isometric 3D contribution graph. Week axis runs right-down, weekday axis left-down.
     Block height follows the real daily count (sqrt scale, so busy days do not flatten the rest)."""
     cells = week_grid(days)
     peak = max((d["count"] for _, _, d in cells), default=0)
     o = [f'<polygon points="{ox:.1f},{oy - 4:.1f} {ox + 54 * a + 6:.1f},{oy + 54 * b - 1:.1f} '
          f'{ox + 47 * a:.1f},{oy + 61 * b + 6:.1f} {ox - 7 * a - 6:.1f},{oy + 7 * b - 1:.1f}" '
-         f'fill="{t["shadow"]}" opacity="0.55"/>']
+         f'fill="{t["shadow"]}" opacity="0.6"/>']
     s = 0.86  # tile inset: keeps a hairline gap between blocks
     for w, wd, d in sorted(cells, key=lambda c: (c[0] + c[1], c[0])):
         x, y = ox + (w - wd) * a, oy + (w + wd) * b
         cx, cy = x, y + b  # centre of the top face at ground level
         h = 1.2 if d["count"] == 0 or peak == 0 else 3 + (max_h - 3) * math.sqrt(d["count"] / peak)
         top = t["levels"].get(d["level"], t["levels"]["NONE"])
-        hi = shade(top, 1.18)
         T = (cx, cy - b * s - h); R = (cx + a * s, cy - h); B = (cx, cy + b * s - h); L = (cx - a * s, cy - h)
         pts = lambda *ps: " ".join(f"{px:.1f},{py:.1f}" for px, py in ps)
-        o.append(f'<polygon points="{pts(L, B, (B[0], B[1] + h), (L[0], L[1] + h))}" fill="{shade(top, 0.72)}"/>')
-        o.append(f'<polygon points="{pts(B, R, (R[0], R[1] + h), (B[0], B[1] + h))}" fill="{shade(top, 0.52)}"/>')
+        o.append(f'<polygon points="{pts(L, B, (B[0], B[1] + h), (L[0], L[1] + h))}" fill="{shade(top, 0.74)}"/>')
+        o.append(f'<polygon points="{pts(B, R, (R[0], R[1] + h), (B[0], B[1] + h))}" fill="{shade(top, 0.56)}"/>')
         o.append(f'<polygon points="{pts(T, R, B, L)}" fill="{top}"/>')
-        if d["count"] and h > 20:  # light edge on tall towers
-            o.append(f'<polyline points="{pts(L, T, R)}" fill="none" stroke="{hi}" stroke-width="0.6"/>')
+        if d["count"] and h > 18:  # soft pastel rim light on tall towers
+            o.append(f'<polyline points="{pts(L, T, R)}" fill="none" stroke="{t["edge"]}" stroke-opacity="0.55" stroke-width="0.7"/>')
     return "\n".join(o), peak
 
 
@@ -324,66 +336,77 @@ def calendar(days, t, x0, y0, cell=6, gap=1):
 
 
 def avatar(uri, t, cx, cy, r, initials):
-    o = [f'<circle cx="{cx}" cy="{cy}" r="{r + 3}" fill="none" stroke="{t["teal"]}" stroke-width="2"/>']
+    o = [f'<rect x="{cx - r - 5}" y="{cy - r - 5}" width="{2 * r + 10}" height="{2 * r + 10}" rx="10" fill="{t["surface2"]}" '
+         f'stroke="{t["accent"]}" stroke-width="2"/>']
     if uri:
-        o.append(f'<clipPath id="av"><circle cx="{cx}" cy="{cy}" r="{r}"/></clipPath>')
+        o.append(f'<clipPath id="av"><rect x="{cx - r}" y="{cy - r}" width="{2 * r}" height="{2 * r}" rx="7"/></clipPath>')
         o.append(f'<image href="{uri}" x="{cx - r}" y="{cy - r}" width="{2 * r}" height="{2 * r}" clip-path="url(#av)"/>')
     else:  # avatar download failed: initials instead of a broken image
-        o.append(f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="{t["surface"]}"/>')
-        o.append(f'<text x="{cx}" y="{cy + 7}" text-anchor="middle" font-family="{FONT}" font-size="20" '
-                 f'font-weight="700" fill="{t["teal"]}">{escape(initials)}</text>')
+        o.append(f'<text x="{cx}" y="{cy + 8}" text-anchor="middle" font-family="{FONT}" font-size="24" '
+                 f'font-weight="700" fill="{t["accent"]}">{escape(initials)}</text>')
     return "\n".join(o)
 
 
 def overview_card(s, t, avatar_uri=None):
-    W, H = OVERVIEW_W, OVERVIEW_H
-    txt = lambda x, y, v, size=13, fill=None, weight="400", anchor="start": (
+    W, H = PANEL_W, PANEL_H
+    txt = lambda x, y, v, size=MIN_TEXT, fill=None, weight="400", anchor="start": (
         f'<text x="{x}" y="{y}" text-anchor="{anchor}" font-family="{FONT}" font-size="{size}" '
         f'font-weight="{weight}" fill="{fill or t["muted"]}">{escape(str(v))}</text>')
     joined = fmt_date(s["created"]) if s["created"] else "unavailable"
+    age = account_age(s["created"], s["end"]) if s["created"] else "unavailable"
     period = f'{fmt_date(s["start"])} – {fmt_date(s["end"])}'
     account = [(f'{s["public_repos"]:,}', "Public repos"), (f'{s["followers"]:,}', "Followers"),
                (f'{s["stars"]:,}', "Stars earned")]
-    yearly = [(f'{s["commits"]:,}', "Public commits"), (f'{s["prs"]:,}', "Public PRs"), (f'{s["issues"]:,}', "Public issues"),
-              (f'{s["repos_committed"]:,} repos', "Committed to"), (f'{s["current_streak"]}d', "Current streak*"),
-              (f'{s["longest_streak"]}d', "Longest streak*")]
-    desc = (f'{s["name"]} (@{s["login"]}), on GitHub since {joined}. Account: '
+    yearly = [(f'{s["commits"]:,}', "Public commits"), (f'{s["prs"]:,}', "Public PRs"),
+              (f'{s["issues"]:,}', "Public issues"), (f'{s["repos_committed"]:,}', "Repos committed to"),
+              (f'{s["current_streak"]} days', "Current streak*"), (f'{s["longest_streak"]} days', "Longest streak*")]
+    desc = (f'{s["name"]} (@{s["login"]}), on GitHub for {age} (since {joined}). Account: '
             + ", ".join(f"{l} {v}" for v, l in account)
             + f'. {period} (UTC): {s["contributions"]:,} contributions (incl. {s["private_counts"]:,} private), '
             + ", ".join(f"{l.rstrip('*')} {v}" for v, l in yearly) + ".")
     o = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-labelledby="t d">',
          '<title id="t">GitHub activity and contributions</title>', f'<desc id="d">{escape(desc)}</desc>',
-         f'<rect x="1" y="1" width="{W - 2}" height="{H - 2}" rx="14" fill="{t["bg"]}" stroke="{t["border"]}" stroke-width="2"/>',
-         avatar(avatar_uri, t, 48, 52, 28, "".join(p[0] for p in s["name"].split()[:2]).upper() or "?"),
-         txt(92, 46, s["name"], 20, t["strong"], "700"),
-         txt(92, 70, f'@{s["login"]} · on GitHub since {joined}', 14)]
+         f'<rect x="1" y="1" width="{W - 2}" height="{H - 2}" rx="16" fill="{t["bg"]}" stroke="{t["border"]}" stroke-width="2"/>',
+         avatar(avatar_uri, t, 54, 58, 34, "".join(p[0] for p in s["name"].split()[:2]).upper() or "?"),
+         txt(108, 48, s["name"], 26, t["text"], "700"),
+         txt(108, 74, f'@{s["login"]}', 17, t["accent"], "600"),
+         txt(108, 98, f'{age} on GitHub · since {joined}')]
 
-    def grid(items, y):
-        for i, (val, label) in enumerate(items):
-            x, yy = 16 + (i % 3) * 128, y + (i // 3) * 64
-            o.append(f'<rect x="{x}" y="{yy}" width="122" height="58" rx="8" fill="{t["surface"]}" stroke="{t["border"]}"/>')
-            o.append(txt(x + 10, yy + 27, val, 22, t["strong"], "700"))
-            o.append(txt(x + 10, yy + 47, label, 13))
+    def section(y, label, color):
+        o.append(f'<rect x="16" y="{y - 12}" width="10" height="10" rx="2" fill="{color}"/>')
+        o.append(txt(32, y, label, MIN_TEXT, color, "700"))
 
-    o.append(txt(16, 114, "ACCOUNT TOTALS", 13, t["sky"], "700"))
-    grid(account, 124)
-    o.append(txt(16, 214, "LAST 12 MONTHS", 13, t["teal"], "700"))
-    o.append(txt(W - 16, 214, period, 13, anchor="end"))
-    grid(yearly, 224)
-    o.append(txt(16, 378, "3D CONTRIBUTIONS", 13, t["purple"], "700"))
-    iso, peak = isometric(s["days"], t, ox=16 + 7 * 6.2 + 4, oy=438)
+    def cell(x, y, w, val, label, color):
+        o.append(f'<rect x="{x}" y="{y}" width="{w}" height="64" rx="10" fill="{t["surface"]}" stroke="{t["border"]}"/>')
+        o.append(f'<rect x="{x + 1}" y="{y + 12}" width="3" height="40" rx="1.5" fill="{color}"/>')
+        o.append(txt(x + 14, y + 30, val, 24, t["text"], "700"))
+        o.append(txt(x + 14, y + 52, label))
+
+    section(146, "ACCOUNT", t["accent2"])
+    for i, (val, label) in enumerate(account):
+        cell(16 + i * 128, 158, 122, val, label, t["accent2"])
+    section(262, "CONTRIBUTIONS · LAST 12 MONTHS", t["success"])
+    o.append(txt(16, 304, f'{s["contributions"]:,}', 36, t["text"], "700"))
+    total = f'{s["contributions"]:,}'
+    total_w = sum(10 if ch == "," else 20 for ch in total)  # bold 36-unit digits are ~0.556 em, commas ~0.278 em
+    o.append(txt(16 + total_w + 10, 304, "contributions*", 18, t["success"], "600"))
+    o.append(txt(16, 330, period))
+    for i, (val, label) in enumerate(yearly):
+        cell(16 + (i % 2) * 192, 346 + (i // 2) * 72, 186, val, label,
+             [t["accent"], t["accent"], t["accent"], t["accent2"], t["highlight"], t["highlight"]][i])
+    section(588, "3D CONTRIBUTIONS", t["accent"])
+    iso, peak = isometric(s["days"], t, ox=16 + 7 * 6.2 + 4, oy=654)
     o.append(iso)
     best = max(s["days"], key=lambda d: d["count"]) if s["days"] else None
-    o.append(txt(W - 16, 378, f'busiest day*: {peak} on {fmt_date(best["date"])}' if peak else "no contributions yet",
-                 13, anchor="end"))
-    o.append(calendar(s["days"], t, x0=19, y0=656))
-    o.append(txt(16, 732, f'{s["contributions"]:,} contributions* in the last year', 13, t["text"], "600"))
-    lx = W - 16 - 5 * 12 - 34
-    o.append(txt(lx - 6, 732, "Less", 13, anchor="end"))
+    o.append(txt(16, 870, f'Busiest day*: {peak} on {fmt_date(best["date"])}' if peak else "No contributions yet",
+                 MIN_TEXT, t["text"], "600"))
+    o.append(calendar(s["days"], t, x0=19, y0=888))
+    lx = W - 16 - 5 * 14 - 42
+    o.append(txt(lx - 8, 964, "Less", anchor="end"))
     for i, lv in enumerate(LEVELS):
-        o.append(f'<rect x="{lx + i * 12}" y="722" width="10" height="10" rx="2" fill="{t["levels"][lv]}"/>')
-    o.append(txt(W - 16, 732, "More", 13, anchor="end"))
-    o.append(txt(16, 756, "* includes private contribution counts · updated daily", 13))
+        o.append(f'<rect x="{lx + i * 14}" y="952" width="12" height="12" rx="2" fill="{t["levels"][lv]}"/>')
+    o.append(txt(W - 16, 964, "More", anchor="end"))
+    o.append(txt(16, 992, "* includes private contribution counts"))
     o.append("</svg>")
     return "\n".join(o)
 

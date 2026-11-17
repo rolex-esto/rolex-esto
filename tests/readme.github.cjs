@@ -20,8 +20,15 @@ const pw = require('playwright');
 const engine = pw[process.env.BROWSER || 'chromium'];
 const URL = process.env.README_URL || 'https://github.com/rolex-esto/rolex-esto';
 const SHOTS = process.env.SHOTS || '';
-const WIDTHS = [320, 375, 390, 430, 1280];
-const MIN_IMG_TEXT = { 320: 8, 375: 9, 390: 9.5, 430: 10, 1280: 11 };
+const WIDTHS = [320, 375, 390, 430, 768, 1280];
+// Smallest rendered text inside README SVGs (px). The dashboard uses >= 16-unit text in 410-unit panels.
+const MIN_IMG_TEXT = { 320: 9.5, 375: 11.5, 390: 12, 430: 13, 768: 14, 1280: 14 };
+// OVERVIEW_DIR=<dir with overview-activity-{dark,light}.svg>: serve a locally generated activity panel instead of
+// the one published on the output branch, to test an unpublished design on github.com's real rendering.
+const OVERVIEW_DIR = process.env.OVERVIEW_DIR || '';
+const OVERVIEW_RE = /raw\.githubusercontent\.com\/rolex-esto\/rolex-esto\/output\/(overview-activity-(?:dark|light)\.svg)/;
+const fs = require('fs');
+const path = require('path');
 const PROJECTS = ['BizPilot', 'SmartWatts', 'OpsPilot', 'BahaRoute', 'Weather Weather Lang', 'Ulan Ba?', 'Classic Flagship Store', 'TAPME'];
 const GAME_TEXT = /ROLEX\.EXE|arcade|BUG HUNTER|\bquest|\bXP\b|level up|play (the|my) game/i;
 
@@ -40,6 +47,8 @@ const check = (name, ok, info = '') => { results.push(`${ok ? 'PASS' : 'FAIL'}  
         isMobile: mobile && (process.env.BROWSER || 'chromium') !== 'firefox', hasTouch: mobile,
       });
       const p = await ctx.newPage();
+      if (OVERVIEW_DIR) await p.route(OVERVIEW_RE, route => route.fulfill({
+        contentType: 'image/svg+xml', body: fs.readFileSync(path.join(OVERVIEW_DIR, route.request().url().match(OVERVIEW_RE)[1])) }));
       await p.goto(URL, { waitUntil: 'load', timeout: 90000 });
       await p.waitForSelector('article.markdown-body', { timeout: 30000 });
       await p.evaluate(async () => { // load lazy images
@@ -102,8 +111,12 @@ const check = (name, ok, info = '') => { results.push(`${ok ? 'PASS' : 'FAIL'}  
       for (const img of r.contentImgs) {
         if (img.hero || !/\.svg(\?|$)/.test(img.src) || !img.nat) continue;
         if (!svgCache.has(img.src)) {
-          const res = await ctx.request.get(img.src).catch(() => null);
-          svgCache.set(img.src, res && res.ok() ? await res.text() : '');
+          const local = OVERVIEW_DIR && img.src.match(OVERVIEW_RE);
+          if (local) svgCache.set(img.src, fs.readFileSync(path.join(OVERVIEW_DIR, local[1]), 'utf8'));
+          else {
+            const res = await ctx.request.get(img.src).catch(() => null);
+            svgCache.set(img.src, res && res.ok() ? await res.text() : '');
+          }
         }
         const svg = svgCache.get(img.src);
         const vb = svg.match(/viewBox="0 0 ([\d.]+) [\d.]+"/);
