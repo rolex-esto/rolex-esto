@@ -23,10 +23,10 @@ const SHOTS = process.env.SHOTS || '';
 const WIDTHS = [320, 375, 390, 430, 768, 1280];
 // Smallest rendered text inside README SVGs (px). The dashboard uses >= 16-unit text in 410-unit panels.
 const MIN_IMG_TEXT = { 320: 9.5, 375: 11.5, 390: 12, 430: 13, 768: 14, 1280: 14 };
-// OVERVIEW_DIR=<dir with overview-activity-{dark,light}.svg>: serve a locally generated activity panel instead of
+// OVERVIEW_DIR=<dir with overview-activity-* and stats-languages-* SVGs>: serve locally generated cards instead of
 // the one published on the output branch, to test an unpublished design on github.com's real rendering.
 const OVERVIEW_DIR = process.env.OVERVIEW_DIR || '';
-const OVERVIEW_RE = /raw\.githubusercontent\.com\/rolex-esto\/rolex-esto\/output\/(overview-activity-(?:dark|light)\.svg)/;
+const OVERVIEW_RE = /raw\.githubusercontent\.com\/rolex-esto\/rolex-esto\/output\/((?:overview-activity|stats-languages)-(?:dark|light)\.svg)/;
 const fs = require('fs');
 const path = require('path');
 const PROJECTS = ['BizPilot', 'SmartWatts', 'OpsPilot', 'BahaRoute', 'Weather Weather Lang', 'Ulan Ba?', 'Classic Flagship Store', 'TAPME'];
