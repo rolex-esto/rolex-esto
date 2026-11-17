@@ -22,6 +22,27 @@
 
 <img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:00C389,100:0EA5E9" width="100%" alt=""/>
 
+## <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/dashboard.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/dashboard.svg?color=%2300A06E"><img src="https://api.iconify.design/pixelarticons/dashboard.svg?color=%2300C389" width="24" height="24" alt="" align="absmiddle"/></picture> Developer Overview
+
+<!-- Left panel: built daily from the GitHub API by .github/workflows/snake.yml (scripts/generate-github-stats.py), published to the output branch.
+     Right panel: assets/dashboard/portfolio-*.svg (scripts/generate-dashboard-art.py). Both are 410 wide: side by side on desktop, stacked on phones. -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rolex-esto/rolex-esto/output/overview-activity-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rolex-esto/rolex-esto/output/overview-activity-light.svg">
+    <img src="https://raw.githubusercontent.com/rolex-esto/rolex-esto/output/overview-activity-dark.svg" width="410" alt="GitHub activity panel for rolex-esto: profile photo and join date; public repositories, followers and stars; public commits, pull requests, issues, repositories committed to, and current and longest contribution streaks for the last 12 months; an isometric 3D contribution graph and a contribution calendar."/>
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/dashboard/portfolio-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/dashboard/portfolio-light.svg">
+    <img src="assets/dashboard/portfolio-dark.svg" width="410" alt="Pixel-art scene of a developer coding at a retro computer outside a small house, above technology chips. Languages: JavaScript, TypeScript, Python, PHP, SQL. Frameworks: React, Next.js, Node.js, Vite, FastAPI. Data: Microsoft Fabric, Power BI, Pandas, NumPy, DuckDB, PostgreSQL, MySQL. Cloud: AWS, Azure, Google Cloud, Vercel. Tools and AI: Git, GitHub, GitHub Actions, Playwright, Claude Code, Codex, Cursor, Kiro, Antigravity."/>
+  </picture>
+</p>
+
+<sub>Activity panel rebuilt daily from the GitHub API: account totals are current; commits, pull requests, issues and streaks cover the last 12 months (dates shown on the panel). Values marked * include private contribution counts that the profile shows; nothing else private is read.</sub>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:00C389,100:0EA5E9" width="100%" alt=""/>
+
 ## <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/user.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/user.svg?color=%2300A06E"><img src="https://api.iconify.design/pixelarticons/user.svg?color=%2300C389" width="24" height="24" alt="" align="absmiddle"/></picture> About Me
 
 **I’m a 4th-year BSIT student building practical, production-ready solutions across web development, AI, data, and cloud technologies.**
@@ -344,22 +365,9 @@ Builds NFC pages and client websites that help businesses share their details an
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fast.vercel.app/api?username=rolex-esto&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00C389&icon_color=0EA5E9&text_color=C9D1D9">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-fast.vercel.app/api?username=rolex-esto&show_icons=true&hide_border=true&bg_color=FFFFFF&title_color=00A06E&icon_color=0284C7&text_color=24292F">
-    <img src="https://github-readme-stats-fast.vercel.app/api?username=rolex-esto&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00C389&icon_color=0EA5E9&text_color=C9D1D9" alt="GitHub stats for rolex-esto" height="165"/>
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=rolex-esto&layout=compact&hide_border=true&bg_color=0D1117&title_color=00C389&text_color=C9D1D9">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=rolex-esto&layout=compact&hide_border=true&bg_color=FFFFFF&title_color=00A06E&text_color=24292F">
-    <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=rolex-esto&layout=compact&hide_border=true&bg_color=0D1117&title_color=00C389&text_color=C9D1D9" alt="Top languages for rolex-esto" height="165"/>
-  </picture>
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=rolex-esto&hide_border=true&background=0D1117&ring=00C389&fire=0EA5E9&currStreakLabel=00C389&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E">
-    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=rolex-esto&hide_border=true&background=FFFFFF&ring=00A06E&fire=0284C7&currStreakLabel=00A06E&sideLabels=24292F&currStreakNum=24292F&sideNums=24292F&dates=57606A">
-    <img src="https://streak-stats.demolab.com/?user=rolex-esto&hide_border=true&background=0D1117&ring=00C389&fire=0EA5E9&currStreakLabel=00C389&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E" alt="GitHub contribution streak for rolex-esto"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rolex-esto/rolex-esto/output/stats-languages-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rolex-esto/rolex-esto/output/stats-languages-light.svg">
+    <img src="https://raw.githubusercontent.com/rolex-esto/rolex-esto/output/stats-languages-dark.svg" width="400" alt="Most used languages by code size across public, non-fork repositories."/>
   </picture>
 </p>
 
@@ -370,6 +378,8 @@ Builds NFC pages and client websites that help businesses share their details an
     <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/rolex-esto/rolex-esto/output/github-snake.svg">
   </picture>
 </p>
+
+<p align="center"><sub>Activity, streaks and the contribution graph are in the <a href="#developer-overview">Developer Overview</a> above. All graphics here are generated by this repository's own workflow.</sub></p>
 
 <div align="center">
 
