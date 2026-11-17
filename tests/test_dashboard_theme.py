@@ -21,9 +21,20 @@ stats = load("stats", "scripts/generate-github-stats.py")
 art = load("art", "scripts/generate-dashboard-art.py")
 from test_stats import make_user  # noqa: E402  (same directory)
 
-# Retired palettes: Fabric Teal, then Midnight Pixel. The dashboard is now neutral monochrome.
+# Retired palettes: Fabric Teal, Midnight Pixel, then GitHub-neutral monochrome.
 OLD_PALETTE = ("#00C389", "#0EA5E9", "#00A06E", "#0284C7", "#0B0F19", "#B8A4FF", "#A8C7FA", "#A8D8B9", "#FFD6A5",
-               "#F5EBD7", "#6B54D6", "#345F9E")
+               "#F5EBD7", "#6B54D6", "#345F9E", "#0D1117", "#161B22", "#30363D", "#F0F6FC", "#D1D5DB", "#9CA3AF",
+               "#374151", "#6B7280")
+
+# INK COLUMN design tokens, copied from the portfolio (rolex-esto/portfolio, app/globals.css, :root and .dark).
+INK = {
+    "dark": {"background": "#0B0B0D", "foreground": "#F4F4F5", "surface": "#131316", "surface-hover": "#1B1B1F",
+             "border": "#26262C", "border-strong": "#3D3D45", "muted": "#B1B1BA", "muted-subtle": "#A1A1AA",
+             "ink-faint": "#34343C"},
+    "light": {"background": "#FFFFFF", "foreground": "#0A0A0A", "surface": "#FAFAFA", "surface-hover": "#F4F4F5",
+              "border": "#E7E7E9", "border-strong": "#C9C9CF", "muted": "#62626C", "muted-subtle": "#6B6B75",
+              "ink-faint": "#D4D4D8"},
+}
 
 
 def lum(hex_color):
@@ -50,12 +61,33 @@ class Theme(unittest.TestCase):
     def test_same_panel_size(self):
         self.assertEqual((stats.PANEL_W, stats.PANEL_H), (art.PANEL_W, art.PANEL_H))
 
+    def test_chrome_uses_exact_portfolio_tokens(self):
+        for m in ("dark", "light"):
+            k, d, a = INK[m], stats.DASH[m], art.THEMES[m]
+            for theme in (d, a):
+                self.assertEqual(theme["bg"], k["background"])
+                self.assertEqual(theme["surface"], k["surface"])
+                self.assertEqual(theme["surface2"], k["surface-hover"])
+                self.assertEqual(theme["border"], k["border"])
+                self.assertEqual(theme["text"], k["foreground"])
+                self.assertEqual(theme["muted"], k["muted"])
+            card = stats.THEMES[m]
+            self.assertEqual((card["bg"], card["panel"], card["border"], card["text"], card["muted"]),
+                             (k["background"], k["surface"], k["border"], k["foreground"], k["muted"]))
+
+    def test_neutral_reproduces_ink_greys(self):
+        for m in INK:
+            for name, c in INK[m].items():
+                got = art.neutral(c)
+                for i in (1, 3, 5):
+                    self.assertLessEqual(abs(int(got[i:i + 2], 16) - int(c[i:i + 2], 16)), 3, f"{name} {c} -> {got}")
+
     def test_every_colour_is_a_neutral_grey(self):
-        """GitHub and owner-specified neutrals carry a slight cool tint (#8B949E, #374151), so allow a small channel spread."""
+        """INK COLUMN greys are zinc: equal red and green, blue lifted by up to ~10."""
         for name, svg in panels().items():
             for c in set(re.findall(r'(?:fill|stroke)="(#[0-9A-Fa-f]{6})"', svg)):
                 r, g, b = (int(c[i:i + 2], 16) for i in (1, 3, 5))
-                self.assertLessEqual(max(r, g, b) - min(r, g, b), 28, f"{c} in {name} is not neutral")
+                self.assertLessEqual(max(r, g, b) - min(r, g, b), 12, f"{c} in {name} is not neutral")
 
     def test_old_palettes_gone(self):
         for name, svg in panels().items():

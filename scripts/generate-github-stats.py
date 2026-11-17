@@ -56,12 +56,13 @@ query($login: String!, $after: String) {
 }"""
 MAX_REPO_PAGES = 10
 
+# Colours: the portfolio's INK COLUMN design tokens (rolex-esto/portfolio, app/globals.css, :root and .dark).
 THEMES = {
-    # Minimalist monochrome (GitHub-native neutrals). "ramp" shades the language bars from most to least used.
-    "dark": dict(bg="#0D1117", panel="#161B22", border="#30363D", title="#D1D5DB", text="#F0F6FC", muted="#8B949E", accent="#9CA3AF", track="#21262D",
-                 ramp=["#F0F6FC", "#D1D5DB", "#9CA3AF", "#8B949E", "#6E7681", "#484F58"]),
-    "light": dict(bg="#FFFFFF", panel="#F6F8FA", border="#D0D7DE", title="#374151", text="#24292F", muted="#57606A", accent="#6B7280", track="#EAEEF2",
-                  ramp=["#24292F", "#374151", "#57606A", "#6B7280", "#8C959F", "#AFB8C1"]),
+    # "ramp" shades the language bars from most to least used, using INK COLUMN greys.
+    "dark": dict(bg="#0B0B0D", panel="#131316", border="#26262C", title="#F4F4F5", text="#F4F4F5", muted="#B1B1BA", accent="#A1A1AA", track="#1B1B1F",
+                 ramp=["#F4F4F5", "#D4D4D8", "#B1B1BA", "#A1A1AA", "#62626C", "#3D3D45"]),
+    "light": dict(bg="#FFFFFF", panel="#FAFAFA", border="#E7E7E9", title="#0A0A0A", text="#0A0A0A", muted="#62626C", accent="#6B6B75", track="#F4F4F5",
+                  ramp=["#0A0A0A", "#26262C", "#3D3D45", "#62626C", "#6B6B75", "#A1A1AA"]),
 }
 FONT = "-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif"
 
@@ -250,23 +251,25 @@ def languages_card(s, t):
 
 # ---------------------------------------------------------------------------
 # Developer Overview panel (left half of the README dashboard).
-# Theme: minimalist monochrome (GitHub-native neutrals), shared with
+# Theme: INK COLUMN, the portfolio's design tokens, shared with
 # scripts/generate-dashboard-art.py. PANEL_W x PANEL_H matches that panel; both are
 # shown at width="410": side by side on desktop, stacked full width on phones.
 # No text is smaller than 16 units (about 10 px on a 320 px phone, 12+ px from 375 px).
 # ---------------------------------------------------------------------------
 DASH = {
-    # Minimalist monochrome, after GitHub's native dark and light themes. Contribution intensity is a grey ramp.
-    "dark": dict(bg="#0D1117", surface="#161B22", surface2="#21262D", border="#30363D", text="#F0F6FC",
-                 muted="#8B949E", accent="#D1D5DB", accent2="#9CA3AF", success="#F0F6FC", highlight="#8B949E",
-                 shadow="#010409", edge="#FFFFFF",
-                 levels={"NONE": "#21262D", "FIRST_QUARTILE": "#3D444D", "SECOND_QUARTILE": "#656D76",
-                         "THIRD_QUARTILE": "#9CA3AF", "FOURTH_QUARTILE": "#D1D5DB"}),
-    "light": dict(bg="#FFFFFF", surface="#F6F8FA", surface2="#EAEEF2", border="#D0D7DE", text="#24292F",
-                  muted="#57606A", accent="#374151", accent2="#6B7280", success="#24292F", highlight="#57606A",
-                  shadow="#D0D7DE", edge="#FFFFFF",
-                  levels={"NONE": "#EAEEF2", "FIRST_QUARTILE": "#C9D1D9", "SECOND_QUARTILE": "#9CA3AF",
-                          "THIRD_QUARTILE": "#6B7280", "FOURTH_QUARTILE": "#374151"}),
+    # INK COLUMN tokens (portfolio app/globals.css): background, surface, surface-hover, border, foreground,
+    # muted; accent = foreground, accent2 = muted, highlight = muted-subtle. Contribution intensity is a
+    # grey ramp built from the same token family (surface-hover, border-strong, muted, muted-subtle, ink-faint, foreground).
+    "dark": dict(bg="#0B0B0D", surface="#131316", surface2="#1B1B1F", border="#26262C", text="#F4F4F5",
+                 muted="#B1B1BA", accent="#F4F4F5", accent2="#B1B1BA", success="#F4F4F5", highlight="#A1A1AA",
+                 shadow="#000000", edge="#FFFFFF",
+                 levels={"NONE": "#1B1B1F", "FIRST_QUARTILE": "#3D3D45", "SECOND_QUARTILE": "#62626C",
+                         "THIRD_QUARTILE": "#A1A1AA", "FOURTH_QUARTILE": "#D4D4D8"}),
+    "light": dict(bg="#FFFFFF", surface="#FAFAFA", surface2="#F4F4F5", border="#E7E7E9", text="#0A0A0A",
+                  muted="#62626C", accent="#0A0A0A", accent2="#62626C", success="#0A0A0A", highlight="#6B6B75",
+                  shadow="#E7E7E9", edge="#FFFFFF",
+                  levels={"NONE": "#F4F4F5", "FIRST_QUARTILE": "#D4D4D8", "SECOND_QUARTILE": "#A1A1AA",
+                          "THIRD_QUARTILE": "#62626C", "FOURTH_QUARTILE": "#26262C"}),
 }
 LEVELS = ["NONE", "FIRST_QUARTILE", "SECOND_QUARTILE", "THIRD_QUARTILE", "FOURTH_QUARTILE"]
 PANEL_W, PANEL_H = 410, 1012

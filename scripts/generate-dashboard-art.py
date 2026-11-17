@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """Generate the static right half of the README "Developer Overview" dashboard.
 
-Theme: minimalist monochrome after GitHub's native dark and light themes. Every scene
-role has its own grey so objects stay distinct; the few colours drawn inline (code on
-the monitor, cursor, steam) pass through neutral() to a grey of equal brightness.
+Theme: INK COLUMN, the design tokens of the portfolio site (rolex-esto/portfolio,
+app/globals.css). Panel chrome and chips use the tokens exactly. Every scene role keeps
+its own grey so objects stay distinct, and all scene pixels pass through neutral(),
+which gives them INK COLUMN's zinc tint at the same brightness.
 
 Output: assets/dashboard/portfolio-dark.svg and portfolio-light.svg
   * an original pixel-art scene: a developer in headphones coding at a retro
@@ -20,6 +21,7 @@ is a complete picture. No text is smaller than 16 units, so labels stay about
 Both dashboard panels share PANEL_W x PANEL_H with scripts/generate-github-stats.py.
 Run from the repository root:  python3 scripts/generate-dashboard-art.py
 """
+import math
 import xml.dom.minidom
 from html import escape
 from pathlib import Path
@@ -35,8 +37,8 @@ MIN_TEXT = 16
 
 THEMES = {
     "dark": dict(
-        bg="#0D1117", surface="#161B22", surface2="#21262D", border="#30363D",
-        text="#F0F6FC", muted="#8B949E", accent="#D1D5DB", accent2="#9CA3AF",
+        bg="#0B0B0D", surface="#131316", surface2="#1B1B1F", border="#26262C",
+        text="#F4F4F5", muted="#B1B1BA", accent="#F4F4F5", accent2="#A1A1AA",
         sky=["#0D1117", "#11161D", "#161B22", "#1B2129", "#21262D", "#282E36", "#30363D"],
         glow="#484F58", star=["#F0F6FC", "#C9D1D9", "#8B949E"],
         moon="#F0F6FC", moon_lo="#C9D1D9",
@@ -53,8 +55,8 @@ THEMES = {
         flower=["#F0F6FC", "#B1BAC4", "#9CA3AF", "#D1D5DB"], fly="#F0F6FC", mode="night",
     ),
     "light": dict(
-        bg="#FFFFFF", surface="#F6F8FA", surface2="#EAEEF2", border="#D0D7DE",
-        text="#24292F", muted="#57606A", accent="#374151", accent2="#6B7280",
+        bg="#FFFFFF", surface="#FAFAFA", surface2="#F4F4F5", border="#E7E7E9",
+        text="#0A0A0A", muted="#62626C", accent="#0A0A0A", accent2="#6B6B75",
         sky=["#D0D7DE", "#D8DEE4", "#DFE4E9", "#E6EAEF", "#EDF0F3", "#F3F5F7", "#F6F8FA"],
         glow="#FFFFFF", star=["#FFFFFF", "#F6F8FA", "#FFFFFF"],
         moon="#EAEEF2", moon_lo="#C9D1D9",
@@ -73,13 +75,13 @@ THEMES = {
 }
 
 # Technologies exactly as in the owner's list; colour = category (pastel, readable in both themes).
-CATEGORY = {  # name: (dark-theme grey, light-theme grey); a distinct shade per category
-    "Languages": ("#F0F6FC", "#24292F"),
-    "Frontend": ("#D1D5DB", "#374151"),
-    "Backend": ("#B1BAC4", "#424A53"),
-    "Data Engineering": ("#9CA3AF", "#57606A"),
-    "Cloud": ("#A5ADB8", "#6B7280"),
-    "Developer Tools & AI": ("#C9D1D9", "#32383F"),
+CATEGORY = {  # name: (dark-theme grey, light-theme grey); a distinct INK COLUMN token per category
+    "Languages": ("#F4F4F5", "#0A0A0A"),
+    "Frontend": ("#E7E7E9", "#26262C"),
+    "Backend": ("#D4D4D8", "#34343C"),
+    "Data Engineering": ("#C9C9CF", "#3D3D45"),
+    "Cloud": ("#B1B1BA", "#62626C"),
+    "Developer Tools & AI": ("#A1A1AA", "#6B6B75"),
 }
 TECH = [
     ("Languages", ["JavaScript", "TypeScript", "Python", "PHP", "SQL"]),
@@ -132,10 +134,12 @@ def mix(fg, bg, a):
 
 
 def neutral(c):
-    """Same perceived brightness, cool neutral grey (like GitHub's #8B949E family)."""
+    """Same perceived brightness in INK COLUMN's zinc grey: equal red and green, blue lifted most in the
+    mid-tones (#0B0B0D +2, #3D3D45 +8, #62626C +10, #A1A1AA +9, #D4D4D8 +4, #F4F4F5 +1)."""
     r, g, b = (int(c[i:i + 2], 16) for i in (1, 3, 5))
     v = 0.2126 * r + 0.7152 * g + 0.0722 * b
-    return "#" + "".join(f"{max(0, min(255, round(v + d))):02X}" for d in (-3, 0, 4))
+    lift = 10 * math.sin(math.pi * min(max(v, 0), 255) / 255)
+    return "#" + "".join(f"{max(0, min(255, round(v + d))):02X}" for d in (0, 0, lift))
 
 
 class Art:
@@ -337,7 +341,7 @@ def chip_colors(c, t, mode):
     """(fill, stroke, label) for a technology chip of category colour c."""
     if mode == "dark":
         return mix(c, t["surface"], 0.16), mix(c, t["bg"], 0.7), c
-    return mix(c, t["bg"], 0.10), mix(c, t["bg"], 0.55), mix(c, "#1F2328", 0.72)
+    return mix(c, t["bg"], 0.10), mix(c, t["bg"], 0.55), mix(c, "#0A0A0A", 0.72)
 
 
 def text_width(label, size):
