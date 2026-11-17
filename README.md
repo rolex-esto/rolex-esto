@@ -1,200 +1,194 @@
-<!-- Palette: INK COLUMN, the portfolio's design tokens (rolex-esto/portfolio app/globals.css). Dark #0B0B0D / #131316 / #26262C, text #F4F4F5 / #B1B1BA / #A1A1AA; light #FFFFFF / #FAFAFA / #E7E7E9, text #0A0A0A / #62626C / #6B6B75 -->
+<!-- INK COLUMN 2.0 · the portfolio's design tokens (rolex-esto/portfolio app/globals.css).
+     Static art: assets/readme/ from scripts/generate-profile-art.py. Developer Overview: left panel built daily by
+     .github/workflows/snake.yml (scripts/generate-github-stats.py, output branch); right panel assets/dashboard/
+     from scripts/generate-dashboard-art.py. Every fact shown in an image is also written as text below it. -->
 <div align="center">
 
-<picture>
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:D4D4D8,100:A1A1AA&text=Rolex%20J.%20Esto&fontColor=0B0B0D&fontSize=58&fontAlignY=38&desc=Software%20%E2%80%A2%20AI%20%E2%80%A2%20Data%20%E2%80%A2%20Cloud&descSize=22&descAlignY=60&animation=fadeIn" alt="Banner: Rolex J. Esto — Software, AI, Data, Cloud" width="100%"/>
-</picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/hero-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/readme/hero-light.svg"><img src="assets/readme/hero-dark.svg" width="100%" alt="Rolex J. Esto: Software Engineering, AI, Data Engineering and Cloud. Banner with an isometric workstation on a circuit board."></picture>
 
-<a href="https://github.com/rolex-esto">
-  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=14&duration=3000&pause=1500&color=6B6B75&center=true&vCenter=true&width=760&height=44&lines=Microsoft+Certified%3A+Fabric+Data+Engineer;Hackathon+Builder+%E2%80%94+4%C3%97+Top+Finishes;Founder+of+BizPilot;AI+%C2%B7+Data+%C2%B7+Cloud+%C2%B7+Security" alt="Typing animation: Microsoft Certified Fabric Data Engineer, Hackathon Builder with 4 top finishes, Founder of BizPilot, AI Data Cloud Security"/>
-</a>
+**Software Engineering · AI · Data Engineering · Cloud**
 
-<br/>
+4th-year BSIT student, founder of BizPilot and Microsoft Certified Fabric Data Engineer.<br/>
+I build practical, production-ready products across web, AI, data and cloud.
 
-<a href="https://learn.microsoft.com/en-us/users/rolexesto-7021/credentials/certification/fabric-data-engineer-associate?tab=credentials-tab"><img src="https://img.shields.io/badge/Microsoft-DP--700%20Certified-D4D4D8?style=for-the-badge&logo=microsoft&logoColor=white&labelColor=0B0B0D" alt="Microsoft Certified: Fabric Data Engineer Associate (DP-700)"/></a>
-<a href="https://rolex-esto.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Visit-A1A1AA?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0B0B0D" alt="Portfolio"/></a>
-<a href="https://linkedin.com/in/rolex-esto-1b33b2391/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0B0B0D" alt="LinkedIn"/></a>
-<a href="mailto:rolexesto0001@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-D4D4D8?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0B0B0D" alt="Email"/></a>
-
-<img src="https://komarev.com/ghpvc/?username=rolex-esto&label=Profile+views&color=A1A1AA&style=flat-square&labelColor=0B0B0D" alt="Profile view counter"/>
+<a href="https://rolex-esto.vercel.app/"><img src="assets/readme/nav-portfolio.svg" alt="Portfolio (opens rolex-esto.vercel.app)"/></a>
+<a href="https://linkedin.com/in/rolex-esto-1b33b2391/"><img src="assets/readme/nav-linkedin.svg" alt="LinkedIn profile"/></a>
+<a href="#featured-projects"><img src="assets/readme/nav-projects.svg" alt="Jump to featured projects"/></a>
+<a href="#certifications"><img src="assets/readme/nav-certifications.svg" alt="Jump to certifications"/></a>
+<a href="mailto:rolexesto0001@gmail.com"><img src="assets/readme/nav-email.svg" alt="Email rolexesto0001@gmail.com"/></a>
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:D4D4D8,100:A1A1AA" width="100%" alt=""/>
+<a name="developer-overview"></a>
 
-## <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/dashboard.svg?color=%23F4F4F5"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/dashboard.svg?color=%230A0A0A"><img src="https://api.iconify.design/pixelarticons/dashboard.svg?color=%23F4F4F5" width="24" height="24" alt="" align="absmiddle"/></picture> Developer Overview
+## <picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/icons/analytics-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/readme/icons/analytics-light.svg"><img src="assets/readme/icons/analytics-dark.svg" width="24" height="24" alt="" align="absmiddle"></picture> Developer Overview
 
-<!-- Left panel: built daily from the GitHub API by .github/workflows/snake.yml (scripts/generate-github-stats.py), published to the output branch.
-     Right panel: assets/dashboard/portfolio-*.svg (scripts/generate-dashboard-art.py). Both are 410 wide: side by side on desktop, stacked on phones. -->
+<!-- Both panels are 410 wide: side by side on desktop, stacked on phones. -->
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rolex-esto/rolex-esto/output/overview-activity-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rolex-esto/rolex-esto/output/overview-activity-light.svg">
-    <img src="https://raw.githubusercontent.com/rolex-esto/rolex-esto/output/overview-activity-dark.svg" width="410" alt="GitHub activity panel for rolex-esto: profile photo and join date; public repositories, followers and stars; public commits, pull requests, issues, repositories committed to, and current and longest contribution streaks for the last 12 months; an isometric 3D contribution graph and a contribution calendar."/>
+    <img src="https://raw.githubusercontent.com/rolex-esto/rolex-esto/output/overview-activity-dark.svg" width="410" alt="Engineering activity for rolex-esto, rebuilt daily from the GitHub API: profile photo and join date; public repositories, followers and stars; contributions, public commits, pull requests, issues, repositories committed to, and current and longest contribution streaks for the last 12 months; an isometric 3D contribution graph and a contribution calendar."/>
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/dashboard/portfolio-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="assets/dashboard/portfolio-light.svg">
-    <img src="assets/dashboard/portfolio-dark.svg" width="410" alt="Pixel-art scene of a developer coding at a retro computer outside a small house, above technology chips. Languages: JavaScript, TypeScript, Python, PHP, SQL. Frameworks: React, Next.js, Node.js, Vite, FastAPI. Data: Microsoft Fabric, Power BI, Pandas, NumPy, DuckDB, PostgreSQL, MySQL. Cloud: AWS, Azure, Google Cloud, Vercel. Tools and AI: Git, GitHub, GitHub Actions, Playwright, Claude Code, Codex, Cursor, Kiro, Antigravity."/>
+    <img src="assets/dashboard/portfolio-dark.svg" width="410" alt="Engineering identity: pixel-art scene of a developer coding at a retro computer, then five domains. Software Engineering: Next.js, React, Node.js, FastAPI; founder and developer of BizPilot. Artificial Intelligence: AI sales assistant and AI incident agent; Google AI Professional Certificate. Data Engineering: Microsoft Fabric, Power BI, DuckDB; Microsoft Certified DP-700. Cloud Computing: AWS, Azure, Google Cloud, Vercel; AWS Learning Club Lead. Cybersecurity: ISC2 Certified in Cybersecurity; DICT-recognized professional, Category 2."/>
   </picture>
 </p>
 
-<sub>Activity panel rebuilt daily from the GitHub API: account totals are current; commits, pull requests, issues and streaks cover the last 12 months (dates shown on the panel). Values marked * include private contribution counts that the profile shows; nothing else private is read.</sub>
+<sub>Activity panel rebuilt daily from the GitHub API. Account totals are current; commits, pull requests, issues and streaks cover the last 12 months (dates on the panel). Commits, pull requests and issues count public activity only. Values marked * also include private contribution counts that the profile shows; nothing else private is read.</sub>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:D4D4D8,100:A1A1AA" width="100%" alt=""/>
+## <picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/icons/trophy-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/readme/icons/trophy-light.svg"><img src="assets/readme/icons/trophy-dark.svg" width="24" height="24" alt="" align="absmiddle"></picture> Achievements
 
-## <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/user.svg?color=%23F4F4F5"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/user.svg?color=%230A0A0A"><img src="https://api.iconify.design/pixelarticons/user.svg?color=%23F4F4F5" width="24" height="24" alt="" align="absmiddle"/></picture> About Me
+**4× hackathon top finishes in 2026**, each with the project built for it.
 
-**I’m a 4th-year BSIT student building practical, production-ready solutions across web development, AI, data, and cloud technologies.**
+<p align="center">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/award-devkada-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/readme/award-devkada-light.svg"><img src="assets/readme/award-devkada-dark.svg" width="410" alt="Top 2 Winner, DevKada × ClankerCloud Build Challenge, August 24–29, 2026. OpsPilot, Solo Developer."></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/award-meralco-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/readme/award-meralco-light.svg"><img src="assets/readme/award-meralco-dark.svg" width="410" alt="Top 10 Finalist, Meralco IDOL Hackathon, Meralco Power Academy, November 12–13, 2026. SmartWatts, Lead Developer, Team KuryenTech."></picture>
+</p>
+<p align="center">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/award-kiroverse-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/readme/award-kiroverse-light.svg"><img src="assets/readme/award-kiroverse-dark.svg" width="410" alt="3rd Place, KiroVerse Hack Sprint with AWS and RevenueCat, June to August 2026. Weather Weather Lang, AI Orchestrator, team project."></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/award-buildovernights-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/readme/award-buildovernights-light.svg"><img src="assets/readme/award-buildovernights-dark.svg" width="410" alt="Top 36 Team and Top 10 Climate Change Track, BuildOvernights KiroxHackaton at the AWS Office, October 3–4, 2026. BahaRoute, Lead Developer, team project."></picture>
+</p>
 
-- <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixel/graduation-cap-solid.svg?color=%23F4F4F5"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixel/graduation-cap-solid.svg?color=%230A0A0A"><img src="https://api.iconify.design/pixel/graduation-cap-solid.svg?color=%23F4F4F5" width="24" height="24" alt="" align="absmiddle"/></picture> 4th-year BSIT student at **STI College Fairview** (September 2023 – July 2027)
-- <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/database.svg?color=%23F4F4F5"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/database.svg?color=%230A0A0A"><img src="https://api.iconify.design/pixelarticons/database.svg?color=%23F4F4F5" width="24" height="24" alt="" align="absmiddle"/></picture> **Eskwelabs Innovation Fellowship (EIF)**, Cohort 11 · **GCI World 2026** participant at the University of Tokyo
-- <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/shield.svg?color=%23F4F4F5"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/shield.svg?color=%230A0A0A"><img src="https://api.iconify.design/pixelarticons/shield.svg?color=%23F4F4F5" width="24" height="24" alt="" align="absmiddle"/></picture> **DICT-Recognized Cybersecurity Professional**, Category 2 (Intermediate)
-- <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/compass.svg?color=%23F4F4F5"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/compass.svg?color=%230A0A0A"><img src="https://api.iconify.design/pixelarticons/compass.svg?color=%23F4F4F5" width="24" height="24" alt="" align="absmiddle"/></picture> 4× hackathon top finishes, including **OpsPilot**, **Weather Weather Lang**, **BahaRoute**, and **SmartWatts**
+<a name="featured-projects"></a>
 
-> <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/search.svg?color=%23F4F4F5"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/search.svg?color=%230A0A0A"><img src="https://api.iconify.design/pixelarticons/search.svg?color=%23F4F4F5" width="24" height="24" alt="" align="middle"/></picture> **Working on:** BizPilot · TAPME client websites and NFC pages · Microsoft Fabric data pipelines
->
-> <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/zap.svg?color=%23A1A1AA"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/zap.svg?color=%236B6B75"><img src="https://api.iconify.design/pixelarticons/zap.svg?color=%23A1A1AA" width="24" height="24" alt="" align="absmiddle"/></picture> **Focus:** practical solutions across web development, AI, data, and cloud
+## <picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/icons/folder-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/readme/icons/folder-light.svg"><img src="assets/readme/icons/folder-dark.svg" width="24" height="24" alt="" align="absmiddle"></picture> Featured Projects
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:D4D4D8,100:A1A1AA" width="100%" alt=""/>
+Eight builds, from a startup product to hackathon winners and client work. Links to each live site or repository are next to its card.
 
-## <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/flag.svg?color=%23F4F4F5"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/flag.svg?color=%230A0A0A"><img src="https://api.iconify.design/pixelarticons/flag.svg?color=%23F4F4F5" width="24" height="24" alt="" align="absmiddle"/></picture> Trophy Wall
-
-**4× Hackathon Top Finishes**
-
-<table>
-<tr><th width="56"></th><th>Result</th><th>Event</th><th>Project / Role</th></tr>
-<tr><td align="center" width="56"><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/trophy.svg?color=%23F4F4F5"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/trophy.svg?color=%230A0A0A"><img src="https://api.iconify.design/pixelarticons/trophy.svg?color=%23F4F4F5" width="24" height="24" alt="" align="absmiddle"/></picture></td><td><b>Top 2 Winner</b></td><td>DevKada × ClankerCloud Build Challenge (August 24–29, 2026)</td><td><a href="https://github.com/rolex-esto/opspilot">OpsPilot</a> · Solo Developer</td></tr>
-<tr><td align="center" width="56"><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixel/badge-check-solid.svg?color=%23F4F4F5"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixel/badge-check-solid.svg?color=%230A0A0A"><img src="https://api.iconify.design/pixel/badge-check-solid.svg?color=%23F4F4F5" width="24" height="24" alt="" align="absmiddle"/></picture></td><td><b>3rd Place</b></td><td>KiroVerse Hack Sprint (AWS &amp; RevenueCat, June – August 2026)</td><td><a href="https://github.com/rolex-esto/Kirovers-Hack-Sprint-Shipaton-Edition">Weather Weather Lang</a> · AI Orchestrator</td></tr>
-<tr><td align="center" width="56"><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/target.svg?color=%23F4F4F5"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/target.svg?color=%230A0A0A"><img src="https://api.iconify.design/pixelarticons/target.svg?color=%23F4F4F5" width="24" height="24" alt="" align="absmiddle"/></picture></td><td><b>Top 10 Finalist</b></td><td>Meralco IDOL Hackathon · Meralco Power Academy (November 12–13, 2026)</td><td><b>Team KuryenTech</b> · Lead Developer</td></tr>
-<tr><td align="center" width="56"><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/star.svg?color=%23F4F4F5"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/star.svg?color=%230A0A0A"><img src="https://api.iconify.design/pixelarticons/star.svg?color=%23F4F4F5" width="24" height="24" alt="" align="absmiddle"/></picture></td><td><b>Top 36 Team · Top 10 Climate Change Track</b></td><td>BuildOvernights KiroxHackaton (AWS Office, October 3–4, 2026)</td><td><a href="https://github.com/rolex-esto/KiroxQuick_Flood_CTRL">BahaRoute</a> · Lead Developer</td></tr>
-</table>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:D4D4D8,100:A1A1AA" width="100%" alt=""/>
-
-## <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixel/plane-departure-solid.svg?color=%23F4F4F5"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixel/plane-departure-solid.svg?color=%230A0A0A"><img src="https://api.iconify.design/pixel/plane-departure-solid.svg?color=%23F4F4F5" width="24" height="24" alt="" align="absmiddle"/></picture> Featured Projects
-
-<table>
-<tr>
-<td width="50%" valign="top">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/project-bizpilot-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/readme/project-bizpilot-light.svg"><img src="assets/readme/project-bizpilot-dark.svg" width="410" align="right" alt="BizPilot cover: MSME operations platform, active development, Founder and Developer, solo build."></picture>
 
 ### BizPilot
-**MSME operations platform** · Founder & Developer · Active development
 
-One place for Filipino online sellers to manage customer messages, orders, stock, and daily operations, with an AI sales assistant and a shared operations calendar.
+**Founder & Developer · solo build · active development** · [**Live site →**](https://biz-pilot-msme.vercel.app/) · <sub><picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/icons/lock-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/readme/icons/lock-light.svg"><img src="assets/readme/icons/lock-dark.svg" width="16" height="16" alt="" align="absmiddle"></picture> Private repository</sub>
 
-[**Live →**](https://biz-pilot-msme.vercel.app/) · <sub><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/lock.svg?color=%23A1A1AA"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/lock.svg?color=%236B6B75"><img src="https://api.iconify.design/pixelarticons/lock.svg?color=%23A1A1AA" width="12" height="12" alt="" align="absmiddle"/></picture> Private repository</sub>
+**Problem:** Filipino online sellers juggle messages, orders and stock across scattered social channels, leading to overselling and manual errors.
 
-</td>
-<td width="50%" valign="top">
+**Built:** One inbox for customer messages, one-click ordering inside conversations, stock and a shared operations calendar, with a grounded AI sales assistant and per-seller data isolation.
 
-### SmartWatts <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/trophy.svg?color=%23F4F4F5"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/trophy.svg?color=%230A0A0A"><img src="https://api.iconify.design/pixelarticons/trophy.svg?color=%23F4F4F5" width="24" height="24" alt="Top 10 finalist" align="absmiddle"/></picture>
-**Electricity use information and tracking tool** · Top 10 Finalist, Meralco IDOL Hackathon · Lead Developer, Team KuryenTech
+<sub>**Key features:** unified inbox · conversational ordering · AI sales assistant · calendar sync</sub>
 
-Helps households understand electricity use with bill scanning, appliance tracking, usage trends, estimates, and practical suggestions. SmartWatts Personal includes goals, challenges, rewards, and an AI advisor in English and Tagalog.
+<br clear="all"/>
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/project-opspilot-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/readme/project-opspilot-light.svg"><img src="assets/readme/project-opspilot-dark.svg" width="410" align="right" alt="OpsPilot cover: AI DevOps incident investigator, Top 2 Winner, Solo Developer, public repository."></picture>
 
-### OpsPilot <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/trophy.svg?color=%23F4F4F5"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/trophy.svg?color=%230A0A0A"><img src="https://api.iconify.design/pixelarticons/trophy.svg?color=%23F4F4F5" width="24" height="24" alt="Top 2 winner" align="absmiddle"/></picture>
-**AI DevOps incident investigator** · Top 2 Winner, DevKada x ClankerCloud Build Challenge · Solo Developer
+### OpsPilot
 
-Helps tech teams find the cause of system outages and make decisions from evidence during incidents.
+**Solo Developer** · [**Repository →**](https://github.com/rolex-esto/opspilot)
 
-[**Repo →**](https://github.com/rolex-esto/opspilot)
+**Problem:** Under incident pressure, teams can act on a plausible but wrong root cause, and an AI assistant that sounds certain makes that worse.
 
-</td>
-<td width="50%" valign="top">
+**Built:** An AI DevOps incident investigator that works from evidence and states clearly when the cause has not been confirmed yet.
 
-### BahaRoute <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/star.svg?color=%23F4F4F5"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/star.svg?color=%230A0A0A"><img src="https://api.iconify.design/pixelarticons/star.svg?color=%23F4F4F5" width="24" height="24" alt="Top 10 Climate Change Track" align="absmiddle"/></picture>
-**Flood-aware route helper for Metro Manila** · Top 10 Climate Change Track · Lead Developer
+<sub>**Recognition:** Top 2 Winner · DevKada × ClankerCloud Build Challenge (August 24–29, 2026)<br/>**Focus:** AI agent design · prompt and skill architecture · cloud observability</sub>
 
-Helps drivers avoid flood-prone roads with flood history, rainfall forecasts, and spoken hazard alerts.
+<br clear="all"/>
 
-[**Repo →**](https://github.com/rolex-esto/KiroxQuick_Flood_CTRL) · [**Live →**](https://baha-route.vercel.app/)
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/project-smartwatts-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/readme/project-smartwatts-light.svg"><img src="assets/readme/project-smartwatts-dark.svg" width="410" align="right" alt="SmartWatts cover: household electricity tracker, Top 10 Finalist, Lead Developer, Team KuryenTech."></picture>
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+### SmartWatts
 
-### Weather Weather Lang <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixel/badge-check-solid.svg?color=%23F4F4F5"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixel/badge-check-solid.svg?color=%230A0A0A"><img src="https://api.iconify.design/pixel/badge-check-solid.svg?color=%23F4F4F5" width="24" height="24" alt="3rd place" align="absmiddle"/></picture>
-**Conversational weather companion** · 3rd Place, KiroVerse Hack Sprint · AI Orchestrator, team project
+**Lead Developer, Team KuryenTech** · <sub>No public link yet</sub>
 
-Gives people friendly weather updates in a chat-style experience.
+**Problem:** Households and property managers lack a clear picture of where their electricity use and bills come from.
 
-[**Team repo →**](https://github.com/rolex-esto/Kirovers-Hack-Sprint-Shipaton-Edition) · [**Live →**](https://kiroverse-hack-sprint-shipaton-edition.vercel.app/)
+**Built:** Bill scanning, appliance tracking, usage trends, estimates and suggestions. SmartWatts Personal adds goals, rewards and an AI advisor in English and Tagalog; SmartWatts Rentals prepares electricity statements for tenants.
 
-</td>
-<td width="50%" valign="top">
+<sub>**Recognition:** Top 10 Finalist · Meralco IDOL Hackathon, Meralco Power Academy (November 12–13, 2026)</sub>
+
+<br clear="all"/>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/project-baharoute-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/readme/project-baharoute-light.svg"><img src="assets/readme/project-baharoute-dark.svg" width="410" align="right" alt="BahaRoute cover: flood-aware route helper, Top 10 Climate Change Track, Lead Developer, team project."></picture>
+
+### BahaRoute
+
+**Lead Developer · team project** · [**Repository →**](https://github.com/rolex-esto/KiroxQuick_Flood_CTRL) · [**Live demo →**](https://baha-route.vercel.app/)
+
+**Problem:** Metro Manila drivers can't easily tell which roads are likely to flood before they set out.
+
+**Built:** A route helper across 17 cities and 1,710 barangays that combines Project NOAH flood history, live rainfall forecasts and spoken hazard alerts. Built as a team in a 12-hour hackathon.
+
+<sub>**Recognition:** Top 36 Team · Top 10 Climate Change Track, BuildOvernights KiroxHackaton at the AWS Office (October 3–4, 2026)<br/>**Stack:** React · TypeScript · Mapbox GL · Three.js · Python (data processing)</sub>
+
+<br clear="all"/>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/project-weather-weather-lang-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/readme/project-weather-weather-lang-light.svg"><img src="assets/readme/project-weather-weather-lang-dark.svg" width="410" align="right" alt="Weather Weather Lang cover: conversational weather companion, 3rd Place, AI Orchestrator, team project."></picture>
+
+### Weather Weather Lang
+
+**AI Orchestrator · team project** · [**Team repo →**](https://github.com/rolex-esto/Kirovers-Hack-Sprint-Shipaton-Edition) · [**Live demo →**](https://kiroverse-hack-sprint-shipaton-edition.vercel.app/)
+
+**Problem:** A forecast readout alone doesn't tell people what to do, for example whether to travel today.
+
+**Built:** A chat-style weather companion that extends Ulan Ba? with a conversational assistant, a decision layer and client-side SQL.
+
+<sub>**Recognition:** 3rd Place · KiroVerse Hack Sprint: Shipaton Edition, with AWS &amp; RevenueCat (June – August 2026)<br/>**Stack:** React · TypeScript · Vite · DuckDB-WASM · Parquet · Recharts · Open-Meteo API · Playwright · Kiro</sub>
+
+<br clear="all"/>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/project-ulan-ba-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/readme/project-ulan-ba-light.svg"><img src="assets/readme/project-ulan-ba-dark.svg" width="410" align="right" alt="Ulan Ba? cover: Philippine rain forecast dashboard, public repository, Creator and Frontend Developer, solo build."></picture>
 
 ### Ulan Ba?
-**Philippine rain forecast dashboard** · Creator & Frontend Developer
 
-Helps people plan trips and outdoor activities with hourly rain and severity forecasts for 17 regions and 150+ cities.
+**Creator & Frontend Developer · solo build** · [**Repository →**](https://github.com/rolex-esto/kiro-phWeather)
 
-[**Repo →**](https://github.com/rolex-esto/kiro-phWeather)
+**Problem:** People planning trips and outdoor activities need to know when and where rain is expected.
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+**Built:** Hourly rain and severity forecasts for 17 regions and 150+ cities, with automatic location detection. It later became the base of Weather Weather Lang.
+
+<sub>**Stack:** React · TypeScript · Vite · Recharts · Open-Meteo API</sub>
+
+<br clear="all"/>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/project-classic-flagship-store-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/readme/project-classic-flagship-store-light.svg"><img src="assets/readme/project-classic-flagship-store-dark.svg" width="410" align="right" alt="Classic Flagship Store cover: e-commerce, POS and inventory, live site, Lead Developer, capstone project."></picture>
 
 ### Classic Flagship Store
-**E-commerce capstone project**
 
-An online store with separate admin, cashier, and customer dashboards to make inventory and daily store operations easier.
+**Lead Developer · capstone project** · [**Live site →**](https://classicflagshipstore.com/) · <sub><picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/icons/lock-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/readme/icons/lock-light.svg"><img src="assets/readme/icons/lock-dark.svg" width="16" height="16" alt="" align="absmiddle"></picture> Private repository</sub>
 
-[**Site →**](https://classicflagshipstore.com/) · <sub><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/lock.svg?color=%23A1A1AA"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/lock.svg?color=%236B6B75"><img src="https://api.iconify.design/pixelarticons/lock.svg?color=%23A1A1AA" width="12" height="12" alt="" align="absmiddle"/></picture> Private repository</sub>
+**Problem:** Running inventory and daily store operations by hand is slow and error-prone.
 
-</td>
-<td width="50%" valign="top">
+**Built:** An online store with separate admin, cashier and customer dashboards, secure Google sign-in and inventory tools, deployed live.
+
+<sub>**Stack:** PHP · MySQL · PDO · Google OAuth · Gemini AI · PHPMailer · Hostinger</sub>
+
+<br clear="all"/>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/project-tapme-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/readme/project-tapme-light.svg"><img src="assets/readme/project-tapme-dark.svg" width="410" align="right" alt="TAPME cover: NFC pages and client websites, 2025 to present, Freelance Web Developer."></picture>
 
 ### TAPME
-**Freelance web development** · 2025 – Present
 
-Builds NFC pages and client websites that help businesses share their details and collect reviews.
+**Freelance Web Developer · 2025 – Present** · [**Website →**](https://tapmeph.com/)
 
-[**Website →**](https://tapmeph.com/)
+**Problem:** Businesses need a fast way to share their details and collect reviews from a single tap or scan.
 
-</td>
-</tr>
-</table>
+**Built:** The pages that open when customers tap TAPME NFC products (calling cards, Google Review and social tap pages, menus, brochures), plus client websites with admin tools.
 
-<details>
-<summary><b><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/book-open.svg?color=%23F4F4F5"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/book-open.svg?color=%230A0A0A"><img src="https://api.iconify.design/pixelarticons/book-open.svg?color=%23F4F4F5" width="24" height="24" alt="" align="absmiddle"/></picture> Project details</b></summary>
+<br clear="all"/>
 
-<br/>
+## <picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/icons/briefcase-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/readme/icons/briefcase-light.svg"><img src="assets/readme/icons/briefcase-dark.svg" width="24" height="24" alt="" align="absmiddle"></picture> Experience
 
-**BizPilot** — Gives Filipino online sellers one inbox for social messages, one-click ordering in conversations, stock management, and a shared operations calendar. It includes an AI sales assistant and keeps each seller’s data private.
+#### Freelance Web Developer · [TAPME](https://tapmeph.com/)
+`2025 – Present` · Freelance<br/>
+Builds NFC tap pages and client websites for TAPME packages, and makes sure every tap or QR scan opens cleanly on any phone.
 
-**SmartWatts** — An informational and tracking tool that helps households understand electricity use through bills, appliance records, meter readings, trends, estimates, and practical suggestions. SmartWatts Rentals helps property managers organize units, invite tenants, record readings, and prepare electricity statements, giving managers and tenants a shared view of unit usage.
+#### Startup Founder & Developer · BizPilot
+`Active development` · Own startup project<br/>
+Founded and builds BizPilot end to end: inbox, conversational ordering, AI sales assistant and operations calendar.
 
-**OpsPilot** — Helps tech teams investigate system outages using evidence and makes clear when the cause has not yet been confirmed.
+#### Data Innovation Fellow, Cohort 11 · Eskwelabs Innovation Fellowship (EIF)
+`August 2026 – November 2026` · Fellowship<br/>
+Data Innovation track: projects across analytics, data modeling, strategy and management, and learning experience design.
 
-**BahaRoute** — Helps Metro Manila drivers choose routes away from flooded roads across 17 cities and 1,710 barangays, using Project NOAH flood history, live rainfall forecasts, and spoken hazard alerts.
+#### Participant, Data Science & AI · GCI World 2026
+`September 2026 – November 2026` · Global program, Matsuo-Iwasawa Laboratory, University of Tokyo<br/>
+Completed a global data science and AI program, applying data-driven methods and intelligent systems to software and data engineering projects.
 
-**Weather Weather Lang** — A chat-style weather companion that gives people weather updates in a friendly, conversational way.
-
-**Ulan Ba?** — Helps Filipinos plan travel and outdoor activities around expected rainfall, with hourly rain and severity forecasts for 17 regions and 150+ cities and automatic location detection.
-
-**Classic Flagship Store** — An online store for Classic Flagship Store with separate admin, cashier, and customer dashboards, secure Google sign-in, and inventory tools.
-
-</details>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:D4D4D8,100:A1A1AA" width="100%" alt=""/>
-
-## <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/briefcase.svg?color=%23F4F4F5"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/briefcase.svg?color=%230A0A0A"><img src="https://api.iconify.design/pixelarticons/briefcase.svg?color=%23F4F4F5" width="24" height="24" alt="" align="absmiddle"/></picture> Experience
-
-| Role | Organization | Period |
-|---|---|---|
-| **Freelance Web Developer** | [TAPME](https://tapmeph.com/) | 2025 – Present |
-| **Startup Founder & Developer** | BizPilot | Active development |
-| **Data Innovation Fellow**, Cohort 11 | Eskwelabs Innovation Fellowship (EIF) | August 2026 – November 2026 |
-| **Participant**, Data Science & AI | GCI World 2026 · Matsuo-Iwasawa Laboratory, University of Tokyo | September 2026 – November 2026 |
-| **BSIT student** | STI College Fairview, Quezon City, PH | September 2023 – July 2027 |
+#### BSIT Student · STI College Fairview
+`September 2023 – July 2027` · Education, Quezon City, PH<br/>
+4th-year Bachelor of Science in Information Technology.
 
 <details>
 <summary><b>What I do at TAPME</b></summary>
@@ -207,161 +201,95 @@ Builds NFC pages and client websites that help businesses share their details an
 
 </details>
 
-<details>
-<summary><b>Fellowships & Professional Training</b></summary>
+## <picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/icons/users-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/readme/icons/users-light.svg"><img src="assets/readme/icons/users-dark.svg" width="24" height="24" alt="" align="absmiddle"></picture> Leadership & Community
 
-<br/>
+- **Founding President** · Microsoft Student Community, STI Fairview
+- **AWS Learning Club Lead** · AWS Student User Group Philippines
+- **Delegate / Representative** · Data Engineering Pilipinas × Echelon 2026 by Brainsparks · `August 25–26, 2026`
+- **Venue Partnerships Associate** · Seekers Guild · `August 2026 – November 2026`
 
-**Eskwelabs Innovation Fellowship (EIF)** — Selected for Cohort 11’s Data Innovation track, collaborating on projects across analytics, data modeling, strategy and management, and learning experience design (August 2026 – November 2026).
+<sub>**Affiliations:** ISC2 Philippines Chapter · Data Engineering Pilipinas × DataCamp Donates (Scholar) · STI Fairview Bytes · STI Alumni Scholarship · DTI Metro Manila × Google Career Certificate Scholar · Cisco NetConnect PUP – Manila (Cybersecurity Operations)</sub>
 
-**GCI World 2026** — Completed a global data science and AI program under the Matsuo-Iwasawa Laboratory, University of Tokyo, applying data-driven methods and intelligent systems to real-world software and data engineering projects (September 2026 – November 2026).
+## <picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/icons/code-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/readme/icons/code-light.svg"><img src="assets/readme/icons/code-dark.svg" width="24" height="24" alt="" align="absmiddle"></picture> Tech Stack
 
-**Completed professional tracks:** AWS SimuLearn Cloud Practitioner (July 2026) · Microsoft DP-900, DP-700 and PL-300 curriculum tracks (July – October 2026) · DICT Region V Data Privacy Protection Competency Framework, 20-Hour Intensive Training (June 2026).
-
-</details>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:D4D4D8,100:A1A1AA" width="100%" alt=""/>
-
-## <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/tools.svg?color=%23F4F4F5"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/tools.svg?color=%230A0A0A"><img src="https://api.iconify.design/pixelarticons/tools.svg?color=%23F4F4F5" width="24" height="24" alt="" align="absmiddle"/></picture> Tech Stack
-
-**Languages**<br/>
-<img src="https://skillicons.dev/icons?i=js,ts,py,php&theme=dark" alt="JavaScript, TypeScript, Python, PHP"/> <img src="https://img.shields.io/badge/SQL-0B0B0D?style=for-the-badge&logo=postgresql&logoColor=D4D4D8" alt="SQL"/>
-
-**Web Technologies & Frameworks**<br/>
-<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,vite,html,css&theme=dark" alt="React, Next.js, Node.js, Vite, HTML, CSS"/> OAuth
-
-**Databases & Data**<br/>
-<img src="https://skillicons.dev/icons?i=mysql,postgres&theme=dark" alt="MySQL, PostgreSQL"/><br/>
-<img src="https://img.shields.io/badge/Power%20BI-0B0B0D?style=for-the-badge&logo=powerbi&logoColor=F2C811" alt="Power BI"/> <img src="https://img.shields.io/badge/DuckDB-0B0B0D?style=for-the-badge&logo=duckdb&logoColor=FFF000" alt="DuckDB"/> <img src="https://img.shields.io/badge/Pandas-0B0B0D?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/> <img src="https://img.shields.io/badge/NumPy-0B0B0D?style=for-the-badge&logo=numpy&logoColor=013243" alt="NumPy"/> <img src="https://img.shields.io/badge/Parquet-0B0B0D?style=for-the-badge&logo=apacheparquet&logoColor=50ABF1" alt="Apache Parquet"/> <img src="https://img.shields.io/badge/Excel-0B0B0D?style=for-the-badge&logo=microsoftexcel&logoColor=217346" alt="Excel"/> Recharts
-
-**Cloud & Security**<br/>
-<img src="https://skillicons.dev/icons?i=aws,azure,gcp,vercel&theme=dark" alt="AWS, Azure, Google Cloud, Vercel"/> <img src="https://img.shields.io/badge/Microsoft%20Fabric-0B0B0D?style=for-the-badge&logo=microsoft&logoColor=D4D4D8" alt="Microsoft Fabric"/> IAM
-
-**Tools & AI**<br/>
-<img src="https://skillicons.dev/icons?i=git,github&theme=dark" alt="Git, GitHub"/><br/>
-<img src="https://img.shields.io/badge/Playwright-0B0B0D?style=for-the-badge&logo=playwright&logoColor=2EAD33" alt="Playwright"/> <img src="https://img.shields.io/badge/Cursor-0B0B0D?style=for-the-badge&logo=cursor&logoColor=white" alt="Cursor"/> <img src="https://img.shields.io/badge/Kiro-0B0B0D?style=for-the-badge&logoColor=white" alt="Kiro"/> <img src="https://img.shields.io/badge/Antigravity-0B0B0D?style=for-the-badge" alt="Antigravity"/> <img src="https://img.shields.io/badge/Claude%20Code-0B0B0D?style=for-the-badge&logo=anthropic&logoColor=D97757" alt="Claude Code"/> Codex
-
-<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:D4D4D8,100:A1A1AA" width="100%" alt=""/>
-
-## <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/notes.svg?color=%23F4F4F5"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/notes.svg?color=%230A0A0A"><img src="https://api.iconify.design/pixelarticons/notes.svg?color=%23F4F4F5" width="24" height="24" alt="" align="absmiddle"/></picture> Certifications
-
-<p>
-  <img src="https://img.shields.io/badge/Certifications-9-D4D4D8?style=flat-square&labelColor=0B0B0D" alt="9 certifications"/>
-  <img src="https://img.shields.io/badge/Data-4%20DataCamp-D4D4D8?style=flat-square&labelColor=0B0B0D&logo=datacamp&logoColor=white" alt="4 data certifications"/>
-  <img src="https://img.shields.io/badge/Security-3-A1A1AA?style=flat-square&labelColor=0B0B0D" alt="3 security certifications"/>
-  <img src="https://img.shields.io/badge/Microsoft-Certified-D4D4D8?style=flat-square&labelColor=0B0B0D&logo=microsoft&logoColor=white" alt="1 Microsoft Certified"/>
-  <img src="https://img.shields.io/badge/DICT-Recognized%20Professional-A1A1AA?style=flat-square&labelColor=0B0B0D" alt="1 professional recognition: DICT"/>
-  <img src="https://img.shields.io/badge/Training-5-A1A1AA?style=flat-square&labelColor=0B0B0D" alt="5 training tracks"/>
+<p align="center">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/stack-a-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/readme/stack-a-light.svg"><img src="assets/readme/stack-a-dark.svg" width="410" alt="Languages: JavaScript, TypeScript, Python, PHP, SQL. Frontend and backend: React, Next.js, Node.js, Vite, FastAPI, HTML, CSS, OAuth. Cloud and security: AWS, Azure, Google Cloud, Vercel, IAM."></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/stack-b-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/readme/stack-b-light.svg"><img src="assets/readme/stack-b-dark.svg" width="410" alt="Data and analytics: Microsoft Fabric, Power BI, Pandas, NumPy, DuckDB, PostgreSQL, MySQL, Parquet, Excel, Recharts. Developer and AI tools: Git, GitHub, GitHub Actions, Playwright, Claude Code, Codex, Cursor, Kiro, Antigravity."></picture>
 </p>
 
-<table width="100%">
-<tr>
-<td width="46%" align="center" valign="middle">
-<a href="https://learn.microsoft.com/en-us/users/rolexesto-7021/credentials/certification/fabric-data-engineer-associate?tab=credentials-tab"><img src="assets/certs/thumbs/dp700.png" width="340" alt="Microsoft Certified: Fabric Data Engineer Associate certificate"/></a>
-</td>
-<td valign="middle">
+<sub>Tools I use to build. These are not certifications; credentials are listed separately below.</sub>
 
-<img src="https://img.shields.io/badge/Verified-Valid%20until%20Nov%202027-D4D4D8?style=flat-square&labelColor=0B0B0D&logo=microsoft&logoColor=white" alt="Verified, valid until Nov 2027"/> <img src="https://img.shields.io/badge/Microsoft-Certified-A1A1AA?style=flat-square&labelColor=0B0B0D&logo=microsoft&logoColor=white" alt="Microsoft Certified"/>
+<a name="certifications"></a>
 
-### Microsoft Certified: Fabric Data Engineer Associate
+## <picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/icons/notes-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/readme/icons/notes-light.svg"><img src="assets/readme/icons/notes-dark.svg" width="24" height="24" alt="" align="absmiddle"></picture> Certifications
 
-**DP-700** · Earned Nov 2026 · Valid until Nov 10, 2027
+**Featured credentials**
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/external-link.svg?color=%23F4F4F5"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/external-link.svg?color=%230A0A0A"><img src="https://api.iconify.design/pixelarticons/external-link.svg?color=%23F4F4F5" width="24" height="24" alt="" align="absmiddle"/></picture> [**Verify on Microsoft Learn**](https://learn.microsoft.com/en-us/users/rolexesto-7021/credentials/certification/fabric-data-engineer-associate?tab=credentials-tab) · <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/expand.svg?color=%23F4F4F5"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/expand.svg?color=%230A0A0A"><img src="https://api.iconify.design/pixelarticons/expand.svg?color=%23F4F4F5" width="24" height="24" alt="" align="absmiddle"/></picture> [Full certificate](assets/certs/dp700.png)
+<p align="center">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/cred-dp700-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/readme/cred-dp700-light.svg"><img src="assets/readme/cred-dp700-dark.svg" width="410" alt="Microsoft Certified: Fabric Data Engineer Associate, exam DP-700. Earned November 2026, valid until November 10, 2027. Opens the verification page on Microsoft Learn."></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/cred-isc2-cc-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/readme/cred-isc2-cc-light.svg"><img src="assets/readme/cred-isc2-cc-dark.svg" width="410" alt="ISC2 Certified in Cybersecurity (CC). Earned March 2026, certification cycle March 2026 to February 2029. Opens the certificate image."></picture>
+</p>
 
-</td>
-</tr>
-</table>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/icons/external-link-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/readme/icons/external-link-light.svg"><img src="assets/readme/icons/external-link-dark.svg" width="16" height="16" alt="" align="absmiddle"></picture> [**Verify DP-700 on Microsoft Learn**](https://learn.microsoft.com/en-us/users/rolexesto-7021/credentials/certification/fabric-data-engineer-associate?tab=credentials-tab) · [ISC2 CC certificate](assets/certs/isc2-cc.png)
 
-<details open>
-<summary><b><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/window-frame.svg?color=%23F4F4F5"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/window-frame.svg?color=%230A0A0A"><img src="https://api.iconify.design/pixelarticons/window-frame.svg?color=%23F4F4F5" width="24" height="24" alt="" align="absmiddle"/></picture> Microsoft &amp; Cloud</b> · 1 certification · 1 training</summary>
+**9** certifications · **1** professional recognition (DICT, Category 2) · **5** training completions, counted separately
+
+<details>
+<summary><b>All 9 certifications</b> · by date</summary>
 
 <br/>
 
-<table width="100%">
-<tr><td align="center" valign="top" width="400"><a href="assets/certs/dp700.png"><img src="assets/certs/thumbs/dp700.png" width="250" alt="Microsoft Certified: Fabric Data Engineer Associate certificate"/></a><br/><b>Microsoft Certified: Fabric Data Engineer Associate (DP-700)</b><br/><sub><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/window-frame.svg?color=%23F4F4F5"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/window-frame.svg?color=%230A0A0A"><img src="https://api.iconify.design/pixelarticons/window-frame.svg?color=%23F4F4F5" width="12" height="12" alt="" align="absmiddle"/></picture> Microsoft · Nov 2026</sub><br/><sub>Valid until Nov 10, 2027</sub></td><td align="center" valign="top" width="400"><a href="assets/certs/aws-simulearn.png"><img src="assets/certs/thumbs/aws-simulearn.png" width="250" alt="AWS SimuLearn Cloud Practitioner completion certificate"/></a><br/><b>AWS SimuLearn: Cloud Practitioner</b><br/><sub><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/cloud.svg?color=%23F4F4F5"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/cloud.svg?color=%230A0A0A"><img src="https://api.iconify.design/pixelarticons/cloud.svg?color=%23F4F4F5" width="12" height="12" alt="" align="absmiddle"/></picture> AWS · Jul 2026</sub><br/><sub><b>Training</b> · completion certificate</sub></td></tr>
-</table>
+- **Microsoft Certified: Fabric Data Engineer Associate (DP-700)** · Microsoft · `Nov 2026` · valid until Nov 10, 2027 · [verify](https://learn.microsoft.com/en-us/users/rolexesto-7021/credentials/certification/fabric-data-engineer-associate?tab=credentials-tab)
+- **Google AI Professional Certificate** · Google · `Aug 2026` · [certificate](assets/certs/google-ai.png)
+- **Certified Cybersecurity Professional (CCP)** · Appkademiya · `Aug 2026` · [certificate](assets/certs/appkademiya-ccp.png)
+- **DataCamp Certified Associate Data Engineer** · DataCamp · `Jul 2026` · [certificate](assets/certs/datacamp-data-engineer.png)
+- **DataCamp Certified in Data Literacy** · DataCamp · `Jul 2026` · [certificate](assets/certs/datacamp-data-literacy.png)
+- **DataCamp Certified Associate Data Analyst** · DataCamp · `May 2026` · [certificate](assets/certs/datacamp-data-analyst.png)
+- **DataCamp Certified SQL Associate** · DataCamp · `Apr 2026` · [certificate](assets/certs/datacamp-sql.png)
+- **ISC2 Certified in Cybersecurity (CC)** · ISC2 · `Mar 2026` · cycle Mar 2026 – Feb 2029 · [certificate](assets/certs/isc2-cc.png)
+- **Certified Threat Intelligence &amp; Governance Analyst (CTIGA)** · Red Team Leaders · `Jan 2026` · [certificate](assets/certs/ctiga.png)
 
 </details>
 
 <details>
-<summary><b><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/database.svg?color=%23F4F4F5"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/database.svg?color=%230A0A0A"><img src="https://api.iconify.design/pixelarticons/database.svg?color=%23F4F4F5" width="24" height="24" alt="" align="absmiddle"/></picture> Data</b> · 4 certifications</summary>
+<summary><b>Recognition and training</b></summary>
 
 <br/>
 
-<table width="100%">
-<tr><td align="center" valign="top" width="400"><a href="assets/certs/datacamp-data-engineer.png"><img src="assets/certs/thumbs/datacamp-data-engineer.png" width="250" alt="DataCamp Associate Data Engineer certificate"/></a><br/><b>DataCamp Certified Associate Data Engineer</b><br/><sub><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/analytics.svg?color=%23F4F4F5"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/analytics.svg?color=%230A0A0A"><img src="https://api.iconify.design/pixelarticons/analytics.svg?color=%23F4F4F5" width="12" height="12" alt="" align="absmiddle"/></picture> DataCamp · Jul 2026</sub></td><td align="center" valign="top" width="400"><a href="assets/certs/datacamp-data-analyst.png"><img src="assets/certs/thumbs/datacamp-data-analyst.png" width="250" alt="DataCamp Associate Data Analyst certificate"/></a><br/><b>DataCamp Certified Associate Data Analyst</b><br/><sub><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/analytics.svg?color=%23F4F4F5"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/analytics.svg?color=%230A0A0A"><img src="https://api.iconify.design/pixelarticons/analytics.svg?color=%23F4F4F5" width="12" height="12" alt="" align="absmiddle"/></picture> DataCamp · May 2026</sub></td></tr>
-<tr><td align="center" valign="top" width="400"><a href="assets/certs/datacamp-sql.png"><img src="assets/certs/thumbs/datacamp-sql.png" width="250" alt="DataCamp SQL Associate certificate"/></a><br/><b>DataCamp Certified SQL Associate</b><br/><sub><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/analytics.svg?color=%23F4F4F5"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/analytics.svg?color=%230A0A0A"><img src="https://api.iconify.design/pixelarticons/analytics.svg?color=%23F4F4F5" width="12" height="12" alt="" align="absmiddle"/></picture> DataCamp · Apr 2026</sub></td><td align="center" valign="top" width="400"><a href="assets/certs/datacamp-data-literacy.png"><img src="assets/certs/thumbs/datacamp-data-literacy.png" width="250" alt="DataCamp Data Literacy Fundamentals certificate"/></a><br/><b>DataCamp Certified in Data Literacy</b><br/><sub><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/analytics.svg?color=%23F4F4F5"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/analytics.svg?color=%230A0A0A"><img src="https://api.iconify.design/pixelarticons/analytics.svg?color=%23F4F4F5" width="12" height="12" alt="" align="absmiddle"/></picture> DataCamp · Jul 2026</sub></td></tr>
-</table>
+**Professional recognition** (not an exam certificate)
+- **DICT-Recognized Cybersecurity Professional, Category 2 (Intermediate)** · DICT · `Sep 2026` · [badge](./dict-cyberpro-badge.png)
+
+**Training completions**
+- **AWS SimuLearn: Cloud Practitioner** · AWS · `Jul 2026` · [completion certificate](assets/certs/aws-simulearn.png)
+- **Microsoft DP-900, DP-700 and PL-300 curriculum tracks** · Microsoft · `Jul – Oct 2026`
+- **DICT Region V Data Privacy Protection Competency Framework**, 20-Hour Intensive Training · `Jun 2026`
 
 </details>
 
 <details>
-<summary><b><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/shield.svg?color=%23F4F4F5"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/shield.svg?color=%230A0A0A"><img src="https://api.iconify.design/pixelarticons/shield.svg?color=%23F4F4F5" width="24" height="24" alt="" align="absmiddle"/></picture> Security</b> · 3 certifications · 1 recognition</summary>
+<summary><b>Certificate gallery</b> · thumbnails open the full image</summary>
 
 <br/>
 
-<table width="100%">
-<tr><td align="center" valign="top" width="400"><a href="assets/certs/isc2-cc.png"><img src="assets/certs/thumbs/isc2-cc.png" width="250" alt="ISC2 Certified in Cybersecurity certificate"/></a><br/><b>Certified in Cybersecurity (CC)</b><br/><sub><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/shield.svg?color=%23F4F4F5"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/shield.svg?color=%230A0A0A"><img src="https://api.iconify.design/pixelarticons/shield.svg?color=%23F4F4F5" width="12" height="12" alt="" align="absmiddle"/></picture> ISC2 · Mar 2026</sub><br/><sub>Cycle: Mar 2026 – Feb 2029</sub></td><td align="center" valign="top" width="400"><a href="./dict-cyberpro-badge.png"><img src="assets/certs/thumbs/dict-cyberpro-badge.png" width="170" alt="DICT-Recognized Cybersecurity Professional, Category 2 (Intermediate) badge"/></a><br/><b>DICT-Recognized Cybersecurity Professional, Category 2</b><br/><sub><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/shield.svg?color=%23F4F4F5"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/shield.svg?color=%230A0A0A"><img src="https://api.iconify.design/pixelarticons/shield.svg?color=%23F4F4F5" width="12" height="12" alt="" align="absmiddle"/></picture> DICT · Sep 2026</sub><br/><sub>Professional recognition</sub></td></tr>
-<tr><td align="center" valign="top" width="400"><a href="assets/certs/appkademiya-ccp.png"><img src="assets/certs/thumbs/appkademiya-ccp.png" width="250" alt="Appkademiya Certified Cybersecurity Professional certificate"/></a><br/><b>Certified Cybersecurity Professional (CCP)</b><br/><sub><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixel/badge-check-solid.svg?color=%23F4F4F5"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixel/badge-check-solid.svg?color=%230A0A0A"><img src="https://api.iconify.design/pixel/badge-check-solid.svg?color=%23F4F4F5" width="12" height="12" alt="" align="absmiddle"/></picture> Appkademiya · Aug 2026</sub></td><td align="center" valign="top" width="400"><a href="assets/certs/ctiga.png"><img src="assets/certs/thumbs/ctiga.png" width="250" alt="Red Team Leaders CTIGA certificate"/></a><br/><b>Certified Threat Intelligence &amp; Governance Analyst (CTIGA)</b><br/><sub><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/shield.svg?color=%23F4F4F5"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/shield.svg?color=%230A0A0A"><img src="https://api.iconify.design/pixelarticons/shield.svg?color=%23F4F4F5" width="12" height="12" alt="" align="absmiddle"/></picture> Red Team Leaders · Jan 2026</sub></td></tr>
-</table>
+<p align="center">
+<a href="https://learn.microsoft.com/en-us/users/rolexesto-7021/credentials/certification/fabric-data-engineer-associate?tab=credentials-tab"><img src="assets/certs/thumbs/dp700.png" width="260" alt="Microsoft Certified: Fabric Data Engineer Associate certificate"/></a>
+<a href="assets/certs/isc2-cc.png"><img src="assets/certs/thumbs/isc2-cc.png" width="260" alt="ISC2 Certified in Cybersecurity certificate"/></a>
+<a href="assets/certs/google-ai.png"><img src="assets/certs/thumbs/google-ai.png" width="260" alt="Google AI Professional Certificate"/></a>
+<a href="assets/certs/datacamp-data-engineer.png"><img src="assets/certs/thumbs/datacamp-data-engineer.png" width="260" alt="DataCamp Associate Data Engineer certificate"/></a>
+<a href="assets/certs/datacamp-data-analyst.png"><img src="assets/certs/thumbs/datacamp-data-analyst.png" width="260" alt="DataCamp Associate Data Analyst certificate"/></a>
+<a href="assets/certs/datacamp-sql.png"><img src="assets/certs/thumbs/datacamp-sql.png" width="260" alt="DataCamp SQL Associate certificate"/></a>
+<a href="assets/certs/datacamp-data-literacy.png"><img src="assets/certs/thumbs/datacamp-data-literacy.png" width="260" alt="DataCamp Data Literacy certificate"/></a>
+<a href="assets/certs/appkademiya-ccp.png"><img src="assets/certs/thumbs/appkademiya-ccp.png" width="260" alt="Appkademiya Certified Cybersecurity Professional certificate"/></a>
+<a href="assets/certs/ctiga.png"><img src="assets/certs/thumbs/ctiga.png" width="260" alt="Red Team Leaders CTIGA certificate"/></a>
+<a href="./dict-cyberpro-badge.png"><img src="assets/certs/thumbs/dict-cyberpro-badge.png" width="170" alt="DICT-Recognized Cybersecurity Professional, Category 2 badge"/></a>
+<a href="assets/certs/aws-simulearn.png"><img src="assets/certs/thumbs/aws-simulearn.png" width="260" alt="AWS SimuLearn Cloud Practitioner completion certificate"/></a>
+</p>
 
 </details>
 
-<details>
-<summary><b><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/sparkles.svg?color=%23F4F4F5"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/sparkles.svg?color=%230A0A0A"><img src="https://api.iconify.design/pixelarticons/sparkles.svg?color=%23F4F4F5" width="24" height="24" alt="" align="absmiddle"/></picture> AI</b> · 1 certification</summary>
+<sub>Only DP-700 has a public verification link; other entries open the full-size certificate image.</sub>
 
-<br/>
-
-<table width="100%">
-<tr><td align="center" valign="top" width="400"><a href="assets/certs/google-ai.png"><img src="assets/certs/thumbs/google-ai.png" width="250" alt="Google AI Professional Certificate"/></a><br/><b>Google AI Professional Certificate</b><br/><sub><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/google.svg?color=%23F4F4F5"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/google.svg?color=%230A0A0A"><img src="https://api.iconify.design/pixelarticons/google.svg?color=%23F4F4F5" width="12" height="12" alt="" align="absmiddle"/></picture> Google · Aug 2026</sub></td></tr>
-</table>
-
-</details>
-
-<details>
-<summary><b><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/clock.svg?color=%23F4F4F5"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/clock.svg?color=%230A0A0A"><img src="https://api.iconify.design/pixelarticons/clock.svg?color=%23F4F4F5" width="24" height="24" alt="" align="absmiddle"/></picture> Certification journey</b> · January 2026 → November 2026</summary>
-
-<br/>
-
-| Date | Milestone |
-|---|---|
-| **January 2026** | Red Team Leaders Certified Threat Intelligence &amp; Governance Analyst (CTIGA) |
-| **March 2026** | ISC2 Certified in Cybersecurity (CC) |
-| **April 2026** | DataCamp Certified SQL Associate |
-| **May 2026** | DataCamp Certified Associate Data Analyst |
-| **June 2026** | DICT Region V Data Privacy Protection Competency Framework, 20-Hour Intensive Training |
-| **July 2026** | DataCamp Certified Associate Data Engineer · DataCamp Certified in Data Literacy · AWS SimuLearn Cloud Practitioner · Microsoft DP-900 curriculum track |
-| **August 2026** | Google AI Professional Certificate · Appkademiya Certified Cybersecurity Professional (CCP) · Microsoft DP-700 curriculum track |
-| **September 2026** | DICT-Recognized Cybersecurity Professional Category 2 (Intermediate) |
-| **October 2026** | Microsoft PL-300 Power BI Data Analyst curriculum track |
-| **November 2026** | Microsoft Certified: Fabric Data Engineer Associate (DP-700) |
-
-</details>
-
-<sub>Only the DP-700 has a verification link; every other thumbnail opens the full-size certificate image. DICT Category 2 is a professional recognition, not an exam certificate. AWS SimuLearn, the Microsoft curriculum tracks and DICT Region V are training.</sub>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:D4D4D8,100:A1A1AA" width="100%" alt=""/>
-
-## <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/users.svg?color=%23F4F4F5"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/users.svg?color=%230A0A0A"><img src="https://api.iconify.design/pixelarticons/users.svg?color=%23F4F4F5" width="24" height="24" alt="" align="absmiddle"/></picture> Leadership & Affiliations
-
-<details>
-<summary><b>Roles & affiliations</b></summary>
-
-<br/>
-
-- <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/library.svg?color=%23F4F4F5"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/library.svg?color=%230A0A0A"><img src="https://api.iconify.design/pixelarticons/library.svg?color=%23F4F4F5" width="24" height="24" alt="" align="absmiddle"/></picture> **Founding President**, Microsoft Student Community, STI Fairview
-- <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/cloud.svg?color=%23F4F4F5"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/cloud.svg?color=%230A0A0A"><img src="https://api.iconify.design/pixelarticons/cloud.svg?color=%23F4F4F5" width="24" height="24" alt="" align="absmiddle"/></picture> **AWS Learning Club Lead**, AWS Student User Group Philippines
-- <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/mic.svg?color=%23F4F4F5"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/mic.svg?color=%230A0A0A"><img src="https://api.iconify.design/pixelarticons/mic.svg?color=%23F4F4F5" width="24" height="24" alt="" align="absmiddle"/></picture> **Delegate / Representative**, Data Engineering Pilipinas x Echelon 2026 by Brainsparks (August 25–26, 2026)
-- <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixel/handshake-solid.svg?color=%23F4F4F5"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixel/handshake-solid.svg?color=%230A0A0A"><img src="https://api.iconify.design/pixel/handshake-solid.svg?color=%23F4F4F5" width="24" height="24" alt="" align="absmiddle"/></picture> **Venue Partnerships Associate**, Seekers Guild (August 2026 – November 2026)
-
-**Affiliations:** ISC2 Philippines Chapter · Data Engineering Pilipinas × DataCamp Donates (Scholar) · STI Fairview Bytes · STI Alumni Scholarship · DTI Metro Manila × Google Career Certificate Scholar · Cisco NetConnect PUP – Manila (Cybersecurity Operations)
-
-</details>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:D4D4D8,100:A1A1AA" width="100%" alt=""/>
-
-## <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/chart.svg?color=%23F4F4F5"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/chart.svg?color=%230A0A0A"><img src="https://api.iconify.design/pixelarticons/chart.svg?color=%23F4F4F5" width="24" height="24" alt="" align="absmiddle"/></picture> GitHub Stats
+## <picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/icons/chart-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/readme/icons/chart-light.svg"><img src="assets/readme/icons/chart-dark.svg" width="24" height="24" alt="" align="absmiddle"></picture> Activity
 
 <p align="center">
   <picture>
@@ -379,16 +307,18 @@ Builds NFC pages and client websites that help businesses share their details an
   </picture>
 </p>
 
-<p align="center"><sub>Activity, streaks and the contribution graph are in the <a href="#developer-overview">Developer Overview</a> above. All graphics here are generated by this repository's own workflow.</sub></p>
+<p align="center"><sub>Languages and the contribution snake are generated by this repository's own workflow. Streaks and totals are in the <a href="#developer-overview">Developer Overview</a>.</sub></p>
 
 <div align="center">
 
-## <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/mail.svg?color=%23F4F4F5"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/mail.svg?color=%230A0A0A"><img src="https://api.iconify.design/pixelarticons/mail.svg?color=%23F4F4F5" width="24" height="24" alt="" align="absmiddle"/></picture> Let's Connect
+## <picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/icons/mail-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/readme/icons/mail-light.svg"><img src="assets/readme/icons/mail-dark.svg" width="24" height="24" alt="" align="absmiddle"></picture> Let's Connect
 
 I'm most interested in opportunities where I can build, experiment, ship, and learn from real-world problems.
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/globe.svg?color=%23F4F4F5"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/globe.svg?color=%230A0A0A"><img src="https://api.iconify.design/pixelarticons/globe.svg?color=%23F4F4F5" width="24" height="24" alt="" align="absmiddle"/></picture> [Portfolio](https://rolex-esto.vercel.app/) · <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/linkedin.svg?color=%23F4F4F5"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/linkedin.svg?color=%230A0A0A"><img src="https://api.iconify.design/pixelarticons/linkedin.svg?color=%23F4F4F5" width="24" height="24" alt="" align="absmiddle"/></picture> [LinkedIn](https://linkedin.com/in/rolex-esto-1b33b2391/) · <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/mail.svg?color=%23F4F4F5"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/mail.svg?color=%230A0A0A"><img src="https://api.iconify.design/pixelarticons/mail.svg?color=%23F4F4F5" width="24" height="24" alt="" align="absmiddle"/></picture> [Email](mailto:rolexesto0001@gmail.com) · <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/github.svg?color=%23F4F4F5"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/github.svg?color=%230A0A0A"><img src="https://api.iconify.design/pixelarticons/github.svg?color=%23F4F4F5" width="24" height="24" alt="" align="absmiddle"/></picture> [GitHub](https://github.com/rolex-esto)
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=140&color=0:D4D4D8,100:A1A1AA&section=footer" alt="Footer wave" width="100%"/>
+<a href="https://rolex-esto.vercel.app/"><img src="assets/readme/nav-portfolio.svg" alt="Portfolio (opens rolex-esto.vercel.app)"/></a>
+<a href="https://linkedin.com/in/rolex-esto-1b33b2391/"><img src="assets/readme/nav-linkedin.svg" alt="LinkedIn profile"/></a>
+<a href="#featured-projects"><img src="assets/readme/nav-projects.svg" alt="Jump to featured projects"/></a>
+<a href="#certifications"><img src="assets/readme/nav-certifications.svg" alt="Jump to certifications"/></a>
+<a href="mailto:rolexesto0001@gmail.com"><img src="assets/readme/nav-email.svg" alt="Email rolexesto0001@gmail.com"/></a>
 
 </div>

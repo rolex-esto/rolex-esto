@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="410" height="200" viewBox="0 0 410 200" role="img" aria-labelledby="t d">
+<title id="t">Top 2 Winner</title>
+<desc id="d">Top 2 winner: DevKada × ClankerCloud, Build Challenge, Aug 24–29, 2026. Project OpsPilot; Solo Developer.</desc>
+<style>@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<rect x="1" y="1" width="408" height="198" rx="16" fill="#0B0B0D" stroke="#26262C" stroke-width="2"/>
+<defs>
+<pattern id="g" width="12" height="12" patternUnits="userSpaceOnUse"><rect x="5" y="5" width="2" height="2" fill="#34343C"/></pattern>
+</defs>
+<rect x="14" y="14" width="98" height="172" rx="12" fill="#131316" stroke="#26262C"/>
+<rect x="15" y="15" width="96" height="170" rx="11" fill="url(#g)"/>
+<g transform="translate(31 46) scale(2.66667)"><path fill="#F4F4F5" d="M16 17h-3v2h2v2H9v-2h2v-2H8v-2h8zm2-12h4v6h-2V7h-2v4h2v2h-2v2h-2V5H8v10H6v-2H4v-2h2V7H4v4H2V5h4V3h12z"/></g>
+<text x="63" y="168" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="16" font-weight="600" fill="#B1B1BA">2026</text>
+<text x="130" y="48" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="30" font-weight="800" fill="#F4F4F5" letter-spacing="-0.5">TOP 2</text>
+<text x="224.02" y="48" text-anchor="start" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="16" font-weight="700" fill="#B1B1BA">WINNER</text>
+<text x="130" y="76" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="17" font-weight="600" fill="#F4F4F5">DevKada × ClankerCloud</text>
+<text x="130" y="98" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="500" fill="#B1B1BA">Build Challenge</text>
+<text x="130" y="124" text-anchor="start" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="16" font-weight="500" fill="#B1B1BA">Aug 24–29, 2026</text>
+<text x="130" y="154" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="17" font-weight="700" fill="#F4F4F5">OpsPilot</text>
+<text x="130" y="176" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="500" fill="#B1B1BA">Solo Developer</text>
+</svg>

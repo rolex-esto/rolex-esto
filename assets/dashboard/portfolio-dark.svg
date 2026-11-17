@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="410" height="1012" viewBox="0 0 410 1012" role="img" aria-labelledby="t d">
-<title id="t">Pixel-art portfolio scene and technology stack</title>
-<desc id="d">Original pixel art: a developer in headphones codes at a retro monitor beside a cozy cottage on a lavender night with stars and fireflies, with a cat by the stool. Technologies: Languages: JavaScript, TypeScript, Python, PHP, SQL; Frontend: React, Next.js, Vite; Backend: Node.js, FastAPI; Data Engineering: Microsoft Fabric, Power BI, Pandas, NumPy, DuckDB, PostgreSQL, MySQL; Cloud: AWS, Azure, Google Cloud, Vercel; Developer Tools &amp; AI: Git, GitHub, GitHub Actions, Playwright, Claude Code, Codex, Cursor, Kiro, Antigravity.</desc>
+<title id="t">Pixel-art portfolio scene and engineering domains</title>
+<desc id="d">Original pixel art: a developer in headphones codes at a retro monitor beside a cozy cottage on a lavender night with stars and fireflies, with a cat by the stool. Engineering domains: Software Engineering: Next.js · React · Node.js · FastAPI, Founder &amp; developer of BizPilot; Artificial Intelligence: AI sales assistant · AI incident agent, Google AI Professional Certificate; Data Engineering: Microsoft Fabric · Power BI · DuckDB, Microsoft Certified: DP-700; Cloud Computing: AWS · Azure · Google Cloud · Vercel, AWS Learning Club Lead; Cybersecurity: ISC2 Certified in Cybersecurity, DICT-recognized professional, Cat. 2.</desc>
 <style>
 .cloud{animation:drift 26s ease-in-out infinite alternate}
 .cloud.b{animation-duration:34s;animation-delay:-11s}
@@ -1219,76 +1219,34 @@
 <text x="16" y="364" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="18" font-weight="600" fill="#F4F4F5">Software · AI · Data · Cloud</text>
 <text x="16" y="390" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="400" fill="#B1B1BA">Founder of BizPilot · Microsoft DP-700</text>
 <rect x="16" y="406" width="378" height="2" rx="1" fill="#1B1B1F"/>
-<rect x="16" y="428" width="10" height="10" rx="2" fill="#F4F4F5"/>
-<text x="32" y="440" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#F4F4F5">LANGUAGES</text>
-<rect x="16" y="450" width="109" height="28" rx="7" fill="#37373A" stroke="#AEAEAF"/>
-<text x="70.5" y="469.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#F4F4F5">JavaScript</text>
-<rect x="132" y="450" width="111" height="28" rx="7" fill="#37373A" stroke="#AEAEAF"/>
-<text x="187.5" y="469.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#F4F4F5">TypeScript</text>
-<rect x="250" y="450" width="82" height="28" rx="7" fill="#37373A" stroke="#AEAEAF"/>
-<text x="291.0" y="469.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#F4F4F5">Python</text>
-<rect x="16" y="486" width="61" height="28" rx="7" fill="#37373A" stroke="#AEAEAF"/>
-<text x="46.5" y="505.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#F4F4F5">PHP</text>
-<rect x="84" y="486" width="61" height="28" rx="7" fill="#37373A" stroke="#AEAEAF"/>
-<text x="114.5" y="505.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#F4F4F5">SQL</text>
-<rect x="16" y="531" width="10" height="10" rx="2" fill="#E7E7E9"/>
-<text x="32" y="543" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#E7E7E9">FRONTEND</text>
-<rect x="16" y="553" width="72" height="28" rx="7" fill="#353538" stroke="#A5A5A7"/>
-<text x="52.0" y="572.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#E7E7E9">React</text>
-<rect x="95" y="553" width="80" height="28" rx="7" fill="#353538" stroke="#A5A5A7"/>
-<text x="135.0" y="572.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#E7E7E9">Next.js</text>
-<rect x="182" y="553" width="57" height="28" rx="7" fill="#353538" stroke="#A5A5A7"/>
-<text x="210.5" y="572.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#E7E7E9">Vite</text>
-<rect x="16" y="598" width="10" height="10" rx="2" fill="#D4D4D8"/>
-<text x="32" y="610" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#D4D4D8">BACKEND</text>
-<rect x="16" y="620" width="86" height="28" rx="7" fill="#323235" stroke="#98989B"/>
-<text x="59.0" y="639.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#D4D4D8">Node.js</text>
-<rect x="109" y="620" width="88" height="28" rx="7" fill="#323235" stroke="#98989B"/>
-<text x="153.0" y="639.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#D4D4D8">FastAPI</text>
-<rect x="16" y="665" width="10" height="10" rx="2" fill="#C9C9CF"/>
-<text x="32" y="677" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#C9C9CF">DATA ENGINEERING</text>
-<rect x="16" y="687" width="152" height="28" rx="7" fill="#303034" stroke="#909095"/>
-<text x="92.0" y="706.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#C9C9CF">Microsoft Fabric</text>
-<rect x="175" y="687" width="96" height="28" rx="7" fill="#303034" stroke="#909095"/>
-<text x="223.0" y="706.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#C9C9CF">Power BI</text>
-<rect x="278" y="687" width="85" height="28" rx="7" fill="#303034" stroke="#909095"/>
-<text x="320.5" y="706.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#C9C9CF">Pandas</text>
-<rect x="16" y="723" width="83" height="28" rx="7" fill="#303034" stroke="#909095"/>
-<text x="57.5" y="742.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#C9C9CF">NumPy</text>
-<rect x="106" y="723" width="90" height="28" rx="7" fill="#303034" stroke="#909095"/>
-<text x="151.0" y="742.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#C9C9CF">DuckDB</text>
-<rect x="203" y="723" width="120" height="28" rx="7" fill="#303034" stroke="#909095"/>
-<text x="263.0" y="742.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#C9C9CF">PostgreSQL</text>
-<rect x="16" y="759" width="83" height="28" rx="7" fill="#303034" stroke="#909095"/>
-<text x="57.5" y="778.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#C9C9CF">MySQL</text>
-<rect x="16" y="804" width="10" height="10" rx="2" fill="#B1B1BA"/>
-<text x="32" y="816" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#B1B1BA">CLOUD</text>
-<rect x="16" y="826" width="65" height="28" rx="7" fill="#2C2C30" stroke="#7F7F86"/>
-<text x="48.5" y="845.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#B1B1BA">AWS</text>
-<rect x="88" y="826" width="72" height="28" rx="7" fill="#2C2C30" stroke="#7F7F86"/>
-<text x="124.0" y="845.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#B1B1BA">Azure</text>
-<rect x="167" y="826" width="133" height="28" rx="7" fill="#2C2C30" stroke="#7F7F86"/>
-<text x="233.5" y="845.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#B1B1BA">Google Cloud</text>
-<rect x="307" y="826" width="76" height="28" rx="7" fill="#2C2C30" stroke="#7F7F86"/>
-<text x="345.0" y="845.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#B1B1BA">Vercel</text>
-<rect x="16" y="871" width="10" height="10" rx="2" fill="#A1A1AA"/>
-<text x="32" y="883" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#A1A1AA">DEVELOPER TOOLS &amp; AI</text>
-<rect x="16" y="893" width="50" height="28" rx="7" fill="#2A2A2E" stroke="#74747B"/>
-<text x="41.0" y="912.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#A1A1AA">Git</text>
-<rect x="73" y="893" width="81" height="28" rx="7" fill="#2A2A2E" stroke="#74747B"/>
-<text x="113.5" y="912.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#A1A1AA">GitHub</text>
-<rect x="161" y="893" width="144" height="28" rx="7" fill="#2A2A2E" stroke="#74747B"/>
-<text x="233.0" y="912.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#A1A1AA">GitHub Actions</text>
-<rect x="16" y="929" width="109" height="28" rx="7" fill="#2A2A2E" stroke="#74747B"/>
-<text x="70.5" y="948.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#A1A1AA">Playwright</text>
-<rect x="132" y="929" width="126" height="28" rx="7" fill="#2A2A2E" stroke="#74747B"/>
-<text x="195.0" y="948.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#A1A1AA">Claude Code</text>
-<rect x="265" y="929" width="77" height="28" rx="7" fill="#2A2A2E" stroke="#74747B"/>
-<text x="303.5" y="948.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#A1A1AA">Codex</text>
-<rect x="16" y="965" width="80" height="28" rx="7" fill="#2A2A2E" stroke="#74747B"/>
-<text x="56.0" y="984.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#A1A1AA">Cursor</text>
-<rect x="103" y="965" width="60" height="28" rx="7" fill="#2A2A2E" stroke="#74747B"/>
-<text x="133.0" y="984.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#A1A1AA">Kiro</text>
-<rect x="170" y="965" width="112" height="28" rx="7" fill="#2A2A2E" stroke="#74747B"/>
-<text x="226.0" y="984.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#A1A1AA">Antigravity</text>
+<text x="16" y="442" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#B1B1BA">ENGINEERING DOMAINS</text>
+<rect x="16" y="462" width="56" height="56" rx="12" fill="#131316" stroke="#26262C"/>
+<g transform="translate(26 472) scale(1.5)"><path fill="#F4F4F5" d="M11 18H9v-4h2zm-4-1H5v-2h2zm12-2v2h-2v-2zM5 15H3v-2h2zm16 0h-2v-2h2zm-8-1h-2v-4h2zM3 13H1v-2h2zm20 0h-2v-2h2zM5 11H3V9h2zm16 0h-2V9h2zm-6-1h-2V6h2zM7 9H5V7h2zm12 0h-2V7h2z"/></g>
+<text x="86" y="482" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="19" font-weight="700" fill="#F4F4F5">Software Engineering</text>
+<text x="86" y="508" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="400" fill="#B1B1BA">Next.js · React · Node.js · FastAPI</text>
+<text x="86" y="531" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="400" fill="#B1B1BA">Founder &amp; developer of BizPilot</text>
+<rect x="16" y="556" width="378" height="1" fill="#26262C"/>
+<rect x="16" y="570" width="56" height="56" rx="12" fill="#131316" stroke="#26262C"/>
+<g transform="translate(26 580) scale(1.5)"><g fill="#F4F4F5"><path d="M11 1h2v4h-2zm0 22h2v-4h-2zM9 5h2v4H9zm0 14h2v-4H9zm4-14h2v4h-2zm0 14h2v-4h-2zM5 9h4v2H5zm14 0h-4v2h4zM1 11h4v2H1zm22 0h-4v2h4zM5 13h4v2H5zm14 0h-4v2h4zm0-12h2v6h-2z"/><path d="M17 3h6v2h-6zM3 17h2v2H3zm-2 2h2v2H1zm2 2h2v2H3zm2-2h2v2H5z"/></g></g>
+<text x="86" y="590" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="19" font-weight="700" fill="#F4F4F5">Artificial Intelligence</text>
+<text x="86" y="616" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="400" fill="#B1B1BA">AI sales assistant · AI incident agent</text>
+<text x="86" y="639" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="400" fill="#B1B1BA">Google AI Professional Certificate</text>
+<rect x="16" y="664" width="378" height="1" fill="#26262C"/>
+<rect x="16" y="678" width="56" height="56" rx="12" fill="#131316" stroke="#26262C"/>
+<g transform="translate(26 688) scale(1.5)"><path fill="#F4F4F5" d="M2 6h2v4H2zm0 4h2v4H2zm0 4h2v4H2zm18-8h2v4h-2zm0 4h2v4h-2zm0 4h2v4h-2zM4 4h4v2H4zm0 8h4v-2H4zm0 4h4v-2H4zm0 4h4v-2H4zM16 4h4v2h-4zm0 8h4v-2h-4zm0 4h4v-2h-4zm0 4h4v-2h-4zM8 2h8v2H8zm0 12h8v-2H8zm0 4h8v-2H8zm0 4h8v-2H8z"/></g>
+<text x="86" y="698" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="19" font-weight="700" fill="#F4F4F5">Data Engineering</text>
+<text x="86" y="724" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="400" fill="#B1B1BA">Microsoft Fabric · Power BI · DuckDB</text>
+<text x="86" y="747" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="400" fill="#B1B1BA">Microsoft Certified: DP-700</text>
+<rect x="16" y="772" width="378" height="1" fill="#26262C"/>
+<rect x="16" y="786" width="56" height="56" rx="12" fill="#131316" stroke="#26262C"/>
+<g transform="translate(26 796) scale(1.5)"><g fill="#F4F4F5"><path d="M22 10h-4v2h4zm2 2h-2v6h2zm-2 6H2v2h20zM2 12H0v6h2zm2-2H2v2h2zm4-2H4v2h4zm8-4h-6v2h6zm-6 2H8v2h2zm0 4H8v2h2zm8-4h-2v2h2z"/><path d="M20 8h-2v4h2zm-2 4h-2v2h2z"/></g></g>
+<text x="86" y="806" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="19" font-weight="700" fill="#F4F4F5">Cloud Computing</text>
+<text x="86" y="832" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="400" fill="#B1B1BA">AWS · Azure · Google Cloud · Vercel</text>
+<text x="86" y="855" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="400" fill="#B1B1BA">AWS Learning Club Lead</text>
+<rect x="16" y="880" width="378" height="1" fill="#26262C"/>
+<rect x="16" y="894" width="56" height="56" rx="12" fill="#131316" stroke="#26262C"/>
+<g transform="translate(26 904) scale(1.5)"><path fill="#F4F4F5" d="M4 2h16v2H4zM2 4h2v10H2zm18 0h2v10h-2zM4 14h2v2H4zm2 2h2v2H6zm4 4h4v2h-4zm10-6h-2v2h2zm-2 2h-2v2h2zm-2 2h-2v2h2zm-6 0H8v2h2z"/></g>
+<text x="86" y="914" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="19" font-weight="700" fill="#F4F4F5">Cybersecurity</text>
+<text x="86" y="940" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="400" fill="#B1B1BA">ISC2 Certified in Cybersecurity</text>
+<text x="86" y="963" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="400" fill="#B1B1BA">DICT-recognized professional, Cat. 2</text>
 </svg>
