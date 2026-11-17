@@ -13,7 +13,8 @@
 //  4. Any content image that contains SVG <text> renders that text >= MIN_IMG_TEXT px,
 //     except the banner (decorative; its information is repeated as Markdown text).
 //  5. Every featured project has a visible text heading.
-//  6. No arcade/game branding or links remain (pre-arcade restore, see
+//  6. Developer Overview panels load: side by side at desktop width, stacked on phones.
+//  7. No arcade/game branding or links remain (pre-arcade restore, see
 //     GITHUB_PROFILE_PRE_ARCADE_RESTORE_AUDIT.md).
 const pw = require('playwright');
 const engine = pw[process.env.BROWSER || 'chromium'];
@@ -22,7 +23,7 @@ const SHOTS = process.env.SHOTS || '';
 const WIDTHS = [320, 375, 390, 430, 1280];
 const MIN_IMG_TEXT = { 320: 8, 375: 9, 390: 9.5, 430: 10, 1280: 11 };
 const PROJECTS = ['BizPilot', 'SmartWatts', 'OpsPilot', 'BahaRoute', 'Weather Weather Lang', 'Ulan Ba?', 'Classic Flagship Store', 'TAPME'];
-const GAME_TEXT = /ROLEX\.EXE|arcade|BUG HUNTER|quest|\bXP\b|level up|play (the|my) game/i;
+const GAME_TEXT = /ROLEX\.EXE|arcade|BUG HUNTER|\bquest|\bXP\b|level up|play (the|my) game/i;
 
 const results = [];
 let fails = 0;
@@ -74,9 +75,11 @@ const check = (name, ok, info = '') => { results.push(`${ok ? 'PASS' : 'FAIL'}  
         const snakePic = [...a.querySelectorAll('picture')].find(pc => /snake/i.test(pc.querySelector('img').alt));
         const want = snakePic && snakePic.querySelector(`source[media*="${scheme}"]`);
         const snakeOk = !!(snakePic && want && snakePic.querySelector('img').currentSrc === want.srcset.trim());
+        const dash = [...a.querySelectorAll('img')].filter(i => /overview-activity|dashboard\/portfolio/.test(i.closest('picture') ? i.closest('picture').innerHTML : i.src))
+          .map(i => { const r = i.getBoundingClientRect(); return { top: r.top, bottom: r.bottom, left: r.left, w: r.width, ok: i.complete && i.naturalWidth > 0 }; });
         const gameLinks = [...a.querySelectorAll('a[href]')].map(x => x.href).filter(h => /github\.io\/rolex-esto|\/arcade/i.test(h));
         return {
-          snakeOk, snakeSrc: snakePic ? snakePic.querySelector('img').currentSrc.slice(-60) : 'missing',
+          dash, snakeOk, snakeSrc: snakePic ? snakePic.querySelector('img').currentSrc.slice(-60) : 'missing',
           gameText: (text.match(GAME_TEXT_SRC) || [''])[0], gameLinks, minText, minWhere, tablesScrolling, contentImgs, headings,
           overflow: document.documentElement.scrollWidth - innerWidth,
         };
@@ -87,6 +90,11 @@ const check = (name, ok, info = '') => { results.push(`${ok ? 'PASS' : 'FAIL'}  
       check(`${tag} <picture> serves ${scheme} asset`, r.snakeOk, r.snakeSrc);
       check(`${tag} real text >= 12px`, r.minText >= 12, `${r.minText}px "${r.minWhere}"`);
       check(`${tag} all project headings visible`, PROJECTS.every(n => r.headings.some(h => h.includes(n))));
+      // Developer Overview: both panels load; side by side on desktop, stacked full width on phones.
+      const [L, R] = r.dash;
+      check(`${tag} overview panels load`, r.dash.length === 2 && r.dash.every(d => d.ok), JSON.stringify(r.dash.map(d => d.ok)));
+      if (L && R) check(`${tag} overview ${w >= 1000 ? 'side by side' : 'stacked'}`,
+        w >= 1000 ? Math.abs(L.top - R.top) < 2 && R.left > L.left : R.top >= L.bottom - 2, `L ${L.left|0},${L.top|0} R ${R.left|0},${R.top|0} w ${R.w|0}`);
       check(`${tag} no game branding in text`, !r.gameText, r.gameText);
       check(`${tag} no arcade / Pages game links`, r.gameLinks.length === 0, r.gameLinks.join(', '));
       // Rule 4: text inside SVG content images

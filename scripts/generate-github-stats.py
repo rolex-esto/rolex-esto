@@ -344,7 +344,7 @@ def overview_card(s, t, avatar_uri=None):
     period = f'{fmt_date(s["start"])} – {fmt_date(s["end"])}'
     account = [(f'{s["public_repos"]:,}', "Public repos"), (f'{s["followers"]:,}', "Followers"),
                (f'{s["stars"]:,}', "Stars earned")]
-    yearly = [(f'{s["commits"]:,}', "Public commits"), (f'{s["prs"]:,}', "Pull requests"), (f'{s["issues"]:,}', "Issues"),
+    yearly = [(f'{s["commits"]:,}', "Public commits"), (f'{s["prs"]:,}', "Public PRs"), (f'{s["issues"]:,}', "Public issues"),
               (f'{s["repos_committed"]:,} repos', "Committed to"), (f'{s["current_streak"]}d', "Current streak*"),
               (f'{s["longest_streak"]}d', "Longest streak*")]
     desc = (f'{s["name"]} (@{s["login"]}), on GitHub since {joined}. Account: '
