@@ -22,88 +22,137 @@ Founder of **BizPilot** · **Microsoft Certified: Fabric Data Engineer Associate
 
 ## About Me
 
-I'm a 4th-year **BSIT student at STI College Fairview** (2023 – 2027) who likes shipping real software: **AI-powered apps**, **data pipelines**, and **cloud-backed web products**. I founded **BizPilot**, build client websites and NFC pages at **TAPME**, and spend weekends at hackathons, where my teams reached the **top finishes four times in 2026**. I'm an **Eskwelabs Innovation Fellow** (Cohort 11) and completed **GCI World 2026** at the University of Tokyo.
+<img src="assets/profile/panel-about.svg" width="100%" alt="Builder status panel: fourth-year BSIT student, building BizPilot and TAPME sites, focusing on AI, data and cloud, with four hackathon top finishes."/>
 
-```yaml
-building:
-  - BizPilot (founder)
-  - TAPME sites & NFC pages
-  - Fabric data pipelines
-focus: [AI apps, data, cloud]
-certified:
-  - Microsoft DP-700
-  - ISC2 CC
-  - +7 more (see below)
-recognized:
-  - DICT Cybersecurity Pro, Cat. 2
-```
+> **Hello, world!** I'm a fourth-year **BSIT student at STI College Fairview (2023–2027)** who builds practical, production-minded software. From AI-powered applications and data pipelines to cloud-backed products, I care about the problem a project solves—not just the stack behind it.
+
+<table>
+<tr><td width="50%" valign="top">
+
+**<img src="assets/profile/icon-bizpilot.svg" width="20" height="20" alt=""/> Currently building**
+
+- **BizPilot** — founder and developer
+- **TAPME** — client websites and NFC pages
+- **Microsoft Fabric** — data pipelines
+
+</td><td width="50%" valign="top">
+
+**🏅 Beyond the code**
+
+- **Four** hackathon top finishes in 2026
+- **Eskwelabs** Innovation Fellow, Cohort 11
+- **GCI World 2026**, University of Tokyo
+- **DICT** Cybersecurity Professional, Category 2
+
+</td></tr>
+</table>
+
+**Core focus** &nbsp; ![AI Apps](https://img.shields.io/badge/AI_Applications-70F5A3?style=flat-square&labelColor=0B1020) ![Data](https://img.shields.io/badge/Data_Engineering-A78BFA?style=flat-square&labelColor=0B1020) ![Cloud](https://img.shields.io/badge/Cloud_Development-FFD166?style=flat-square&labelColor=0B1020)
+
+**Credentials at a glance:** Microsoft DP-700 · ISC2 CC · seven other certifications · DICT professional recognition. [Explore credentials ↓](#achievements--certifications)
 
 <img src="assets/profile/divider.svg" width="100%" alt=""/>
 
 ## Featured Projects
 
+**Six featured builds.** Each solves a practical problem, from small-business operations to disaster-aware travel. Explore the projects and their underlying engineering decisions below.
+
+<a id="bizpilot"></a>
 ### <img src="assets/profile/icon-bizpilot.svg" width="28" height="28" alt="" align="absmiddle"/> BizPilot
-**Founder & Developer** · *Active development* · Operations hub for Filipino online sellers
 
-**Problem:** sellers juggle customer messages across social channels, unverified payment receipts, overselling, and manual order math during sales surges.<br/>
-**Built:** one inbox for social messages, one-click ordering inside conversations, stock management, a shared operations calendar, and an AI sales assistant, with each seller’s data kept private.<br/>
-**Highlights:** `Unified inbox` `AI sales assistant` `Conversational ordering` `Operations calendar`
+**Founder & Developer** · Active development · MSME operations
 
-[Live site ↗](https://biz-pilot-msme.vercel.app/) · 🔒 Private repository
+| Challenge | Solution |
+|:--|:--|
+| Online sellers juggle fragmented messages, unverified receipts, overselling, and manual calculations. | A unified inbox, conversational ordering, inventory management, operations calendar, and seller-private AI sales assistant. |
 
+`Unified inbox` `AI sales assistant` `Conversational ordering` `Operations calendar`  
+
+[**Visit live site ↗**](https://biz-pilot-msme.vercel.app/) · 🔒 Private repository
+
+<img src="assets/profile/divider.svg" width="100%" alt=""/>
+
+<a id="smartwatts"></a>
 ### <img src="assets/profile/icon-smartwatts.svg" width="28" height="28" alt="" align="absmiddle"/> SmartWatts
-**Lead Developer, Team KuryenTech** · 🏅 **Top 10 Finalist, Meralco IDOL Hackathon** · Electricity-use tracker
 
-**Problem:** households struggle to make sense of their electricity consumption.<br/>
-**Built:** bill scanning, appliance and meter records, usage trends, estimates and practical suggestions. SmartWatts Personal adds goals, challenges, rewards and an AI advisor in English and Tagalog; SmartWatts Rentals lets property managers organize units, invite tenants, record readings and prepare electricity statements.<br/>
-**Highlights:** `Bill scanning` `Appliance tracking` `Usage estimates` `AI advisor (EN/TL)`
+**Lead Developer · Team KuryenTech** · 🏅 Top 10 Finalist · Meralco IDOL Hackathon
 
-Hackathon project · no public repository or demo
+| Challenge | Solution |
+|:--|:--|
+| Households lack understandable information about electricity consumption. | Bill scanning, appliance and meter records, consumption estimates, and insights. Personal adds goals, rewards and an EN/TL AI advisor; Rentals adds units, tenants, readings and electricity statements. |
 
+`Bill scanning` `Appliance tracking` `Usage estimates` `AI advisor EN/TL`  
+
+*Hackathon project · No public repository or demo*
+
+<img src="assets/profile/divider.svg" width="100%" alt=""/>
+
+<a id="opspilot"></a>
 ### <img src="assets/profile/icon-opspilot.svg" width="28" height="28" alt="" align="absmiddle"/> OpsPilot
-**Solo Developer** · 🏆 **Top 2 Winner, DevKada × ClankerCloud Build Challenge** · AI DevOps incident investigator
 
-**Problem:** under incident pressure, teams act on a plausible-looking root cause that isn’t the real one, and an AI that sounds certain makes it worse.<br/>
-**Built:** an investigator that works from evidence, tracks hypotheses, and says clearly when a cause has not been confirmed yet.<br/>
-**Stack:** `AI agent design` `Prompt & skill architecture` `Incident response` `Cloud observability`
+**Solo Developer** · 🏆 Top 2 Winner · DevKada × ClankerCloud
 
-[Repository ↗](https://github.com/rolex-esto/opspilot)
+| Challenge | Solution |
+|:--|:--|
+| Teams under incident pressure can accept plausible but unsupported AI root-cause explanations. | An evidence-first incident investigator that tracks hypotheses and distinguishes confirmed causes from uncertainty. |
 
+`AI agent design` `Incident response` `Evidence tracking` `Cloud observability`  
+
+[**Explore repository ↗**](https://github.com/rolex-esto/opspilot)
+
+<img src="assets/profile/divider.svg" width="100%" alt=""/>
+
+<a id="baharoute"></a>
 ### <img src="assets/profile/icon-baharoute.svg" width="28" height="28" alt="" align="absmiddle"/> BahaRoute
-**Lead Developer** · 🏅 **Top 36 Team · Top 10 Climate Change Track, BuildOvernights KiroxHackaton** · Flood-aware routing
 
-**Problem:** Metro Manila drivers need flood context alongside directions during heavy rain.<br/>
-**Built (in a 12-hour hackathon):** routes away from flood-prone roads across 17 cities and 1,710 barangays, using Project NOAH flood history, live rainfall forecasts, and spoken hazard alerts.<br/>
-**Highlights:** `Project NOAH flood data` `Rainfall forecasts` `Voice hazard alerts`
+**Lead Developer** · 🏅 Top 36 Team · Top 10 Climate Change Track
 
-[Repository ↗](https://github.com/rolex-esto/KiroxQuick_Flood_CTRL) · [Live demo ↗](https://baha-route.vercel.app/)
+| Challenge | Solution |
+|:--|:--|
+| Metro Manila drivers need flood conditions integrated into routing decisions during heavy rain. | A 12-hour hackathon prototype using Project NOAH flood history, live rainfall, and voice hazard alerts for 17 cities and 1,710 barangays. |
 
+`Project NOAH` `Rainfall forecasts` `Voice alerts`  
+
+[**Repository ↗**](https://github.com/rolex-esto/KiroxQuick_Flood_CTRL) · [**Live demo ↗**](https://baha-route.vercel.app/)
+
+<img src="assets/profile/divider.svg" width="100%" alt=""/>
+
+<a id="weather-weather-lang"></a>
 ### <img src="assets/profile/icon-wwl.svg" width="28" height="28" alt="" align="absmiddle"/> Weather Weather Lang
-**AI Orchestrator, team project** · 🏆 **3rd Place, KiroVerse Hack Sprint (AWS &amp; RevenueCat)** · Conversational weather companion
 
-**Problem:** the team wanted conversational querying, travel decisions and historical comparison in a hackathon window far too short for that scope.<br/>
-**Built:** a chat-style weather companion that gives friendly weather updates, extending my Ulan Ba? dashboard with a conversational assistant and client-side SQL.<br/>
-**Stack:** `React 18` `TypeScript` `Vite` `DuckDB-WASM` `Parquet` `Recharts` `Open-Meteo API` `Playwright`
+**AI Orchestrator · Team project** · 🏆 3rd Place · KiroVerse Hack Sprint
 
-[Team repository ↗](https://github.com/rolex-esto/Kirovers-Hack-Sprint-Shipaton-Edition) · [Live demo ↗](https://kiroverse-hack-sprint-shipaton-edition.vercel.app/)
+| Challenge | Solution |
+|:--|:--|
+| Conversational weather queries, travel decisions, and historical comparisons had to be built during a short hackathon. | A chat-style weather companion extending Ulan Ba? with a conversational assistant and client-side SQL querying. |
 
+`React 18` `TypeScript` `DuckDB-WASM` `Parquet` `Open-Meteo` `Playwright`  
+
+[**Team repository ↗**](https://github.com/rolex-esto/Kirovers-Hack-Sprint-Shipaton-Edition) · [**Live demo ↗**](https://kiroverse-hack-sprint-shipaton-edition.vercel.app/)
+
+<img src="assets/profile/divider.svg" width="100%" alt=""/>
+
+<a id="ulan-ba"></a>
 ### <img src="assets/profile/icon-ulanba.svg" width="28" height="28" alt="" align="absmiddle"/> Ulan Ba?
-**Creator & Frontend Developer (solo)** · Philippine rain forecast dashboard
 
-**Problem:** commuters and travelers lacked hyper-local, actionable rainfall forecasts during localized downpours.<br/>
-**Built:** hourly rain and severity forecasts for 17 regions and 150+ cities, with automatic location detection.<br/>
-**Stack:** `React` `TypeScript` `Vite` `Recharts` `Open-Meteo API` `Geolocation`
+**Creator & Frontend Developer · Solo** · Philippine rainfall dashboard
 
-[Repository ↗](https://github.com/rolex-esto/kiro-phWeather)
+| Challenge | Solution |
+|:--|:--|
+| Commuters and travelers need more actionable local rainfall information. | Hourly rainfall and severity forecasts across 17 regions and 150+ cities, with automatic location detection. |
+
+`React` `TypeScript` `Vite` `Recharts` `Open-Meteo` `Geolocation`  
+
+[**Repository ↗**](https://github.com/rolex-esto/kiro-phWeather)
+
+<img src="assets/profile/divider.svg" width="100%" alt=""/>
 
 <details>
-<summary><b>More work</b> · Classic Flagship Store · TAPME</summary>
+<summary><b>＋ More work</b> · Classic Flagship Store & TAPME</summary>
 
-<br/>
+**Classic Flagship Store** — E-commerce capstone with admin, cashier and customer dashboards, Google sign-in, and integrated inventory/POS operations. `PHP` `MySQL` `PDO` `Google OAuth` · [Site ↗](https://classicflagshipstore.com/) · Private repository.
 
-**<img src="assets/profile/icon-classic.svg" width="20" height="20" alt="" align="absmiddle"/> Classic Flagship Store** — E-commerce capstone. An online store with separate admin, cashier and customer dashboards, secure Google sign-in, and inventory tools, replacing manual store management and disconnected POS/cart operations. `PHP` `MySQL` `PDO` `Google OAuth` `PHPMailer` · [Live site ↗](https://classicflagshipstore.com/) · 🔒 Private repository
-
-**<img src="assets/profile/icon-tapme.svg" width="20" height="20" alt="" align="absmiddle"/> TAPME** — Freelance web development (2025 – Present). NFC tap pages and client websites that help businesses share their details and collect reviews. [Website ↗](https://tapmeph.com/)
+**TAPME** — Freelance client websites and NFC pages, from digital calling cards to menus and Google Review tap pages. [Website ↗](https://tapmeph.com/)
 
 </details>
 
@@ -111,25 +160,38 @@ Hackathon project · no public repository or demo
 
 ## Tech Stack
 
-- **Languages:** `TypeScript` `JavaScript` `Python` `PHP` `SQL`
-- **Frontend:** `React` `Next.js` `Vite` `HTML` `CSS` `Recharts`
-- **Backend:** `Node.js` `FastAPI` `OAuth`
-- **Data engineering:** `Microsoft Fabric` `Power BI` `Pandas` `NumPy` `DuckDB` `Apache Parquet` `Excel`
-- **Databases:** `PostgreSQL` `MySQL`
-- **Cloud:** `AWS` `Azure` `Google Cloud` `Vercel`
-- **AI tools:** `Claude Code` `Codex` `Cursor` `Kiro` `Antigravity`
-- **DevOps & security:** `Git` `GitHub` `GitHub Actions` `Playwright` `IAM`
+<img src="assets/profile/panel-skills.svg" width="100%" alt="Skill inventory panel: programming, frontend and backend, data engineering, cloud and delivery."/>
+
+<details open>
+<summary><b>⌘ Explore my developer toolkit</b></summary>
+
+| Discipline | Technologies |
+|:--|:--|
+| **Languages** | `TypeScript` `JavaScript` `Python` `PHP` `SQL` |
+| **Frontend** | `React` `Next.js` `Vite` `HTML` `CSS` `Recharts` |
+| **Backend** | `Node.js` `FastAPI` `OAuth` |
+| **Data engineering** | `Microsoft Fabric` `Power BI` `Pandas` `NumPy` `DuckDB` `Apache Parquet` `Excel` |
+| **Databases** | `PostgreSQL` `MySQL` |
+| **Cloud** | `AWS` `Azure` `Google Cloud` `Vercel` |
+| **AI-assisted development** | `Claude Code` `Codex` `Cursor` `Kiro` `Antigravity` |
+| **DevOps & Security** | `Git` `GitHub` `GitHub Actions` `Playwright` `IAM` |
+
+</details>
 
 <img src="assets/profile/divider.svg" width="100%" alt=""/>
 
 ## Achievements & Certifications
 
-#### Hackathons — 4 top finishes in 2026
+### 🏆 Achievement Unlocked · Four 2026 Hackathon Finishes
 
-- <img src="assets/profile/medal-gold.svg" width="18" height="18" alt="" align="absmiddle"/> **Top 2 Winner** — DevKada × ClankerCloud Build Challenge (August 24–29, 2026) · [OpsPilot](https://github.com/rolex-esto/opspilot) · Solo Developer
-- <img src="assets/profile/medal-purple.svg" width="18" height="18" alt="" align="absmiddle"/> **3rd Place** — KiroVerse Hack Sprint (AWS &amp; RevenueCat, June – August 2026) · [Weather Weather Lang](https://github.com/rolex-esto/Kirovers-Hack-Sprint-Shipaton-Edition) · AI Orchestrator
-- <img src="assets/profile/medal-green.svg" width="18" height="18" alt="" align="absmiddle"/> **Top 10 Finalist** — Meralco IDOL Hackathon · Meralco Power Academy (November 12–13, 2026) · **Team KuryenTech** · Lead Developer
-- <img src="assets/profile/medal-pink.svg" width="18" height="18" alt="" align="absmiddle"/> **Top 36 Team · Top 10 Climate Change Track** — BuildOvernights KiroxHackaton (AWS Office, October 3–4, 2026) · [BahaRoute](https://github.com/rolex-esto/KiroxQuick_Flood_CTRL) · Lead Developer
+| Award | Event & project | Contribution |
+|:--|:--|:--|
+| 🥇 **Top 2 Winner** | DevKada × ClankerCloud · [OpsPilot](https://github.com/rolex-esto/opspilot) · Aug 24–29 | Solo Developer |
+| 🥉 **3rd Place** | KiroVerse Hack Sprint · [Weather Weather Lang](https://github.com/rolex-esto/Kirovers-Hack-Sprint-Shipaton-Edition) · Jun–Aug | AI Orchestrator |
+| 🏅 **Top 10 Finalist** | Meralco IDOL Hackathon · Team KuryenTech · Nov 12–13 | Lead Developer |
+| 🎖️ **Top 36 / Climate Track Top 10** | BuildOvernights KiroxHackaton · [BahaRoute](https://github.com/rolex-esto/KiroxQuick_Flood_CTRL) · Oct 3–4 | Lead Developer |
+
+<img src="assets/profile/divider.svg" width="100%" alt=""/>
 
 #### Certifications — 9 certifications · 1 professional recognition
 
@@ -184,11 +246,15 @@ Hackathon project · no public repository or demo
 
 ## Experience & Fellowships
 
-- **Freelance Web Developer** — [TAPME](https://tapmeph.com/) · 2025 – Present
-- **Startup Founder & Developer** — BizPilot · Active development
-- **Data Innovation Fellow**, Cohort 11 — Eskwelabs Innovation Fellowship (EIF) · August 2026 – November 2026
-- **Participant**, Data Science & AI — GCI World 2026 · Matsuo-Iwasawa Laboratory, University of Tokyo · September 2026 – November 2026
-- **BSIT student** — STI College Fairview, Quezon City, PH · September 2023 – July 2027
+### Career & Learning Timeline
+
+| When | Role / Program | What I do |
+|:--|:--|:--|
+| **2025 – Present** | **Freelance Web Developer** · [TAPME](https://tapmeph.com/) | Client websites, NFC tap pages, and mobile-friendly customer journeys |
+| **Active development** | **Founder & Developer** · BizPilot | Build a unified operations hub for Filipino online sellers |
+| **Aug – Nov 2026** | **Data Innovation Fellow** · Eskwelabs, Cohort 11 | Applied analytics, data modeling, and innovation projects |
+| **Sep – Nov 2026** | **Data Science & AI Participant** · GCI World 2026, University of Tokyo | Applied data-driven methods to real-world software challenges |
+| **Sep 2023 – Jul 2027** | **BSIT** · STI College Fairview | Bachelor of Science in Information Technology |
 
 <details>
 <summary><b>What I do at TAPME</b></summary>
