@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """Generate the static right half of the README "Developer Overview" dashboard.
 
-Theme: Midnight Pixel (dark) and Pastel Dusk (light).
+Theme: minimalist monochrome after GitHub's native dark and light themes. Every scene
+role has its own grey so objects stay distinct; the few colours drawn inline (code on
+the monitor, cursor, steam) pass through neutral() to a grey of equal brightness.
 
 Output: assets/dashboard/portfolio-dark.svg and portfolio-light.svg
   * an original pixel-art scene: a developer in headphones coding at a retro
@@ -33,51 +35,51 @@ MIN_TEXT = 16
 
 THEMES = {
     "dark": dict(
-        bg="#0B0F19", surface="#171C2B", surface2="#232A3B", border="#394156",
-        text="#F5EBD7", muted="#A6ADBB", accent="#B8A4FF", accent2="#A8C7FA",
-        sky=["#14122C", "#1B1839", "#242049", "#302A5C", "#40366F", "#574683", "#7A5F95"],
-        glow="#C98FA0", star=["#F5EBD7", "#B8A4FF", "#A8C7FA"],
-        moon="#F5EBD7", moon_lo="#D9CDB4",
-        cloud="#5D4F8C", cloud_hi="#8E7CC4", cloud_lo="#4A3F75",
-        far="#2B2850", mid="#344A50", near="#3F6656",
-        grass="#6F9C80", grass_hi="#A8D8B9", grass_body="#4F7A63", grass_lo="#40664F", path="#7E7466", path_hi="#9A8F7F",
-        wall="#D8C7A6", wall_lo="#B09F80", beam="#6E5140", roof="#8E7AD6", roof_hi="#B8A4FF", roof_lo="#6B57B5",
-        window="#FFD6A5", window_lo="#E8B07A", door="#6E5140", lit=True,
-        trunk="#6E4F3A", leaf="#4F7A63", leaf_mid="#6F9C80", leaf_hi="#A8D8B9",
-        desk="#A07A5C", desk_lo="#7E5E46", case="#C8C1B2", case_lo="#9C9587", screen="#11151F",
-        skin="#E8B48C", hair="#2A2438", hair_hi="#4A4060", phones="#B8A4FF",
-        hoodie="#A8C7FA", hoodie_lo="#7F9FD6", pants="#394156", shoe="#232A3B",
-        cat="#FFD6A5", cat_lo="#D9A877", mug="#B8A4FF", plant="#6F9C80", lamp="#FFD6A5",
-        flower=["#FFD6A5", "#B8A4FF", "#A8C7FA", "#F5EBD7"], fly="#FFD6A5", mode="night",
+        bg="#0D1117", surface="#161B22", surface2="#21262D", border="#30363D",
+        text="#F0F6FC", muted="#8B949E", accent="#D1D5DB", accent2="#9CA3AF",
+        sky=["#0D1117", "#11161D", "#161B22", "#1B2129", "#21262D", "#282E36", "#30363D"],
+        glow="#484F58", star=["#F0F6FC", "#C9D1D9", "#8B949E"],
+        moon="#F0F6FC", moon_lo="#C9D1D9",
+        cloud="#3D444D", cloud_hi="#545D68", cloud_lo="#30363D",
+        far="#1C2128", mid="#262C34", near="#30363D",
+        grass="#6E7681", grass_hi="#9CA3AF", grass_body="#3D444D", grass_lo="#30363D", path="#6E7681", path_hi="#8B949E",
+        wall="#C9D1D9", wall_lo="#9CA3AF", beam="#484F58", roof="#6E7681", roof_hi="#8B949E", roof_lo="#484F58",
+        window="#F0F6FC", window_lo="#D1D5DB", door="#484F58", lit=True,
+        trunk="#484F58", leaf="#3D444D", leaf_mid="#545D68", leaf_hi="#8B949E",
+        desk="#8B949E", desk_lo="#6E7681", case="#D1D5DB", case_lo="#9CA3AF", screen="#0D1117",
+        skin="#E6EDF3", hair="#161B22", hair_hi="#30363D", phones="#B1BAC4",
+        hoodie="#6E7681", hoodie_lo="#545D68", pants="#30363D", shoe="#161B22",
+        cat="#D1D5DB", cat_lo="#9CA3AF", mug="#9CA3AF", plant="#6E7681", lamp="#F0F6FC",
+        flower=["#F0F6FC", "#B1BAC4", "#9CA3AF", "#D1D5DB"], fly="#F0F6FC", mode="night",
     ),
     "light": dict(
-        bg="#FBF8F2", surface="#F3EEE4", surface2="#E9E2D4", border="#D6CCBA",
-        text="#2B2638", muted="#5C5768", accent="#6B54D6", accent2="#345F9E",
-        sky=["#8D7FCF", "#9C8EDA", "#AE9FE4", "#C2B2EE", "#D6C6F2", "#E8D6EE", "#F6DCD6"],
-        glow="#FFD6A5", star=["#FFFFFF", "#F5EBD7", "#FFFFFF"],
-        moon="#FFE3BF", moon_lo="#FFD6A5",
-        cloud="#F7F0FF", cloud_hi="#FFFFFF", cloud_lo="#DCCFF5",
-        far="#A898DC", mid="#9CC7AE", near="#86B898",
-        grass="#8FC4A0", grass_hi="#C3E8CE", grass_body="#76AE89", grass_lo="#629B76", path="#CDBFA6", path_hi="#E2D6C0",
-        wall="#F3E6CC", wall_lo="#D9C7A6", beam="#8B6A52", roof="#8E7AD6", roof_hi="#B8A4FF", roof_lo="#6B57B5",
-        window="#FFE7C7", window_lo="#FFD6A5", door="#8B6A52", lit=False,
-        trunk="#86644A", leaf="#629B76", leaf_mid="#86B898", leaf_hi="#C3E8CE",
-        desk="#B88D69", desk_lo="#957052", case="#E6E0D3", case_lo="#BDB5A5", screen="#171C2B",
-        skin="#E8B48C", hair="#2A2438", hair_hi="#4A4060", phones="#8E7AD6",
-        hoodie="#A8C7FA", hoodie_lo="#7F9FD6", pants="#4A5268", shoe="#2B2638",
-        cat="#FFD6A5", cat_lo="#D9A877", mug="#8E7AD6", plant="#629B76", lamp="#FFD6A5",
-        flower=["#FFB38A", "#8E7AD6", "#6F9BE0", "#FFFFFF"], fly="#8E7AD6", mode="dusk",
+        bg="#FFFFFF", surface="#F6F8FA", surface2="#EAEEF2", border="#D0D7DE",
+        text="#24292F", muted="#57606A", accent="#374151", accent2="#6B7280",
+        sky=["#D0D7DE", "#D8DEE4", "#DFE4E9", "#E6EAEF", "#EDF0F3", "#F3F5F7", "#F6F8FA"],
+        glow="#FFFFFF", star=["#FFFFFF", "#F6F8FA", "#FFFFFF"],
+        moon="#EAEEF2", moon_lo="#C9D1D9",
+        cloud="#FFFFFF", cloud_hi="#FFFFFF", cloud_lo="#EAEEF2",
+        far="#C9D1D9", mid="#AFB8C1", near="#9CA3AF",
+        grass="#8C959F", grass_hi="#C9D1D9", grass_body="#AFB8C1", grass_lo="#9CA3AF", path="#D8DEE4", path_hi="#EAEEF2",
+        wall="#F6F8FA", wall_lo="#D0D7DE", beam="#57606A", roof="#6E7781", roof_hi="#8C959F", roof_lo="#424A53",
+        window="#D8DEE4", window_lo="#AFB8C1", door="#57606A", lit=False,
+        trunk="#57606A", leaf="#6E7781", leaf_mid="#8C959F", leaf_hi="#C9D1D9",
+        desk="#8C959F", desk_lo="#6E7781", case="#EAEEF2", case_lo="#AFB8C1", screen="#24292F",
+        skin="#F0F3F6", hair="#24292F", hair_hi="#424A53", phones="#6E7781",
+        hoodie="#8C959F", hoodie_lo="#6E7781", pants="#424A53", shoe="#24292F",
+        cat="#FFFFFF", cat_lo="#D0D7DE", mug="#6E7781", plant="#6E7781", lamp="#F6F8FA",
+        flower=["#FFFFFF", "#57606A", "#8C959F", "#D0D7DE"], fly="#57606A", mode="dusk",
     ),
 }
 
 # Technologies exactly as in the owner's list; colour = category (pastel, readable in both themes).
-CATEGORY = {  # name: (dark-theme colour, light-theme colour)
-    "Languages": ("#B8A4FF", "#6B54D6"),
-    "Frontend": ("#A8C7FA", "#345F9E"),
-    "Backend": ("#F5E1B8", "#8A6A2E"),
-    "Data Engineering": ("#A8D8B9", "#2E6E4A"),
-    "Cloud": ("#FFC896", "#9A4F12"),
-    "Developer Tools & AI": ("#C3B6E8", "#6E5E9E"),
+CATEGORY = {  # name: (dark-theme grey, light-theme grey); a distinct shade per category
+    "Languages": ("#F0F6FC", "#24292F"),
+    "Frontend": ("#D1D5DB", "#374151"),
+    "Backend": ("#B1BAC4", "#424A53"),
+    "Data Engineering": ("#9CA3AF", "#57606A"),
+    "Cloud": ("#A5ADB8", "#6B7280"),
+    "Developer Tools & AI": ("#C9D1D9", "#32383F"),
 }
 TECH = [
     ("Languages", ["JavaScript", "TypeScript", "Python", "PHP", "SQL"]),
@@ -129,6 +131,13 @@ def mix(fg, bg, a):
     return "#" + "".join(f"{round(x * a + y * (1 - a)):02X}" for x, y in zip(f, b))
 
 
+def neutral(c):
+    """Same perceived brightness, cool neutral grey (like GitHub's #8B949E family)."""
+    r, g, b = (int(c[i:i + 2], 16) for i in (1, 3, 5))
+    v = 0.2126 * r + 0.7152 * g + 0.0722 * b
+    return "#" + "".join(f"{max(0, min(255, round(v + d))):02X}" for d in (-3, 0, 4))
+
+
 class Art:
     def __init__(self):
         self.o = []
@@ -136,7 +145,7 @@ class Art:
     def px(self, gx, gy, w=1, h=1, c="#000000", cls=None, op=None):
         cl = f' class="{cls}"' if cls else ""
         o = f' opacity="{op}"' if op is not None else ""
-        self.o.append(f'<rect{cl} x="{SX + gx * P}" y="{SY + gy * P}" width="{w * P}" height="{h * P}" fill="{c}"{o}/>')
+        self.o.append(f'<rect{cl} x="{SX + gx * P}" y="{SY + gy * P}" width="{w * P}" height="{h * P}" fill="{neutral(c)}"{o}/>')
 
     def sprite(self, gx, gy, rows, pal):
         """Draw a character map; each character found in pal is one art pixel."""
@@ -263,7 +272,7 @@ def scene(t):
     # --- workstation ---
     if t["lit"]:  # lamp light pool
         a.o.append(f'<polygon points="{SX + 66 * P},{SY + 33 * P} {SX + 58 * P},{SY + 46 * P} {SX + 72 * P},{SY + 46 * P}" '
-                   f'fill="{t["lamp"]}" opacity="0.10"/>')
+                   f'fill="{neutral(t["lamp"])}" opacity="0.10"/>')
     a.px(43, 45, 28, 2, t["desk"]); a.px(43, 47, 28, 1, t["desk_lo"])
     a.px(45, 48, 2, 3, t["desk_lo"]); a.px(67, 48, 2, 3, t["desk_lo"])
     # retro monitor
@@ -328,7 +337,7 @@ def chip_colors(c, t, mode):
     """(fill, stroke, label) for a technology chip of category colour c."""
     if mode == "dark":
         return mix(c, t["surface"], 0.16), mix(c, t["bg"], 0.7), c
-    return mix(c, t["bg"], 0.10), mix(c, t["bg"], 0.55), mix(c, "#141022", 0.72)
+    return mix(c, t["bg"], 0.10), mix(c, t["bg"], 0.55), mix(c, "#1F2328", 0.72)
 
 
 def text_width(label, size):

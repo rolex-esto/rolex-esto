@@ -57,8 +57,11 @@ query($login: String!, $after: String) {
 MAX_REPO_PAGES = 10
 
 THEMES = {
-    "dark": dict(bg="#0B0F19", panel="#171C2B", border="#394156", title="#A8D8B9", text="#F5EBD7", muted="#A6ADBB", accent="#B8A4FF", track="#232A3B"),
-    "light": dict(bg="#FBF8F2", panel="#F3EEE4", border="#D6CCBA", title="#2E6E4A", text="#2B2638", muted="#5C5768", accent="#6B54D6", track="#E9E2D4"),
+    # Minimalist monochrome (GitHub-native neutrals). "ramp" shades the language bars from most to least used.
+    "dark": dict(bg="#0D1117", panel="#161B22", border="#30363D", title="#D1D5DB", text="#F0F6FC", muted="#8B949E", accent="#9CA3AF", track="#21262D",
+                 ramp=["#F0F6FC", "#D1D5DB", "#9CA3AF", "#8B949E", "#6E7681", "#484F58"]),
+    "light": dict(bg="#FFFFFF", panel="#F6F8FA", border="#D0D7DE", title="#374151", text="#24292F", muted="#57606A", accent="#6B7280", track="#EAEEF2",
+                  ramp=["#24292F", "#374151", "#57606A", "#6B7280", "#8C959F", "#AFB8C1"]),
 }
 FONT = "-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif"
 
@@ -229,13 +232,13 @@ def languages_card(s, t):
          f'<text x="38" y="34" font-family="{FONT}" font-size="18" font-weight="700" fill="{t["accent"]}">Languages · public repos</text>',
          f'<rect x="16" y="54" width="{W - 32}" height="12" rx="6" fill="{t["track"]}"/>']
     x = 16.0
-    for n, c, p in langs:
+    for i, (n, c, p) in enumerate(langs):
         w = (W - 32) * p
-        o.append(f'<rect x="{x:.1f}" y="54" width="{w:.1f}" height="12" fill="{c}"/>')
+        o.append(f'<rect x="{x:.1f}" y="54" width="{w:.1f}" height="12" fill="{t["ramp"][i % len(t["ramp"])]}"/>')
         x += w
     for i, (n, c, p) in enumerate(langs):
         y = 100 + i * 28
-        o.append(f'<rect x="20" y="{y - 12}" width="12" height="12" fill="{c}"/>')
+        o.append(f'<rect x="20" y="{y - 12}" width="12" height="12" fill="{t["ramp"][i % len(t["ramp"])]}"/>')
         o.append(f'<text x="42" y="{y}" font-family="{FONT}" font-size="16" fill="{t["text"]}">{escape(n)}</text>')
         o.append(f'<text x="{W - 20}" y="{y}" text-anchor="end" font-family="{FONT}" font-size="16" fill="{t["muted"]}">{p * 100:.1f}%</text>')
     if not langs:
@@ -247,22 +250,23 @@ def languages_card(s, t):
 
 # ---------------------------------------------------------------------------
 # Developer Overview panel (left half of the README dashboard).
-# Theme: Midnight Pixel (dark) / Pastel Dusk (light), shared with
+# Theme: minimalist monochrome (GitHub-native neutrals), shared with
 # scripts/generate-dashboard-art.py. PANEL_W x PANEL_H matches that panel; both are
 # shown at width="410": side by side on desktop, stacked full width on phones.
 # No text is smaller than 16 units (about 10 px on a 320 px phone, 12+ px from 375 px).
 # ---------------------------------------------------------------------------
 DASH = {
-    "dark": dict(bg="#0B0F19", surface="#171C2B", surface2="#232A3B", border="#394156", text="#F5EBD7",
-                 muted="#A6ADBB", accent="#B8A4FF", accent2="#A8C7FA", success="#A8D8B9", highlight="#FFD6A5",
-                 shadow="#05070D", edge="#E3F4E8",
-                 levels={"NONE": "#232A3B", "FIRST_QUARTILE": "#3F5C4D", "SECOND_QUARTILE": "#5F8C72",
-                         "THIRD_QUARTILE": "#84B497", "FOURTH_QUARTILE": "#A8D8B9"}),
-    "light": dict(bg="#FBF8F2", surface="#F3EEE4", surface2="#E9E2D4", border="#D6CCBA", text="#2B2638",
-                  muted="#5C5768", accent="#6B54D6", accent2="#345F9E", success="#2E6E4A", highlight="#9A4F12",
-                  shadow="#D6CCBA", edge="#FFFFFF",
-                  levels={"NONE": "#E9E2D4", "FIRST_QUARTILE": "#C9E6D3", "SECOND_QUARTILE": "#A8D8B9",
-                          "THIRD_QUARTILE": "#72B08A", "FOURTH_QUARTILE": "#4A9068"}),
+    # Minimalist monochrome, after GitHub's native dark and light themes. Contribution intensity is a grey ramp.
+    "dark": dict(bg="#0D1117", surface="#161B22", surface2="#21262D", border="#30363D", text="#F0F6FC",
+                 muted="#8B949E", accent="#D1D5DB", accent2="#9CA3AF", success="#F0F6FC", highlight="#8B949E",
+                 shadow="#010409", edge="#FFFFFF",
+                 levels={"NONE": "#21262D", "FIRST_QUARTILE": "#3D444D", "SECOND_QUARTILE": "#656D76",
+                         "THIRD_QUARTILE": "#9CA3AF", "FOURTH_QUARTILE": "#D1D5DB"}),
+    "light": dict(bg="#FFFFFF", surface="#F6F8FA", surface2="#EAEEF2", border="#D0D7DE", text="#24292F",
+                  muted="#57606A", accent="#374151", accent2="#6B7280", success="#24292F", highlight="#57606A",
+                  shadow="#D0D7DE", edge="#FFFFFF",
+                  levels={"NONE": "#EAEEF2", "FIRST_QUARTILE": "#C9D1D9", "SECOND_QUARTILE": "#9CA3AF",
+                          "THIRD_QUARTILE": "#6B7280", "FOURTH_QUARTILE": "#374151"}),
 }
 LEVELS = ["NONE", "FIRST_QUARTILE", "SECOND_QUARTILE", "THIRD_QUARTILE", "FOURTH_QUARTILE"]
 PANEL_W, PANEL_H = 410, 1012

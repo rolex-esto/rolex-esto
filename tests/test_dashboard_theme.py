@@ -21,7 +21,9 @@ stats = load("stats", "scripts/generate-github-stats.py")
 art = load("art", "scripts/generate-dashboard-art.py")
 from test_stats import make_user  # noqa: E402  (same directory)
 
-OLD_PALETTE = ("#00C389", "#0EA5E9", "#00A06E", "#0284C7")
+# Retired palettes: Fabric Teal, then Midnight Pixel. The dashboard is now neutral monochrome.
+OLD_PALETTE = ("#00C389", "#0EA5E9", "#00A06E", "#0284C7", "#0B0F19", "#B8A4FF", "#A8C7FA", "#A8D8B9", "#FFD6A5",
+               "#F5EBD7", "#6B54D6", "#345F9E")
 
 
 def lum(hex_color):
@@ -48,7 +50,14 @@ class Theme(unittest.TestCase):
     def test_same_panel_size(self):
         self.assertEqual((stats.PANEL_W, stats.PANEL_H), (art.PANEL_W, art.PANEL_H))
 
-    def test_old_teal_blue_palette_gone(self):
+    def test_every_colour_is_a_neutral_grey(self):
+        """GitHub and owner-specified neutrals carry a slight cool tint (#8B949E, #374151), so allow a small channel spread."""
+        for name, svg in panels().items():
+            for c in set(re.findall(r'(?:fill|stroke)="(#[0-9A-Fa-f]{6})"', svg)):
+                r, g, b = (int(c[i:i + 2], 16) for i in (1, 3, 5))
+                self.assertLessEqual(max(r, g, b) - min(r, g, b), 28, f"{c} in {name} is not neutral")
+
+    def test_old_palettes_gone(self):
         for name, svg in panels().items():
             for c in OLD_PALETTE:
                 self.assertNotIn(c.upper(), svg.upper(), f"{c} in {name}")
