@@ -62,13 +62,13 @@
 
 One place for Filipino online sellers to manage customer messages, orders, stock, and daily operations, with an AI sales assistant and a shared operations calendar.
 
-<sub><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/lock.svg?color=%230EA5E9"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/lock.svg?color=%230284C7"><img src="https://api.iconify.design/pixelarticons/lock.svg?color=%230EA5E9" width="12" height="12" alt="" align="absmiddle"/></picture> Private repository</sub>
+[**Live →**](https://biz-pilot-msme.vercel.app/) · <sub><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/lock.svg?color=%230EA5E9"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/lock.svg?color=%230284C7"><img src="https://api.iconify.design/pixelarticons/lock.svg?color=%230EA5E9" width="12" height="12" alt="" align="absmiddle"/></picture> Private repository</sub>
 
 </td>
 <td width="50%" valign="top">
 
 ### SmartWatts <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/trophy.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/trophy.svg?color=%2300A06E"><img src="https://api.iconify.design/pixelarticons/trophy.svg?color=%2300C389" width="24" height="24" alt="Top 10 finalist" align="absmiddle"/></picture>
-**Electricity use information and tracking tool** · Meralco IDOL Hackathon · Team KuryenTech
+**Electricity use information and tracking tool** · Top 10 Finalist, Meralco IDOL Hackathon · Lead Developer, Team KuryenTech
 
 Helps households understand electricity use with bill scanning, appliance tracking, usage trends, estimates, and practical suggestions. SmartWatts Personal includes goals, challenges, rewards, and an AI advisor in English and Tagalog.
 
@@ -78,7 +78,7 @@ Helps households understand electricity use with bill scanning, appliance tracki
 <td width="50%" valign="top">
 
 ### OpsPilot <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/trophy.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/trophy.svg?color=%2300A06E"><img src="https://api.iconify.design/pixelarticons/trophy.svg?color=%2300C389" width="24" height="24" alt="Top 2 winner" align="absmiddle"/></picture>
-**AI DevOps incident investigator** · DevKada x ClankerCloud Build Challenge
+**AI DevOps incident investigator** · Top 2 Winner, DevKada x ClankerCloud Build Challenge · Solo Developer
 
 Helps tech teams find the cause of system outages and make decisions from evidence during incidents.
 
@@ -88,11 +88,11 @@ Helps tech teams find the cause of system outages and make decisions from eviden
 <td width="50%" valign="top">
 
 ### BahaRoute <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/star.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/star.svg?color=%2300A06E"><img src="https://api.iconify.design/pixelarticons/star.svg?color=%2300C389" width="24" height="24" alt="Top 10 Climate Change Track" align="absmiddle"/></picture>
-**Flood-aware route helper for Metro Manila**
+**Flood-aware route helper for Metro Manila** · Top 10 Climate Change Track · Lead Developer
 
 Helps drivers avoid flood-prone roads with flood history, rainfall forecasts, and spoken hazard alerts.
 
-[**Repo →**](https://github.com/rolex-esto/KiroxQuick_Flood_CTRL)
+[**Repo →**](https://github.com/rolex-esto/KiroxQuick_Flood_CTRL) · [**Live →**](https://baha-route.vercel.app/)
 
 </td>
 </tr>
@@ -100,21 +100,21 @@ Helps drivers avoid flood-prone roads with flood history, rainfall forecasts, an
 <td width="50%" valign="top">
 
 ### Weather Weather Lang <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixel/badge-check-solid.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixel/badge-check-solid.svg?color=%2300A06E"><img src="https://api.iconify.design/pixel/badge-check-solid.svg?color=%2300C389" width="24" height="24" alt="3rd place" align="absmiddle"/></picture>
-**Conversational weather companion** · 3rd Place, AI Orchestrator
+**Conversational weather companion** · 3rd Place, KiroVerse Hack Sprint · AI Orchestrator, team project
 
 Gives people friendly weather updates in a chat-style experience.
 
-[**Repo →**](https://github.com/rolex-esto/Kirovers-Hack-Sprint-Shipaton-Edition) · [**Live →**](https://kiroverse-hack-sprint-shipaton-edition.vercel.app/)
+[**Team repo →**](https://github.com/rolex-esto/Kirovers-Hack-Sprint-Shipaton-Edition) · [**Live →**](https://kiroverse-hack-sprint-shipaton-edition.vercel.app/)
 
 </td>
 <td width="50%" valign="top">
 
 ### Ulan Ba?
-**Philippine rain forecast dashboard**
+**Philippine rain forecast dashboard** · Creator & Frontend Developer
 
 Helps people plan trips and outdoor activities with hourly rain and severity forecasts for 17 regions and 150+ cities.
 
-[**Repo →**](https://github.com/rolex-esto/kiro-phWeather) · [**Live →**](https://kiro-ph-weather.vercel.app)
+[**Repo →**](https://github.com/rolex-esto/kiro-phWeather)
 
 </td>
 </tr>
@@ -126,7 +126,7 @@ Helps people plan trips and outdoor activities with hourly rain and severity for
 
 An online store with separate admin, cashier, and customer dashboards to make inventory and daily store operations easier.
 
-<sub><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/lock.svg?color=%230EA5E9"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/lock.svg?color=%230284C7"><img src="https://api.iconify.design/pixelarticons/lock.svg?color=%230EA5E9" width="12" height="12" alt="" align="absmiddle"/></picture> Private repository</sub>
+[**Site →**](https://classicflagshipstore.com/) · <sub><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/lock.svg?color=%230EA5E9"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/lock.svg?color=%230284C7"><img src="https://api.iconify.design/pixelarticons/lock.svg?color=%230EA5E9" width="12" height="12" alt="" align="absmiddle"/></picture> Private repository</sub>
 
 </td>
 <td width="50%" valign="top">
@@ -195,7 +195,7 @@ Builds NFC pages and client websites that help businesses share their details an
 
 **GCI World 2026** — Completed a global data science and AI program under the Matsuo-Iwasawa Laboratory, University of Tokyo, applying data-driven methods and intelligent systems to real-world software and data engineering projects (September 2026 – November 2026).
 
-**Completed professional tracks:** AWS SimuLearn Cloud Practitioner (July 2026) · DICT Region V Data Privacy Protection Competency Framework, 20-Hour Intensive Training (June 2026).
+**Completed professional tracks:** AWS SimuLearn Cloud Practitioner (July 2026) · Microsoft DP-900, DP-700 and PL-300 curriculum tracks (July – October 2026) · DICT Region V Data Privacy Protection Competency Framework, 20-Hour Intensive Training (June 2026).
 
 </details>
 
@@ -225,11 +225,12 @@ Builds NFC pages and client websites that help businesses share their details an
 ## <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/notes.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/notes.svg?color=%2300A06E"><img src="https://api.iconify.design/pixelarticons/notes.svg?color=%2300C389" width="24" height="24" alt="" align="absmiddle"/></picture> Certifications
 
 <p>
-  <img src="https://img.shields.io/badge/Certifications-10-00C389?style=flat-square&labelColor=0D1117" alt="10 certifications"/>
+  <img src="https://img.shields.io/badge/Certifications-9-00C389?style=flat-square&labelColor=0D1117" alt="9 certifications"/>
   <img src="https://img.shields.io/badge/Data-4%20DataCamp-00C389?style=flat-square&labelColor=0D1117&logo=datacamp&logoColor=white" alt="4 data certifications"/>
-  <img src="https://img.shields.io/badge/Security-4-0EA5E9?style=flat-square&labelColor=0D1117" alt="4 security certifications"/>
+  <img src="https://img.shields.io/badge/Security-3-0EA5E9?style=flat-square&labelColor=0D1117" alt="3 security certifications"/>
   <img src="https://img.shields.io/badge/Microsoft-Certified-00C389?style=flat-square&labelColor=0D1117&logo=microsoft&logoColor=white" alt="1 Microsoft Certified"/>
-  <img src="https://img.shields.io/badge/Training-2-0EA5E9?style=flat-square&labelColor=0D1117" alt="2 training courses"/>
+  <img src="https://img.shields.io/badge/DICT-Recognized%20Professional-0EA5E9?style=flat-square&labelColor=0D1117" alt="1 professional recognition: DICT"/>
+  <img src="https://img.shields.io/badge/Training-5-0EA5E9?style=flat-square&labelColor=0D1117" alt="5 training tracks"/>
 </p>
 
 <table width="100%">
@@ -275,7 +276,7 @@ Builds NFC pages and client websites that help businesses share their details an
 </details>
 
 <details>
-<summary><b><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/shield.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/shield.svg?color=%2300A06E"><img src="https://api.iconify.design/pixelarticons/shield.svg?color=%2300C389" width="24" height="24" alt="" align="absmiddle"/></picture> Security</b> · 4 certifications</summary>
+<summary><b><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/pixelarticons/shield.svg?color=%2300C389"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/pixelarticons/shield.svg?color=%2300A06E"><img src="https://api.iconify.design/pixelarticons/shield.svg?color=%2300C389" width="24" height="24" alt="" align="absmiddle"/></picture> Security</b> · 3 certifications · 1 recognition</summary>
 
 <br/>
 
@@ -309,14 +310,15 @@ Builds NFC pages and client websites that help businesses share their details an
 | **April 2026** | DataCamp Certified SQL Associate |
 | **May 2026** | DataCamp Certified Associate Data Analyst |
 | **June 2026** | DICT Region V Data Privacy Protection Competency Framework, 20-Hour Intensive Training |
-| **July 2026** | DataCamp Certified Associate Data Engineer · DataCamp Certified in Data Literacy · AWS SimuLearn Cloud Practitioner |
-| **August 2026** | Google AI Professional Certificate · Appkademiya Certified Cybersecurity Professional (CCP) |
+| **July 2026** | DataCamp Certified Associate Data Engineer · DataCamp Certified in Data Literacy · AWS SimuLearn Cloud Practitioner · Microsoft DP-900 curriculum track |
+| **August 2026** | Google AI Professional Certificate · Appkademiya Certified Cybersecurity Professional (CCP) · Microsoft DP-700 curriculum track |
 | **September 2026** | DICT-Recognized Cybersecurity Professional Category 2 (Intermediate) |
+| **October 2026** | Microsoft PL-300 Power BI Data Analyst curriculum track |
 | **November 2026** | Microsoft Certified: Fabric Data Engineer Associate (DP-700) |
 
 </details>
 
-<sub>Only the DP-700 has a verification link; every other thumbnail opens the full-size certificate image. DICT Category 2 is a professional recognition, not an exam certificate. AWS SimuLearn and DICT Region V are training.</sub>
+<sub>Only the DP-700 has a verification link; every other thumbnail opens the full-size certificate image. DICT Category 2 is a professional recognition, not an exam certificate. AWS SimuLearn, the Microsoft curriculum tracks and DICT Region V are training.</sub>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:00C389,100:0EA5E9" width="100%" alt=""/>
 
