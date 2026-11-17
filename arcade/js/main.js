@@ -362,4 +362,5 @@ if (new URLSearchParams(location.search).has('qa')) {
     game,
   };
 }
+document.getElementById('loading').hidden = true;
 document.documentElement.dataset.ready = 'true';

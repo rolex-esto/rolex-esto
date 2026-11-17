@@ -96,6 +96,7 @@ export class Game {
     this.state = 'playing';
     this.emit('level', { name: L.def.name, goal: L.def.goal, num: L.index + 1, bonus: !!L.def.bonus });
     this.announce(`${L.def.name}. ${L.def.goal}`);
+    this.pushHud(); // sync HUD now; don't wait for the next animation frame
   }
 
   get maxHp() { return this.assist ? 5 : 3; }
@@ -184,6 +185,7 @@ export class Game {
     this.state = 'playing';
     this.emit('resume');
     this.announce(cp ? 'Continued from checkpoint.' : 'Continued from level start.');
+    this.pushHud();
   }
 
   nextLevel() {

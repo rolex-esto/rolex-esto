@@ -54,7 +54,7 @@ export const PROJECTS = [
     role: 'AI Orchestrator', status: '3rd Place — KiroVerse Hack Sprint (AWS & RevenueCat)',
     summary: 'A chat-style weather companion that gives people weather updates in a friendly, conversational way.',
     stack: ['React 18', 'TypeScript', 'Vite', 'DuckDB-WASM', 'Parquet', 'Recharts', 'Open-Meteo API', 'Playwright'],
-    links: [{ label: 'Repository', url: 'https://github.com/rolex-esto/Kirovers-Hack-Sprint-Shipaton-Edition' }, { label: 'Live demo', url: 'https://kiroverse-hack-sprint-shipaton-edition.vercel.app/' }],
+    links: [{ label: 'Team repository', url: 'https://github.com/rolex-esto/Kirovers-Hack-Sprint-Shipaton-Edition' }, { label: 'Live demo', url: 'https://kiroverse-hack-sprint-shipaton-edition.vercel.app/' }],
   },
   {
     id: 'ulanba', world: 'Rain Observatory', name: 'Ulan Ba?',
@@ -97,7 +97,7 @@ export const CREDENTIALS = [
   'DataCamp Certified Associate Data Analyst — May 2026',
   'DataCamp Certified SQL Associate — Apr 2026',
   'DataCamp Certified in Data Literacy — Jul 2026',
-  'Training: AWS SimuLearn Cloud Practitioner (Jul 2026) · DICT Region V Data Privacy Protection, 20 hours (Jun 2026)',
+  'Training: AWS SimuLearn Cloud Practitioner (Jul 2026) · Microsoft DP-900 (Jul 2026), DP-700 (Aug 2026) and PL-300 (Oct 2026) curriculum tracks · DICT Region V Data Privacy Protection, 20 hours (Jun 2026)',
 ];
 
 export const FELLOWSHIPS = [

@@ -11,6 +11,14 @@
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8' shape-rendering='crispEdges'%3E%3Crect width='8' height='8' fill='%230B1020'/%3E%3Crect x='2' y='1' width='4' height='2' fill='%23FFD166'/%3E%3Crect x='1' y='3' width='6' height='3' fill='%2370F5A3'/%3E%3Crect x='2' y='4' width='1' height='1' fill='%230B1020'/%3E%3Crect x='5' y='4' width='1' height='1' fill='%230B1020'/%3E%3Crect x='2' y='6' width='1' height='2' fill='%23A78BFA'/%3E%3Crect x='5' y='6' width='1' height='2' fill='%23A78BFA'/%3E%3C/svg%3E">
   <link rel="preload" href="fonts/PressStart2P-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="css/arcade.css">
+  <noscript><style>.loading{display:none}</style></noscript>
+  <link rel="modulepreload" href="js/game.js">
+  <link rel="modulepreload" href="js/levels.js">
+  <link rel="modulepreload" href="js/sprites.js">
+  <link rel="modulepreload" href="js/data.js">
+  <link rel="modulepreload" href="js/audio.js">
+  <link rel="modulepreload" href="js/terminal.js">
+  <link rel="modulepreload" href="js/storage.js">
   <script type="module" src="js/main.js"></script>
 </head>
 <body>
@@ -55,6 +63,7 @@
       <p class="objective" id="objective">Choose a skin and press START to begin.</p>
 
       <div class="stage menu-open" id="stage">
+        <div class="loading" id="loading" role="status">Loading BUG HUNTER…</div>
         <canvas id="world" role="img" aria-label="BUG HUNTER game world. Move with WASD or arrow keys; collect tokens, avoid bugs, reach the portal. Game events are announced below the game."></canvas>
         <div class="banner" id="banner" aria-hidden="true" hidden></div>
 
@@ -197,6 +206,7 @@
     // Classic-script fallback: explain why nothing loads when opened from disk.
     if (location.protocol === 'file:') {
       document.getElementById('file-warning').hidden = false;
+      document.getElementById('loading').textContent = 'Serve this folder over http to play (see note below).';
     }
   </script>
 </body>

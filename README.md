@@ -1,97 +1,109 @@
-<!-- Profile graphics: assets/profile (regenerate with scripts/generate-profile-assets.py). Stats: output branch, built daily by .github/workflows/snake.yml -->
+<!-- Profile graphics: assets/profile (regenerate with scripts/generate-profile-assets.py). Stats: output branch, built daily by .github/workflows/snake.yml.
+     Rule: images carry identity, not information. Everything a visitor needs to read is Markdown text so it stays legible on phones. -->
 <div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/profile/hero-light.svg">
-  <img src="assets/profile/hero-dark.svg" width="100%" alt="Rolex J. Esto — Software Developer, AI Builder, Data and Cloud Enthusiast. Founder of BizPilot, Microsoft Certified Fabric Data Engineer Associate, 4× hackathon top finishes in 2026, Eskwelabs Data Innovation Fellow."/>
+  <img src="assets/profile/hero-dark.svg" width="100%" alt="Rolex J. Esto — Software Developer, AI Builder, Data and Cloud. Pixel-art developer coding at a desk."/>
 </picture>
 
+**I build AI-powered apps, data pipelines, and cloud web products.**<br/>
+Founder of **BizPilot** · **Microsoft Certified: Fabric Data Engineer Associate** · **4× hackathon top finishes in 2026**
+
+<a href="#featured-projects"><img src="assets/profile/link-projects.svg" height="34" alt="Featured projects"/></a>
 <a href="https://rolex-esto.vercel.app/"><img src="assets/profile/link-portfolio.svg" height="34" alt="Portfolio"/></a>
 <a href="https://linkedin.com/in/rolex-esto-1b33b2391/"><img src="assets/profile/link-linkedin.svg" height="34" alt="LinkedIn"/></a>
 <a href="mailto:rolexesto0001@gmail.com"><img src="assets/profile/link-email.svg" height="34" alt="Email"/></a>
 <a href="#achievements--certifications"><img src="assets/profile/link-certifications.svg" height="34" alt="Certifications"/></a>
-<a href="#featured-projects"><img src="assets/profile/link-projects.svg" height="34" alt="Featured projects"/></a>
+<a href="https://rolex-esto.github.io/rolex-esto/arcade/"><img src="assets/profile/link-play.svg" height="34" alt="Play ROLEX.EXE, my browser game"/></a>
 
 </div>
 
 ## About Me
 
-I'm a 4th-year **BSIT student at STI College Fairview** who likes shipping real software: **AI-powered apps**, **data pipelines**, and **cloud-backed web products**. I founded **BizPilot**, build client websites and NFC pages at **TAPME**, and spend my weekends at hackathons, where my teams placed in the **top finishes four times in 2026**.
+I'm a 4th-year **BSIT student at STI College Fairview** (2023 – 2027) who likes shipping real software: **AI-powered apps**, **data pipelines**, and **cloud-backed web products**. I founded **BizPilot**, build client websites and NFC pages at **TAPME**, and spend weekends at hackathons, where my teams reached the **top finishes four times in 2026**. I'm an **Eskwelabs Innovation Fellow** (Cohort 11) and completed **GCI World 2026** at the University of Tokyo.
 
 ```yaml
 building:
   - BizPilot (founder)
-  - TAPME client sites & NFC pages
-  - Microsoft Fabric data pipelines
-focus: [AI-powered apps, data engineering, cloud]
+  - TAPME sites & NFC pages
+  - Fabric data pipelines
+focus: [AI apps, data, cloud]
 certified:
-  - Microsoft Fabric Data Engineer (DP-700)
-  - ISC2 Certified in Cybersecurity
-  - DICT Cybersecurity Professional (Cat. 2)
-  - +7 more ↓
-fellowships:
-  - Eskwelabs Innovation Fellowship, Cohort 11
-  - GCI World 2026, University of Tokyo
+  - Microsoft DP-700
+  - ISC2 CC
+  - +7 more (see below)
+recognized:
+  - DICT Cybersecurity Pro, Cat. 2
 ```
 
 <img src="assets/profile/divider.svg" width="100%" alt=""/>
 
 ## Featured Projects
 
-<table>
-<tr>
-<td width="50%" valign="top">
-<a href="https://biz-pilot-msme.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/card-bizpilot-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/profile/card-bizpilot-light.svg"><img src="assets/profile/card-bizpilot-dark.svg" width="100%" alt="BizPilot — Founder, active development. All-in-one operations hub for Filipino online sellers: one inbox for social messages, conversational ordering, stock, and an AI sales assistant."/></picture></a>
-<br/><sub><a href="https://biz-pilot-msme.vercel.app/">Live site ↗</a> · 🔒 Private repository</sub>
-</td>
-<td width="50%" valign="top">
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/card-smartwatts-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/profile/card-smartwatts-light.svg"><img src="assets/profile/card-smartwatts-dark.svg" width="100%" alt="SmartWatts — Top 10 Finalist, Meralco IDOL Hackathon. Helps households understand electricity use with bill scanning, appliance tracking, estimates, and an English/Tagalog AI advisor. Lead Developer, Team KuryenTech."/></picture>
-<br/><sub>Hackathon project · no public repository</sub>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<a href="https://github.com/rolex-esto/opspilot"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/card-opspilot-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/profile/card-opspilot-light.svg"><img src="assets/profile/card-opspilot-dark.svg" width="100%" alt="OpsPilot — Top 2 Winner, DevKada × ClankerCloud Build Challenge. AI DevOps incident investigator that finds the cause of outages from evidence. Solo Developer."/></picture></a>
-<br/><sub><a href="https://github.com/rolex-esto/opspilot">Repository ↗</a></sub>
-</td>
-<td width="50%" valign="top">
-<a href="https://baha-route.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/card-baharoute-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/profile/card-baharoute-light.svg"><img src="assets/profile/card-baharoute-dark.svg" width="100%" alt="BahaRoute — Top 10 Climate Change Track, BuildOvernights KiroxHackaton. Flood-aware routing for Metro Manila using Project NOAH flood history, rainfall forecasts, and voice alerts."/></picture></a>
-<br/><sub><a href="https://github.com/rolex-esto/KiroxQuick_Flood_CTRL">Repository ↗</a> · <a href="https://baha-route.vercel.app/">Live demo ↗</a></sub>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<a href="https://kiroverse-hack-sprint-shipaton-edition.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/card-wwl-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/profile/card-wwl-light.svg"><img src="assets/profile/card-wwl-dark.svg" width="100%" alt="Weather Weather Lang — 3rd Place, KiroVerse Hack Sprint. Chat-style weather companion. AI Orchestrator on a team project."/></picture></a>
-<br/><sub><a href="https://github.com/rolex-esto/Kirovers-Hack-Sprint-Shipaton-Edition">Repository ↗</a> · <a href="https://kiroverse-hack-sprint-shipaton-edition.vercel.app/">Live demo ↗</a></sub>
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/rolex-esto/kiro-phWeather"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/card-ulanba-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/profile/card-ulanba-light.svg"><img src="assets/profile/card-ulanba-dark.svg" width="100%" alt="Ulan Ba? — solo project. Philippine rain forecast dashboard with hourly rain and severity forecasts for 17 regions and 150+ cities."/></picture></a>
-<br/><sub><a href="https://github.com/rolex-esto/kiro-phWeather">Repository ↗</a></sub>
-</td>
-</tr>
-</table>
+### <img src="assets/profile/icon-bizpilot.svg" width="28" height="28" alt="" align="absmiddle"/> BizPilot
+**Founder & Developer** · *Active development* · Operations hub for Filipino online sellers
 
-**More work:** [**Classic Flagship Store**](https://classicflagshipstore.com/) — e-commerce capstone with admin, cashier and customer dashboards, Google sign-in and inventory tools (PHP · MySQL · Google OAuth; private repo) · [**TAPME**](https://tapmeph.com/) — freelance NFC tap pages and client websites (2025 – Present).
+**Problem:** sellers juggle customer messages across social channels, unverified payment receipts, overselling, and manual order math during sales surges.<br/>
+**Built:** one inbox for social messages, one-click ordering inside conversations, stock management, a shared operations calendar, and an AI sales assistant, with each seller’s data kept private.<br/>
+**Highlights:** `Unified inbox` `AI sales assistant` `Conversational ordering` `Operations calendar`
+
+[Live site ↗](https://biz-pilot-msme.vercel.app/) · 🔒 Private repository
+
+### <img src="assets/profile/icon-smartwatts.svg" width="28" height="28" alt="" align="absmiddle"/> SmartWatts
+**Lead Developer, Team KuryenTech** · 🏅 **Top 10 Finalist, Meralco IDOL Hackathon** · Electricity-use tracker
+
+**Problem:** households struggle to make sense of their electricity consumption.<br/>
+**Built:** bill scanning, appliance and meter records, usage trends, estimates and practical suggestions. SmartWatts Personal adds goals, challenges, rewards and an AI advisor in English and Tagalog; SmartWatts Rentals lets property managers organize units, invite tenants, record readings and prepare electricity statements.<br/>
+**Highlights:** `Bill scanning` `Appliance tracking` `Usage estimates` `AI advisor (EN/TL)`
+
+Hackathon project · no public repository or demo
+
+### <img src="assets/profile/icon-opspilot.svg" width="28" height="28" alt="" align="absmiddle"/> OpsPilot
+**Solo Developer** · 🏆 **Top 2 Winner, DevKada × ClankerCloud Build Challenge** · AI DevOps incident investigator
+
+**Problem:** under incident pressure, teams act on a plausible-looking root cause that isn’t the real one, and an AI that sounds certain makes it worse.<br/>
+**Built:** an investigator that works from evidence, tracks hypotheses, and says clearly when a cause has not been confirmed yet.<br/>
+**Stack:** `AI agent design` `Prompt & skill architecture` `Incident response` `Cloud observability`
+
+[Repository ↗](https://github.com/rolex-esto/opspilot)
+
+### <img src="assets/profile/icon-baharoute.svg" width="28" height="28" alt="" align="absmiddle"/> BahaRoute
+**Lead Developer** · 🏅 **Top 36 Team · Top 10 Climate Change Track, BuildOvernights KiroxHackaton** · Flood-aware routing
+
+**Problem:** Metro Manila drivers need flood context alongside directions during heavy rain.<br/>
+**Built (in a 12-hour hackathon):** routes away from flood-prone roads across 17 cities and 1,710 barangays, using Project NOAH flood history, live rainfall forecasts, and spoken hazard alerts.<br/>
+**Highlights:** `Project NOAH flood data` `Rainfall forecasts` `Voice hazard alerts`
+
+[Repository ↗](https://github.com/rolex-esto/KiroxQuick_Flood_CTRL) · [Live demo ↗](https://baha-route.vercel.app/)
+
+### <img src="assets/profile/icon-wwl.svg" width="28" height="28" alt="" align="absmiddle"/> Weather Weather Lang
+**AI Orchestrator, team project** · 🏆 **3rd Place, KiroVerse Hack Sprint (AWS &amp; RevenueCat)** · Conversational weather companion
+
+**Problem:** the team wanted conversational querying, travel decisions and historical comparison in a hackathon window far too short for that scope.<br/>
+**Built:** a chat-style weather companion that gives friendly weather updates, extending my Ulan Ba? dashboard with a conversational assistant and client-side SQL.<br/>
+**Stack:** `React 18` `TypeScript` `Vite` `DuckDB-WASM` `Parquet` `Recharts` `Open-Meteo API` `Playwright`
+
+[Team repository ↗](https://github.com/rolex-esto/Kirovers-Hack-Sprint-Shipaton-Edition) · [Live demo ↗](https://kiroverse-hack-sprint-shipaton-edition.vercel.app/)
+
+### <img src="assets/profile/icon-ulanba.svg" width="28" height="28" alt="" align="absmiddle"/> Ulan Ba?
+**Creator & Frontend Developer (solo)** · Philippine rain forecast dashboard
+
+**Problem:** commuters and travelers lacked hyper-local, actionable rainfall forecasts during localized downpours.<br/>
+**Built:** hourly rain and severity forecasts for 17 regions and 150+ cities, with automatic location detection.<br/>
+**Stack:** `React` `TypeScript` `Vite` `Recharts` `Open-Meteo API` `Geolocation`
+
+[Repository ↗](https://github.com/rolex-esto/kiro-phWeather)
 
 <details>
-<summary><b>Project details</b></summary>
+<summary><b>More work</b> · Classic Flagship Store · TAPME</summary>
 
 <br/>
 
-**BizPilot** — Gives Filipino online sellers one inbox for social messages, one-click ordering in conversations, stock management, and a shared operations calendar. It includes an AI sales assistant and keeps each seller’s data private.
+**<img src="assets/profile/icon-classic.svg" width="20" height="20" alt="" align="absmiddle"/> Classic Flagship Store** — E-commerce capstone. An online store with separate admin, cashier and customer dashboards, secure Google sign-in, and inventory tools, replacing manual store management and disconnected POS/cart operations. `PHP` `MySQL` `PDO` `Google OAuth` `PHPMailer` · [Live site ↗](https://classicflagshipstore.com/) · 🔒 Private repository
 
-**SmartWatts** — An informational and tracking tool that helps households understand electricity use through bills, appliance records, meter readings, trends, estimates, and practical suggestions. SmartWatts Personal includes goals, challenges, rewards, and an AI advisor in English and Tagalog. SmartWatts Rentals helps property managers organize units, invite tenants, record readings, and prepare electricity statements, giving managers and tenants a shared view of unit usage.
-
-**OpsPilot** — Helps tech teams investigate system outages using evidence and makes clear when the cause has not yet been confirmed.
-
-**BahaRoute** — Helps Metro Manila drivers choose routes away from flooded roads across 17 cities and 1,710 barangays, using Project NOAH flood history, live rainfall forecasts, and spoken hazard alerts.
-
-**Weather Weather Lang** — A chat-style weather companion that gives people weather updates in a friendly, conversational way. Built with React 18, TypeScript, Vite, DuckDB-WASM, Parquet, Recharts, the Open-Meteo API and Playwright.
-
-**Ulan Ba?** — Helps Filipinos plan travel and outdoor activities around expected rainfall, with hourly rain and severity forecasts for 17 regions and 150+ cities and automatic location detection.
-
-**Classic Flagship Store** — An online store for Classic Flagship Store with separate admin, cashier, and customer dashboards, secure Google sign-in, and inventory tools.
+**<img src="assets/profile/icon-tapme.svg" width="20" height="20" alt="" align="absmiddle"/> TAPME** — Freelance web development (2025 – Present). NFC tap pages and client websites that help businesses share their details and collect reviews. [Website ↗](https://tapmeph.com/)
 
 </details>
 
@@ -99,41 +111,39 @@ fellowships:
 
 ## Tech Stack
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/tech-stack-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/profile/tech-stack-light.svg">
-  <img src="assets/profile/tech-stack-dark.svg" width="100%" alt="Tech stack. Languages: TypeScript, JavaScript, Python, PHP, SQL. Frontend: React, Next.js, Vite, HTML, CSS, Recharts. Backend: Node.js, FastAPI, OAuth. Data engineering: Microsoft Fabric, Power BI, Pandas, NumPy, DuckDB, Parquet, Excel. Databases: PostgreSQL, MySQL. Cloud: AWS, Azure, Google Cloud, Vercel. AI tools: Claude Code, Codex, Cursor, Kiro, Antigravity. DevOps and security: Git, GitHub Actions, Playwright, IAM."/>
-</picture>
+- **Languages:** `TypeScript` `JavaScript` `Python` `PHP` `SQL`
+- **Frontend:** `React` `Next.js` `Vite` `HTML` `CSS` `Recharts`
+- **Backend:** `Node.js` `FastAPI` `OAuth`
+- **Data engineering:** `Microsoft Fabric` `Power BI` `Pandas` `NumPy` `DuckDB` `Apache Parquet` `Excel`
+- **Databases:** `PostgreSQL` `MySQL`
+- **Cloud:** `AWS` `Azure` `Google Cloud` `Vercel`
+- **AI tools:** `Claude Code` `Codex` `Cursor` `Kiro` `Antigravity`
+- **DevOps & security:** `Git` `GitHub` `GitHub Actions` `Playwright` `IAM`
 
 <img src="assets/profile/divider.svg" width="100%" alt=""/>
 
 ## Achievements & Certifications
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/hackathons-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/profile/hackathons-light.svg">
-  <img src="assets/profile/hackathons-dark.svg" width="100%" alt="Hackathon results: Top 2 Winner, DevKada × ClankerCloud Build Challenge (OpsPilot, Aug 2026). 3rd Place, KiroVerse Hack Sprint with AWS and RevenueCat (Weather Weather Lang, 2026). Top 10 Finalist, Meralco IDOL Hackathon (SmartWatts, Nov 2026). Top 10 Climate Change Track and Top 36 team overall, BuildOvernights KiroxHackaton (BahaRoute, Oct 2026)."/>
-</picture>
+#### Hackathons — 4 top finishes in 2026
 
-| Result | Event | Project / Role |
-|:--|:--|:--|
-| **Top 2 Winner** | DevKada × ClankerCloud Build Challenge (August 24–29, 2026) | [OpsPilot](https://github.com/rolex-esto/opspilot) · Solo Developer |
-| **3rd Place** | KiroVerse Hack Sprint (AWS &amp; RevenueCat, June – August 2026) | [Weather Weather Lang](https://github.com/rolex-esto/Kirovers-Hack-Sprint-Shipaton-Edition) · AI Orchestrator |
-| **Top 10 Finalist** | Meralco IDOL Hackathon · Meralco Power Academy (November 12–13, 2026) | **Team KuryenTech** · Lead Developer |
-| **Top 36 Team · Top 10 Climate Change Track** | BuildOvernights KiroxHackaton (AWS Office, October 3–4, 2026) | [BahaRoute](https://github.com/rolex-esto/KiroxQuick_Flood_CTRL) · Lead Developer |
+- <img src="assets/profile/medal-gold.svg" width="18" height="18" alt="" align="absmiddle"/> **Top 2 Winner** — DevKada × ClankerCloud Build Challenge (August 24–29, 2026) · [OpsPilot](https://github.com/rolex-esto/opspilot) · Solo Developer
+- <img src="assets/profile/medal-purple.svg" width="18" height="18" alt="" align="absmiddle"/> **3rd Place** — KiroVerse Hack Sprint (AWS &amp; RevenueCat, June – August 2026) · [Weather Weather Lang](https://github.com/rolex-esto/Kirovers-Hack-Sprint-Shipaton-Edition) · AI Orchestrator
+- <img src="assets/profile/medal-green.svg" width="18" height="18" alt="" align="absmiddle"/> **Top 10 Finalist** — Meralco IDOL Hackathon · Meralco Power Academy (November 12–13, 2026) · **Team KuryenTech** · Lead Developer
+- <img src="assets/profile/medal-pink.svg" width="18" height="18" alt="" align="absmiddle"/> **Top 36 Team · Top 10 Climate Change Track** — BuildOvernights KiroxHackaton (AWS Office, October 3–4, 2026) · [BahaRoute](https://github.com/rolex-esto/KiroxQuick_Flood_CTRL) · Lead Developer
 
-**Featured certification —** **Microsoft Certified: Fabric Data Engineer Associate (DP-700)** · Earned Nov 2026 · Valid until Nov 10, 2027 · [**Verify on Microsoft Learn ↗**](https://learn.microsoft.com/en-us/users/rolexesto-7021/credentials/certification/fabric-data-engineer-associate?tab=credentials-tab)
+#### Certifications — 9 certifications · 1 professional recognition
 
-| Area | Certifications |
-|:--|:--|
-| **Microsoft & Cloud** | Microsoft Certified: Fabric Data Engineer Associate (DP-700) · AWS SimuLearn: Cloud Practitioner *(training)* |
-| **Data** | DataCamp Certified Associate Data Engineer · Associate Data Analyst · SQL Associate · Data Literacy |
-| **Security** | ISC2 Certified in Cybersecurity (CC) · DICT-Recognized Cybersecurity Professional, Category 2 *(professional recognition)* · Appkademiya Certified Cybersecurity Professional (CCP) · Red Team Leaders CTIGA |
-| **AI** | Google AI Professional Certificate |
-| **Training** | DICT Region V Data Privacy Protection Competency Framework, 20-Hour Intensive Training |
+**Featured:** **Microsoft Certified: Fabric Data Engineer Associate (DP-700)** · Earned Nov 2026 · Valid until Nov 10, 2027 · [**Verify on Microsoft Learn ↗**](https://learn.microsoft.com/en-us/users/rolexesto-7021/credentials/certification/fabric-data-engineer-associate?tab=credentials-tab)
+
+- **Microsoft:** Fabric Data Engineer Associate (DP-700), Nov 2026
+- **Data:** DataCamp Certified Associate Data Engineer (Jul 2026) · Associate Data Analyst (May 2026) · SQL Associate (Apr 2026) · Data Literacy (Jul 2026)
+- **Security:** ISC2 Certified in Cybersecurity (CC), Mar 2026 · Appkademiya Certified Cybersecurity Professional (CCP), Aug 2026 · Red Team Leaders Certified Threat Intelligence &amp; Governance Analyst (CTIGA), Jan 2026
+- **AI:** Google AI Professional Certificate, Aug 2026
+- **Professional recognition:** DICT-Recognized Cybersecurity Professional, Category 2 (Intermediate), Sep 2026
+- **Training completed:** AWS SimuLearn: Cloud Practitioner (Jul 2026) · Microsoft curriculum tracks: DP-900 Azure Data Fundamentals (Jul 2026), DP-700 Fabric Data Engineer (Aug 2026), PL-300 Power BI Data Analyst (Oct 2026) · DICT Region V Data Privacy Protection Competency Framework, 20-Hour Intensive Training (Jun 2026)
 
 <details>
-<summary><b>Certificate gallery</b> · 10 certifications · 1 training certificate</summary>
+<summary><b>Certificate gallery</b> · 11 certificate images</summary>
 
 <br/>
 
@@ -160,26 +170,25 @@ fellowships:
 | **April 2026** | DataCamp Certified SQL Associate |
 | **May 2026** | DataCamp Certified Associate Data Analyst |
 | **June 2026** | DICT Region V Data Privacy Protection Competency Framework, 20-Hour Intensive Training |
-| **July 2026** | DataCamp Certified Associate Data Engineer · DataCamp Certified in Data Literacy · AWS SimuLearn Cloud Practitioner |
-| **August 2026** | Google AI Professional Certificate · Appkademiya Certified Cybersecurity Professional (CCP) |
+| **July 2026** | DataCamp Certified Associate Data Engineer · DataCamp Certified in Data Literacy · AWS SimuLearn Cloud Practitioner · Microsoft DP-900 curriculum track |
+| **August 2026** | Google AI Professional Certificate · Appkademiya Certified Cybersecurity Professional (CCP) · Microsoft DP-700 curriculum track |
 | **September 2026** | DICT-Recognized Cybersecurity Professional Category 2 (Intermediate) |
+| **October 2026** | Microsoft PL-300 Power BI Data Analyst curriculum track |
 | **November 2026** | Microsoft Certified: Fabric Data Engineer Associate (DP-700) |
 
 </details>
 
-<sub>Only the DP-700 has a verification link; every other thumbnail opens the full-size certificate image. DICT Category 2 is a professional recognition, not an exam certificate. AWS SimuLearn and DICT Region V are training.</sub>
+<sub>Only the DP-700 has a verification link; every other thumbnail opens the full-size certificate image. DICT Category 2 is a professional recognition, not an exam certificate. AWS SimuLearn, the Microsoft curriculum tracks and DICT Region V are training.</sub>
 
 <img src="assets/profile/divider.svg" width="100%" alt=""/>
 
 ## Experience & Fellowships
 
-| Role | Organization | Period |
-|---|---|---|
-| **Freelance Web Developer** | [TAPME](https://tapmeph.com/) | 2025 – Present |
-| **Startup Founder & Developer** | BizPilot | Active development |
-| **Data Innovation Fellow**, Cohort 11 | Eskwelabs Innovation Fellowship (EIF) | August 2026 – November 2026 |
-| **Participant**, Data Science & AI | GCI World 2026 · Matsuo-Iwasawa Laboratory, University of Tokyo | September 2026 – November 2026 |
-| **BSIT student** | STI College Fairview, Quezon City, PH | September 2023 – July 2027 |
+- **Freelance Web Developer** — [TAPME](https://tapmeph.com/) · 2025 – Present
+- **Startup Founder & Developer** — BizPilot · Active development
+- **Data Innovation Fellow**, Cohort 11 — Eskwelabs Innovation Fellowship (EIF) · August 2026 – November 2026
+- **Participant**, Data Science & AI — GCI World 2026 · Matsuo-Iwasawa Laboratory, University of Tokyo · September 2026 – November 2026
+- **BSIT student** — STI College Fairview, Quezon City, PH · September 2023 – July 2027
 
 <details>
 <summary><b>What I do at TAPME</b></summary>
@@ -201,7 +210,7 @@ fellowships:
 
 **GCI World 2026** — Completed a global data science and AI program under the Matsuo-Iwasawa Laboratory, University of Tokyo, applying data-driven methods and intelligent systems to real-world software and data engineering projects (September 2026 – November 2026).
 
-**Completed professional tracks:** AWS SimuLearn Cloud Practitioner (July 2026) · DICT Region V Data Privacy Protection Competency Framework, 20-Hour Intensive Training (June 2026).
+**Completed professional tracks:** AWS SimuLearn Cloud Practitioner (July 2026) · Microsoft DP-900, DP-700 and PL-300 curriculum tracks (July – October 2026) · DICT Region V Data Privacy Protection Competency Framework, 20-Hour Intensive Training (June 2026).
 
 </details>
 
@@ -227,12 +236,12 @@ fellowships:
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rolex-esto/rolex-esto/output/stats-activity-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rolex-esto/rolex-esto/output/stats-activity-light.svg">
-    <img src="https://raw.githubusercontent.com/rolex-esto/rolex-esto/output/stats-activity-dark.svg" width="49%" alt="GitHub activity over the last 12 months: contributions, public commits, pull requests, current and longest streak, repositories contributed to."/>
+    <img src="https://raw.githubusercontent.com/rolex-esto/rolex-esto/output/stats-activity-dark.svg" width="400" alt="GitHub activity over the last 12 months: contributions and streaks (including private contribution counts), public commits, public pull requests, public repositories committed to."/>
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rolex-esto/rolex-esto/output/stats-languages-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rolex-esto/rolex-esto/output/stats-languages-light.svg">
-    <img src="https://raw.githubusercontent.com/rolex-esto/rolex-esto/output/stats-languages-dark.svg" width="49%" alt="Most used languages across public, non-fork repositories."/>
+    <img src="https://raw.githubusercontent.com/rolex-esto/rolex-esto/output/stats-languages-dark.svg" width="400" alt="Most used languages by code size across public, non-fork repositories."/>
   </picture>
 </p>
 
@@ -244,29 +253,20 @@ fellowships:
   </picture>
 </p>
 
-<sub>Stats are generated daily from GitHub's API by this repo's own workflow — no third-party stats service.</sub>
+<sub>Generated daily from GitHub’s API by this repository’s own workflow (no third-party stats service). Contributions and streaks include private contribution counts that the profile is set to show; commits, pull requests and languages are public-only.</sub>
 
 <img src="assets/profile/divider.svg" width="100%" alt=""/>
 
 ## Take a Break — Play My Arcade Game
 
-<table>
-<tr>
-<td width="55%" valign="middle">
-<a href="https://rolex-esto.github.io/rolex-esto/arcade/"><img src="assets/profile/arcade-preview.svg" width="100%" alt="ROLEX.EXE BUG HUNTER preview: a pixel developer, gold data tokens, a pink bug and a glowing portal."/></a>
-</td>
-<td valign="middle">
+<a href="https://rolex-esto.github.io/rolex-esto/arcade/"><img src="assets/profile/arcade-gameplay.png" width="100%" alt="Screenshot of ROLEX.EXE: BUG HUNTER, World 1 Merchant Kingdom: the pixel developer among gold data tokens, pink bugs and a checkpoint flag."/></a>
 
-**ROLEX.EXE: BUG HUNTER** is a small pixel game I built from scratch. Clear five worlds, each themed on one of my projects, by collecting tokens and dodging bugs. It also has a portfolio terminal (`help`, `projects`, `contact`…).
+**ROLEX.EXE: BUG HUNTER** is a small browser game I built from scratch in vanilla JavaScript. Clear five worlds, each themed on one of my projects, by collecting tokens and dodging bugs. Clearing a world unlocks that project’s details, and there is a read-only portfolio terminal (`help`, `projects`, `contact`).
 
-<a href="https://rolex-esto.github.io/rolex-esto/arcade/"><img src="assets/profile/link-play.svg" height="34" alt="Play the game"/></a>
+<a href="https://rolex-esto.github.io/rolex-esto/arcade/"><img src="assets/profile/link-play.svg" height="34" alt="Play ROLEX.EXE"/></a>
 <a href="arcade/"><img src="assets/profile/link-source.svg" height="34" alt="Source code"/></a>
 
-<sub><kbd>WASD</kbd> / arrow keys to move · <kbd>P</kbd> to pause · touch controls on mobile · vanilla JS, no dependencies</sub>
-
-</td>
-</tr>
-</table>
+**Controls:** WASD or arrow keys to move · P to pause · on-screen D-pad on phones · reduced-motion and assist modes
 
 <img src="assets/profile/divider.svg" width="100%" alt=""/>
 

@@ -2,22 +2,29 @@ name: Generate profile graphics
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "17 3 * * *"   # daily; off the top of the hour to avoid GitHub's cron backlog
   workflow_dispatch:
   push:
     branches: [main]
 
-permissions:
-  contents: write
+# Least privilege: nothing by default; each job asks only for what it needs.
+permissions: {}
+
+concurrency:
+  group: profile-graphics
+  cancel-in-progress: false
 
 jobs:
   generate:
+    # Third-party actions run here with a READ-ONLY token.
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    permissions:
+      contents: read
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
 
-      - uses: Platane/snk/svg-only@v3
+      - uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
@@ -25,15 +32,47 @@ jobs:
             dist/github-snake-dark.svg?palette=github-dark&color_snake=#A78BFA&color_dots=#161B22,#0E4429,#1F7A4A,#3FBF7F,#70F5A3
 
       # Real-data stats cards from the public GraphQL API with the built-in token.
-      # No third-party stats service; output is published next to the snake.
+      # Exits non-zero (and writes nothing) on any API or validation failure.
       - name: Generate stats cards
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
         run: python3 scripts/generate-github-stats.py "${{ github.repository_owner }}" dist
 
-      - uses: crazy-max/ghaction-github-pages@v5
+      # Never publish an incomplete or malformed set: a failed check stops the
+      # run before the publish job, so the previously published images remain.
+      - name: Validate generated images
+        run: |
+          set -euo pipefail
+          for f in github-snake.svg github-snake-dark.svg \
+                   stats-activity-dark.svg stats-activity-light.svg \
+                   stats-languages-dark.svg stats-languages-light.svg; do
+            test -s "dist/$f" || { echo "::error::missing or empty dist/$f"; exit 1; }
+            python3 -c "import sys, xml.dom.minidom; xml.dom.minidom.parse(sys.argv[1])" "dist/$f"
+          done
+          ls -l dist
+
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: profile-graphics
+          path: dist
+          retention-days: 3
+
+  publish:
+    # Only this job can write, and it runs no third-party code except the deploy action.
+    needs: generate
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
+        with:
+          name: profile-graphics
+          path: dist
+
+      - uses: crazy-max/ghaction-github-pages@1d6ee9b181a81033a16bd707a1401afa978daab4 # v5
         with:
           target_branch: output
           build_dir: dist
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
