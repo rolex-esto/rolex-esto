@@ -1,6 +1,62 @@
 # GitHub Isometric Developer Dashboard: Audit
 
-## Revision 2: Midnight Pixel redesign (2026-11-17)
+## Revision 3: minimalist monochrome palette (2026-11-17)
+
+**Branch:** `feature/monochrome-palette` from `main` @ `140f3e1` (PR #6 was already merged)
+**Verdict: PASS**, a colour-only change. The usual limits still apply (see R3.5).
+
+### R3.1 Palette
+| Role | Dark | Light |
+|:--|:--|:--|
+| Background / surface / border | `#0D1117` / `#161B22` / `#30363D` | `#FFFFFF` / `#F6F8FA` / `#D0D7DE` |
+| Primary / secondary text | `#F0F6FC` / `#8B949E` | `#24292F` / `#57606A` |
+| Primary / secondary accent | `#D1D5DB` / `#9CA3AF` | `#374151` / `#6B7280` |
+| Secondary surface (needed by existing layers) | `#21262D` | `#EAEEF2` |
+| Contribution intensity, none → most | `#21262D` `#3D444D` `#656D76` `#9CA3AF` `#D1D5DB` | `#EAEEF2` `#C9D1D9` `#9CA3AF` `#6B7280` `#374151` |
+
+Where each colour went:
+- **Isometric graph, calendar and snake:** a grey ramp. More activity is lighter in dark mode and darker in light mode.
+- **Pixel scene:** every role (sky bands, clouds, hills, grass, cottage, character, cat, desk, monitor and so on) has its own grey, chosen so neighbouring objects stay distinct. The few colours drawn inline (code on the monitor, cursor, steam) go through `neutral()` to a grey of the same brightness.
+- **Technology chips:** one grey shade per category. Dark-mode Cloud is `#A5ADB8` rather than `#8B949E`, because `#8B949E` measured 4.44:1 on its chip.
+- **Languages card:** a grey ramp in place of GitHub's per-language hues. Order, names and percentages are unchanged.
+- **README:** banner, dividers and footer use a `#D1D5DB → #9CA3AF` gradient. Section icons are `#D1D5DB` (dark) / `#374151` (light), and secondary icons `#9CA3AF` / `#6B7280`. Shields message colours are greys. Label colour `#0D1117`. The SQL and Fabric glyph tint is `#D1D5DB`; every brand `logoColor` is unchanged. The typing line is `#8B949E`, because it is a single image shown in both themes.
+
+### R3.2 Proof that only colours changed
+Each asset was rendered before and after from the same fixed data, then compared with every hex colour masked:
+
+| File | Lines | Non-colour differences | Size |
+|:--|:--|:--|:--|
+| `portfolio-dark.svg` / `portfolio-light.svg` | 1294 / 1307 | **0** | identical bytes |
+| `overview-activity-{dark,light}.svg` | 1868 | **0** | identical bytes |
+| `stats-activity-*`, `stats-languages-*` | 26 / 13 | **0** | identical bytes |
+| `snake.yml` | 87 | **0** | identical bytes |
+| `README.md` | 394 | **1**, the hidden `<!-- Palette … -->` comment | +60 bytes |
+
+The scripts' diff, minus hex values, touches only colour plumbing: `neutral()`, the grey `ramp` for language bars, and comments. Statistics calculations, layout, text, dimensions and animations are untouched.
+
+### R3.3 Tests (all actually run)
+| Check | Result |
+|:--|:--|
+| Unit tests (`python3 -m unittest discover -s tests -p "test_*.py"`) | **22/22 OK**. New check: every `fill`/`stroke` in both panels is a neutral grey (channel spread ≤ 28, which allows the cool tint in `#8B949E` and `#374151`), and every retired Teal or Midnight colour is absent. WCAG AA ≥ 4.5:1 holds for every text colour, including each chip label on its own chip |
+| github.com rendering, 320 / 375 / 390 / 430 / 768 / 1280 px × light/dark, new cards served through `OVERVIEW_DIR` | **124/132 in Chromium, WebKit and Firefox**, the same as `main` before the change (124/132). The only failures are the 8 inherited sideways-scrolling tables |
+| Animations | 43 running (dark) and 29 (light) in all 3 engines, the same as before. **0** under `prefers-reduced-motion` |
+| Links | **126/126** return HTTP 200 |
+| Statistics | Calculation code unchanged. The live run on `main` (44006648745) succeeded before this change |
+
+Screenshots of github.com's real rendering, before (Midnight Pixel on `main`) and after, side by side: `docs/audit/monochrome-before-after-{dark-1280,light-1280,dark-320}.png`.
+
+### R3.4 Git
+- New branch `feature/monochrome-palette` and a new PR, because PR #6 was merged. No force-push.
+- The workflow was not run from this branch. After merge, the push to `main` regenerates the overview, languages card and snake in monochrome.
+
+### R3.5 Remaining limitations
+- In greyscale, categories are told apart by brightness and their headings rather than by hue.
+- The typing line is one image for both themes, so it uses a mid grey: about 3:1 on white, 6:1 on dark.
+- Limits carried over from earlier revisions: the reference screenshot was never available; the Trophy Wall and Experience tables scroll sideways on phones; GitHub Pages is still enabled.
+
+---
+
+## Revision 2: Midnight Pixel redesign (merged in PR #6)
 
 **Branch:** `feature/isometric-overview`, fast-forwarded to `main` @ `286434b`
 **Verdict: PASS_WITH_LIMITATIONS**
@@ -52,7 +108,7 @@ There is **no `#00C389` or `#0EA5E9` left** in either panel, the generated cards
 - `scripts/generate-github-stats.py`: new palette and layout for the overview, `account_age`, recoloured cards
 - `README.md` (colour values) and `.github/workflows/snake.yml` (snake colours)
 - `tests/test_dashboard_theme.py` (new), `tests/test_stats.py`, `tests/readme.github.cjs`
-- screenshots: `docs/audit/midnight-*.png`, replacing the PR #5 screenshots
+- screenshots: `docs/audit/midnight-*.png` (later replaced by the Revision 3 before/after images; in Git history at `cbe353b`)
 
 ### R2.6 Testing (all actually run)
 | Check | Result |
