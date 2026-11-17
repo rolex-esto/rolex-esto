@@ -100,7 +100,7 @@ class Overview(unittest.TestCase):
 
     def test_empty_year_renders_flat_graph(self):
         _, out = self.render([0] * 367)
-        self.assertIn("no contributions yet", out["dark"])
+        self.assertIn("no contributions yet", out["dark"].lower())
         xml.dom.minidom.parseString(out["dark"])
 
     def test_block_height_follows_real_counts(self):
