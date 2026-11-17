@@ -1,6 +1,73 @@
 # GitHub Isometric Developer Dashboard: Audit
 
-## Revision 3: minimalist monochrome palette (2026-11-17)
+## Revision 4: INK COLUMN palette from the portfolio (2026-11-17)
+
+**Branch:** `feature/ink-column-palette` from `main` @ `8539d5d`. PRs #6 and #7 were both already merged.
+**Verdict: PASS.** This is a colour-only change. The usual limits still apply (see R4.5).
+
+### R4.1 Source of truth
+The palette is the portfolio's **INK COLUMN** design system, read from `rolex-esto/portfolio` → `app/globals.css`. That file is identical on `origin/main`, which Vercel deploys, and in the local checkout. The portfolio itself was not modified.
+
+| Token | `.dark` | `:root` (light) | Used for |
+|:--|:--|:--|:--|
+| `--background` | `#0B0B0D` | `#FFFFFF` | Panel background, badge label colour |
+| `--foreground` | `#F4F4F5` | `#0A0A0A` | Primary text, primary accent, section icons, snake |
+| `--surface` | `#131316` | `#FAFAFA` | Stat cards, chip base |
+| `--surface-hover` | `#1B1B1F` | `#F4F4F5` | Secondary surface, "no contributions" cells |
+| `--border` | `#26262C` | `#E7E7E9` | Panel and card borders |
+| `--border-strong` | `#3D3D45` | `#C9C9CF` | Contribution level 1 (dark), chip shade |
+| `--muted` | `#B1B1BA` | `#62626C` | Secondary text, secondary accent |
+| `--muted-subtle` | `#A1A1AA` | `#6B6B75` | Highlights, secondary icons, typing line (light value) |
+| `--ink-faint` | `#34343C` | `#D4D4D8` | Contribution level, banner and divider gradient start |
+
+A script compared all 18 values above with the real `globals.css`. **Mismatches: none.**
+
+Where the colours go:
+- **Contribution ramp** (isometric graph, calendar, snake), using only INK greys:
+  - dark: `#1B1B1F` → `#3D3D45` → `#62626C` → `#A1A1AA` → `#D4D4D8`
+  - light: `#F4F4F5` → `#D4D4D8` → `#A1A1AA` → `#62626C` → `#26262C`
+- **Technology chips:** one INK token per category, in this order: Languages, Frontend, Backend, Data Engineering, Cloud, Tools & AI.
+  - dark: `#F4F4F5`, `#E7E7E9`, `#D4D4D8`, `#C9C9CF`, `#B1B1BA`, `#A1A1AA`
+  - light: `#0A0A0A`, `#26262C`, `#34343C`, `#3D3D45`, `#62626C`, `#6B6B75`
+- **Pixel scene:** every object, sprite and animation is unchanged. `neutral()` now converts each scene colour to INK COLUMN's zinc grey at the same brightness: red and green equal, blue lifted most in the mid-tones, as in `#3D3D45`, `#62626C` and `#A1A1AA`. A test confirms `neutral()` reproduces every INK token to within ±3 per channel.
+- **Status colours:** `--project-warning` and `--project-success` are not used, because the dashboard has no status states.
+- **README:**
+  - banner, dividers and footer: `#D4D4D8 → #A1A1AA`
+  - section icons: foreground (`#F4F4F5` / `#0A0A0A`); secondary icons: muted-subtle
+  - badges: INK greys, label colour `#0B0B0D`
+  - brand `logoColor` values: unchanged
+  - typing line: `#6B6B75`. It is one image shown in both themes; this gives 5.3:1 on white and about 3.5:1 on GitHub dark.
+
+### R4.2 Proof that only colours changed
+Every asset was rendered before and after from the same fixed data, then compared with all hex colours masked:
+- overview, portfolio, stats cards and `snake.yml`: **0 non-colour differences**, byte sizes identical
+- `README.md`: 394 = 394 lines, with **1** non-colour line, the hidden `<!-- Palette … -->` comment
+
+The script diffs touch only colour values, the `neutral()` tint formula, and comments. Statistics calculations, geometry, dimensions, layout, text, animations and workflow schedules are unchanged.
+
+### R4.3 Tests (all actually run)
+| Check | Result |
+|:--|:--|
+| Unit tests | **24/24 OK**. New checks: panel chrome equals the INK tokens exactly (overview, art panel, stats cards); `neutral()` reproduces the INK greys; every dashboard colour is zinc-neutral (channel spread ≤ 12); retired palettes are absent; WCAG AA (≥ 4.5:1) for every text colour, including each chip label on its chip |
+| github.com rendering, 320 / 375 / 390 / 430 / 768 / 1280 px × light/dark, new cards served through `OVERVIEW_DIR` | **124/132 in each of Chromium, WebKit and Firefox**, the same as `main` before this change. The only failures are the 8 inherited sideways-scrolling tables |
+| Animations | 43 running (dark) and 29 (light) in all 3 engines, the same as before. **0** under `prefers-reduced-motion` |
+| Links | **126/126** return HTTP 200 |
+| Contribution data | The generator's data path is unchanged; a live run with the API reproduced the same counts on both sides of the comparison |
+
+Before/after screenshots of the real github.com rendering: `docs/audit/ink-column-before-after-{dark-1280,light-1280,dark-320}.png`.
+
+### R4.4 Git
+- New branch and PR. No force-push.
+- The workflow was not run from this branch, so the live profile won't mix palettes before merge. After merge, the push to `main` regenerates the overview, languages card and snake.
+
+### R4.5 Remaining limitations
+- In greyscale, categories are told apart by brightness and their headings.
+- The typing line is a single image shown in both themes.
+- Carried over: the reference screenshot was never available; the Trophy Wall and Experience tables scroll sideways on phones; GitHub Pages is still enabled.
+
+---
+
+## Revision 3: minimalist monochrome palette (merged in PR #7)
 
 **Branch:** `feature/monochrome-palette` from `main` @ `140f3e1` (PR #6 was already merged)
 **Verdict: PASS**, a colour-only change. The usual limits still apply (see R3.5).
@@ -43,7 +110,7 @@ The scripts' diff, minus hex values, touches only colour plumbing: `neutral()`, 
 | Links | **126/126** return HTTP 200 |
 | Statistics | Calculation code unchanged. The live run on `main` (44006648745) succeeded before this change |
 
-Screenshots of github.com's real rendering, before (Midnight Pixel on `main`) and after, side by side: `docs/audit/monochrome-before-after-{dark-1280,light-1280,dark-320}.png`.
+Screenshots of github.com's real rendering, before (Midnight Pixel on `main`) and after, side by side: `docs/audit/monochrome-before-after-*.png` (replaced by the Revision 4 images; in Git history at `7aeaa1e`).
 
 ### R3.4 Git
 - New branch `feature/monochrome-palette` and a new PR, because PR #6 was merged. No force-push.
