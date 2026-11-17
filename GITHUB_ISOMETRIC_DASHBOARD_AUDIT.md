@@ -1,5 +1,87 @@
 # GitHub Isometric Developer Dashboard: Audit
 
+## Revision 2: Midnight Pixel redesign (2026-11-17)
+
+**Branch:** `feature/isometric-overview`, fast-forwarded to `main` @ `286434b`
+**Verdict: PASS_WITH_LIMITATIONS**
+
+### R2.1 Initial findings
+- **PR #5 was already merged** (by the owner, 2026-11-17 02:36 UTC, merge commit `286434b`), so it could not be updated. This revision sits on the same branch, ready for a new PR if the owner approves one.
+- **The Primooo screenshot was still not available** to the implementer. The redesign follows the written spec only.
+- The left panel is live on the profile through the `output` branch. To avoid showing new-palette stats next to the old-palette art on the live profile, the workflow was **not** run from this branch. The new left panel was generated locally with the same script and tested on github.com through the `OVERVIEW_DIR` override (see R2.6).
+
+### R2.2 Design system
+| Role | Dark (Midnight Pixel) | Light (Pastel Dusk) |
+|:--|:--|:--|
+| Background / surface / secondary surface | `#0B0F19` / `#171C2B` / `#232A3B` | `#FBF8F2` / `#F3EEE4` / `#E9E2D4` |
+| Primary / secondary text | `#F5EBD7` / `#A6ADBB` | `#2B2638` / `#5C5768` |
+| Primary / secondary accent | `#B8A4FF` lavender / `#A8C7FA` pastel blue | `#6B54D6` / `#345F9E` |
+| Contributions / highlight | `#A8D8B9` sage / `#FFD6A5` peach | `#2E6E4A` / `#9A4F12` |
+| Border | `#394156` | `#D6CCBA` |
+
+The light-mode accents are darker versions of the pastels. Without that, they fail WCAG AA on cream: `#3D6FB8` measured 4.36:1, sage 3.96:1 and orange 4.28:1, so all three were darkened.
+
+There is **no `#00C389` or `#0EA5E9` left** in either panel, the generated cards, the README or the snake. The README check counted 0 occurrences of the old palette.
+
+### R2.3 What changed
+- **Left panel:**
+  - avatar as a rounded pixel tile with a lavender border; name, handle, and **account age** ("2 years on GitHub · since Nov 17, 2024")
+  - account totals; a large 12-month contribution total with dates
+  - 2-column cards for public commits, PRs and issues, repos committed to, and streaks
+  - **sage-green isometric blocks** in five intensity levels from GitHub's own `contributionLevel`, shaded faces and a soft pastel rim light on tall towers. Height still comes from the real daily count.
+  - busiest day, calendar and legend
+- **Right panel:** a redrawn original scene (96 × 72 art pixels):
+  - setting: lavender evening sky in seven dithered bands with a warm horizon glow, pastel clouds, layered dusk hills, sage grass with flowers, stepping-stone path
+  - cottage: timber frame, lavender roof, glowing windows with flower boxes, door lantern, chimney smoke
+  - tree; desk with a retro monitor, desk lamp and light pool, mug with steam, plant
+  - a developer in lavender headphones; a peach cat; fireflies (night) or butterflies (dusk)
+  - animation: drifting clouds, twinkling stars, typing code lines, blinking cursor, blinking eye, head bob, tapping hands, cat blink and tail wag, swaying grass, rising smoke and steam
+  - 43 animations in dark and 29 in light, and **0** under `prefers-reduced-motion`
+- **Technology chips:** one pastel colour per category. Languages lavender, Frontend pastel blue, Backend warm cream, Data Engineering sage, Cloud soft orange, Developer Tools & AI muted purple. Same technologies as before, regrouped (Node.js and FastAPI moved under Backend).
+- **Rest of the README:**
+  - recoloured: banner and footer wave, dividers, section icons, shields badges, typing line, view counter, and the snake
+  - **colour values only.** With hex values normalised, the README matches `main` line for line, except the hidden palette comment (394 = 394 lines).
+
+### R2.4 Mobile readability
+- Every text element in both panels is **≥ 16 units**, up from 13. Panels are now 410 × 1012.
+- Smallest rendered dashboard text: about 9.9 px at 320, 12.1 at 375, 12.6 at 390, 14.2 at 430, and 16 at 768 and 1280.
+- Languages card footnote: 13 → 15 units (9.5 px at 320).
+
+### R2.5 Files changed
+- `scripts/generate-dashboard-art.py` (rewritten) and `assets/dashboard/portfolio-{dark,light}.svg`
+- `scripts/generate-github-stats.py`: new palette and layout for the overview, `account_age`, recoloured cards
+- `README.md` (colour values) and `.github/workflows/snake.yml` (snake colours)
+- `tests/test_dashboard_theme.py` (new), `tests/test_stats.py`, `tests/readme.github.cjs`
+- screenshots: `docs/audit/midnight-*.png`, replacing the PR #5 screenshots
+
+### R2.6 Testing (all actually run)
+| Check | Result |
+|:--|:--|
+| Unit tests: `python3 -m unittest discover -s tests -p "test_*.py"` | **21/21 OK** |
+| Covered by those tests | Old teal/blue absent; every text ≥ 16 units; WCAG AA (≥ 4.5:1) for every text colour on its real background, including each chip label on its own tint; reduced-motion rule present; level colours ordered; account age; plus the 14 stats tests (streaks, pagination, empty year, API failure keeps old images) |
+| github.com rendering of the branch, 320 / 375 / 390 / 430 / **768** / 1280 px × light/dark, `OVERVIEW_DIR` = locally generated activity and languages cards | **124/132 in each of Chromium, WebKit and Firefox.** Every dashboard check passed: panels load, side by side at 1280, stacked below that, stricter in-image text thresholds (9.5 / 11.5 / 12 / 13 / 14 / 14 px), no broken images, theme switching, no overflow |
+| Failing checks | The only 8 failures are the inherited sideways-scrolling tables (Trophy Wall, Experience); those tables are unchanged |
+| Animation and reduced motion | 3 engines: running without the preference, 0 animations with `reducedMotion: reduce` |
+| Links | **126/126** README URLs return HTTP 200, including every recoloured capsule-render, Iconify and shields URL |
+| Statistics accuracy | The generator's data path is unchanged since the R1 cross-check against REST and Search (followers, repos, stars, issues, public PRs) |
+
+Not run: the GitHub Actions workflow from this branch, on purpose (see R2.1). It runs automatically when this branch is merged to `main`, and should be checked then.
+
+### R2.7 Content preservation
+- Hex-normalised diff of the README against `main`: 0 changed lines of content.
+- All 18 + 1 headings, 23 certificate image references, every project, certification, training, recognition, experience, leadership and hackathon entry, and every URL are unchanged.
+
+### R2.8 Remaining limitations
+1. The reference screenshot was never available.
+2. PR #5 is merged, so this revision needs a **new PR** (the owner's decision).
+3. After merge, the first workflow run on `main` publishes the new left panel and the recoloured languages card and snake. Until then, the live profile keeps the old ones.
+4. Panels are taller (1012 units) because of the larger text.
+5. Inherited mobile tables. "Rolex Esto" in the left panel comes from the GitHub profile name. FastAPI and GitHub Actions come from the owner's list. GitHub Pages is still enabled.
+
+---
+
+## Revision 1: original dashboard (merged in PR #5)
+
 **Date:** 2026-11-17 · **Branch:** `feature/isometric-overview` · **Base:** `main` @ `2068ef9` (after PR #4)
 
 **Verdict: PASS_WITH_LIMITATIONS.** The Developer Overview dashboard is live on the branch with real GitHub data. It has an isometric 3D graph, an original animated pixel scene and technology chips. It renders correctly on github.com in Chromium, WebKit and Firefox, in light and dark, from 320 px to 1280 px. All existing README content is kept. The limitations are in section 11, the main one being that **the reference screenshot was never available to the implementer**.
@@ -114,7 +196,7 @@ Other checks:
 ## 8. Dark/light screenshots
 
 Real github.com rendering of this branch:
-`docs/audit/dashboard-desktop-dark.png`, `dashboard-desktop-light.png`, `dashboard-mobile-390-dark.png`, `dashboard-mobile-390-light.png`.
+The R1 screenshots were replaced by the Revision 2 screenshots (`docs/audit/midnight-*.png`). The originals are in Git history at `c5019e2`.
 
 ## 9. Content preservation results
 
