@@ -146,7 +146,7 @@ Eight builds, from a startup product to hackathon winners and client work. Links
 
 ### Classic Flagship Store
 
-**Lead Developer · capstone project** · [**Live site →**](https://classicflagshipstore.com/) · <sub><picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/icons/lock-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/readme/icons/lock-light.svg"><img src="assets/readme/icons/lock-dark.svg" width="16" height="16" alt="" align="absmiddle"></picture> Private repository</sub>
+**Lead Developer & Full-Stack Systems Architect · February 2026 – November 2026** · capstone project · [**Live site →**](https://classicflagshipstore.com/) · <sub><picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/icons/lock-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/readme/icons/lock-light.svg"><img src="assets/readme/icons/lock-dark.svg" width="16" height="16" alt="" align="absmiddle"></picture> Private repository</sub>
 
 **Problem:** Running inventory and daily store operations by hand is slow and error-prone.
 
