@@ -440,14 +440,13 @@ def cred(mode, cid, ico, issuer, name, rows):
 
 
 # --------------------------------------------------------------------------- stack
-STACK = {
-    "a": [("code", "Languages", "Languages", ["JavaScript", "TypeScript", "Python", "PHP", "SQL"]),
-          ("terminal", "Frontend & Backend", "Frontend", ["React", "Next.js", "Node.js", "Vite", "FastAPI", "HTML", "CSS", "OAuth"]),
-          ("cloud", "Cloud & Security", "Cloud", ["AWS", "Azure", "Google Cloud", "Vercel", "IAM"])],
-    "b": [("database", "Data & Analytics", "Data Engineering",
-           ["Microsoft Fabric", "Power BI", "Pandas", "NumPy", "DuckDB", "PostgreSQL", "MySQL", "Parquet", "Excel", "Recharts"]),
-          ("cpu", "Developer & AI Tools", "Developer Tools & AI",
-           ["Git", "GitHub", "GitHub Actions", "Playwright", "Claude Code", "Codex", "Cursor", "Kiro", "Antigravity"])],
+STACK = {  # canonical résumé-aligned skills: the six categories of TECH in generate-dashboard-art.py
+    "a": [("code", "Programming", "Programming", art.TECH[0][1]),
+          ("terminal", "Web & Backend", "Web & Backend", art.TECH[1][1]),
+          ("database", "Databases & Data", "Databases & Data", art.TECH[2][1])],
+    "b": [("cloud", "Cloud & Security", "Cloud & Security", art.TECH[3][1]),
+          ("cpu", "Testing & DevOps", "Testing & DevOps", art.TECH[4][1]),
+          ("sparkles", "AI & Developer Tools", "AI & Developer Tools", art.TECH[5][1])],
 }
 
 

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="410" height="1012" viewBox="0 0 410 1012" role="img" aria-labelledby="t d">
 <title id="t">Pixel-art portfolio scene and engineering domains</title>
-<desc id="d">Original pixel art: a developer in headphones codes at a retro monitor beside a cozy cottage on a lavender night with stars and fireflies, with a cat by the stool. Engineering domains: Software Engineering: Next.js · React · Node.js · FastAPI, Founder &amp; developer of BizPilot; Artificial Intelligence: AI sales assistant · AI incident agent, Google AI Professional Certificate; Data Engineering: Microsoft Fabric · Power BI · DuckDB, Microsoft Certified: DP-700; Cloud Computing: AWS · Azure · Google Cloud · Vercel, AWS Learning Club Lead; Cybersecurity: ISC2 Certified in Cybersecurity, DICT-recognized professional, Cat. 2.</desc>
+<desc id="d">Original pixel art: a developer in headphones codes at a retro monitor beside a cozy cottage on a lavender night with stars and fireflies, with a cat by the stool. Engineering domains: Software Engineering: Next.js · React · Node.js · Express, Founder &amp; developer of BizPilot; Artificial Intelligence: AI sales assistant · AI incident agent, Google AI Professional Certificate; Data Engineering: Microsoft Fabric · Power BI · DuckDB, Microsoft Certified: DP-700; Cloud Computing: AWS · Azure · GCP · Vercel, AWS Learning Club Lead; Cybersecurity: ISC2 Certified in Cybersecurity, DICT-recognized professional, Cat. 2.</desc>
 <style>
 .cloud{animation:drift 26s ease-in-out infinite alternate}
 .cloud.b{animation-duration:34s;animation-delay:-11s}
@@ -1223,7 +1223,7 @@
 <rect x="16" y="462" width="56" height="56" rx="12" fill="#131316" stroke="#26262C"/>
 <g transform="translate(26 472) scale(1.5)"><path fill="#F4F4F5" d="M11 18H9v-4h2zm-4-1H5v-2h2zm12-2v2h-2v-2zM5 15H3v-2h2zm16 0h-2v-2h2zm-8-1h-2v-4h2zM3 13H1v-2h2zm20 0h-2v-2h2zM5 11H3V9h2zm16 0h-2V9h2zm-6-1h-2V6h2zM7 9H5V7h2zm12 0h-2V7h2z"/></g>
 <text x="86" y="482" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="19" font-weight="700" fill="#F4F4F5">Software Engineering</text>
-<text x="86" y="508" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="400" fill="#B1B1BA">Next.js · React · Node.js · FastAPI</text>
+<text x="86" y="508" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="400" fill="#B1B1BA">Next.js · React · Node.js · Express</text>
 <text x="86" y="531" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="400" fill="#B1B1BA">Founder &amp; developer of BizPilot</text>
 <rect x="16" y="556" width="378" height="1" fill="#26262C"/>
 <rect x="16" y="570" width="56" height="56" rx="12" fill="#131316" stroke="#26262C"/>
@@ -1241,7 +1241,7 @@
 <rect x="16" y="786" width="56" height="56" rx="12" fill="#131316" stroke="#26262C"/>
 <g transform="translate(26 796) scale(1.5)"><g fill="#F4F4F5"><path d="M22 10h-4v2h4zm2 2h-2v6h2zm-2 6H2v2h20zM2 12H0v6h2zm2-2H2v2h2zm4-2H4v2h4zm8-4h-6v2h6zm-6 2H8v2h2zm0 4H8v2h2zm8-4h-2v2h2z"/><path d="M20 8h-2v4h2zm-2 4h-2v2h2z"/></g></g>
 <text x="86" y="806" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="19" font-weight="700" fill="#F4F4F5">Cloud Computing</text>
-<text x="86" y="832" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="400" fill="#B1B1BA">AWS · Azure · Google Cloud · Vercel</text>
+<text x="86" y="832" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="400" fill="#B1B1BA">AWS · Azure · GCP · Vercel</text>
 <text x="86" y="855" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="16" font-weight="400" fill="#B1B1BA">AWS Learning Club Lead</text>
 <rect x="16" y="880" width="378" height="1" fill="#26262C"/>
 <rect x="16" y="894" width="56" height="56" rx="12" fill="#131316" stroke="#26262C"/>

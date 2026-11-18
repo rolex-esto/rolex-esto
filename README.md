@@ -33,7 +33,7 @@ I build practical, production-ready products across web, AI, data and cloud.
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/dashboard/portfolio-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="assets/dashboard/portfolio-light.svg">
-    <img src="assets/dashboard/portfolio-dark.svg" width="410" alt="Engineering identity: pixel-art scene of a developer coding at a retro computer, then five domains. Software Engineering: Next.js, React, Node.js, FastAPI; founder and developer of BizPilot. Artificial Intelligence: AI sales assistant and AI incident agent; Google AI Professional Certificate. Data Engineering: Microsoft Fabric, Power BI, DuckDB; Microsoft Certified DP-700. Cloud Computing: AWS, Azure, Google Cloud, Vercel; AWS Learning Club Lead. Cybersecurity: ISC2 Certified in Cybersecurity; DICT-recognized professional, Category 2."/>
+    <img src="assets/dashboard/portfolio-dark.svg" width="410" alt="Engineering identity: pixel-art scene of a developer coding at a retro computer, then five domains. Software Engineering: Next.js, React, Node.js, Express; founder and developer of BizPilot. Artificial Intelligence: AI sales assistant and AI incident agent; Google AI Professional Certificate. Data Engineering: Microsoft Fabric, Power BI, DuckDB; Microsoft Certified DP-700. Cloud Computing: AWS, Azure, GCP, Vercel; AWS Learning Club Lead. Cybersecurity: ISC2 Certified in Cybersecurity; DICT-recognized professional, Category 2."/>
   </picture>
 </p>
 
@@ -213,8 +213,8 @@ Completed a global data science and AI program, applying data-driven methods and
 ## <picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/icons/code-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/readme/icons/code-light.svg"><img src="assets/readme/icons/code-dark.svg" width="24" height="24" alt="" align="absmiddle"></picture> Tech Stack
 
 <p align="center">
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/stack-a-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/readme/stack-a-light.svg"><img src="assets/readme/stack-a-dark.svg" width="410" alt="Languages: JavaScript, TypeScript, Python, PHP, SQL. Frontend and backend: React, Next.js, Node.js, Vite, FastAPI, HTML, CSS, OAuth. Cloud and security: AWS, Azure, Google Cloud, Vercel, IAM."></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/stack-b-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/readme/stack-b-light.svg"><img src="assets/readme/stack-b-dark.svg" width="410" alt="Data and analytics: Microsoft Fabric, Power BI, Pandas, NumPy, DuckDB, PostgreSQL, MySQL, Parquet, Excel, Recharts. Developer and AI tools: Git, GitHub, GitHub Actions, Playwright, Claude Code, Codex, Cursor, Kiro, Antigravity."></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/stack-a-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/readme/stack-a-light.svg"><img src="assets/readme/stack-a-dark.svg" width="410" alt="Programming: JavaScript, TypeScript, Python, PHP, SQL. Web and backend: React, Next.js, Node.js, Express, Vite, HTML/CSS, OAuth. Databases and data: MySQL, MariaDB, PostgreSQL, SQLite, Prisma, DuckDB, Parquet, Power BI."></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/stack-b-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/readme/stack-b-light.svg"><img src="assets/readme/stack-b-dark.svg" width="410" alt="Cloud and security: AWS, Azure, GCP, Microsoft Fabric, Vercel, IAM. Testing and DevOps: Git, GitHub, GitHub Actions, Playwright, Vitest. AI and developer tools: Gemini API, Cursor, Kiro, Claude Code, Codex."></picture>
 </p>
 
 <sub>Tools I use to build. These are not certifications; credentials are listed separately below.</sub>

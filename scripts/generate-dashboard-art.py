@@ -78,30 +78,30 @@ THEMES = {
 
 # Technologies exactly as in the owner's list; colour = category (pastel, readable in both themes).
 CATEGORY = {  # name: (dark-theme grey, light-theme grey); a distinct INK COLUMN token per category
-    "Languages": ("#F4F4F5", "#0A0A0A"),
-    "Frontend": ("#E7E7E9", "#26262C"),
-    "Backend": ("#D4D4D8", "#34343C"),
-    "Data Engineering": ("#C9C9CF", "#3D3D45"),
-    "Cloud": ("#B1B1BA", "#62626C"),
-    "Developer Tools & AI": ("#A1A1AA", "#6B6B75"),
+    "Programming": ("#F4F4F5", "#0A0A0A"),
+    "Web & Backend": ("#E7E7E9", "#26262C"),
+    "Databases & Data": ("#C9C9CF", "#3D3D45"),
+    "Cloud & Security": ("#B1B1BA", "#62626C"),
+    "Testing & DevOps": ("#D4D4D8", "#34343C"),
+    "AI & Developer Tools": ("#A1A1AA", "#6B6B75"),
 }
+# Canonical résumé-aligned technical skills (same six categories as the portfolio's data/skills.ts).
 TECH = [
-    ("Languages", ["JavaScript", "TypeScript", "Python", "PHP", "SQL"]),
-    ("Frontend", ["React", "Next.js", "Vite"]),
-    ("Backend", ["Node.js", "FastAPI"]),
-    ("Data Engineering", ["Microsoft Fabric", "Power BI", "Pandas", "NumPy", "DuckDB", "PostgreSQL", "MySQL"]),
-    ("Cloud", ["AWS", "Azure", "Google Cloud", "Vercel"]),
-    ("Developer Tools & AI", ["Git", "GitHub", "GitHub Actions", "Playwright", "Claude Code", "Codex", "Cursor",
-                              "Kiro", "Antigravity"]),
+    ("Programming", ["JavaScript", "TypeScript", "Python", "PHP", "SQL"]),
+    ("Web & Backend", ["React", "Next.js", "Node.js", "Express", "Vite", "HTML/CSS", "OAuth"]),
+    ("Databases & Data", ["MySQL", "MariaDB", "PostgreSQL", "SQLite", "Prisma", "DuckDB", "Parquet", "Power BI"]),
+    ("Cloud & Security", ["AWS", "Azure", "GCP", "Microsoft Fabric", "Vercel", "IAM"]),
+    ("Testing & DevOps", ["Git", "GitHub", "GitHub Actions", "Playwright", "Vitest"]),
+    ("AI & Developer Tools", ["Gemini API", "Cursor", "Kiro", "Claude Code", "Codex"]),
 ]
 
 # Panel B: engineering domains with the evidence behind each (all stated in README.md).
 # TECH and CATEGORY above stay the source of the grouped stack (scripts/generate-profile-art.py).
 DOMAINS = [
-    ("code", "Software Engineering", ["Next.js · React · Node.js · FastAPI", "Founder & developer of BizPilot"]),
+    ("code", "Software Engineering", ["Next.js · React · Node.js · Express", "Founder & developer of BizPilot"]),
     ("sparkles", "Artificial Intelligence", ["AI sales assistant · AI incident agent", "Google AI Professional Certificate"]),
     ("database", "Data Engineering", ["Microsoft Fabric · Power BI · DuckDB", "Microsoft Certified: DP-700"]),
-    ("cloud", "Cloud Computing", ["AWS · Azure · Google Cloud · Vercel", "AWS Learning Club Lead"]),
+    ("cloud", "Cloud Computing", ["AWS · Azure · GCP · Vercel", "AWS Learning Club Lead"]),
     ("shield", "Cybersecurity", ["ISC2 Certified in Cybersecurity", "DICT-recognized professional, Cat. 2"]),
 ]
 
