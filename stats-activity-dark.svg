@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300" role="img" aria-labelledby="t d">
+<title id="t">GitHub activity, last 12 months</title>
+<desc id="d">Contributions: 1,354, Public commits: 152, Current streak: 12 days, Longest streak: 17 days, Public pull requests: 21, Public repos committed to: 6. Starred values include private contribution counts shown on the profile (1,176 private). Window 2025-11-16 to 2026-11-21 (UTC).</desc>
+<rect x="1" y="1" width="398" height="298" rx="12" fill="#0B0B0D" stroke="#26262C" stroke-width="2"/>
+<path fill="#F4F4F5" d="M16 16h14v4h-10v10h-4z"/>
+<text x="38" y="34" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="18" font-weight="700" fill="#F4F4F5">Activity · last 12 months</text>
+<rect x="16" y="50" width="180" height="64" rx="8" fill="#131316"/>
+<text x="28" y="80" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#F4F4F5">1,354</text>
+<text x="28" y="102" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="14" fill="#B1B1BA">Contributions*</text>
+<rect x="204" y="50" width="180" height="64" rx="8" fill="#131316"/>
+<text x="216" y="80" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#F4F4F5">152</text>
+<text x="216" y="102" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="14" fill="#B1B1BA">Public commits</text>
+<rect x="16" y="122" width="180" height="64" rx="8" fill="#131316"/>
+<text x="28" y="152" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#F4F4F5">12 days</text>
+<text x="28" y="174" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="14" fill="#B1B1BA">Current streak*</text>
+<rect x="204" y="122" width="180" height="64" rx="8" fill="#131316"/>
+<text x="216" y="152" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#F4F4F5">17 days</text>
+<text x="216" y="174" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="14" fill="#B1B1BA">Longest streak*</text>
+<rect x="16" y="194" width="180" height="64" rx="8" fill="#131316"/>
+<text x="28" y="224" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#F4F4F5">21</text>
+<text x="28" y="246" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="14" fill="#B1B1BA">Public pull requests</text>
+<rect x="204" y="194" width="180" height="64" rx="8" fill="#131316"/>
+<text x="216" y="224" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#F4F4F5">6</text>
+<text x="216" y="246" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="14" fill="#B1B1BA">Public repos committed to</text>
+<text x="16" y="286" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13" fill="#B1B1BA">* includes private contribution counts · updated daily</text>
+</svg>
